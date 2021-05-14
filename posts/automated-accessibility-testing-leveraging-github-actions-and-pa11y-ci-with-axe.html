@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<title>Automated accessibility testing: Leveraging GitHub Actions and pa11y-ci with axe | CivicActions Accessibility</title>
+
+
+
+<meta name="description" content="Using GitHub and open source technology -- general and accessibility-specific -- we created a continuous accessibility integration environment that helps us better practice what we preach.">
+
+
+
+<link rel="shortcut icon" type="image/ico"
+  href="/assets/img/logos/civicaction-square.ico">
+
+
+
+    <!-- Font Awesome -->
+
+    <!-- This is code the Font Awesome CDN generates for me that doesn't work -->
+    <script src="https://use.fontawesome.com/4fe5bba9d1.js"></script>
+	<link rel="stylesheet" href="https://use.fontawesome.com/7207a55a98.css">
+
+    <!-- This is code from DistributedGov that works -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+    <!-- Google Fonts -->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Nunito&family=Work+Sans&display=swap" rel="stylesheet"> 
+    
+
+
+
+<link rel="stylesheet"
+  href="/assets/css/uswds-theme.css"
+  media="screen">
+
+
+
+    
+  </head>
+  <body class="  ">
+
+    <a class="usa-skipnav" href="#main-content">Skip to main content</a>
+
+    
+
+
+
+
+  <div class="usa-overlay"></div>
+
+  <header class="usa-header usa-header--extended" role="banner">
+
+
+  
+    <div class="usa-navbar">
+      <div class="usa-logo" id="header-logo">
+        <a
+          href="/"
+          title="Home">
+          
+          <em class="usa-logo__text">
+            CivicActions Accessibility <sup>ALPHA</sup>
+          </em>
+        </a>
+      </div>
+      <button class="usa-menu-btn">Menu</button>
+    </div>
+
+    <nav role="navigation" class="usa-nav">
+      <div class="usa-nav__inner">
+        <button class="usa-nav__close">
+          <img src="/assets/uswds/img/close.svg" alt="close">
+        </button>
+
+        
+        
+        
+        <ul class="usa-nav__primary usa-accordion">
+          
+          <li class="usa-nav__primary-item">
+            
+              <a class=" usa-nav__link  " href="/about">
+                <span>About</span>
+              </a>
+            
+          </li>
+          
+          <li class="usa-nav__primary-item">
+            
+              <a class=" usa-nav__link  " href="/calendar">
+                <span>Calendar</span>
+              </a>
+            
+          </li>
+          
+          <li class="usa-nav__primary-item">
+            
+              <a class=" usa-nav__link  " href="/news">
+                <span>News</span>
+              </a>
+            
+          </li>
+          
+          <li class="usa-nav__primary-item">
+            
+              <a class=" usa-nav__link  " href="/playbook">
+                <span>Playbook</span>
+              </a>
+            
+          </li>
+          
+          <li class="usa-nav__primary-item">
+            
+              <a class=" usa-nav__link  " href="/guide">
+                <span>Guide</span>
+              </a>
+            
+          </li>
+          
+          <li class="usa-nav__primary-item">
+            
+              <a class=" usa-nav__link  " href="/help">
+                <span>Help</span>
+              </a>
+            
+          </li>
+          
+          <li class="usa-nav__primary-item">
+            
+              <a class=" usa-nav__link  " href="/search">
+                <span>Search</span>
+              </a>
+            
+          </li>
+          
+        </ul>
+        
+
+        
+
+        
+          
+          <div class="usa-nav__secondary">
+            <ul class="usa-unstyled-list usa-nav__secondary-links">
+              
+              
+            </ul>
+            
+          </div>
+          
+
+
+        </div>
+      </div>
+    </nav>
+  
+  </header>
+
+
+
+
+    <aside>
+      
+      
+
+
+      
+
+      
+
+      
+        
+        
+
+
+
+
+      
+      
+    </aside>
+
+    
+      <div id="breadcrumbs" class="grid-container">
+    
+        <nav class="usa-breadcrumb" aria-label="Breadcrumbs">
+            <ol class="usa-breadcrumb__list">
+                <li class="usa-breadcrumb__list-item">
+                    <a href="/" class="usa-breadcrumb__link">Home</a>
+                </li>
+                
+                    
+                        <li class="usa-breadcrumb__list-item usa-current" aria-current="page">
+                             <a class="usa-breadcrumb__link" href="/posts/">Posts</a>
+                        </li>
+                    
+                
+                    
+                        <li class="usa-breadcrumb__list-item usa-current" aria-current="page">
+                             Automated accessibility testing: Leveraging GitHub Actions and pa11y-ci with axe
+                        </li>
+                    
+                
+            </ol>
+        </nav>
+
+</div>
+<main class="" id="main-content">
+    <div class="">
+        <div class="grid-container">
+            <div class="grid-row">
+                <div class="grid-col-12">
+                    
+                    <h1 class="font-heading-3xl">Automated accessibility testing: Leveraging GitHub Actions and pa11y-ci with axe</h1>
+                    
+                </div>
+            </div>
+            <div class="grid-row">
+                <div class="grid-col-2">
+                    
+                    
+                    
+                    
+                    
+                    <div class="author">
+                        <p><a href="/about/people/daniel-mundra"><img src="/assets/img/people/daniel-mundra.jpg" alt="Daniel Mundra" title="Daniel Mundra"></a></p>
+                        <p>By <a href="/about/people/daniel-mundra"> Daniel Mundra</a></p>
+                        <p>March 12, 2021</p>
+                    </div>
+                    
+                    
+                </div>
+                <div class="grid-col-1">
+                </div>
+                <div class="grid-col-9">
+                    <div class="post-content">
+                        <p>We launched the <a href="https://accessibility-qa.civicactions.com/">CivicActions Accessibility</a> practice area and its accompanying website in January 2021.</p>
+
+<p>Our intent is for the practice area to be an open project and community for CivicActions team members, and the broader digital government service industry, including clients, partners, government contractors, and generally anyone who wants to improve accessibility on the web.</p>
+
+<h2 id="practicing-what-we-preach">Practicing what we preach</h2>
+<p>We realized early on that if we were going to be truly inclusive with our work and provide accessibility resources to the broader community, we should strive to make the website as accessible as possible.</p>
+
+<p>While we acknowledge that automated testing isn't a panacea, it's one way to address accessibility issues quickly and at scale.</p>
+
+<p>Using GitHub and open source technology – general and accessibility-specific – we created a continuous accessibility integration environment that helps us better practice what we preach.</p>
+
+<h2 id="our-technology-and-accessibility-stack">Our technology and accessibility "stack"</h2>
+<p>We proudly leverage open source technologies wherever possible, and all of these tools used here meet that criteria.</p>
+
+<p>The site is powered by <a href="https://jekyllrb.com/">Jekyll</a> and <a href="https://designsystem.digital.gov/">U.S. Web Design System</a>, specifically the <a href="https://github.com/18F/uswds-jekyll">U.S. Web Design System Jekyll theme</a> maintained by <a href="https://18f.gsa.gov/">18F</a> and the USWDS team. The site is hosted through <a href="https://pages.github.com/">GitHub Pages</a>.</p>
+
+<p>We added automated accessibility testing using <a href="https://github.com/features/actions">GitHub Actions</a> and <a href="https://github.com/pa11y/pa11y-ci">pa11y-ci</a> with <a href="https://www.deque.com/axe/">axe</a>.</p>
+
+<h2 id="configuring-jekyll-with-a-sitemap-and-npm">Configuring Jekyll with a sitemap and npm</h2>
+<p>We recommend adding a sitemap.xml generator to Jekyll which will be used by pa11y-ci to test all pages. We use the <a href="https://github.com/jekyll/jekyll-sitemap">jekyll-sitemap plugin</a>.</p>
+
+<p>We recommend using npm to manage the pa11y-ci packages and commands. Run <code class="language-plaintext highlighter-rouge">npm init</code> command to create the <code class="language-plaintext highlighter-rouge">package.json</code> file.</p>
+
+<h2 id="installing-pa11y-ci-and-setting-it-up-to-run-locally">Installing pa11y-ci and setting it up to run locally</h2>
+<p>Install pa11y-ci as a development dependency with npm.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>npm i <span class="nt">--save-dev</span> pa11y-ci
+</code></pre></div></div>
+
+<p>After the installation is complete edit the <code class="language-plaintext highlighter-rouge">package.json</code> and add the following commands to the "scripts" section:</p>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nl">"start-detached"</span><span class="p">:</span><span class="w"> </span><span class="s2">"bundle exec jekyll serve --detach"</span><span class="err">,</span><span class="w">
+</span><span class="nl">"pa11y-ci:sitemap"</span><span class="p">:</span><span class="w"> </span><span class="s2">"pa11y-ci --sitemap http://localhost:4000/sitemap.xml --sitemap-exclude </span><span class="se">\"</span><span class="s2">/*.pdf</span><span class="se">\"</span><span class="s2">"</span><span class="w">
+</span></code></pre></div></div>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">start-detached</code>: Starts the webserver that will run Jekyll to be used for testing.</li>
+  <li><code class="language-plaintext highlighter-rouge">pa11y-ci:sitemap</code>: Runs pa11y-ci tests using the sitemap and excludes PDFs.</li>
+</ul>
+
+<p>Add a JSON file named <code class="language-plaintext highlighter-rouge">.pa11yci</code> which allows you to configure pa11y-ci with <a href="https://github.com/pa11y/pa11y#configuration">various options</a>. Here is our file:</p>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
+  </span><span class="nl">"defaults"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="nl">"concurrency"</span><span class="p">:</span><span class="w"> </span><span class="mi">4</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"standard"</span><span class="p">:</span><span class="w"> </span><span class="s2">"WCAG2AA"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"runners"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">"axe"</span><span class="p">]</span><span class="w">
+  </span><span class="p">}</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">concurrency</code>: The number of tests that should be run in parallel.</li>
+  <li><code class="language-plaintext highlighter-rouge">standard</code>: The accessibility standard to use: Section508, WCAG2A, WCAG2AA (default), WCAG2AAA.</li>
+  <li><code class="language-plaintext highlighter-rouge">runners</code>: The test runners to use: axe (run tests using aXe-core), htmlcs (default,  run tests using HTML CodeSniffer).</li>
+</ul>
+
+<p>That's it. You can run this setup locally using npm, and you will see the following output (truncated for brevity):</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>dmundra <span class="k">in</span> ~/workspace/accessibility/accessibility on branch main <span class="o">&gt;</span> npm run start-detached
+
+<span class="o">&gt;</span> start-detached
+<span class="o">&gt;</span> bundle <span class="nb">exec </span>jekyll serve <span class="nt">--detach</span>
+
+Configuration file: /Users/dmundra/workspace/accessibility/accessibility/_config.yml
+            Source: /Users/dmundra/workspace/accessibility/accessibility
+       Destination: /Users/dmundra/workspace/accessibility/accessibility/_site
+ Incremental build: disabled. Enable with <span class="nt">--incremental</span>
+      Generating... 
+                    <span class="k">done in </span>8.217 seconds.
+ Auto-regeneration: disabled when running server detached.
+    Server address: http://127.0.0.1:4000
+Server detached with pid <span class="s1">'14850'</span><span class="nb">.</span> Run <span class="sb">`</span>pkill <span class="nt">-f</span> jekyll<span class="s1">' or `kill -9 14850'</span> to stop the server.
+dmundra <span class="k">in</span> ~/workspace/accessibility/accessibility on branch main <span class="o">&gt;</span> npm run pa11y-ci:sitemap
+
+<span class="o">&gt;</span> pa11y-ci:sitemap
+<span class="o">&gt;</span> pa11y-ci <span class="nt">--sitemap</span> http://localhost:4000/sitemap.xml <span class="nt">--sitemap-exclude</span> <span class="s2">"/*.pdf"</span>
+
+Running Pa11y on 49 URLs:
+ <span class="o">&gt;</span> http://localhost:4000/guide/glossary - 0 errors
+ <span class="o">&gt;</span> http://localhost:4000/guide/introduction - 0 errors
+ <span class="o">&gt;</span> http://localhost:4000/guide/history - 0 errors
+ <span class="o">&gt;</span> http://localhost:4000/guide/design - 0 errors
+...
+
+✔ 49/49 URLs passed
+</code></pre></div></div>
+
+<p>As you can see, at the time of this writing we have all our pages passing! To see examples of us fixing reported accessibility issues check out <a href="https://github.com/CivicActions/accessibility/pull/128">https://github.com/CivicActions/accessibility/pull/128</a>.</p>
+
+<p>Note: we have also noticed that pa11y-ci intermittently throws an error when trying to test many pages. Here is an open issue to find a solution to that: <a href="https://github.com/pa11y/pa11y-ci/issues/128">https://github.com/pa11y/pa11y-ci/issues/128</a>.</p>
+
+<h2 id="running-pa11y-ci-in-a-github-action">Running pa11y-ci in a GitHub action</h2>
+<p>Now that we have it running locally, here is how we configure it to run every time we submit a pull request in GitHub.</p>
+
+<p>Add a YML file to <code class="language-plaintext highlighter-rouge">.github/workflows</code> folder. We called our version <code class="language-plaintext highlighter-rouge">pa11y.yml</code>. Here is our file:</p>
+
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">name</span><span class="pi">:</span> <span class="s">pa11y tests</span>
+
+<span class="na">on</span><span class="pi">:</span> <span class="pi">[</span><span class="nv">pull_request</span><span class="pi">]</span>
+
+<span class="na">jobs</span><span class="pi">:</span>
+  <span class="na">build</span><span class="pi">:</span>
+    <span class="na">name</span><span class="pi">:</span> <span class="s">Building site and running pa11y-ci tests</span>
+    <span class="na">runs-on</span><span class="pi">:</span> <span class="s">ubuntu-latest</span>
+
+    <span class="na">steps</span><span class="pi">:</span>
+      <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">Checkout source.</span>
+        <span class="na">uses</span><span class="pi">:</span> <span class="s">actions/checkout@v2</span>
+
+      <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">Install jekyll site dependencies.</span>
+        <span class="na">uses</span><span class="pi">:</span> <span class="s">ruby/setup-ruby@v1</span>
+        <span class="na">with</span><span class="pi">:</span>
+          <span class="na">ruby-version</span><span class="pi">:</span> <span class="m">2.6</span>
+          <span class="na">bundler-cache</span><span class="pi">:</span> <span class="no">true</span>
+
+      <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">Install pa11y-ci dependencies.</span>
+        <span class="na">run</span><span class="pi">:</span> <span class="s">npm install</span>
+
+      <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">Start up jekyll server.</span>
+        <span class="na">run</span><span class="pi">:</span> <span class="s">npm run start-detached</span>
+
+      <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">Run pa11y-ci.</span>
+        <span class="na">run</span><span class="pi">:</span> <span class="s">npm run pa11y-ci:sitemap 2&gt;&amp;1 | tee pa11y_output.txt</span>
+        
+      <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">Read pa11y_output file.</span>
+        <span class="na">id</span><span class="pi">:</span> <span class="s">pa11y_output</span>
+        <span class="na">uses</span><span class="pi">:</span> <span class="s">juliangruber/read-file-action@v1</span>
+        <span class="na">with</span><span class="pi">:</span>
+          <span class="na">path</span><span class="pi">:</span> <span class="s">./pa11y_output.txt</span>
+        
+      <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">Comment on pull request.</span>
+        <span class="na">uses</span><span class="pi">:</span> <span class="s">thollander/actions-comment-pull-request@master</span>
+        <span class="na">with</span><span class="pi">:</span>
+          <span class="na">GITHUB_TOKEN</span><span class="pi">:</span> <span class="s">${{ secrets.GITHUB_TOKEN }}</span>
+          <span class="na">message</span><span class="pi">:</span> <span class="s1">'</span><span class="s">&lt;details&gt;&lt;summary&gt;Pa11y</span><span class="nv"> </span><span class="s">testing</span><span class="nv"> </span><span class="s">results&lt;/summary&gt;</span>
+
+
+<span class="s">```${{</span><span class="nv"> </span><span class="s">steps.pa11y_output.outputs.content</span><span class="nv"> </span><span class="s">}}```</span>
+
+<span class="s">&lt;/details&gt;'</span>
+
+      <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">Check for pa11y failures.</span>
+        <span class="na">if</span><span class="pi">:</span> <span class="s">contains(steps.pa11y_output.outputs.content, 'errno 2')</span>
+        <span class="na">run</span><span class="pi">:</span> <span class="pi">|</span>
+          <span class="s">echo "::error::The site is failing accessibility tests. Please review the comment in the pull request or the pa11y-ci step in the workflow for details."</span>
+          <span class="s">exit 1</span>
+</code></pre></div></div>
+
+<p>From the top, this action is run only on pull requests and uses the <code class="language-plaintext highlighter-rouge">ubuntu-latest</code> image. Then the steps will:</p>
+
+<ol>
+  <li>Check out the source code.</li>
+  <li>Install the Jekyll Ruby dependencies but caches them so that subsequent runs can go faster.</li>
+  <li>Install the pa11y-ci dependencies via npm.</li>
+  <li>Start the webserver as we did locally.</li>
+  <li>Run pa11y-ci to test the site and capture the output to a file.*</li>
+  <li>Read the file to a variable so that we can use it in the next step.*</li>
+  <li>Send the results of the file to the pull request as a comment in a <code class="language-plaintext highlighter-rouge">&lt;details&gt;</code> collapsed element.*</li>
+  <li>Check the output for failures and "hard fail" the action.*</li>
+</ol>
+
+<p>* <em>Capturing the output to a file and commenting on the pull request are optional features and could be harder to maintain. You can simply run the pa11y-ci commands and view the results in the action output.</em></p>
+
+<p>Here is an example screenshot of the GitHub action run of pa11y-ci tests (taken from <a href="https://github.com/CivicActions/accessibility/pull/127/checks">https://github.com/CivicActions/accessibility/pull/127/checks</a>):</p>
+
+<p><img src="/assets/img/github-action-steps.png" alt="Screenshot of the GitHub action run" /></p>
+
+<p>Here is an example screenshot of the comments added to a pull request (taken from <a href="https://github.com/CivicActions/accessibility/pull/137#issuecomment-796975773">https://github.com/CivicActions/accessibility/pull/137#issuecomment-796975773</a>):</p>
+
+<p><img src="/assets/img/github-actions-comment-in-pull-request.png" alt="Screenshot of the GitHub action comment" /></p>
+
+<h2 id="summary">Summary</h2>
+<p>Using the above steps, you can quickly get your GitHub-hosted Jekyll site automatically tested for accessibility issues, but remember, automatic tests are not a panacea.</p>
+
+<p>As noted in our <a href="/playbook/automated-testing">playbook for automated testing</a>:</p>
+
+<blockquote>
+  <p>… no matter the tool, <a href="https://alphagov.github.io/accessibility-tool-audit/">automated testing only catches about one-third of accessibility issues</a>, so it cannot be relied upon to determine if a site complies. To better ensure that their digital tools are accessible to keyboard-only and assistive technology users, automated tests need to be done along with a robust manual testing plan.</p>
+</blockquote>
+
+<h2 id="further-reading-and-examples">Further reading and examples</h2>
+<ul>
+  <li><a href="https://andrewmee.com/posts/automated-accessibility-testing-node-travis-ci-pa11y/">Automated accessibility testing with Travis CI</a></li>
+  <li><a href="https://medium.com/@f3igao/how-to-automate-web-accessibility-testing-921512bdd4bf">How to Automate Web Accessibility Testing</a></li>
+  <li>Examples of applying the above steps to Jekyll sites:
+    <ul>
+      <li><a href="https://github.com/bbc/accessibility-news-and-you">BBC's "Accessibility, News and You"</a> can be seen in this pull request: <a href="https://github.com/dmundra/accessibility-news-and-you/pull/1">https://github.com/dmundra/accessibility-news-and-you/pull/1</a>.</li>
+      <li><a href="https://github.com/GSA/accessibility-for-teams">GSA's "Accessibility for Teams"</a> can be seen in this pull request: <a href="https://github.com/dmundra/accessibility-for-teams/pull/1">https://github.com/dmundra/accessibility-for-teams/pull/1</a>.</li>
+      <li><a href="https://github.com/18F/accessibility">18F Accessibility Guide</a> can be seen in this pull request: <a href="https://github.com/dmundra/accessibility-1/pull/1">https://github.com/dmundra/accessibility-1/pull/1</a>.</li>
+    </ul>
+  </li>
+  <li>What are other Jekyll sites doing?
+    <ul>
+      <li><a href="https://github.com/pa11y/pa11y.github.io">The Pa11y website</a> uses Travis CI and pa11y-ci.</li>
+      <li>The <a href="https://github.com/18F/accessibility">18F Accessibility Guide</a> uses CircleCI and axe.</li>
+    </ul>
+  </li>
+</ul>
+
+<p>Thank you to <a href="https://civicactions.com/team/melinda-burgess">Melinda Burgess</a>, <a href="/about/people/luke-fretwell">Luke Fretwell</a>, and <a href="/about/people/mike-gifford">Mike Gifford</a> for your support, thoughts, and feedback.</p>
+
+                    </div>
+                    
+                    
+                    
+                    
+                    
+                    
+                    <div class="post-bio">
+                        <p>
+                            Daniel Mundra is a team member of CivicActions Accessibility.
+
+                        </p>
+                    </div>
+                    
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+    
+
+    
+
+    
+
+
+  
+<footer class="usa-footer usa-footer--big">
+
+  
+    <div class="grid-container">
+      <p>
+      
+        
+
+<a href="https://github.com/civicactions/accessibility/edit/main/_posts/2021-03-12-automated-accessibility-testing-leveraging-github-actions-and-pa11y-ci-with-axe.md" class="usa-sidenav-edit" target="_blank">Help improve this page</a>
+       
+
+<!--  // Date not working
+     &nbsp; &middot; &nbsp; Last updated: May 14, 2021 at 02:05 PM 
+-->
+        
+      </p>
+    </div>
+  
+
+  
+    <div class="grid-container usa-footer__return-to-top">
+      <a href="#">Return to top</a>
+    </div>
+  
+
+  
+    
+    
+    
+  <div class="usa-footer__primary-section">
+    <div class="grid-container">
+      <div class="grid-row grid-gap">
+        <div class="">
+          <nav class="usa-footer__nav" aria-label="Footer navigation">
+            <div class="grid-row grid-gap-4">
+              
+              <div class="mobile-lg:grid-col-6 desktop:grid-col-4">
+                <section class="usa-footer__primary-content usa-footer__primary-content--collapsible">
+                  
+                    <a class="usa-footer__primary-link" href="/contact">
+                      Contact
+                    </a>
+                  
+                </section>
+              </div>
+              
+              <div class="mobile-lg:grid-col-6 desktop:grid-col-4">
+                <section class="usa-footer__primary-content usa-footer__primary-content--collapsible">
+                  
+                    <a class="usa-footer__primary-link" href="/conduct">
+                      Conduct
+                    </a>
+                  
+                </section>
+              </div>
+              
+              <div class="mobile-lg:grid-col-6 desktop:grid-col-4">
+                <section class="usa-footer__primary-content usa-footer__primary-content--collapsible">
+                  
+                    <a class="usa-footer__primary-link" href="/license">
+                      License
+                    </a>
+                  
+                </section>
+              </div>
+              
+              <div class="mobile-lg:grid-col-6 desktop:grid-col-4">
+                <section class="usa-footer__primary-content usa-footer__primary-content--collapsible">
+                  
+                    <a class="usa-footer__primary-link" href="/colophon">
+                      Colophon
+                    </a>
+                  
+                </section>
+              </div>
+              
+              <div class="mobile-lg:grid-col-6 desktop:grid-col-4">
+                <section class="usa-footer__primary-content usa-footer__primary-content--collapsible">
+                  
+                    <a class="usa-footer__primary-link" href="/analytics">
+                      Analytics
+                    </a>
+                  
+                </section>
+              </div>
+              
+              <div class="mobile-lg:grid-col-6 desktop:grid-col-4">
+                <section class="usa-footer__primary-content usa-footer__primary-content--collapsible">
+                  
+                    <a class="usa-footer__primary-link" href="/accessibility">
+                      Accessibility
+                    </a>
+                  
+                </section>
+              </div>
+              
+            </div>
+          </nav>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  
+
+  
+  <div class="usa-footer__secondary-section">
+    <div class="grid-container">
+      <div class="grid-row grid-gap">
+        <div class="usa-footer__logo grid-row mobile-lg:grid-col-6 mobile-lg:grid-gap-2">
+          
+
+          
+          <div class="mobile-lg:grid-col-auto">
+            <h2 class="usa-footer__logo-heading">CivicActions Accessibility</h2>
+          </div>
+          
+        </div>
+
+        
+        <div class="usa-footer__contact-links mobile-lg:grid-col-6">
+          
+          
+            <div class="usa-footer__social-links grid-row grid-gap-1">
+              <div class="grid-col-auto">
+                
+                  <a class="usa-social-link usa-social-link--github" href="https://github.com/civicactions/accessibility">
+                    <span>GitHub</span>
+                  </a>
+                
+                  <a class="usa-social-link usa-social-link--facebook" href="https://facebook.com/civicactions">
+                    <span>Facebook</span>
+                  </a>
+                
+                  <a class="usa-social-link usa-social-link--twitter" href="https://twitter.com/civicactions">
+                    <span>Twitter</span>
+                  </a>
+                
+                  <a class="usa-social-link usa-social-link--linkedin" href="https://www.linkedin.com/company/civicactions/">
+                    <span>LinkedIn</span>
+                  </a>
+                
+              </div>
+            </div>
+          
+          
+            
+              <address class="usa-footer__address">
+                
+                <div class="usa-footer__contact-info grid-row grid-gap">
+                
+                    <div class="grid-col-auto">
+                      <a href="mailto:accessibility-qa.civicactions.com">
+                        accessibility-qa.civicactions.com
+                      </a>
+                    </div>
+                
+                </div>
+              </address>
+          
+        
+      </div>
+      </div>
+    </div>
+  </div>
+  
+
+</footer>
+
+
+
+
+
+    
+
+
+
+
+
+  
+    
+      <script src="/assets/uswds/js/uswds.min.js" async></script>
+    
+
+  
+    
+
+
+
+
+
+
+  </body>
+</html>
