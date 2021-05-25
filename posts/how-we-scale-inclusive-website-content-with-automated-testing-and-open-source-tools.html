@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<title>How we scale inclusive website content with automated testing and open source tools | CivicActions Accessibility</title>
+
+
+
+<meta name="description" content="Using GitHub and open source technology -- general and text-specific -- we created a continuous text feedback mechanism to help ensure our content meets out standards.">
+
+
+
+<link rel="shortcut icon" type="image/ico"
+  href="/assets/img/logos/civicaction-square.ico">
+
+
+
+    <!-- Font Awesome -->
+
+    <!-- This is code the Font Awesome CDN generates for me that doesn't work -->
+    <script src="https://use.fontawesome.com/4fe5bba9d1.js"></script>
+	<link rel="stylesheet" href="https://use.fontawesome.com/7207a55a98.css">
+
+    <!-- This is code from DistributedGov that works -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+    <!-- Google Fonts -->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Nunito&family=Work+Sans&display=swap" rel="stylesheet"> 
+    
+
+
+
+<link rel="stylesheet"
+  href="/assets/css/uswds-theme.css"
+  media="screen">
+
+
+
+    
+  </head>
+  <body class="  ">
+
+    <a class="usa-skipnav" href="#main-content">Skip to main content</a>
+
+    
+
+<!---->
+
+<div class="usa-overlay"></div>
+<header class="usa-header usa-header--extended"><div class="usa-navbar">
+    <div class="usa-logo" id="extended-logo">
+        <em class="usa-logo__text"><a href="/" title="Home" aria-label="Home">
+            CivicActions Accessibility <sup>ALPHA</sup></a></em>
+    </div>
+    <button class="usa-menu-btn">Menu</button>
+</div>
+    <nav aria-label="Primary navigation" class="usa-nav">
+        <div class="usa-nav__inner"><button class="usa-nav__close"><img src="/assets/img/usa-icons/close.svg" role="img" alt="close"></button>
+
+
+
+            <ul class="usa-nav__primary usa-accordion"><li class="usa-nav__primary-item">
+                <button class="usa-accordion__button usa-nav__link " aria-expanded="false" aria-controls="extended-nav-section-one"><span>About</span></button>
+
+                
+                <ul id="extended-nav-section-one" class="usa-nav__submenu"><li class="usa-nav__submenu-item">
+                    <a href="/about/" class="">Who we are</a>
+                </li><li class="usa-nav__submenu-item">
+                    <a href="/about/people/" class="">Meet us</a>
+                </li><li class="usa-nav__submenu-item">
+                    <a href="/about/contact" class="">Contact us</a>
+                </li><li class="usa-nav__submenu-item">
+                    <a href="/about/join" class="">Join us</a>
+                </li></ul></li>
+                <li class="usa-nav__primary-item">
+                    <a class="usa-nav__link " href="/calendar"><span>Calendar</span></a>
+                </li>
+                <li class="usa-nav__primary-item">
+                    <a class="usa-nav__link " href="/news/"><span>News</span></a>
+                </li>
+
+                <li class="usa-nav__primary-item">
+                    <a class="usa-nav__link " href="/playbook/"><span>Playbook</span></a>
+                </li>
+
+                <li class="usa-nav__primary-item">
+                    <a class="usa-nav__link " href="/guide/"><span>Guide</span></a>
+                </li>
+                <li class="usa-nav__primary-item">
+                    <a class="usa-nav__link " href="/search"><span>Search</span></a>
+                </li>
+            </ul>
+
+
+            <div class="usa-nav__secondary">
+                <ul class="usa-nav__secondary-links"><li class="usa-nav__secondary-item">
+                    <a href="https://civicactions.com/">CivicActions.com</a>
+                </li></ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+
+    <aside>
+      
+      
+
+
+      
+
+      
+
+      
+        
+        
+
+
+
+
+      
+      
+    </aside>
+
+    
+      <div id="breadcrumbs" class="grid-container">
+    
+        <nav class="usa-breadcrumb" aria-label="Breadcrumbs">
+            <ol class="usa-breadcrumb__list">
+                <li class="usa-breadcrumb__list-item">
+                    <a href="/" class="usa-breadcrumb__link">Home</a>
+                </li>
+                
+                    
+                        <li class="usa-breadcrumb__list-item usa-current" aria-current="page">
+                             <a class="usa-breadcrumb__link" href="/posts/">Posts</a>
+                        </li>
+                    
+                
+                    
+                        <li class="usa-breadcrumb__list-item usa-current" aria-current="page">
+                             How we scale inclusive website content with automated testing and open source tools
+                        </li>
+                    
+                
+            </ol>
+        </nav>
+
+</div>
+<main class="" id="main-content">
+    <div class="">
+        <div class="grid-container">
+            <div class="grid-row">
+                <div class="grid-col-12">
+                    
+                    <h1 class="font-heading-3xl">How we scale inclusive website content with automated testing and open source tools</h1>
+                    
+                </div>
+            </div>
+            <div class="grid-row">
+                <div class="grid-col-2">
+                    
+                    
+                    
+                    
+                    
+                    <div class="author">
+                        <p><a href="/about/people/daniel-mundra"><img src="/assets/img/people/daniel-mundra.jpg" alt="Daniel Mundra" title="Daniel Mundra"></a></p>
+                        <p>By <a href="/about/people/daniel-mundra"> Daniel Mundra</a></p>
+                        <p>May 25, 2021</p>
+                    </div>
+                    
+                    
+                </div>
+                <div class="grid-col-1">
+                </div>
+                <div class="grid-col-9">
+                    <div class="post-content">
+                        <p>Since launching the <a href="https://accessibility-qa.civicactions.com/">CivicActions Accessibility</a> website, we've had <a href="https://github.com/CivicActions/accessibility">9 contributors on GitHub</a> and many more contributing to our <a href="/guide">guide</a>, <a href="/playbook">playbooks</a>, and <a href="/news">posts</a>.</p>
+
+<p>We value openness, agility, inclusiveness and continuous improvement. Ensuring that our site is consistently built makes it easier to maintain in the long-run.</p>
+
+<p>As our website grows, we want to ensure our content mirrors our values — and that it scales with ease. So, we have enabled automated testing (and some updating) of text when it's submitted in a pull request.</p>
+
+<h2 id="content-goals-that-match-our-values">Content goals that match our values</h2>
+
+<p>It is important that this site demonstrates our values by being accessible and professional. That's why we eliminate unclear, insensitive language that could alienate our audience.</p>
+
+<p>Automation is not full-proof. It doesn't have context to understand why a sentence is structured a certain way or why particular words are used. It is a tool in our arsenal to help us continuously improve, like catching terms that might be offensive or simplifying complex sentences, and so on.</p>
+
+<h2 id="the-technology">The technology</h2>
+
+<p>Most content changes are done through plain text editors or directly on GitHub. So, many of the conveniences that are built into modern word processing applications aren't available. The following tools help us keep the quality of our site high.</p>
+
+<p>To achieve the testing we use the following technologies:</p>
+<ul>
+  <li><a href="https://github.com/remarkjs/remark">remark</a>: A markdown processor (Markdown is how we write all our content that is then compiled into static HTML pages by Jekyll).</li>
+  <li><a href="https://github.com/retextjs/retext">retext</a>: A natural language processor to check for issues in the text.</li>
+  <li><a href="https://github.com/reviewdog/reviewdog">reviewdog</a>: Takes the errors and warnings from remark and retext and comments on the markdown text in the code (pull request) indicating the issues and recommended corrections.</li>
+  <li><a href="https://pre-commit.com/">pre-commit</a>: Also test files for any issues and in some cases updates the text automatically.</li>
+  <li><a href="https://www.docker.com/">docker</a> and <a href="https://github.com/features/actions">GitHub Actions</a>: Used to run the reviewdog scripts with remark and retext whenever a pull request is submitted.</li>
+</ul>
+
+<h2 id="the-setup">The setup</h2>
+
+<p>For remark/retext we create a Docker image that installs the dependencies and sets up reviewdog to execute our configuration on a pull request. The details are <a href="https://github.com/CivicActions/accessibility/tree/main/lint">visible in our repository</a> but here are the important bits.</p>
+
+<p>The following files (truncated for brevity) configure the plugins for testing markdown and text — and their individual settings.</p>
+
+<p>Here are some of our example settings:</p>
+<ul>
+  <li>Markdown bullets denoted with an asterisk '*'.</li>
+  <li>Single space between sentences.</li>
+  <li>Straight quotes (note this down, it will be important later in the post).</li>
+  <li>Readability set to 18 years.</li>
+  <li>Checking for spelling mistakes.</li>
+  <li>Checking for insensitive or inconsiderate language.</li>
+</ul>
+
+<p><a href="https://github.com/CivicActions/accessibility/blob/main/lint/config/remarkrc.problem">remarkrc.problem file</a>:</p>
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
+  </span><span class="nl">"settings"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="nl">"listItemIndent"</span><span class="p">:</span><span class="w"> </span><span class="s2">"1"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"bullet"</span><span class="p">:</span><span class="w"> </span><span class="s2">"*"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"strong"</span><span class="p">:</span><span class="w"> </span><span class="s2">"*"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"emphasis"</span><span class="p">:</span><span class="w"> </span><span class="s2">"_"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"fences"</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="w">
+  </span><span class="p">},</span><span class="w">
+  </span><span class="nl">"plugins"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+      </span><span class="s2">"remark-frontmatter"</span><span class="p">,</span><span class="w">
+      </span><span class="s2">"remark-validate-links"</span><span class="p">,</span><span class="w">
+      </span><span class="s2">"remark-comment-config"</span><span class="p">,</span><span class="w">
+</span><span class="err">...</span><span class="w">
+      </span><span class="p">[</span><span class="s2">"remark-lint-table-cell-padding"</span><span class="p">,</span><span class="w"> </span><span class="s2">"consistent"</span><span class="p">],</span><span class="w">
+      </span><span class="p">[</span><span class="s2">"remark-lint-table-cell-padding"</span><span class="p">,</span><span class="w"> </span><span class="s2">"consistent"</span><span class="p">],</span><span class="w">
+      </span><span class="p">[</span><span class="s2">"remark-lint-unordered-list-marker-style"</span><span class="p">,</span><span class="w"> </span><span class="s2">"*"</span><span class="p">],</span><span class="w">
+      </span><span class="s2">"./retext.problem"</span><span class="w">
+    </span><span class="p">]</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<p><a href="https://github.com/CivicActions/accessibility/blob/main/lint/config/retext.problem.js">retext.problem.js file</a>:</p>
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="dl">"</span><span class="s2">use strict</span><span class="dl">"</span><span class="p">;</span>
+
+<span class="p">...</span>
+
+<span class="nx">module</span><span class="p">.</span><span class="nx">exports</span> <span class="o">=</span> <span class="nx">attacher</span><span class="p">;</span>
+
+<span class="kd">function</span> <span class="nx">attacher</span><span class="p">()</span> <span class="p">{</span>
+  <span class="k">this</span><span class="p">.</span><span class="nx">use</span><span class="p">(</span>
+    <span class="nx">remark2retext</span><span class="p">,</span>
+    <span class="nx">unified</span><span class="p">()</span>
+      <span class="p">.</span><span class="nx">use</span><span class="p">(</span><span class="nx">english</span><span class="p">)</span>
+      <span class="p">.</span><span class="nx">use</span><span class="p">(</span><span class="nx">sentenceSpacing</span><span class="p">,</span> <span class="p">{</span> <span class="na">preferred</span><span class="p">:</span> <span class="mi">1</span> <span class="p">})</span>
+      <span class="p">.</span><span class="nx">use</span><span class="p">(</span><span class="nx">quotes</span><span class="p">,</span> <span class="p">{</span> <span class="na">preferred</span><span class="p">:</span> <span class="dl">"</span><span class="s2">straight</span><span class="dl">"</span> <span class="p">})</span>
+      <span class="p">.</span><span class="nx">use</span><span class="p">(</span><span class="nx">repeated</span><span class="p">)</span>
+      <span class="p">.</span><span class="nx">use</span><span class="p">(</span><span class="nx">indefinite</span><span class="p">)</span>
+  <span class="p">);</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p><a href="https://github.com/CivicActions/accessibility/blob/main/lint/config/retext.suggestion.js">retext.suggestion.js file</a>:</p>
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="dl">"</span><span class="s2">use strict</span><span class="dl">"</span><span class="p">;</span>
+
+<span class="p">...</span>
+
+<span class="kd">function</span> <span class="nx">attacher</span><span class="p">()</span> <span class="p">{</span>
+  <span class="k">this</span><span class="p">.</span><span class="nx">use</span><span class="p">(</span>
+    <span class="nx">remark2retext</span><span class="p">,</span>
+    <span class="nx">unified</span><span class="p">()</span>
+      <span class="p">.</span><span class="nx">use</span><span class="p">(</span><span class="nx">english</span><span class="p">)</span>
+      <span class="p">.</span><span class="nx">use</span><span class="p">(</span><span class="nx">contractions</span><span class="p">,</span> <span class="p">{</span> <span class="na">straight</span><span class="p">:</span> <span class="kc">true</span> <span class="p">})</span>
+      <span class="p">.</span><span class="nx">use</span><span class="p">(</span><span class="nx">readability</span><span class="p">,</span> <span class="p">{</span>
+        <span class="na">age</span><span class="p">:</span> <span class="mi">18</span><span class="p">,</span>
+        <span class="na">minWords</span><span class="p">:</span> <span class="mi">15</span><span class="p">,</span>
+        <span class="na">severity</span><span class="p">:</span> <span class="dl">"</span><span class="s2">fatal</span><span class="dl">"</span><span class="p">,</span>
+        <span class="na">threshold</span><span class="p">:</span> <span class="mi">5</span> <span class="o">/</span> <span class="mi">7</span><span class="p">,</span>
+      <span class="p">})</span>
+      <span class="p">.</span><span class="nx">use</span><span class="p">(</span><span class="nx">equality</span><span class="p">,</span> <span class="p">{</span> <span class="na">ignore</span><span class="p">:</span> <span class="nx">ignoreWords</span> <span class="o">||</span> <span class="p">[]</span> <span class="p">})</span>
+      <span class="p">.</span><span class="nx">use</span><span class="p">(</span><span class="nx">spell</span><span class="p">,</span> <span class="nx">dictionary</span><span class="p">)</span>
+  <span class="p">);</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<h2 id="the-execution">The execution</h2>
+
+<p>Similar to our <a href="/posts/automated-accessibility-testing-leveraging-github-actions-and-pa11y-ci-with-axe">automated accessibility testing</a> post, we use <a href="https://github.com/CivicActions/accessibility/blob/main/.github/workflows/reviewdog.yml">GitHub actions</a> to run our set up on pull requests. The setup is also tuned to only check the changes for the text issues and not all files. This encourages authors to focus on the changes they are submitting.</p>
+
+<h3 id="examples">Examples</h3>
+
+<p>In <a href="https://github.com/CivicActions/accessibility/pull/373/files">pull request 373</a> and the below screenshot you can see that the sentence, "Whole websites can now be easily crawled for bugs" that the word <strong>'easily'</strong> has been flagged as may be insensitive and we should try to avoid it.</p>
+
+<p><img src="/assets/img/insensitive-text-warning.png" alt="Screenshot of the insensitive warning" /></p>
+
+<p>In <a href="https://github.com/CivicActions/accessibility/pull/374/commits/9b6c162495de0c5212e5cf99b27470e710082bdb">pull request 374</a> and the below screenshots you can see that I took an earlier version of this post and ran it through the process and got some good feedback.</p>
+
+<p>In this screenshot we see a warning about a hard to read sentence.</p>
+
+<p><img src="/assets/img/hard-to-read-sentence-warning.png" alt="Screenshot of the hard to read sentence warning" /></p>
+
+<p>In this screenshot we see that a typo was misattributed as an insensitive word.</p>
+
+<p><img src="/assets/img/typo-lead-to-insensitive-warning.png" alt="Screenshot of the typo that lead to insensitive warning" /></p>
+
+<h3 id="automating-changes">Automating changes</h3>
+
+<p>Some of the recommendations that are provided could be automatically edited, like changing smart quotes to straight quotes (remember the note from earlier). We do this using the pre-commit tool and here is an example:</p>
+
+<p>In this screenshot we see a warning about a smart quote:
+<img src="/assets/img/smart-quote-warning.png" alt="Screenshot before" /></p>
+
+<p>In this screenshot the change is made for us and committed to the pull request:
+<img src="/assets/img/smark-quote-fix.png" alt="Screenshot after" /></p>
+
+<p>You can see the details at this URL: <a href="https://github.com/CivicActions/accessibility/pull/342">pull request 342</a>.</p>
+
+<h3 id="future-considerations">Future considerations</h3>
+
+<p>We are interested in adding the <a href="https://github.com/retextjs/retext-simplify">retext-simplify plugin</a> to check phrases for simpler alternatives and maybe reduce the age for readability. Check out the <a href="https://github.com/retextjs/retext/blob/main/doc/plugins.md">available plugins in the retext documentation</a>.</p>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>Following this set-up can help you inject tools to help you test your content. But remember, automation can be devoid of context and can still contain our biases.</p>
+
+<p>You should keep tweaking the tools and double-check your content to make sure it meets your values.</p>
+
+<h2 id="further-reading-and-examples">Further reading and examples</h2>
+<ul>
+  <li>The same tools above are used in:
+    <ul>
+      <li><a href="https://github.com/sparkartgroup/quality-docs/">Quality docs</a>.</li>
+      <li><a href="https://github.com/CivicActions/handbook">CivicActions handbook</a>.</li>
+    </ul>
+  </li>
+  <li>Some similar tools for GitHub and other applications:
+    <ul>
+      <li><a href="https://github.com/ritterim/markdown-proofing">A markdown proofing platform for individuals, teams, and organizations</a>.</li>
+      <li><a href="https://marketplace.visualstudio.com/items?itemName=jemcclin.readabilitycheck">Readability Check</a>.</li>
+      <li><a href="https://atom.io/packages/status-stats-jbrains">status-stats-jbrains package</a>.</li>
+    </ul>
+  </li>
+</ul>
+
+<p>Thank you to <a href="/about/people/michelle-kang">Michelle Kang</a>, <a href="https://civicactions.com/team/marlena-medford">Marlena Medford</a>, <a href="/about/people/luke-fretwell">Luke Fretwell</a>, and <a href="/about/people/mike-gifford">Mike Gifford</a> for your support, thoughts, and feedback.</p>
+
+                    </div>
+                    
+                    
+                    
+                    
+                    
+                    
+                    <div class="post-bio">
+                        <p>
+                            Daniel Mundra is a team member of CivicActions Accessibility.
+
+                        </p>
+                    </div>
+                    
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+    
+
+    
+
+    
+
+
+  
+<footer class="usa-footer usa-footer--big">
+
+  
+    <div class="grid-container">
+      <p>
+      
+        
+
+<a href="https://github.com/civicactions/accessibility/edit/main/_posts/2021-05-25-how-we-scale-inclusive-website-content-with-automated-testing-and-open-source-tools.md" class="usa-sidenav-edit" target="_blank">Help improve this page</a>
+       
+
+<!--  // Date not working
+     &nbsp; &middot; &nbsp; Last updated: May 25, 2021 at 02:37 PM 
+-->
+        
+      </p>
+    </div>
+  
+
+  
+    <div class="grid-container usa-footer__return-to-top">
+      <a href="#">Return to top</a>
+    </div>
+  
+
+  
+    
+    
+    
+  <div class="usa-footer__primary-section">
+    <div class="grid-container">
+      <div class="grid-row grid-gap">
+        <div class="">
+          <nav class="usa-footer__nav" aria-label="Footer navigation">
+            <div class="grid-row grid-gap-4">
+              
+              <div class="mobile-lg:grid-col-6 desktop:grid-col-4">
+                <section class="usa-footer__primary-content usa-footer__primary-content--collapsible">
+                  
+                    <a class="usa-footer__primary-link" href="/contact">
+                      Contact
+                    </a>
+                  
+                </section>
+              </div>
+              
+              <div class="mobile-lg:grid-col-6 desktop:grid-col-4">
+                <section class="usa-footer__primary-content usa-footer__primary-content--collapsible">
+                  
+                    <a class="usa-footer__primary-link" href="/conduct">
+                      Conduct
+                    </a>
+                  
+                </section>
+              </div>
+              
+              <div class="mobile-lg:grid-col-6 desktop:grid-col-4">
+                <section class="usa-footer__primary-content usa-footer__primary-content--collapsible">
+                  
+                    <a class="usa-footer__primary-link" href="/license">
+                      License
+                    </a>
+                  
+                </section>
+              </div>
+              
+              <div class="mobile-lg:grid-col-6 desktop:grid-col-4">
+                <section class="usa-footer__primary-content usa-footer__primary-content--collapsible">
+                  
+                    <a class="usa-footer__primary-link" href="/colophon">
+                      Colophon
+                    </a>
+                  
+                </section>
+              </div>
+              
+              <div class="mobile-lg:grid-col-6 desktop:grid-col-4">
+                <section class="usa-footer__primary-content usa-footer__primary-content--collapsible">
+                  
+                    <a class="usa-footer__primary-link" href="/analytics">
+                      Analytics
+                    </a>
+                  
+                </section>
+              </div>
+              
+              <div class="mobile-lg:grid-col-6 desktop:grid-col-4">
+                <section class="usa-footer__primary-content usa-footer__primary-content--collapsible">
+                  
+                    <a class="usa-footer__primary-link" href="/accessibility">
+                      Accessibility
+                    </a>
+                  
+                </section>
+              </div>
+              
+            </div>
+          </nav>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  
+
+  
+  <div class="usa-footer__secondary-section">
+    <div class="grid-container">
+      <div class="grid-row grid-gap">
+        <div class="usa-footer__logo grid-row mobile-lg:grid-col-6 mobile-lg:grid-gap-2">
+          
+
+          
+          <div class="mobile-lg:grid-col-auto">
+            <h2 class="usa-footer__logo-heading">CivicActions Accessibility</h2>
+          </div>
+          
+        </div>
+
+        
+        <div class="usa-footer__contact-links mobile-lg:grid-col-6">
+          
+          
+            <div class="usa-footer__social-links grid-row grid-gap-1">
+              <div class="grid-col-auto">
+                
+                  <a class="usa-social-link usa-social-link--github" href="https://github.com/civicactions/accessibility">
+                    <span>GitHub</span>
+                  </a>
+                
+                  <a class="usa-social-link usa-social-link--facebook" href="https://facebook.com/civicactions">
+                    <span>Facebook</span>
+                  </a>
+                
+                  <a class="usa-social-link usa-social-link--twitter" href="https://twitter.com/civicactions">
+                    <span>Twitter</span>
+                  </a>
+                
+                  <a class="usa-social-link usa-social-link--linkedin" href="https://www.linkedin.com/company/civicactions/">
+                    <span>LinkedIn</span>
+                  </a>
+                
+              </div>
+            </div>
+          
+          
+            
+              <address class="usa-footer__address">
+                
+                <div class="usa-footer__contact-info grid-row grid-gap">
+                
+                    <div class="grid-col-auto">
+                      <a href="mailto:accessibility-qa.civicactions.com">
+                        accessibility-qa.civicactions.com
+                      </a>
+                    </div>
+                
+                </div>
+              </address>
+          
+        
+      </div>
+      </div>
+    </div>
+  </div>
+  
+
+</footer>
+
+
+
+
+
+    
+
+
+
+
+
+  
+    
+      <script src="/assets/uswds/js/uswds.min.js" async></script>
+    
+
+  
+    
+
+
+
+
+
+
+  </body>
+</html>
