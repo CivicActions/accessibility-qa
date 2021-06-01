@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://accessibility-qa.civicactions.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://accessibility-qa.civicactions.com/" rel="alternate" type="text/html" /><updated>2021-06-01T17:27:58+00:00</updated><id>https://accessibility-qa.civicactions.com/feed.xml</id><title type="html">CivicActions Accessibility</title><entry><title type="html">Plain language page added to CivicActions Accessibility Guide</title><link href="https://accessibility-qa.civicactions.com/posts/plain-language-accessibility-guide" rel="alternate" type="text/html" title="Plain language page added to CivicActions Accessibility Guide" /><published>2021-05-28T14:00:00+00:00</published><updated>2021-06-01T17:22:54+00:00</updated><id>https://accessibility-qa.civicactions.com/posts/plain-language-accessibility-guide</id><content type="html" xml:base="https://accessibility-qa.civicactions.com/posts/plain-language-accessibility-guide">&lt;p&gt;We've added a &lt;a href=&quot;/guide/plain-language&quot;&gt;plain language page&lt;/a&gt; to the &lt;a href=&quot;/guide&quot;&gt;CivicActions Accessibility Guide&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;You can find:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;quick tips on how to keep simplify your content&lt;/li&gt;
+  &lt;li&gt;helpful automated tools that check for plain language&lt;/li&gt;
+  &lt;li&gt;plain language communities you can join to learn more.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;If you have feedback or would like to improve this page, we encourage you to &lt;a href=&quot;https://github.com/CivicActions/accessibility/issues/new/choose&quot;&gt;submit an issue&lt;/a&gt; or pull request.&lt;/p&gt;</content><author><name>nira-datta</name></author><category term="Social" /><category term="media" /><summary type="html">We've added a plain language page to the CivicActions Accessibility Guide.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://accessibility-qa.civicactions.com/card-power.png" /><media:content medium="image" url="https://accessibility-qa.civicactions.com/card-power.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Social media page added to CivicActions Accessibility Guide</title><link href="https://accessibility-qa.civicactions.com/posts/social-media-accessibility-guide" rel="alternate" type="text/html" title="Social media page added to CivicActions Accessibility Guide" /><published>2021-05-27T14:00:00+00:00</published><updated>2021-06-01T17:22:54+00:00</updated><id>https://accessibility-qa.civicactions.com/posts/social-media-accessibility-guide</id><content type="html" xml:base="https://accessibility-qa.civicactions.com/posts/social-media-accessibility-guide">&lt;p&gt;We've added a &lt;a href=&quot;/guide/social-media&quot;&gt;social media page&lt;/a&gt; to the &lt;a href=&quot;/guide&quot;&gt;CivicActions Accessibility Guide&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;This includes tips for:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Text&lt;/li&gt;
+  &lt;li&gt;Hashtags&lt;/li&gt;
+  &lt;li&gt;Images&lt;/li&gt;
+  &lt;li&gt;Video&lt;/li&gt;
+  &lt;li&gt;Emoji&lt;/li&gt;
+  &lt;li&gt;and related resources&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;If you have feedback or would like to improve this page, we encourage you to &lt;a href=&quot;https://github.com/CivicActions/accessibility/issues/new/choose&quot;&gt;submit an issue&lt;/a&gt; or pull request.&lt;/p&gt;</content><author><name>luke-fretwell</name></author><category term="Social" /><category term="media" /><summary type="html">We've added a social media page to the CivicActions Accessibility Guide.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://accessibility-qa.civicactions.com/card-power.png" /><media:content medium="image" url="https://accessibility-qa.civicactions.com/card-power.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">How we scale inclusive website content with automated testing and open source tools</title><link href="https://accessibility-qa.civicactions.com/posts/how-we-scale-inclusive-website-content-with-automated-testing-and-open-source-tools" rel="alternate" type="text/html" title="How we scale inclusive website content with automated testing and open source tools" /><published>2021-05-25T14:00:00+00:00</published><updated>2021-06-01T17:22:54+00:00</updated><id>https://accessibility-qa.civicactions.com/posts/how-we-scale-inclusive-website-content-with-automated-testing-and-open-source-tools</id><content type="html" xml:base="https://accessibility-qa.civicactions.com/posts/how-we-scale-inclusive-website-content-with-automated-testing-and-open-source-tools">&lt;p&gt;Since launching the &lt;a href=&quot;https://accessibility-qa.civicactions.com/&quot;&gt;CivicActions Accessibility&lt;/a&gt; website, we've had &lt;a href=&quot;https://github.com/CivicActions/accessibility&quot;&gt;9 contributors on GitHub&lt;/a&gt; and many more contributing to our &lt;a href=&quot;/guide&quot;&gt;guide&lt;/a&gt;, &lt;a href=&quot;/playbook&quot;&gt;playbooks&lt;/a&gt;, and &lt;a href=&quot;/news&quot;&gt;posts&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;We value openness, agility, inclusiveness and continuous improvement. Ensuring that our site is consistently built makes it easier to maintain in the long-run.&lt;/p&gt;
+
+&lt;p&gt;As our website grows, we want to ensure our content mirrors our values — and that it scales with ease. So, we have enabled automated testing (and some updating) of text when it's submitted in a pull request.&lt;/p&gt;
+
+&lt;h2 id=&quot;content-goals-that-match-our-values&quot;&gt;Content goals that match our values&lt;/h2&gt;
+
+&lt;p&gt;It is important that this site demonstrates our values by being accessible and professional. That's why we eliminate unclear, insensitive language that could alienate our audience.&lt;/p&gt;
+
+&lt;p&gt;Automation is not full-proof. It doesn't have context to understand why a sentence is structured a certain way or why particular words are used. It is a tool in our arsenal to help us continuously improve, like catching terms that might be offensive or simplifying complex sentences, and so on.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-technology&quot;&gt;The technology&lt;/h2&gt;
+
+&lt;p&gt;Most content changes are done through plain text editors or directly on GitHub. So, many of the conveniences that are built into modern word processing applications aren't available. The following tools help us keep the quality of our site high.&lt;/p&gt;
+
+&lt;p&gt;To achieve the testing we use the following technologies:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/remarkjs/remark&quot;&gt;remark&lt;/a&gt;: A markdown processor (Markdown is how we write all our content that is then compiled into static HTML pages by Jekyll).&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/retextjs/retext&quot;&gt;retext&lt;/a&gt;: A natural language processor to check for issues in the text.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/reviewdog/reviewdog&quot;&gt;reviewdog&lt;/a&gt;: Takes the errors and warnings from remark and retext and comments on the markdown text in the code (pull request) indicating the issues and recommended corrections.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://pre-commit.com/&quot;&gt;pre-commit&lt;/a&gt;: Also test files for any issues and in some cases updates the text automatically.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.docker.com/&quot;&gt;docker&lt;/a&gt; and &lt;a href=&quot;https://github.com/features/actions&quot;&gt;GitHub Actions&lt;/a&gt;: Used to run the reviewdog scripts with remark and retext whenever a pull request is submitted.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;the-setup&quot;&gt;The setup&lt;/h2&gt;
+
+&lt;p&gt;For remark/retext we create a Docker image that installs the dependencies and sets up reviewdog to execute our configuration on a pull request. The details are &lt;a href=&quot;https://github.com/CivicActions/accessibility/tree/main/lint&quot;&gt;visible in our repository&lt;/a&gt; but here are the important bits.&lt;/p&gt;
+
+&lt;p&gt;The following files (truncated for brevity) configure the plugins for testing markdown and text — and their individual settings.&lt;/p&gt;
+
+&lt;p&gt;Here are some of our example settings:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Markdown bullets denoted with an asterisk '*'.&lt;/li&gt;
+  &lt;li&gt;Single space between sentences.&lt;/li&gt;
+  &lt;li&gt;Straight quotes (note this down, it will be important later in the post).&lt;/li&gt;
+  &lt;li&gt;Readability set to 18 years.&lt;/li&gt;
+  &lt;li&gt;Checking for spelling mistakes.&lt;/li&gt;
+  &lt;li&gt;Checking for insensitive or inconsiderate language.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/CivicActions/accessibility/blob/main/lint/config/remarkrc.problem&quot;&gt;remarkrc.problem file&lt;/a&gt;:&lt;/p&gt;
+&lt;div class=&quot;language-json highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;settings&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;listItemIndent&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;1&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;bullet&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;*&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;strong&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;*&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;emphasis&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;_&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;fences&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;plugins&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+      &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;remark-frontmatter&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+      &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;remark-validate-links&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+      &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;remark-comment-config&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;...&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+      &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;remark-lint-table-cell-padding&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;consistent&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+      &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;remark-lint-table-cell-padding&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;consistent&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+      &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;remark-lint-unordered-list-marker-style&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;*&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+      &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;./retext.problem&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/CivicActions/accessibility/blob/main/lint/config/retext.problem.js&quot;&gt;retext.problem.js file&lt;/a&gt;:&lt;/p&gt;
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;use strict&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;p&quot;&gt;...&lt;/span&gt;
+
+&lt;span class=&quot;nx&quot;&gt;module&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;exports&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;attacher&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;attacher&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;use&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;remark2retext&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;unified&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;use&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;english&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;use&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;sentenceSpacing&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;preferred&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;})&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;use&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;quotes&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;preferred&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;straight&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;})&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;use&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;repeated&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;use&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;indefinite&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/CivicActions/accessibility/blob/main/lint/config/retext.suggestion.js&quot;&gt;retext.suggestion.js file&lt;/a&gt;:&lt;/p&gt;
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;use strict&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;p&quot;&gt;...&lt;/span&gt;
+
+&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;attacher&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;use&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;remark2retext&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;unified&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;use&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;english&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;use&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;contractions&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;straight&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;})&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;use&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;readability&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;na&quot;&gt;age&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;18&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;na&quot;&gt;minWords&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;15&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;na&quot;&gt;severity&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;fatal&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;na&quot;&gt;threshold&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;/&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;7&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;})&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;use&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;equality&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;ignore&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;ignoreWords&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;||&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[]&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;})&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;use&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;spell&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;dictionary&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;the-execution&quot;&gt;The execution&lt;/h2&gt;
+
+&lt;p&gt;Similar to our &lt;a href=&quot;/posts/automated-accessibility-testing-leveraging-github-actions-and-pa11y-ci-with-axe&quot;&gt;automated accessibility testing&lt;/a&gt; post, we use &lt;a href=&quot;https://github.com/CivicActions/accessibility/blob/main/.github/workflows/reviewdog.yml&quot;&gt;GitHub actions&lt;/a&gt; to run our set up on pull requests. The setup is also tuned to only check the changes for the text issues and not all files. This encourages authors to focus on the changes they are submitting.&lt;/p&gt;
+
+&lt;h3 id=&quot;examples&quot;&gt;Examples&lt;/h3&gt;
+
+&lt;p&gt;In &lt;a href=&quot;https://github.com/CivicActions/accessibility/pull/373/files&quot;&gt;pull request 373&lt;/a&gt; and the below screenshot you can see that the sentence, &quot;Whole websites can now be easily crawled for bugs&quot; that the word &lt;strong&gt;'easily'&lt;/strong&gt; has been flagged as may be insensitive and we should try to avoid it.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/insensitive-text-warning.png&quot; alt=&quot;Screenshot of the insensitive warning&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;In &lt;a href=&quot;https://github.com/CivicActions/accessibility/pull/374/files&quot;&gt;pull request 374&lt;/a&gt; and the below screenshots you can see that I took an earlier version of this post and ran it through the process and got some good feedback.&lt;/p&gt;
+
+&lt;p&gt;In this screenshot we see a warning about a hard to read sentence.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/hard-to-read-sentence-warning.png&quot; alt=&quot;Screenshot of the hard to read sentence warning&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;In this screenshot we see that a typo was misattributed as an insensitive word.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/typo-lead-to-insensitive-warning.png&quot; alt=&quot;Screenshot of the typo that lead to insensitive warning&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;automating-changes&quot;&gt;Automating changes&lt;/h3&gt;
+
+&lt;p&gt;Some of the recommendations that are provided could be automatically edited, like changing smart quotes to straight quotes (remember the note from earlier). We do this using the pre-commit tool and here is an example:&lt;/p&gt;
+
+&lt;p&gt;In this screenshot we see a warning about a smart quote:
+&lt;img src=&quot;/assets/img/smart-quote-warning.png&quot; alt=&quot;Screenshot before&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;In this screenshot the change is made for us and committed to the pull request:
+&lt;img src=&quot;/assets/img/smark-quote-fix.png&quot; alt=&quot;Screenshot after&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;You can see the details at this URL: &lt;a href=&quot;https://github.com/CivicActions/accessibility/pull/342&quot;&gt;pull request 342&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;future-considerations&quot;&gt;Future considerations&lt;/h3&gt;
+
+&lt;p&gt;We are interested in adding the &lt;a href=&quot;https://github.com/retextjs/retext-simplify&quot;&gt;retext-simplify plugin&lt;/a&gt; to check phrases for simpler alternatives and maybe reduce the age for readability. Check out the &lt;a href=&quot;https://github.com/retextjs/retext/blob/main/doc/plugins.md&quot;&gt;available plugins in the retext documentation&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;Following this set-up can help you inject tools to help you test your content. But remember, automation can be devoid of context and can still contain our biases.&lt;/p&gt;
+
+&lt;p&gt;You should keep tweaking the tools and double-check your content to make sure it meets your values.&lt;/p&gt;
+
+&lt;h2 id=&quot;further-reading-and-examples&quot;&gt;Further reading and examples&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;The same tools above are used in:
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/sparkartgroup/quality-docs/&quot;&gt;Quality docs&lt;/a&gt;.&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/CivicActions/handbook&quot;&gt;CivicActions handbook&lt;/a&gt;.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Some similar tools for GitHub and other applications:
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/ritterim/markdown-proofing&quot;&gt;A markdown proofing platform for individuals, teams, and organizations&lt;/a&gt;.&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://marketplace.visualstudio.com/items?itemName=jemcclin.readabilitycheck&quot;&gt;Readability Check&lt;/a&gt;.&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://atom.io/packages/status-stats-jbrains&quot;&gt;status-stats-jbrains package&lt;/a&gt;.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Thank you to &lt;a href=&quot;/about/people/michelle-kang&quot;&gt;Michelle Kang&lt;/a&gt;, &lt;a href=&quot;https://civicactions.com/team/marlena-medford&quot;&gt;Marlena Medford&lt;/a&gt;, &lt;a href=&quot;/about/people/luke-fretwell&quot;&gt;Luke Fretwell&lt;/a&gt;, and &lt;a href=&quot;/about/people/mike-gifford&quot;&gt;Mike Gifford&lt;/a&gt; for your support, thoughts, and feedback.&lt;/p&gt;</content><author><name>daniel-mundra</name></author><category term="Testing" /><summary type="html">Since launching the CivicActions Accessibility website, we've had 9 contributors on GitHub and many more contributing to our guide, playbooks, and posts.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://accessibility-qa.civicactions.com/card-power.png" /><media:content medium="image" url="https://accessibility-qa.civicactions.com/card-power.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Open analytics on the CivicActions Accessibility website</title><link href="https://accessibility-qa.civicactions.com/posts/website-analytics" rel="alternate" type="text/html" title="Open analytics on the CivicActions Accessibility website" /><published>2021-05-24T16:00:00+00:00</published><updated>2021-06-01T17:22:54+00:00</updated><id>https://accessibility-qa.civicactions.com/posts/website-analytics</id><content type="html" xml:base="https://accessibility-qa.civicactions.com/posts/website-analytics">&lt;p&gt;We are now openly sharing &lt;a href=&quot;/analytics&quot;&gt;analytics information for the CivicActions Accessibility website&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;We believe in open analytics and data and, by publicly sharing our website analytics publicly, we hope that others might learn from our work. We also believe it is an opportunity for anyone to use this information to help us&lt;/p&gt;
+
+&lt;p&gt;Tools we're using to gather and display this information:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Google Analytics&lt;/li&gt;
+  &lt;li&gt;Google Data Studio&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;/analytics&quot;&gt;CivicActions Accessibility website analytics&lt;/a&gt;&lt;/p&gt;</content><author><name>luke-fretwell</name></author><summary type="html">We are now openly sharing analytics information for the CivicActions Accessibility website.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://accessibility-qa.civicactions.com/card-power.png" /><media:content medium="image" url="https://accessibility-qa.civicactions.com/card-power.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Pre-GAAD event: Authoring tools with built-in accessibility!</title><link href="https://accessibility-qa.civicactions.com/posts/pre-GAAD-Authoring-Tools-Built-in-Accessibility" rel="alternate" type="text/html" title="Pre-GAAD event: Authoring tools with built-in accessibility!" /><published>2021-05-20T22:00:00+00:00</published><updated>2021-06-01T17:22:54+00:00</updated><id>https://accessibility-qa.civicactions.com/posts/pre-GAAD-Authoring-Tools-Built-in-Accessibility</id><content type="html" xml:base="https://accessibility-qa.civicactions.com/posts/pre-GAAD-Authoring-Tools-Built-in-Accessibility">&lt;p&gt;Today is the &lt;a href=&quot;https://globalaccessibilityawarenessday.org/&quot;&gt;Global Accessibility Awareness Day&lt;/a&gt; or GAAD, 
+and people around the world organize events to raise awareness about digital accessibility. Especially as everything is online these days, GAAD has become something that celebrate throughout the month of May.&lt;br /&gt;
+2020 was the 10th anniversary, and also the launch of the &lt;a href=&quot;https://gaad.foundation/&quot;&gt;GAAD Foundation&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I represented Drupal in &lt;a href=&quot;https://accessibilitycluster.com/&quot;&gt;Funka's We4Authors Accessibility Cluster&lt;/a&gt;. Yesterday, &lt;a href=&quot;https://www.funka.com/&quot;&gt;Funka&lt;/a&gt; organized a pre-GAAD event to highlight the importance of authoring tools.
+&lt;a href=&quot;https://accessibilitycluster.com/main-results/pre-gaad-event-19-may-2021-at-13:00-16:00-cet---authoring-tools-with-built-in-accessibility!&quot;&gt;Authoring tools with built-in accessibility!&lt;/a&gt; was a wonderful success with over hundred participants from over 35 countries around the world.&lt;/p&gt;
+
+&lt;p&gt;The We4Authors Cluster is a multi-CMS (Content Management System) group that is working to better support authors. Authors need to be subject matter experts, not accessibility experts, and CMS tools can help make their job easier. It should be simple for everyone to produce accessible content. For folks familiar with the W3C's Web Accessibility Initiative, it is essentially
+looking at implementing &lt;a href=&quot;https://www.w3.org/TR/ATAG20/#part_b&quot;&gt;Authoring Tool Accessibility Guidelines (ATAG) 2.0 - Part B&lt;/a&gt;. By bringing together leaders in CMS solutions that are popular with governments in the 
+European Union, we are finding solutions which can help many of the authors that will need to implement the European Union's &lt;a href=&quot;https://en.wikipedia.org/wiki/Web_Accessibility_Directive&quot;&gt;Web Accessibility Directive&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The challenge that governments face to see that their digital solutions are able to meet the needs of all citizens is significant. By working together and funding common solutions to widely used libraries the 
+European Commission is able to make a very cost-effective contribution to improving accessibility. Millions of citizens in member states will benefit from having better accessibility defaults.&lt;/p&gt;
+
+&lt;p&gt;Both proprietary &amp;amp; open source communities were involved in the We4Authors Cluster and both can help develop common best practices.&lt;/p&gt;
+
+&lt;p&gt;It was also terrific to see the efforts that the organizers placed on accessibility for this event. A live captionist was engaged for the event. That text was automatically translated into multiple languages so that representatives in non-English speaking countries could participate.
+Building in accessibility best practices can really help so many people engage with digital content. Everyone can benefit, whether they have a disability or not.&lt;/p&gt;</content><author><name>mike-gifford</name></author><summary type="html">Today is the Global Accessibility Awareness Day or GAAD, and people around the world organize events to raise awareness about digital accessibility. Especially as everything is online these days, GAAD has become something that celebrate throughout the month of May. 2020 was the 10th anniversary, and also the launch of the GAAD Foundation.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://accessibility-qa.civicactions.com/card-power.png" /><media:content medium="image" url="https://accessibility-qa.civicactions.com/card-power.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Smashing Magazine: 'How To Bake Layers Of Accessibility Testing Into Your Process'</title><link href="https://accessibility-qa.civicactions.com/posts/smashingmag-baking-in-accessibility-testing" rel="alternate" type="text/html" title="Smashing Magazine: 'How To Bake Layers Of Accessibility Testing Into Your Process'" /><published>2021-04-27T22:00:00+00:00</published><updated>2021-06-01T17:22:54+00:00</updated><id>https://accessibility-qa.civicactions.com/posts/smashingmag-baking-in-accessibility-testing</id><content type="html" xml:base="https://accessibility-qa.civicactions.com/posts/smashingmag-baking-in-accessibility-testing">&lt;p&gt;I co-authored an article with &lt;a href=&quot;https://twitter.com/katekalcevich&quot;&gt;Kate Kalcevich&lt;/a&gt; who is the Head of Services at &lt;a href=&quot;https://makeitfable.com/&quot;&gt;Fable&lt;/a&gt; about accessibility testing.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.smashingmagazine.com/2021/04/bake-layers-accessibility-testing-process/&quot;&gt;How To Bake Layers Of Accessibility Testing Into Your Process&lt;/a&gt; introduces &quot;layered accessibility testing&quot; to readers. This is a practice of using a variety of tools and approaches at different stages in the digital product lifecycle to catch accessibility issues early — when it's easier and cheaper to fix them.&lt;/p&gt;
+
+&lt;p&gt;Using the metaphor of a layered cake, Mike and Kate highlight how teams can gather the ingredients that they need to build accessible products and services.&lt;/p&gt;</content><author><name>mike-gifford</name></author><summary type="html">I co-authored an article with Kate Kalcevich who is the Head of Services at Fable about accessibility testing.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://accessibility-qa.civicactions.com/card-power.png" /><media:content medium="image" url="https://accessibility-qa.civicactions.com/card-power.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">CivicActions Accessibility Guide now available</title><link href="https://accessibility-qa.civicactions.com/posts/mvp-guide" rel="alternate" type="text/html" title="CivicActions Accessibility Guide now available" /><published>2021-04-15T16:00:00+00:00</published><updated>2021-06-01T17:22:54+00:00</updated><id>https://accessibility-qa.civicactions.com/posts/mvp-guide</id><content type="html" xml:base="https://accessibility-qa.civicactions.com/posts/mvp-guide">&lt;p&gt;The first iteration of the &lt;a href=&quot;/guide&quot;&gt;CivicActions Accessibility Guide&lt;/a&gt; is now available for public use. This is an evolving effort, and we will continue to update it based on community feedback and internal efforts to improve its usefulness.&lt;/p&gt;
+
+&lt;p&gt;To contribute to the guide:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/CivicActions/accessibility/issues&quot;&gt;Submit an issue at our GitHub queue&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Submit a pull request&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/CivicActions/accessibility/discussions&quot;&gt;Start a discussion&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>jack-haas</name></author><summary type="html">The first iteration of the CivicActions Accessibility Guide is now available for public use. This is an evolving effort, and we will continue to update it based on community feedback and internal efforts to improve its usefulness.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://accessibility-qa.civicactions.com/card-power.png" /><media:content medium="image" url="https://accessibility-qa.civicactions.com/card-power.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">CivicActions Accessibility Playbook now available</title><link href="https://accessibility-qa.civicactions.com/posts/mvp-playbook" rel="alternate" type="text/html" title="CivicActions Accessibility Playbook now available" /><published>2021-04-14T16:00:00+00:00</published><updated>2021-06-01T17:22:54+00:00</updated><id>https://accessibility-qa.civicactions.com/posts/mvp-playbook</id><content type="html" xml:base="https://accessibility-qa.civicactions.com/posts/mvp-playbook">&lt;p&gt;The first iteration of the &lt;a href=&quot;/playbook&quot;&gt;CivicActions Accessibility Playbook&lt;/a&gt; is now available for public use. This is an evolving effort, and we will continue to update it based on community feedback and internal efforts to improve its usefulness.&lt;/p&gt;
+
+&lt;p&gt;To contribute to the playbook:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/CivicActions/accessibility/issues&quot;&gt;Submit an issue at our GitHub queue&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Submit a pull request&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/CivicActions/accessibility/discussions&quot;&gt;Start a discussion&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>mike-gifford</name></author><summary type="html">The first iteration of the CivicActions Accessibility Playbook is now available for public use. This is an evolving effort, and we will continue to update it based on community feedback and internal efforts to improve its usefulness.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://accessibility-qa.civicactions.com/card-power.png" /><media:content medium="image" url="https://accessibility-qa.civicactions.com/card-power.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Mike Gifford interviewed on the AT Banter Podcast</title><link href="https://accessibility-qa.civicactions.com/posts/at-banter-podcast" rel="alternate" type="text/html" title="Mike Gifford interviewed on the AT Banter Podcast" /><published>2021-03-30T16:00:00+00:00</published><updated>2021-06-01T17:22:54+00:00</updated><id>https://accessibility-qa.civicactions.com/posts/at-banter-podcast</id><content type="html" xml:base="https://accessibility-qa.civicactions.com/posts/at-banter-podcast">&lt;p&gt;I was interviewed on the &lt;a href=&quot;https://atbanter.com/2021/03/09/at-banter-episode-230-mike-gifford/&quot;&gt;AT Banter Pocast - Episode 230&lt;/a&gt; on a wide-ranging interview that covered technology, legislation and everything in between.&lt;/p&gt;
+
+&lt;p&gt;From the interview:&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Well, I think that the standards are changing, and the technology is changing. There's, there's a lot of good in that. But it also means that, that you really have to transition how you think about accessibility from being a checklist where you'd say, &quot;yes, it's accessible&quot;, to be more of something where you see it as a journey.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Full transcripts: &lt;a href=&quot;https://atbanter.com/transcript-at-banter-podcast-episode-230-mike-gifford/&quot;&gt;Episode 230 with Mike Gifford&lt;/a&gt;&lt;/p&gt;</content><author><name>mike-gifford</name></author><summary type="html">I was interviewed on the AT Banter Pocast - Episode 230 on a wide-ranging interview that covered technology, legislation and everything in between.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://accessibility-qa.civicactions.com/card-power.png" /><media:content medium="image" url="https://accessibility-qa.civicactions.com/card-power.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Automated accessibility testing: Leveraging GitHub Actions and pa11y-ci with axe</title><link href="https://accessibility-qa.civicactions.com/posts/automated-accessibility-testing-leveraging-github-actions-and-pa11y-ci-with-axe" rel="alternate" type="text/html" title="Automated accessibility testing: Leveraging GitHub Actions and pa11y-ci with axe" /><published>2021-03-12T15:00:00+00:00</published><updated>2021-06-01T17:22:54+00:00</updated><id>https://accessibility-qa.civicactions.com/posts/automated-accessibility-testing-leveraging-github-actions-and-pa11y-ci-with-axe</id><content type="html" xml:base="https://accessibility-qa.civicactions.com/posts/automated-accessibility-testing-leveraging-github-actions-and-pa11y-ci-with-axe">&lt;p&gt;We launched the &lt;a href=&quot;https://accessibility.civicactions.com/&quot;&gt;CivicActions Accessibility&lt;/a&gt; practice area and its accompanying website in January 2021.&lt;/p&gt;
+
+&lt;p&gt;Our intent is for the practice area to be an open project and community for CivicActions team members, and the broader digital government service industry, including clients, partners, government contractors, and generally anyone who wants to improve accessibility on the web.&lt;/p&gt;
+
+&lt;h2 id=&quot;practicing-what-we-preach&quot;&gt;Practicing what we preach&lt;/h2&gt;
+&lt;p&gt;We realized early on that if we were going to be truly inclusive with our work and provide accessibility resources to the broader community, we should strive to make the website as accessible as possible.&lt;/p&gt;
+
+&lt;p&gt;While we acknowledge that automated testing isn't a panacea, it's one way to address accessibility issues quickly and at scale.&lt;/p&gt;
+
+&lt;p&gt;Using GitHub and open source technology – general and accessibility-specific – we created a continuous accessibility integration environment that helps us better practice what we preach.&lt;/p&gt;
+
+&lt;h2 id=&quot;our-technology-and-accessibility-stack&quot;&gt;Our technology and accessibility &quot;stack&quot;&lt;/h2&gt;
+&lt;p&gt;We proudly leverage open source technologies wherever possible, and all of these tools used here meet that criteria.&lt;/p&gt;
+
+&lt;p&gt;The site is powered by &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; and &lt;a href=&quot;https://designsystem.digital.gov/&quot;&gt;U.S. Web Design System&lt;/a&gt;, specifically the &lt;a href=&quot;https://github.com/18F/uswds-jekyll&quot;&gt;U.S. Web Design System Jekyll theme&lt;/a&gt; maintained by &lt;a href=&quot;https://18f.gsa.gov/&quot;&gt;18F&lt;/a&gt; and the USWDS team. The site is hosted through &lt;a href=&quot;https://pages.github.com/&quot;&gt;GitHub Pages&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;We added automated accessibility testing using &lt;a href=&quot;https://github.com/features/actions&quot;&gt;GitHub Actions&lt;/a&gt; and &lt;a href=&quot;https://github.com/pa11y/pa11y-ci&quot;&gt;pa11y-ci&lt;/a&gt; with &lt;a href=&quot;https://www.deque.com/axe/&quot;&gt;axe&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;configuring-jekyll-with-a-sitemap-and-npm&quot;&gt;Configuring Jekyll with a sitemap and npm&lt;/h2&gt;
+&lt;p&gt;We recommend adding a sitemap.xml generator to Jekyll which will be used by pa11y-ci to test all pages. We use the &lt;a href=&quot;https://github.com/jekyll/jekyll-sitemap&quot;&gt;jekyll-sitemap plugin&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;We recommend using npm to manage the pa11y-ci packages and commands. Run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;npm init&lt;/code&gt; command to create the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;package.json&lt;/code&gt; file.&lt;/p&gt;
+
+&lt;h2 id=&quot;installing-pa11y-ci-and-setting-it-up-to-run-locally&quot;&gt;Installing pa11y-ci and setting it up to run locally&lt;/h2&gt;
+&lt;p&gt;Install pa11y-ci as a development dependency with npm.&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;npm i &lt;span class=&quot;nt&quot;&gt;--save-dev&lt;/span&gt; pa11y-ci
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;After the installation is complete edit the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;package.json&lt;/code&gt; and add the following commands to the &quot;scripts&quot; section:&lt;/p&gt;
+
+&lt;div class=&quot;language-json highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nl&quot;&gt;&quot;start-detached&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;bundle exec jekyll serve --detach&quot;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;pa11y-ci:sitemap&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;pa11y-ci --sitemap http://localhost:4000/sitemap.xml --sitemap-exclude &lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;/*.pdf&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;start-detached&lt;/code&gt;: Starts the webserver that will run Jekyll to be used for testing.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pa11y-ci:sitemap&lt;/code&gt;: Runs pa11y-ci tests using the sitemap and excludes PDFs.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Add a JSON file named &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.pa11yci&lt;/code&gt; which allows you to configure pa11y-ci with &lt;a href=&quot;https://github.com/pa11y/pa11y#configuration&quot;&gt;various options&lt;/a&gt;. Here is our file:&lt;/p&gt;
+
+&lt;div class=&quot;language-json highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;defaults&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;concurrency&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;standard&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;WCAG2AA&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;runners&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;axe&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;concurrency&lt;/code&gt;: The number of tests that should be run in parallel.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;standard&lt;/code&gt;: The accessibility standard to use: Section508, WCAG2A, WCAG2AA (default), WCAG2AAA.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;runners&lt;/code&gt;: The test runners to use: axe (run tests using aXe-core), htmlcs (default,  run tests using HTML CodeSniffer).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;That's it. You can run this setup locally using npm, and you will see the following output (truncated for brevity):&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;dmundra &lt;span class=&quot;k&quot;&gt;in&lt;/span&gt; ~/workspace/accessibility/accessibility on branch main &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; npm run start-detached
+
+&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; start-detached
+&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; bundle &lt;span class=&quot;nb&quot;&gt;exec &lt;/span&gt;jekyll serve &lt;span class=&quot;nt&quot;&gt;--detach&lt;/span&gt;
+
+Configuration file: /Users/dmundra/workspace/accessibility/accessibility/_config.yml
+            Source: /Users/dmundra/workspace/accessibility/accessibility
+       Destination: /Users/dmundra/workspace/accessibility/accessibility/_site
+ Incremental build: disabled. Enable with &lt;span class=&quot;nt&quot;&gt;--incremental&lt;/span&gt;
+      Generating... 
+                    &lt;span class=&quot;k&quot;&gt;done in &lt;/span&gt;8.217 seconds.
+ Auto-regeneration: disabled when running server detached.
+    Server address: http://127.0.0.1:4000
+Server detached with pid &lt;span class=&quot;s1&quot;&gt;'14850'&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;.&lt;/span&gt; Run &lt;span class=&quot;sb&quot;&gt;`&lt;/span&gt;pkill &lt;span class=&quot;nt&quot;&gt;-f&lt;/span&gt; jekyll&lt;span class=&quot;s1&quot;&gt;' or `kill -9 14850'&lt;/span&gt; to stop the server.
+dmundra &lt;span class=&quot;k&quot;&gt;in&lt;/span&gt; ~/workspace/accessibility/accessibility on branch main &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; npm run pa11y-ci:sitemap
+
+&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; pa11y-ci:sitemap
+&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; pa11y-ci &lt;span class=&quot;nt&quot;&gt;--sitemap&lt;/span&gt; http://localhost:4000/sitemap.xml &lt;span class=&quot;nt&quot;&gt;--sitemap-exclude&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;/*.pdf&quot;&lt;/span&gt;
+
+Running Pa11y on 49 URLs:
+ &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; http://localhost:4000/guide/glossary - 0 errors
+ &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; http://localhost:4000/guide/introduction - 0 errors
+ &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; http://localhost:4000/guide/history - 0 errors
+ &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; http://localhost:4000/guide/design - 0 errors
+...
+
+✔ 49/49 URLs passed
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;As you can see, at the time of this writing we have all our pages passing! To see examples of us fixing reported accessibility issues check out &lt;a href=&quot;https://github.com/CivicActions/accessibility/pull/128&quot;&gt;https://github.com/CivicActions/accessibility/pull/128&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Note: we have also noticed that pa11y-ci intermittently throws an error when trying to test many pages. Here is an open issue to find a solution to that: &lt;a href=&quot;https://github.com/pa11y/pa11y-ci/issues/128&quot;&gt;https://github.com/pa11y/pa11y-ci/issues/128&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;running-pa11y-ci-in-a-github-action&quot;&gt;Running pa11y-ci in a GitHub action&lt;/h2&gt;
+&lt;p&gt;Now that we have it running locally, here is how we configure it to run every time we submit a pull request in GitHub.&lt;/p&gt;
+
+&lt;p&gt;Add a YML file to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.github/workflows&lt;/code&gt; folder. We called our version &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pa11y.yml&lt;/code&gt;. Here is our file:&lt;/p&gt;
+
+&lt;div class=&quot;language-yml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;pa11y tests&lt;/span&gt;
+
+&lt;span class=&quot;na&quot;&gt;on&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;pi&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;pull_request&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;]&lt;/span&gt;
+
+&lt;span class=&quot;na&quot;&gt;jobs&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;build&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;Building site and running pa11y-ci tests&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;runs-on&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;ubuntu-latest&lt;/span&gt;
+
+    &lt;span class=&quot;na&quot;&gt;steps&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+      &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;Checkout source.&lt;/span&gt;
+        &lt;span class=&quot;na&quot;&gt;uses&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;actions/checkout@v2&lt;/span&gt;
+
+      &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;Install jekyll site dependencies.&lt;/span&gt;
+        &lt;span class=&quot;na&quot;&gt;uses&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;ruby/setup-ruby@v1&lt;/span&gt;
+        &lt;span class=&quot;na&quot;&gt;with&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+          &lt;span class=&quot;na&quot;&gt;ruby-version&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;2.6&lt;/span&gt;
+          &lt;span class=&quot;na&quot;&gt;bundler-cache&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;true&lt;/span&gt;
+
+      &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;Install pa11y-ci dependencies.&lt;/span&gt;
+        &lt;span class=&quot;na&quot;&gt;run&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;npm install&lt;/span&gt;
+
+      &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;Start up jekyll server.&lt;/span&gt;
+        &lt;span class=&quot;na&quot;&gt;run&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;npm run start-detached&lt;/span&gt;
+
+      &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;Run pa11y-ci.&lt;/span&gt;
+        &lt;span class=&quot;na&quot;&gt;run&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;npm run pa11y-ci:sitemap 2&amp;gt;&amp;amp;1 | tee pa11y_output.txt&lt;/span&gt;
+        
+      &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;Read pa11y_output file.&lt;/span&gt;
+        &lt;span class=&quot;na&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;pa11y_output&lt;/span&gt;
+        &lt;span class=&quot;na&quot;&gt;uses&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;juliangruber/read-file-action@v1&lt;/span&gt;
+        &lt;span class=&quot;na&quot;&gt;with&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+          &lt;span class=&quot;na&quot;&gt;path&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;./pa11y_output.txt&lt;/span&gt;
+        
+      &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;Comment on pull request.&lt;/span&gt;
+        &lt;span class=&quot;na&quot;&gt;uses&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;thollander/actions-comment-pull-request@master&lt;/span&gt;
+        &lt;span class=&quot;na&quot;&gt;with&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+          &lt;span class=&quot;na&quot;&gt;GITHUB_TOKEN&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;${{ secrets.GITHUB_TOKEN }}&lt;/span&gt;
+          &lt;span class=&quot;na&quot;&gt;message&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;lt;details&amp;gt;&amp;lt;summary&amp;gt;Pa11y&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;testing&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;results&amp;lt;/summary&amp;gt;&lt;/span&gt;
+
+
+&lt;span class=&quot;s&quot;&gt;```${{&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;steps.pa11y_output.outputs.content&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;}}```&lt;/span&gt;
+
+&lt;span class=&quot;s&quot;&gt;&amp;lt;/details&amp;gt;'&lt;/span&gt;
+
+      &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;Check for pa11y failures.&lt;/span&gt;
+        &lt;span class=&quot;na&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;contains(steps.pa11y_output.outputs.content, 'errno 2')&lt;/span&gt;
+        &lt;span class=&quot;na&quot;&gt;run&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;pi&quot;&gt;|&lt;/span&gt;
+          &lt;span class=&quot;s&quot;&gt;echo &quot;::error::The site is failing accessibility tests. Please review the comment in the pull request or the pa11y-ci step in the workflow for details.&quot;&lt;/span&gt;
+          &lt;span class=&quot;s&quot;&gt;exit 1&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;From the top, this action is run only on pull requests and uses the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ubuntu-latest&lt;/code&gt; image. Then the steps will:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Check out the source code.&lt;/li&gt;
+  &lt;li&gt;Install the Jekyll Ruby dependencies but caches them so that subsequent runs can go faster.&lt;/li&gt;
+  &lt;li&gt;Install the pa11y-ci dependencies via npm.&lt;/li&gt;
+  &lt;li&gt;Start the webserver as we did locally.&lt;/li&gt;
+  &lt;li&gt;Run pa11y-ci to test the site and capture the output to a file.*&lt;/li&gt;
+  &lt;li&gt;Read the file to a variable so that we can use it in the next step.*&lt;/li&gt;
+  &lt;li&gt;Send the results of the file to the pull request as a comment in a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;details&amp;gt;&lt;/code&gt; collapsed element.*&lt;/li&gt;
+  &lt;li&gt;Check the output for failures and &quot;hard fail&quot; the action.*&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;* &lt;em&gt;Capturing the output to a file and commenting on the pull request are optional features and could be harder to maintain. You can simply run the pa11y-ci commands and view the results in the action output.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Here is an example screenshot of the GitHub action run of pa11y-ci tests (taken from &lt;a href=&quot;https://github.com/CivicActions/accessibility/pull/127/checks&quot;&gt;https://github.com/CivicActions/accessibility/pull/127/checks&lt;/a&gt;):&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/github-action-steps.png&quot; alt=&quot;Screenshot of the GitHub action run&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Here is an example screenshot of the comments added to a pull request (taken from &lt;a href=&quot;https://github.com/CivicActions/accessibility/pull/137#issuecomment-796975773&quot;&gt;https://github.com/CivicActions/accessibility/pull/137#issuecomment-796975773&lt;/a&gt;):&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/github-actions-comment-in-pull-request.png&quot; alt=&quot;Screenshot of the GitHub action comment&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;summary&quot;&gt;Summary&lt;/h2&gt;
+&lt;p&gt;Using the above steps, you can quickly get your GitHub-hosted Jekyll site automatically tested for accessibility issues, but remember, automatic tests are not a panacea.&lt;/p&gt;
+
+&lt;p&gt;As noted in our &lt;a href=&quot;/playbook/automated-testing&quot;&gt;playbook for automated testing&lt;/a&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;… no matter the tool, &lt;a href=&quot;https://alphagov.github.io/accessibility-tool-audit/&quot;&gt;automated testing only catches about one-third of accessibility issues&lt;/a&gt;, so it cannot be relied upon to determine if a site complies. To better ensure that their digital tools are accessible to keyboard-only and assistive technology users, automated tests need to be done along with a robust manual testing plan.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;further-reading-and-examples&quot;&gt;Further reading and examples&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://andrewmee.com/posts/automated-accessibility-testing-node-travis-ci-pa11y/&quot;&gt;Automated accessibility testing with Travis CI&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://medium.com/@f3igao/how-to-automate-web-accessibility-testing-921512bdd4bf&quot;&gt;How to Automate Web Accessibility Testing&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Examples of applying the above steps to Jekyll sites:
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/bbc/accessibility-news-and-you&quot;&gt;BBC's &quot;Accessibility, News and You&quot;&lt;/a&gt; can be seen in this pull request: &lt;a href=&quot;https://github.com/dmundra/accessibility-news-and-you/pull/1&quot;&gt;https://github.com/dmundra/accessibility-news-and-you/pull/1&lt;/a&gt;.&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/GSA/accessibility-for-teams&quot;&gt;GSA's &quot;Accessibility for Teams&quot;&lt;/a&gt; can be seen in this pull request: &lt;a href=&quot;https://github.com/dmundra/accessibility-for-teams/pull/1&quot;&gt;https://github.com/dmundra/accessibility-for-teams/pull/1&lt;/a&gt;.&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/18F/accessibility&quot;&gt;18F Accessibility Guide&lt;/a&gt; can be seen in this pull request: &lt;a href=&quot;https://github.com/dmundra/accessibility-1/pull/1&quot;&gt;https://github.com/dmundra/accessibility-1/pull/1&lt;/a&gt;.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;What are other Jekyll sites doing?
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/pa11y/pa11y.github.io&quot;&gt;The Pa11y website&lt;/a&gt; uses Travis CI and pa11y-ci.&lt;/li&gt;
+      &lt;li&gt;The &lt;a href=&quot;https://github.com/18F/accessibility&quot;&gt;18F Accessibility Guide&lt;/a&gt; uses CircleCI and axe.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Thank you to &lt;a href=&quot;https://civicactions.com/team/melinda-burgess&quot;&gt;Melinda Burgess&lt;/a&gt;, &lt;a href=&quot;/about/people/luke-fretwell&quot;&gt;Luke Fretwell&lt;/a&gt;, and &lt;a href=&quot;/about/people/mike-gifford&quot;&gt;Mike Gifford&lt;/a&gt; for your support, thoughts, and feedback.&lt;/p&gt;</content><author><name>daniel-mundra</name></author><category term="Testing" /><summary type="html">We launched the CivicActions Accessibility practice area and its accompanying website in January 2021.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://accessibility-qa.civicactions.com/card-power.png" /><media:content medium="image" url="https://accessibility-qa.civicactions.com/card-power.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
