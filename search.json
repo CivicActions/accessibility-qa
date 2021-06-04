@@ -284,6 +284,14 @@
   
     {
       
+        "title"    : "Roles",
+        "url"      : "/roles/",
+        "content"  : "                                                            {% include roles.html %}                                        "
+      
+    },
+  
+    {
+      
         "title"    : "Search",
         "url"      : "/search",
         "content"  : "                                                                            Enter Search Term(s):                                                                                                                                                "
@@ -609,7 +617,7 @@
       
         "title"    : "Resources",
         "url"      : "/guide/resources",
-        "content"  : "BooksGeneral and digital-specific accessibility books we recommend.  Accessibility for Everyone  Giving a damn about accessibility  Mismatch: How Inclusion Shapes Design  Inclusive Design for a Digital World: Designing with Accessibility in Mind  Inclusive Design Patterns  Designing Connected Content: Plan and Model Digital Products for Today and Tomorrow  Introduction to Web Accessibility  Understanding Document Accessibility  Agile Accessibility Explained  Web Accessibility for Developers  Professional Web Accessibility Auditing Made Easy  Digital Accessibility as a Business PracticeNewsletters  A11yweekly.com by David A. Kennedy  Accessibility Matters Newsletter - by the IAAP  Microassist&#39;s Accessibility in the News -  by Jack McElaney  More available from WebAxe who maintains a terrific listPodcastsAccessibility related podcasts we recommend.  13 letters - Engaging interviews about the people behind assistive technology. Produced by Be My Eyes.  Be My Eyes Podcast -  Stories about living blind in a sighted world.  A11yrules - Interviews with people with lived experience of technology.  AT Banter - Lively discussion about issues related to assistive technology.  Human Potential at Work - Episodes with people addressing issues of accessibility in the workplace.  IAP Podcast - Interviews on accessibility digital accessibility supported by TPGi.Videos  AXSChat - The videos behind the weekly #axschat Twitter chat  A11yTalks  Accessibility London  AbilityNet  DigitalGov Accessibility Playlist - A YouTube Playlist built by the USA Government  Eric Eggert series - Eric Eggert walks through many high level  Erik Kroes series - Eric Kroes does live reviews of websites and teaches by doing  Heydon&#39;s Webbed Briefs series - A very entertaining and informative series of videos  WAI Web Accessibility Perspectives Videos - A short list of videos from the W3CGovernment-developed accessibility resources  Accessibility Guide by 18F -18F Guide on GitHub  Accessibility for Teams USA Gov -Accessibility for Teams on GitHub  Accessibility Manual by UK&#39;s DWP -Accessibility Manual on GitHub  Accessibility Posters by UK&#39;s Home Office Digital -Posters on GitHub  Digital Accessibility Toolkit by the Government of Canada -Digital Accessibility Toolkit on GitHub  AccessAbility Playbook: Tools for accessible client service by the Government of CanadaMore inspiring open content  a11y.css -a11y.css on GitHub  A11yProject.com -A11yProject.com on GitHub  A11ysupport.io -A11ysupport on GitHub  A11y.coffee -A11y Coffee on GitHub  Accessibility Guidelines by Voxmedia -Accessibility Guidelines Checklist on GitHub  HTML5 Accessibility by Steve Faulkner -HTML5 Accessibility on GitHub  Accessibility Developers Guide (ADG) - ADG on GitHubDrupal accessibility modules  Accessibility Scanner - Sitewide Drupal Scan (Achecker)  A11Y: Form helpers - Fixing form issues like the HTML5 validation.  Block ARIA Landmark Roles - Adding semantics to blocks  CKEditor Abbreviation - CKEditor Plugin  CKEditor Accessibility Auditor - WYSIWYG Scanner (HTML CodeSniffer)  Editoria11y - WYSIWYG Scanner (Tota11y)  Fluidproject UI Options - Preference Editor Widget  High contrast - High Contrast Module  htmLawed - HTML Validity Filter  HTML Purifier - HTML Validity Filter"
+        "content"  : "BooksGeneral and digital-specific accessibility books we recommend.Commercial available  Accessibility for Everyone - Laura Kalbag  Agile Accessibility Explained Dylan Anthony Barrell  Design for Real Life - Sara Wachter-Boettcher and Eric Meyer  Designing Connected Content: Plan and Model Digital Products for Today and Tomorrow - Mike Atherton  End of Average - Todd Rose  Inclusive Design for a Digital World: Designing with Accessibility in Mind - Regine M. Gilbert  Inclusive Design Patterns - Heydon Pickering  Mismatch: How Inclusion Shapes Design - Kat Holmes  Technically Wrong - Sara Wachter-BoettcherFree  Giving a damn about accessibility - Sheri Byrne-Haber (Free)  Introduction to Web Accessibility - the Chang School (Creative Commons Attribution ShareAlike)  Understanding Document Accessibility - the Chang School (Creative Commons Attribution ShareAlike)  Web Accessibility for Developers - the Chang School (Creative Commons Attribution ShareAlike)  Professional Web Accessibility Auditing Made Easy - the Chang School (Creative Commons Attribution ShareAlike)  Digital Accessibility as a Business Practice - the Chang School (Creative Commons Attribution ShareAlike)Newsletters  A11yweekly.com by David A. Kennedy  Accessibility Matters Newsletter - by the IAAP  Microassist&#39;s Accessibility in the News -  by Jack McElaney  More available from WebAxe who maintains a terrific listPodcastsAccessibility related podcasts we recommend.  13 letters - Engaging interviews about the people behind assistive technology. Produced by Be My Eyes.  Be My Eyes Podcast -  Stories about living blind in a sighted world.  A11yrules - Interviews with people with lived experience of technology.  AT Banter - Lively discussion about issues related to assistive technology.  Human Potential at Work - Episodes with people addressing issues of accessibility in the workplace.  IAP Podcast - Interviews on accessibility digital accessibility supported by TPGi.Videos  AXSChat - The videos behind the weekly #axschat Twitter chat  A11yTalks  Accessibility London  AbilityNet  DigitalGov Accessibility Playlist - A YouTube Playlist built by the USA Government  Eric Eggert series - Eric Eggert walks through many high level  Erik Kroes series - Eric Kroes does live reviews of websites and teaches by doing  Heydon&#39;s Webbed Briefs series - A very entertaining and informative series of videos  WAI Web Accessibility Perspectives Videos - A short list of videos from the W3CGovernment-developed accessibility resources  Accessibility Guide by 18F -18F Guide on GitHub  Accessibility for Teams USA Gov -Accessibility for Teams on GitHub  Accessibility Manual by UK&#39;s DWP -Accessibility Manual on GitHub  Accessibility Posters by UK&#39;s Home Office Digital -Posters on GitHub  Digital Accessibility Toolkit by the Government of Canada -Digital Accessibility Toolkit on GitHub  AccessAbility Playbook: Tools for accessible client service by the Government of CanadaMore inspiring open content  a11y.css -a11y.css on GitHub  A11yProject.com -A11yProject.com on GitHub  A11ysupport.io -A11ysupport on GitHub  A11y.coffee -A11y Coffee on GitHub  Accessibility Guidelines by Voxmedia -Accessibility Guidelines Checklist on GitHub  HTML5 Accessibility by Steve Faulkner -HTML5 Accessibility on GitHub  Accessibility Developers Guide (ADG) - ADG on GitHubDrupal accessibility modules  Accessibility Scanner - Sitewide Drupal Scan (Achecker)  A11Y: Form helpers - Fixing form issues like the HTML5 validation.  Block ARIA Landmark Roles - Adding semantics to blocks  CKEditor Abbreviation - CKEditor Plugin  CKEditor Accessibility Auditor - WYSIWYG Scanner (HTML CodeSniffer)  Editoria11y - WYSIWYG Scanner (Tota11y)  Fluidproject UI Options - Preference Editor Widget  High contrast - High Contrast Module  htmLawed - HTML Validity Filter  HTML Purifier - HTML Validity Filter"
       
     },
   
@@ -634,6 +642,55 @@
         "title"    : "Training/certifications",
         "url"      : "/guide/training",
         "content"  : "Training  Accessibility Courses: Courses, webinars, educational videos, and more, offered in web accessibility.Certifications  International Association of Accessibility Professionals (IAAP) Certification  USA DHS: Section 508 Trusted Tester Conformance"
+      
+    },
+  
+  
+    {
+      
+        "title"    : "Accessibility Avery",
+        "url"      : "/personas/accessibility-avery",
+        "content"  : "DescriptionAvery is really up on the standards and best practices on accessibility in the world. They don&#39;t have a GitHub account, but they want to contribute to the community. Avery wants to ensure their government employer keeps up.Avery has terrible allergies in the spring, and they sometimes get massive migraines that stop them from being productive.GoalsBring together recommendations for management about how to improve our siteNeedsFormatted text with larger letters, different font, more spacing, and responsive designThoughtsWonders if there is a link within the plain text that isn&#39;t being emphasizedFeelingsDisoriented with ornamental animations, especially after staring at a screen all dayBehaviorsOften magnifies screen up to 200% to focus on specific textPain pointsWebsites with small text and poor color contrast that keep Avery from identifying their location on a page"
+      
+    },
+  
+    {
+      
+        "title"    : "Designer Darcy",
+        "url"      : "/personas/designer-darcy",
+        "content"  : "Darcy is a fantastic designer who is able to express complex data tables and help people visualize complex ideas very easily. They are a terrific story teller and are able to do so with a combination of images, text, and even videos.They feel that they can do their best work outside in the sun. They do all they can to shade their screen, but often there just isn&#39;t enough contrast. Darcy needs the ability to shift to high contrast or dark mode to be able to see better in different conditions.Goals  Finding tools and techniques that would help them implement more inclusive designs  Understanding when and where accessibility checkpoints fit in the design processNeeds  Ability to control the contrast of the website on their laptop.  Resources for testing with people with disabilities  Understanding how to include video/motion in designs in an accessible wayThoughts  Do my designs pass the checklist to meet accessibility standards?Feelings  Worries the site&#39;s lack of visibility in the sun will force me to go back inside to complete my taskBehaviors  Evaluating designs for accessibility through online checklistsPain points  Information architecture that doesn&#39;t allow them to find what they are looking for"
+      
+    },
+  
+    {
+      
+        "title"    : "Engineer Emery",
+        "url"      : "/personas/engineer-emery",
+        "content"  : "Emery is always on GitHub and forking projects they are curious about. They have made over 1000 contributions this year and issues lots of PR&#39;s. Emery manages two FOSS projects and is always looking for ways to improve them. Some of their projects involve accessibility, so they want to learn more. Emery is often learning from StackExchange and posting questions to the community there.Emery just has one eye, but that doesn&#39;t stop them. Unfortunately, some VR solutions don&#39;t work for them, and they feel sick if there is too much animation on the screen.GoalsLearning best practices about accessibility, particularly for dynamic sitesNeedsAbility to turn off animations or possibly run the site without JavaScriptThoughtsWill the site have motion on it that makes me feel sick?FeelingsWorried the site won&#39;t respect my need for reduced motionBehaviorsSometimes disables images on their browser to not worry about themPain pointsSites that are visually more complicated than needed"
+      
+    },
+  
+    {
+      
+        "title"    : "Procurement Parker",
+        "url"      : "/personas/procurement-parker",
+        "content"  : "DescriptionParker is responsible for evaluating large procurement projects for government departments. They&#39;ve taken the DITAP course, so they are familiar with agile and how that plays into procurement. They aren&#39;t very familiar with accessibility, but they know they have to do more than insert a line about 508 into an RFP.Parker is hard of hearing and has trouble communicating with people over the phone. They prefer communications over email where they make sure they understand.GoalsFind appropriate accessibility provisions, clauses, and acceptance criteria for their reportNeedsVideos with Closed Captions, subtitles and/or transcriptsThoughtsIf there are videos with this site it would be captioned, right?FeelingsFrustrated when closed captions are out of sync or have poor contrastBehaviorsFacial expressions and body positions to convey meaning and fill in missing information. They search for accessibility and procurement and land on a page of our sitePain pointsContact Us pages that do not have secondary and tertiary means of communication."
+      
+    },
+  
+    {
+      
+        "title"    : "QA Quincy",
+        "url"      : "/personas/qa-quincy",
+        "content"  : "DescriptionQuincy is always on top of testing. They enjoy breaking websites to make sure they meet criteria for accessibility, and they care about security and performance of the site. They look at automation because testing can take time.Quincy has a rotator cuff injury and needs to use the keyboard exclusively for a few weeks.GoalsLooking at best practices for QA automationNeedsAbility to navigate websites without using a mouseThoughtsHow can I further automate my process? Is this accessibility information up-to-date?FeelingsTime-pressured for QA workBehaviorsQuickly scans content and misses the fine detail. If it&#39;s not a bullet point, they won&#39;t read itPain pointsTasks that can&#39;t be automated"
+      
+    },
+  
+    {
+      
+        "title"    : "Remote Raz",
+        "url"      : "/personas/remote-raz",
+        "content"  : "Raz wants to work for CivicActions and is keen to see what projects they are involved in. They are keen to work in civic tech because they feel they can have a bigger impact by improving government. They love the great outdoors and are often travelling around to explore the world.Raz is often trying to connect from a camping ground over their cell phone. They turn off images and minimize bandwidth aggressively to be productive.GoalsRaz needs to focus on the work and wants to avoid any additional bandwidth.NeedsAbility to turn off anything that gets in their way.ThoughtsWhat am I missing?FeelingsWorries about delays due to slow internet speeds and high bandwidth costs.BehaviorsOften Raz is engaging in non-peak hours in order to avoid the data &quot;rush hours&quot;.Pain pointsHaving to search for another coffee shop to manage their more high-bandwidth data transfers."
       
     },
   
