@@ -177,129 +177,167 @@
         </ol>
     </nav>
 </div>
-
+<!--<script src="https://accessibility-qa.civicactions.com/assets/js/accordion.js"></script>-->
+<script src="http://127.0.0.1:4000/assets/js/accordion.js"></script>
 <div class="guide-main">
     <div class="">
         <div class="grid-container">
             <div class="grid-row grid-gap flex-align-start">
                 <div class="usa-layout-docs usa-layout-docs__main usa-prose">
-                    <ul class="jekyllcodex_accordion">
-                    
+                    <div class="expand-all-accordion"><button class="expand" onClick='expandingAccordions()' aria-expanded="false" data-toggle="1">Expand/Collapse All</button></div>
+<!--                    <div class="close-all-accordion"><button class="close" aria-expanded="true" data-toggle="1" hidden>Collapse all</button></div>-->
+                    <div id="accordionGroup" class="Accordion" data-allow-toggle>
 
-                    
-                        <li><input id="accordion2" type="checkbox" />
-                            <label for="accordion2"><h2>Tools</h2></label>
-
-                            <div><ul>
-                                
-                                <li><a href="https://wave.webaim.org/extension/">WAVE Browser Extensions</a></li>
-                                
-                            </ul></div>
-
-                        </li>
                     
 
                     
-                        <li><input id="accordion3" type="checkbox" />
-                            <label for="accordion3"><h2>Playbook</h2></label>
-
-                            <div><ul>
-                                
-                                <li><a href="/playbook/pdf">Avoid PDF documents</a></li>
-                                
-                                <li><a href="/playbook/practice">Build a community of practice</a></li>
-                                
-                                <li><a href="/playbook/ai-and-ia">Consider AI & IA</a></li>
-                                
-                                <li><a href="/playbook/documents">Creating accessible documents</a></li>
-                                
-                                <li><a href="/playbook/manual-testing">Do manual testing</a></li>
-                                
-                                <li><a href="/playbook/follow-global-initiatives">Follow global initiatives</a></li>
-                                
-                                <li><a href="/playbook/pwd">Include people with disabilities</a></li>
-                                
-                                <li><a href="/playbook/community">Join the global accessibility community</a></li>
-                                
-                                <li><a href="/playbook/personalization">Support personalization</a></li>
-                                
-                                <li><a href="/playbook/AT">Test with assistive technology</a></li>
-                                
-                                <li><a href="/playbook/checklists">Use checklists</a></li>
-                                
-                            </ul></div>
-
-                        </li>
+                        <div class="accordion">
+                            <div class="accordion-heading" data-toggle="1">
+                                <h2>Tools</h2>
+                            </div>
+                            <div class="accordion-body" data-body="1" hidden>
+                                <ul>
+                                    
+                                    <li><a href="https://wave.webaim.org/extension/">WAVE Browser Extensions</a></li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
                     
 
                     
-                        <li><input id="accordion4" type="checkbox" />
-                            <label for="accordion4"><h2>Books</h2></label>
-
-                            <div><ul>
-                                
-                                <li><a href="https://abookapart.com/products/accessibility-for-everyone">Accessibility for Everyone</a></li>
-                                
-                                <li><a href="https://www.amazon.com/Agile-Accessibility-Explained-sustainable-development/dp/1689182733/ref=sr_1_2?dchild=1&keywords=Agile+Accessibility+Explained&qid=1615337578&sr=8-2">Agile Accessibility Explained</a></li>
-                                
-                                <li><a href="https://mitpress.mit.edu/books/mismatch">Mismatch: How Inclusion Shapes Design</a></li>
-                                
-                            </ul></div>
-
-                        </li>
+                        <div class="accordion">
+                            <div class="accordion-heading" data-toggle="1">
+                                <h2>Playbook</h2>
+                            </div>
+                            <div class="accordion-body" data-body="1" hidden>
+                                <ul>
+                                    
+                                    <li><a href="/playbook/pdf">Avoid PDF documents</a></li>
+                                    
+                                    <li><a href="/playbook/practice">Build a community of practice</a></li>
+                                    
+                                    <li><a href="/playbook/ai-and-ia">Consider AI & IA</a></li>
+                                    
+                                    <li><a href="/playbook/documents">Creating accessible documents</a></li>
+                                    
+                                    <li><a href="/playbook/manual-testing">Do manual testing</a></li>
+                                    
+                                    <li><a href="/playbook/follow-global-initiatives">Follow global initiatives</a></li>
+                                    
+                                    <li><a href="/playbook/pwd">Include people with disabilities</a></li>
+                                    
+                                    <li><a href="/playbook/community">Join the global accessibility community</a></li>
+                                    
+                                    <li><a href="/playbook/personalization">Support personalization</a></li>
+                                    
+                                    <li><a href="/playbook/AT">Test with assistive technology</a></li>
+                                    
+                                    <li><a href="/playbook/checklists">Use checklists</a></li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
                     
 
                     
-                        <li><input id="accordion5" type="checkbox" />
-                            <label for="accordion5"><h2>Guide</h2></label>
-
-                            <div><ul>
-                                
-                                <li><a href="/guide/events">Events</a></li>
-                                
-                                <li><a href="/guide/glossary">Glossary</a></li>
-                                
-                                <li><a href="/guide/history">History</a></li>
-                                
-                                <li><a href="/guide/identity-language">Identity and language</a></li>
-                                
-                                <li><a href="/guide/organizations">Organizations</a></li>
-                                
-                                <li><a href="/guide/plain-language">Plain language</a></li>
-                                
-                                <li><a href="/guide/training">Training/certifications</a></li>
-                                
-                            </ul></div>
-
-                        </li>
+                        <div class="accordion">
+                            <div class="accordion-heading" data-toggle="1">
+                                <h2>Books</h2>
+                            </div>
+                            <div class="accordion-body" data-body="1" hidden>
+                                <ul>
+                                    
+                                    <li><a href="https://abookapart.com/products/accessibility-for-everyone">Accessibility for Everyone</a></li>
+                                    
+                                    <li><a href="https://www.amazon.com/Agile-Accessibility-Explained-sustainable-development/dp/1689182733/ref=sr_1_2?dchild=1&keywords=Agile+Accessibility+Explained&qid=1615337578&sr=8-2">Agile Accessibility Explained</a></li>
+                                    
+                                    <li><a href="https://mitpress.mit.edu/books/mismatch">Mismatch: How Inclusion Shapes Design</a></li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
                     
 
                     
-                        <li><input id="accordion6" type="checkbox" />
-                            <label for="accordion6"><h2>Projects</h2></label>
-
-                            <div><ul>
-                                
-                                <li><a href="/projects/uswds">U.S. Web Design System</a></li>
-                                
-                                <li><a href="/projects/uswds-color">USWDS Color Tool</a></li>
-                                
-                            </ul></div>
-
-                        </li>
+                        <div class="accordion">
+                            <div class="accordion-heading" data-toggle="1">
+                                <h2>Guide</h2>
+                            </div>
+                            <div class="accordion-body" data-body="1" hidden>
+                                <ul>
+                                    
+                                    <li><a href="/guide/events">Events</a></li>
+                                    
+                                    <li><a href="/guide/glossary">Glossary</a></li>
+                                    
+                                    <li><a href="/guide/history">History</a></li>
+                                    
+                                    <li><a href="/guide/identity-language">Identity and language</a></li>
+                                    
+                                    <li><a href="/guide/organizations">Organizations</a></li>
+                                    
+                                    <li><a href="/guide/plain-language">Plain language</a></li>
+                                    
+                                    <li><a href="/guide/training">Training/certifications</a></li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
                     
 
                     
-                        <li><input id="accordion7" type="checkbox" />
-                            <label for="accordion7"><h2>News</h2></label>
-
-                            <div><ul>
-                                
-                            </ul></div>
-
-                        </li>
+                        <div class="accordion">
+                            <div class="accordion-heading" data-toggle="1">
+                                <h2>Projects</h2>
+                            </div>
+                            <div class="accordion-body" data-body="1" hidden>
+                                <ul>
+                                    
+                                    <li><a href="/projects/uswds">U.S. Web Design System</a></li>
+                                    
+                                    <li><a href="/projects/uswds-color">USWDS Color Tool</a></li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
                     
-                    </ul>
+
+                    
+                        <div class="accordion">
+                            <div class="accordion-heading" data-toggle="1">
+                                <h2>News</h2>
+                            </div>
+                            <div class="accordion-body" data-body="1" hidden>
+                                <ul>
+                                    
+                                    <li><a href="/posts/mvp-guide">CivicActions Accessibility Guide now available</a></li>
+                                    
+                                    <li><a href="/posts/mvp-playbook">CivicActions Accessibility Playbook now available</a></li>
+                                    
+                                    <li><a href="/posts/govtech-how-will-biden-transform-government-website-accessibility">Government Technology: How Will Biden Transform Government Website Accessibility</a></li>
+                                    
+                                    <li><a href="/posts/heart-accessibility">HEART: Ensuring government digital services accessibility</a></li>
+                                    
+                                    <li><a href="/posts/hello-world">Hello world</a></li>
+                                    
+                                    <li><a href="/posts/how-we-scale-inclusive-website-content-with-automated-testing-and-open-source-tools">How we scale inclusive website content with automated testing and open source tools</a></li>
+                                    
+                                    <li><a href="/posts/improve-government-accessibility-through-open-source">Improving government accessibility through open source</a></li>
+                                    
+                                    <li><a href="/posts/at-banter-podcast">Mike Gifford interviewed on the AT Banter Podcast</a></li>
+                                    
+                                    <li><a href="/posts/website-analytics">Open analytics on the CivicActions Accessibility website</a></li>
+                                    
+                                    <li><a href="/posts/plain-language-accessibility-guide">Plain language page added to CivicActions Accessibility Guide</a></li>
+                                    
+                                    <li><a href="/posts/smashingmag-baking-in-accessibility-testing">Smashing Magazine: 'How To Bake Layers Of Accessibility Testing Into Your Process'</a></li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                    
+                  </div>
                 </div>
             </div>
         </div>
@@ -327,7 +365,7 @@
        
 
 <!--  // Date not working
-     &nbsp; &middot; &nbsp; Last updated: June 30, 2021 at 02:29 PM 
+     &nbsp; &middot; &nbsp; Last updated: June 30, 2021 at 06:04 PM 
 -->
         
       </p>
