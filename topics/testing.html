@@ -109,6 +109,24 @@
     <aside>
       
       
+<section class="usa-hero" aria-label="Introduction">
+  <div class="grid-container">
+    <div class="usa-hero__callout">
+      
+      <h1 class="usa-hero__heading">
+        
+        Testing
+      </h1>
+      
+
+      
+
+
+      
+    </div>
+  </div>
+</section>
+
 
 
       
@@ -157,55 +175,67 @@
         </ol>
     </nav>
 </div>
-<div class="test">
+<script src="/assets/js/accordion.js"></script>
+
     <div class="grid-container">
-        <div class="">
             <div class="grid-row grid-gap flex-align-start">
                 <div class="usa-layout-docs usa-layout-docs__main usa-prose">
+                    <div class="expand-all-accordion"><button class="expand usa-button" onClick='expandingAccordions()' aria-expanded="false" data-toggle="1">Expand/Collapse All</button></div>
+
+                    <div id="accordionGroup" class="Accordion" data-allow-toggle>
+
                     
-                    <h1>Testing</h1>
+                        <div class="accordion">
+                            <div tabIndex='0' class="accordion-heading" data-toggle="1">
+                                <h2>Playbook</h2>
+                            </div>
+                            <div class="accordion-body" data-body="1" hidden>
+                                <ul>
+                                    
+                                    <li><a href="/playbook/automated-testing">Implement automated testing</a></li>
+                                    
+                                    <li><a href="/playbook/manual-testing">Do manual testing</a></li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
                     
 
                     
-                    <h2>Playbook</h2>
-                    
-                    <article>
-                        <h3><a href="/playbook/automated-testing">Implement automated testing</a></h3>
-                    </article>
-                    
-                    <article>
-                        <h3><a href="/playbook/manual-testing">Do manual testing</a></h3>
-                    </article>
-                    
-                    
 
                     
 
                     
 
                     
-
-                    
-                    <h2>News</h2>
-                    
-                    
-                    <article>
-                        <h3><a href="/posts/how-we-scale-inclusive-website-content-with-automated-testing-and-open-source-tools">How we scale inclusive website content with automated testing and open source tools</a></h3>
-                        <p class="text-muted">May, 25 2021 &middot; <a href="/about/people/daniel-mundra">Daniel Mundra</a></p>
-                    </article>
-                    
-                    
-                    <article>
-                        <h3><a href="/posts/automated-accessibility-testing-leveraging-github-actions-and-pa11y-ci-with-axe">Automated accessibility testing: Leveraging GitHub Actions and pa11y-ci with axe</a></h3>
-                        <p class="text-muted">March, 12 2021 &middot; <a href="/about/people/daniel-mundra">Daniel Mundra</a></p>
-                    </article>
-                    
+                        <div class="accordion">
+                            <div tabIndex='0' class="accordion-heading" data-toggle="1">
+                                <h2>News</h2>
+                            </div>
+                            <div class="accordion-body" data-body="1" hidden>
+                                <ul>
+                                    
+                                    
+                                    <li>
+                                        <a href="/posts/how-we-scale-inclusive-website-content-with-automated-testing-and-open-source-tools">How we scale inclusive website content with automated testing and open source tools</a>
+                                        <p class="text-muted">May, 25 2021 &middot; <a href="/about/people/daniel-mundra">Daniel Mundra</a></p>
+                                    </li>
+                                    
+                                    
+                                    <li>
+                                        <a href="/posts/automated-accessibility-testing-leveraging-github-actions-and-pa11y-ci-with-axe">Automated accessibility testing: Leveraging GitHub Actions and pa11y-ci with axe</a>
+                                        <p class="text-muted">March, 12 2021 &middot; <a href="/about/people/daniel-mundra">Daniel Mundra</a></p>
+                                    </li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
                     
                 </div>
             </div>
         </div>
     </div>
-</div>
+
       </main>
     
 
@@ -227,7 +257,7 @@
        
 
 <!--  // Date not working
-     &nbsp; &middot; &nbsp; Last updated: July 05, 2021 at 01:31 PM 
+     &nbsp; &middot; &nbsp; Last updated: July 12, 2021 at 03:51 PM 
 -->
         
       </p>
