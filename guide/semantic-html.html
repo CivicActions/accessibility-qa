@@ -5,11 +5,11 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<title>License | CivicActions Accessibility</title>
+<title>Semantic HTML | CivicActions Accessibility</title>
 
 
 
-<meta name="description" content="License for CivicActions Accessibility.">
+<meta name="description" content="Basic information on semantic HTML and accessibility.">
 
 
 
@@ -129,7 +129,7 @@
     </aside>
 
     
-      <main id="main-content" class="usa-layout-docs usa-layout-docs__main desktop:grid-col-9 usa-prose">
+      <main id="main-content" ="">
         <div id="breadcrumbs" class="grid-container">
     
     <nav class="usa-breadcrumb" aria-label="Breadcrumbs">
@@ -140,35 +140,194 @@
             
             
             <li class="usa-breadcrumb__list-item usa-current" aria-current="page">
-                License
+                <a class="usa-breadcrumb__link" href="/guide/">Guide</a>
+            </li>
+            
+            
+            
+            <li class="usa-breadcrumb__list-item usa-current" aria-current="page">
+                Semantic HTML
             </li>
             
             
         </ol>
     </nav>
 </div>
-<div class="usa-section">
-  <div class="grid-container">
-    <div class="grid-row grid-gap flex-align-start">
+</div>
+<div class="guide-main">
+    <div class="">
+        <div class="grid-container">
+            <div class="grid-row grid-gap">
+                
+                
+                <div class="usa-layout-docs__sidenav desktop:grid-col-3">
+                    <nav aria-label="Secondary navigation">
+  <ul class="usa-sidenav">
+    
       
+      <li>
+        <a href="/guide/introduction" class="list-group-item list-group-item-action ">
+          Introduction
+        </a>
+      </li>
+    
       
+      <li>
+        <a href="/guide/history" class="list-group-item list-group-item-action ">
+          History
+        </a>
+      </li>
+    
+      
+      <li>
+        <a href="/guide/identity-language" class="list-group-item list-group-item-action ">
+          Identity and language
+        </a>
+      </li>
+    
+      
+      <li>
+        <a href="/guide/plain-language" class="list-group-item list-group-item-action ">
+          Plain language
+        </a>
+      </li>
+    
+      
+      <li>
+        <a href="/guide/tools" class="list-group-item list-group-item-action ">
+          Tools
+        </a>
+      </li>
+    
+      
+      <li>
+        <a href="/guide/design" class="list-group-item list-group-item-action ">
+          Design systems
+        </a>
+      </li>
+    
+      
+      <li>
+        <a href="/guide/documents" class="list-group-item list-group-item-action ">
+          Accessible documents
+        </a>
+      </li>
+    
+      
+      <li>
+        <a href="/guide/social-media" class="list-group-item list-group-item-action ">
+          Social media
+        </a>
+      </li>
+    
+      
+      <li>
+        <a href="/guide/events" class="list-group-item list-group-item-action ">
+          Events
+        </a>
+      </li>
+    
+      
+      <li>
+        <a href="/guide/organizations" class="list-group-item list-group-item-action ">
+          Organizations
+        </a>
+      </li>
+    
+      
+      <li>
+        <a href="/guide/training" class="list-group-item list-group-item-action ">
+          Training/certifications
+        </a>
+      </li>
+    
+      
+      <li>
+        <a href="/guide/resources" class="list-group-item list-group-item-action ">
+          Resources
+        </a>
+      </li>
+    
+      
+      <li>
+        <a href="/guide/semantic-html" class="list-group-item list-group-item-action usa-current">
+          Semantic HTML
+        </a>
+      </li>
+    
+      
+      <li>
+        <a href="/guide/glossary" class="list-group-item list-group-item-action ">
+          Glossary
+        </a>
+      </li>
+    
+      
+      <li>
+        <a href="/guide/onboarding-staff" class="list-group-item list-group-item-action ">
+          Onboarding
+        </a>
+      </li>
+    
+  </ul>
+</nav>
 
-      <div class="usa-layout-docs  usa-layout-docs__main usa-prose">
-        
-          <h1>License</h1>
-        
-        
-          <p class="lead">License for CivicActions Accessibility.</p>
-        
-          <!-- content -->
+                </div>
+                
+                <div class="usa-layout-docs anchor-links usa-layout-docs__main usa-prose desktop:grid-col-9">
+                    
+                    <h1>Semantic HTML</h1>
+                    
+                    <!-- content -->
+                    <p>Writing semantic HTML can make your site more accessible. When you switch your browser to “read mode”, only the main content will be visible. Read mode hides:</p>
+<ul>
+  <li>the header</li>
+  <li>footer</li>
+  <li>background images,</li>
+  <li>colours</li>
+  <li>animations</li>
+  <li>or functionality like tabs and accordions.</li>
+</ul>
 
-          
-            <p>This work is licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>).</p>
+<p>Many people switch to read mode to improve their readability. It can also make for more personalization, allowing the user to control how they see the web page.</p>
 
-          
-      </div>
+<p>The <code class="language-plaintext highlighter-rouge">&lt;div&gt;</code> element main purpose is for styling your page. Read mode will ignore &lt;div&gt; tags, so any text inside not a heading or <code class="language-plaintext highlighter-rouge">&lt;p&gt;</code> will be ignored. Users using the read mode will not get all the information that they should, and can be confusing.</p>
+
+<p>HTML elements to structure every page:</p>
+<ul>
+  <li>header</li>
+  <li>nav</li>
+  <li>main</li>
+  <li>article</li>
+  <li>aside</li>
+  <li>footer</li>
+</ul>
+
+<p>Headings
+Use only one H1 per page, which should match the page title.
+Do not skip heading levels.</p>
+      <h2 id="using-reader-mode-in-browsers">
+        
+        
+          Using reader mode in browsers <a href="#using-reader-mode-in-browsers" class="anchor-link" aria-labelledby=using-reader-mode-in-browsers><span aria-hidden='true'>
+                    <svg class='usa-icon' aria-hidden='true' focusable='false' role='img'><use xlink:href='/assets/uswds-icons/sprite.svg#link'></use></svg>
+                </span><span class='sr-only'>Anchor link</span></a>
+        
+        
+      </h2>
+    
+
+<ul>
+  <li>Edge - by adding <code class="language-plaintext highlighter-rouge">read://</code> to before your url (example <code class="language-plaintext highlighter-rouge">read://https://www.civicactions.com</code>)</li>
+  <li>Chrome - <a href="https://chrome.google.com/webstore/detail/reader-mode/llimhhconnjiflfimocjggfjdlmlhblm?hl=en">download the app</a> or <a href="https://www.howtogeek.com/423643/how-to-use-google-chromes-hidden-reader-mode/">enable the read mode setting</a></li>
+  <li>Safari - <code class="language-plaintext highlighter-rouge">Ctrl+Shift+R</code> turns on reading mode on a macbook</li>
+  <li>Firefox - <code class="language-plaintext highlighter-rouge">View-&gt;Enter reader view</code> from top toolbar or to the right of the url is a reader view button</li>
+</ul>
+
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
 </div>
 
       </main>
@@ -188,7 +347,7 @@
       
         
 
-<a href="https://github.com/civicactions/accessibility/edit/main/pages/license.md" class="usa-sidenav-edit" target="_blank">Help improve this page</a>
+<a href="https://github.com/civicactions/accessibility/edit/main/_guide/semantic-html.md" class="usa-sidenav-edit" target="_blank">Help improve this page</a>
        
 
 <!--  // Date not working
