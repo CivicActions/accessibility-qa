@@ -1,254 +1,285 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://accessibility-qa.civicactions.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://accessibility-qa.civicactions.com/" rel="alternate" type="text/html" /><updated>2022-05-10T16:08:54+00:00</updated><id>https://accessibility-qa.civicactions.com/feed.xml</id><title type="html">CivicActions Accessibility</title><entry><title type="html">CivicActions creates Open Product Accessibility Template (OPAT) with the GSA</title><link href="https://accessibility-qa.civicactions.com/posts/CivicActions-Creates-Open-Product-Accessibility-Template" rel="alternate" type="text/html" title="CivicActions creates Open Product Accessibility Template (OPAT) with the GSA" /><published>2021-08-13T00:00:00+00:00</published><updated>2022-05-10T16:06:59+00:00</updated><id>https://accessibility-qa.civicactions.com/posts/CivicActions-Creates-Open-Product-Accessibility-Template</id><content type="html" xml:base="https://accessibility-qa.civicactions.com/posts/CivicActions-Creates-Open-Product-Accessibility-Template">&lt;p&gt;CivicActions is working with the GSA to modernize the VPAT process to ensure that it is machine-readable. The goal of this process is to help make accessibility conformance monitoring easier and more meaningful for everyone. You can more about this project on the &lt;a href=&quot;https://github.com/GSA/open-product-accessibility-template&quot;&gt;OPAT GitHub Project&lt;/a&gt; and we are actively encouraging people to &lt;a href=&quot;https://github.com/GSA/open-product-accessibility-template/issues&quot;&gt;submit suggestions&lt;/a&gt; on how it could be improved.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://accessibility-qa.civicactions.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://accessibility-qa.civicactions.com/" rel="alternate" type="text/html" /><updated>2022-08-05T21:34:56+00:00</updated><id>https://accessibility-qa.civicactions.com/feed.xml</id><title type="html">CivicActions Accessibility</title><entry><title type="html">Mike Gifford &amp;amp; Daniel Mundra interviewed on the Talking Drupal podcast</title><link href="https://accessibility-qa.civicactions.com/posts/Talking-Drupal-Podcast" rel="alternate" type="text/html" title="Mike Gifford &amp;amp; Daniel Mundra interviewed on the Talking Drupal podcast" /><published>2022-05-31T16:00:00+00:00</published><updated>2022-08-05T18:46:20+00:00</updated><id>https://accessibility-qa.civicactions.com/posts/Talking-Drupal-Podcast</id><content type="html" xml:base="https://accessibility-qa.civicactions.com/posts/Talking-Drupal-Podcast"><![CDATA[<p>Mike and I were interviewed on the <a href="https://talkingdrupal.com/350">Talking Drupal podcast #350</a> on Accessibility Scanning &amp; Testing. We discussed various tools, strategies, OpenACR, and so on.</p>]]></content><author><name>daniel-mundra</name></author><summary type="html"><![CDATA[A discussion about Accessibility Scanning & Testing in Drupal.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://accessibility-qa.civicactions.com/card-power.png" /><media:content medium="image" url="https://accessibility-qa.civicactions.com/card-power.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">CivicActions Accessibility Pledge</title><link href="https://accessibility-qa.civicactions.com/posts/CivicActions-Accessibility-Pledge" rel="alternate" type="text/html" title="CivicActions Accessibility Pledge" /><published>2022-05-19T00:00:00+00:00</published><updated>2022-08-05T18:46:20+00:00</updated><id>https://accessibility-qa.civicactions.com/posts/CivicActions-Accessibility-Pledge</id><content type="html" xml:base="https://accessibility-qa.civicactions.com/posts/CivicActions-Accessibility-Pledge"><![CDATA[<p>The World Health Organization estimates the number of people with disabilities in the world is more than 1 billion—and everyone experiences 
+temporary or situational disabilities.  According to the <a href="https://webaim.org/projects/million/">WebAIM 2022 report</a> on the accessibility of the top million sites, 96.8% of home pages have 
+accessibility failures.</p>
+
+<p>CivicActions recognizes that the digital world is the operational hub for critical human services. By safeguarding and committing to an accessible digital future, we ensure more people can get the help they need, and service-providers can readily engage.</p>
+
+<p>To continue to advance our accessibility maturity,  CivicActions has established the following:</p>
+<ul>
+  <li>Introduction to Accessibility as part of employee onboarding</li>
+  <li>CivicActions Global Accessibility Community of Practice</li>
+  <li>Free and Open Source Software Products, such as site-wide accessibility monitoring tools and the <a href="https://gsa.github.io/openacr-editor/">OpenACR</a> project.</li>
+  <li>Inclusive agile development process</li>
+  <li>Accessibility Champions Program</li>
+  <li>Annual engagement in events like Global Accessibility Awareness Day (GAAD)</li>
+</ul>
+
+<p>Today, we reaffirm our commitment to digital accessibility with this pledge.</p>
+
+<p>CivicActions hereby pledges to build and maintain digital tools with the following guidelines.</p>
 
-&lt;p&gt;This project has several goals. We are working to build an Accessibility Conformance Report(ACR) that is:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Transparent&lt;/strong&gt; - Easily comparable compliance reports.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Validatable&lt;/strong&gt; - Confidence that reports meet minimum standards.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Aggregable&lt;/strong&gt; - Enterprise-wide accessibility confidence.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Versioned&lt;/strong&gt; - ACRs should follow digital best practices.&lt;/li&gt;
-&lt;/ul&gt;
+<ol>
+  <li>Our work will be continuously monitored
+    <ul>
+      <li>Integrate best of breed accessibility testing into our continuous integration processes</li>
+      <li>Ensure all developers and designers start using accessibility tools in their editors</li>
+      <li>Automated site-wide testing and historical analysis will be used</li>
+      <li>Site-wide test scores and improvement targets will be incorporated into agile process</li>
+      <li>Manual testing will be done alongside automated testing to catch issues that automated testing cannot evaluate</li>
+      <li>Testing with users with disabilities where possible to see that people with lived experience evaluate critical tasks</li>
+      <li>Incorporate structured WCAG-EM evaluations into contractual annual reviews with our clients</li>
+    </ul>
+  </li>
+  <li>Upon onboarding, we will inform our teams, partners, and clients about why accessibility is important and set collective priorities</li>
+</ol>
 
-&lt;p&gt;Modern ACRs need to be:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;machine-readable&lt;/li&gt;
-  &lt;li&gt;able to integrate with modern software development tools&lt;/li&gt;
-  &lt;li&gt;aligned with modern software versioning&lt;/li&gt;
-  &lt;li&gt;easily editable and comparable&lt;/li&gt;
-  &lt;li&gt;centrally updated and publicly available&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Our work with the GSA is helping set the foundation for this work.&lt;/p&gt;</content><author><name>mike-gifford</name></author><summary type="html">CivicActions is working with the GSA to modernize the VPAT process to ensure that it is machine-readable. The goal of this process is to help make accessibility conformance monitoring easier and more meaningful for everyone. You can more about this project on the OPAT GitHub Project and we are actively encouraging people to submit suggestions on how it could be improved.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://accessibility-qa.civicactions.com/card-power.png" /><media:content medium="image" url="https://accessibility-qa.civicactions.com/card-power.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">CivicActions wins contract to produce a machine-readable Voluntary Product Accessibility Template® (VPAT®)</title><link href="https://accessibility-qa.civicactions.com/posts/gsa-machine-readable-acr" rel="alternate" type="text/html" title="CivicActions wins contract to produce a machine-readable Voluntary Product Accessibility Template® (VPAT®)" /><published>2021-08-11T14:00:00+00:00</published><updated>2022-05-10T16:06:59+00:00</updated><id>https://accessibility-qa.civicactions.com/posts/gsa-machine-readable-acr</id><content type="html" xml:base="https://accessibility-qa.civicactions.com/posts/gsa-machine-readable-acr">&lt;p&gt;We're thrilled to be helping the &lt;a href=&quot;https://www.gsa.gov/&quot;&gt;GSA&lt;/a&gt; improve its digital accessibility by improving procurement! The standard Accessibility Compliance Report(ACR) for the last two decades has been the Voluntary Product Accessibility Template® (VPAT®). Moving to a machine-readable format will make it easier for everyone to have better knowledge of software accessibility.&lt;/p&gt;
+<ul>
+  <li>We will define and document success for accessibility in Human Centered Design, Customer Experiences and Section 508 compliance, among other priorities</li>
+  <li>These agreed-to accessibility priorities will be incorporated into our Project Charters and regularly reviewed by our team</li>
+  <li>We will have designated accessibility champions on all projects and work to have IAAP Certified and/or DHS 508 Certified staff</li>
+</ul>
 
-&lt;p&gt;As &lt;a href=&quot;https://etc.g2xchange.com/statics/civicactions-receives-contract-award-from-gsa-to-improve-digital-accessibility-of-compliance-reports/&quot;&gt;announced on g2xchange&lt;/a&gt; this process will move ACR from an essentially paper-based format to one that is in well structured digital files that can be validated. Having a standardized machine-readable format will make it easier for people to compare between versions of a given digital tool, as well as between multiple tools.&lt;/p&gt;</content><author><name>mike-gifford</name></author><summary type="html">We're thrilled to be helping the GSA improve its digital accessibility by improving procurement! The standard Accessibility Compliance Report(ACR) for the last two decades has been the Voluntary Product Accessibility Template® (VPAT®). Moving to a machine-readable format will make it easier for everyone to have better knowledge of software accessibility.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://accessibility-qa.civicactions.com/card-power.png" /><media:content medium="image" url="https://accessibility-qa.civicactions.com/card-power.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">What we learned about accessibility by scanning more than 2 million federal .gov web pages</title><link href="https://accessibility-qa.civicactions.com/posts/scanning-over-two-million-gov-pages" rel="alternate" type="text/html" title="What we learned about accessibility by scanning more than 2 million federal .gov web pages" /><published>2021-07-30T14:00:00+00:00</published><updated>2022-05-10T16:06:59+00:00</updated><id>https://accessibility-qa.civicactions.com/posts/scanning-over-two-million-gov-pages</id><content type="html" xml:base="https://accessibility-qa.civicactions.com/posts/scanning-over-two-million-gov-pages">&lt;p&gt;On July 22 Mike Gifford and &lt;a href=&quot;https://proudcity.com/contacts/luke-fretwell/&quot;&gt;Luke Fretwell&lt;/a&gt; had &lt;a href=&quot;https://fcw.com/articles/2021/07/22/fed-website-accessibility.aspx&quot;&gt;this article&lt;/a&gt; published in FCW (Federal Computer Week) to highlight months of work scanning federal .gov web pages.&lt;/p&gt;
+<ol>
+  <li>As a company, CivicActions will set annual goals and report against them publicly on CivicActions.com/accessibility-reports</li>
+</ol>
 
-&lt;p&gt;We tested against 2.1 AA requirements, the current best practice for digital accessibility standards. The open source tools we used were &lt;a href=&quot;https://github.com/MSU-NatSci/DomainAccessibilityAudit&quot;&gt;Domain Accessibility Audit&lt;/a&gt; (to crawl the pages) and &lt;a href=&quot;https://github.com/dequelabs/axe-core&quot;&gt;axe&lt;/a&gt; (to perform the actual accessibility scans).&lt;/p&gt;
+<ul>
+  <li>Strive for no accessibility errors as much as can be identified through our automated testing process</li>
+  <li>Document process for choosing representative sample of pages for reviews</li>
+  <li>Detail what testing processes have been set up for each projects and what common code has been shared</li>
+</ul>
 
-&lt;p&gt;These problems are happening because accessibility has been an afterthought, even in government. In order for accessibility success to scale in the enterprise we need to take a more holistic approach. For this we have developed our &lt;a href=&quot;https://accessibility-qa.civicactions.com/heart&quot;&gt;HEART&lt;/a&gt; framework.&lt;/p&gt;
+<p>Authorized by Henry Poole, CEO
+May 19, 2022</p>]]></content><author><name>mike-gifford</name></author><summary type="html"><![CDATA[Our committment to accessibility is encapsulated in this pledge.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://accessibility-qa.civicactions.com/card-power.png" /><media:content medium="image" url="https://accessibility-qa.civicactions.com/card-power.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">CivicActions creates Open Product Accessibility Template (OPAT) with the GSA</title><link href="https://accessibility-qa.civicactions.com/posts/CivicActions-Creates-Open-Product-Accessibility-Template" rel="alternate" type="text/html" title="CivicActions creates Open Product Accessibility Template (OPAT) with the GSA" /><published>2021-08-13T00:00:00+00:00</published><updated>2022-08-05T18:46:20+00:00</updated><id>https://accessibility-qa.civicactions.com/posts/CivicActions-Creates-Open-Product-Accessibility-Template</id><content type="html" xml:base="https://accessibility-qa.civicactions.com/posts/CivicActions-Creates-Open-Product-Accessibility-Template"><![CDATA[<p>CivicActions is working with the GSA to modernize the VPAT process to ensure that it is machine-readable. The goal of this process is to help make accessibility conformance monitoring easier and more meaningful for everyone. You can more about this project on the <a href="https://github.com/GSA/open-product-accessibility-template">OPAT GitHub Project</a> and we are actively encouraging people to <a href="https://github.com/GSA/open-product-accessibility-template/issues">submit suggestions</a> on how it could be improved.</p>
+
+<p>This project has several goals. We are working to build an Accessibility Conformance Report(ACR) that is:</p>
+<ul>
+  <li><strong>Transparent</strong> - Easily comparable compliance reports.</li>
+  <li><strong>Validatable</strong> - Confidence that reports meet minimum standards.</li>
+  <li><strong>Aggregable</strong> - Enterprise-wide accessibility confidence.</li>
+  <li><strong>Versioned</strong> - ACRs should follow digital best practices.</li>
+</ul>
+
+<p>Modern ACRs need to be:</p>
+<ul>
+  <li>machine-readable</li>
+  <li>able to integrate with modern software development tools</li>
+  <li>aligned with modern software versioning</li>
+  <li>easily editable and comparable</li>
+  <li>centrally updated and publicly available</li>
+</ul>
+
+<p>Our work with the GSA is helping set the foundation for this work.</p>]]></content><author><name>mike-gifford</name></author><summary type="html"><![CDATA[CivicActions' contract with the GSA has allowed us to build a open Accessibility Conformance Report that is machine-readable Open Product Accessibility Template (OPAT).]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://accessibility-qa.civicactions.com/card-power.png" /><media:content medium="image" url="https://accessibility-qa.civicactions.com/card-power.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">CivicActions wins contract to produce a machine-readable Voluntary Product Accessibility Template® (VPAT®)</title><link href="https://accessibility-qa.civicactions.com/posts/gsa-machine-readable-acr" rel="alternate" type="text/html" title="CivicActions wins contract to produce a machine-readable Voluntary Product Accessibility Template® (VPAT®)" /><published>2021-08-11T14:00:00+00:00</published><updated>2022-08-05T18:46:20+00:00</updated><id>https://accessibility-qa.civicactions.com/posts/gsa-machine-readable-acr</id><content type="html" xml:base="https://accessibility-qa.civicactions.com/posts/gsa-machine-readable-acr"><![CDATA[<p>We're thrilled to be helping the <a href="https://www.gsa.gov/">GSA</a> improve its digital accessibility by improving procurement! The standard Accessibility Compliance Report(ACR) for the last two decades has been the Voluntary Product Accessibility Template® (VPAT®). Moving to a machine-readable format will make it easier for everyone to have better knowledge of software accessibility.</p>
+
+<p>As <a href="https://etc.g2xchange.com/statics/civicactions-receives-contract-award-from-gsa-to-improve-digital-accessibility-of-compliance-reports/">announced on g2xchange</a> this process will move ACR from an essentially paper-based format to one that is in well structured digital files that can be validated. Having a standardized machine-readable format will make it easier for people to compare between versions of a given digital tool, as well as between multiple tools.</p>]]></content><author><name>mike-gifford</name></author><summary type="html"><![CDATA[CivicActions is building the foundation for a new way to approach Accessibility Compliance Reporting with our work with the GSA.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://accessibility-qa.civicactions.com/card-power.png" /><media:content medium="image" url="https://accessibility-qa.civicactions.com/card-power.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">What we learned about accessibility by scanning more than 2 million federal .gov web pages</title><link href="https://accessibility-qa.civicactions.com/posts/scanning-over-two-million-gov-pages" rel="alternate" type="text/html" title="What we learned about accessibility by scanning more than 2 million federal .gov web pages" /><published>2021-07-30T14:00:00+00:00</published><updated>2022-08-05T18:46:20+00:00</updated><id>https://accessibility-qa.civicactions.com/posts/scanning-over-two-million-gov-pages</id><content type="html" xml:base="https://accessibility-qa.civicactions.com/posts/scanning-over-two-million-gov-pages"><![CDATA[<p>On July 22 Mike Gifford and <a href="https://proudcity.com/contacts/luke-fretwell/">Luke Fretwell</a> had <a href="https://fcw.com/articles/2021/07/22/fed-website-accessibility.aspx">this article</a> published in FCW (Federal Computer Week) to highlight months of work scanning federal .gov web pages.</p>
+
+<p>We tested against 2.1 AA requirements, the current best practice for digital accessibility standards. The open source tools we used were <a href="https://github.com/MSU-NatSci/DomainAccessibilityAudit">Domain Accessibility Audit</a> (to crawl the pages) and <a href="https://github.com/dequelabs/axe-core">axe</a> (to perform the actual accessibility scans).</p>
+
+<p>These problems are happening because accessibility has been an afterthought, even in government. In order for accessibility success to scale in the enterprise we need to take a more holistic approach. For this we have developed our <a href="https://accessibility-qa.civicactions.com/heart">HEART</a> framework.</p>
+
+<p>Learn more by <a href="https://fcw.com/articles/2021/07/22/fed-website-accessibility.aspx">reading our FCW article</a>.</p>]]></content><author><name>mike-gifford</name></author><summary type="html"><![CDATA[CivicActions scanned over 2 million federal .gov pages for accessibility barriers and this is what we found.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://accessibility-qa.civicactions.com/card-power.png" /><media:content medium="image" url="https://accessibility-qa.civicactions.com/card-power.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">HEART: Ensuring government digital services accessibility</title><link href="https://accessibility-qa.civicactions.com/posts/heart-accessibility" rel="alternate" type="text/html" title="HEART: Ensuring government digital services accessibility" /><published>2021-06-01T14:00:00+00:00</published><updated>2022-08-05T18:46:20+00:00</updated><id>https://accessibility-qa.civicactions.com/posts/heart-accessibility</id><content type="html" xml:base="https://accessibility-qa.civicactions.com/posts/heart-accessibility"><![CDATA[<p>To help government agencies holistically address digital accessibility, we've developed a phased organizational framework we call <a href="/heart">HEART</a>.</p>
+
+<p>Holistic Enterprise Accessibility Review Technique is a proactive, interactive process to ensure government digital services are accessible to everyone.</p>
+
+<p>HEART provides guidance for all stakeholders and aims to address every aspect of organizational operations, including policy, procurement, technical, resourcing and culture.</p>
+
+<p><a href="/heart">Learn more about HEART</a> and <a href="/contact">contact us</a> if you need accessibility support in your organization.</p>]]></content><author><name>mike-gifford</name></author><summary type="html"><![CDATA[Holistic Enterprise Accessibility Review Technique is a proactive, interactive process to ensure government digital services are accessible to everyone.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://accessibility-qa.civicactions.com/card-power.png" /><media:content medium="image" url="https://accessibility-qa.civicactions.com/card-power.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Plain language page added to CivicActions Accessibility Guide</title><link href="https://accessibility-qa.civicactions.com/posts/plain-language-accessibility-guide" rel="alternate" type="text/html" title="Plain language page added to CivicActions Accessibility Guide" /><published>2021-05-28T14:00:00+00:00</published><updated>2022-08-05T18:46:20+00:00</updated><id>https://accessibility-qa.civicactions.com/posts/plain-language-accessibility-guide</id><content type="html" xml:base="https://accessibility-qa.civicactions.com/posts/plain-language-accessibility-guide"><![CDATA[<p>We've added a <a href="/guide/plain-language">plain language page</a> to the <a href="/guide">CivicActions Accessibility Guide</a>.</p>
+
+<p>You can find:</p>
+
+<ul>
+  <li>quick tips on how to keep simplify your content</li>
+  <li>helpful automated tools that check for plain language</li>
+  <li>plain language communities you can join to learn more.</li>
+</ul>
+
+<p>If you have feedback or would like to improve this page, we encourage you to <a href="https://github.com/CivicActions/accessibility/issues/new/choose">submit an issue</a> or pull request.</p>]]></content><author><name>nira-datta</name></author><category term="Social" /><category term="media" /><summary type="html"><![CDATA[This includes quick tips, tools and community information.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://accessibility-qa.civicactions.com/card-power.png" /><media:content medium="image" url="https://accessibility-qa.civicactions.com/card-power.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Social media page added to CivicActions Accessibility Guide</title><link href="https://accessibility-qa.civicactions.com/posts/social-media-accessibility-guide" rel="alternate" type="text/html" title="Social media page added to CivicActions Accessibility Guide" /><published>2021-05-27T14:00:00+00:00</published><updated>2022-08-05T18:46:20+00:00</updated><id>https://accessibility-qa.civicactions.com/posts/social-media-accessibility-guide</id><content type="html" xml:base="https://accessibility-qa.civicactions.com/posts/social-media-accessibility-guide"><![CDATA[<p>We've added a <a href="/guide/social-media">social media page</a> to the <a href="/guide">CivicActions Accessibility Guide</a>.</p>
+
+<p>This includes tips for:</p>
+
+<ul>
+  <li>Text</li>
+  <li>Hashtags</li>
+  <li>Images</li>
+  <li>Video</li>
+  <li>Emoji</li>
+  <li>and related resources</li>
+</ul>
+
+<p>If you have feedback or would like to improve this page, we encourage you to <a href="https://github.com/CivicActions/accessibility/issues/new/choose">submit an issue</a> or pull request.</p>]]></content><author><name>luke-fretwell</name></author><category term="Social" /><category term="media" /><summary type="html"><![CDATA[This includes tips for text, hashtags, images, video, emoji and related resources.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://accessibility-qa.civicactions.com/card-power.png" /><media:content medium="image" url="https://accessibility-qa.civicactions.com/card-power.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">How we scale inclusive website content with automated testing and open source tools</title><link href="https://accessibility-qa.civicactions.com/posts/how-we-scale-inclusive-website-content-with-automated-testing-and-open-source-tools" rel="alternate" type="text/html" title="How we scale inclusive website content with automated testing and open source tools" /><published>2021-05-25T14:00:00+00:00</published><updated>2022-08-05T18:46:20+00:00</updated><id>https://accessibility-qa.civicactions.com/posts/how-we-scale-inclusive-website-content-with-automated-testing-and-open-source-tools</id><content type="html" xml:base="https://accessibility-qa.civicactions.com/posts/how-we-scale-inclusive-website-content-with-automated-testing-and-open-source-tools"><![CDATA[<p>Since launching the <a href="https://accessibility-qa.civicactions.com/">CivicActions Accessibility</a> website, we've had <a href="https://github.com/CivicActions/accessibility">9 contributors on GitHub</a> and many more contributing to our <a href="/guide">guide</a>, <a href="/playbook">playbooks</a>, and <a href="/news">posts</a>.</p>
+
+<p>We value openness, agility, inclusiveness and continuous improvement. Ensuring that our site is consistently built makes it easier to maintain in the long-run.</p>
+
+<p>As our website grows, we want to ensure our content mirrors our values — and that it scales with ease. So, we have enabled automated testing (and some updating) of text when it's submitted in a pull request.</p>
+
+<h2 id="content-goals-that-match-our-values">Content goals that match our values</h2>
+
+<p>It is important that this site demonstrates our values by being accessible and professional. That's why we eliminate unclear, insensitive language that could alienate our audience.</p>
+
+<p>Automation is not full-proof. It doesn't have context to understand why a sentence is structured a certain way or why particular words are used. It is a tool in our arsenal to help us continuously improve, like catching terms that might be offensive or simplifying complex sentences, and so on.</p>
+
+<h2 id="the-technology">The technology</h2>
+
+<p>Most content changes are done through plain text editors or directly on GitHub. So, many of the conveniences that are built into modern word processing applications aren't available. The following tools help us keep the quality of our site high.</p>
+
+<p>To achieve the testing we use the following technologies:</p>
+<ul>
+  <li><a href="https://github.com/remarkjs/remark">remark</a>: A markdown processor (Markdown is how we write all our content that is then compiled into static HTML pages by Jekyll).</li>
+  <li><a href="https://github.com/retextjs/retext">retext</a>: A natural language processor to check for issues in the text.</li>
+  <li><a href="https://github.com/reviewdog/reviewdog">reviewdog</a>: Takes the errors and warnings from remark and retext and comments on the markdown text in the code (pull request) indicating the issues and recommended corrections.</li>
+  <li><a href="https://pre-commit.com/">pre-commit</a>: Also test files for any issues and in some cases updates the text automatically.</li>
+  <li><a href="https://www.docker.com/">docker</a> and <a href="https://github.com/features/actions">GitHub Actions</a>: Used to run the reviewdog scripts with remark and retext whenever a pull request is submitted.</li>
+</ul>
+
+<h2 id="the-setup">The setup</h2>
+
+<p>For remark/retext we create a Docker image that installs the dependencies and sets up reviewdog to execute our configuration on a pull request. The details are <a href="https://github.com/CivicActions/accessibility/tree/main/lint">visible in our repository</a> but here are the important bits.</p>
+
+<p>The following files (truncated for brevity) configure the plugins for testing markdown and text — and their individual settings.</p>
+
+<p>Here are some of our example settings:</p>
+<ul>
+  <li>Markdown bullets denoted with an asterisk '*'.</li>
+  <li>Single space between sentences.</li>
+  <li>Straight quotes (note this down, it will be important later in the post).</li>
+  <li>Readability set to 18 years.</li>
+  <li>Checking for spelling mistakes.</li>
+  <li>Checking for insensitive or inconsiderate language.</li>
+</ul>
 
-&lt;p&gt;Learn more by &lt;a href=&quot;https://fcw.com/articles/2021/07/22/fed-website-accessibility.aspx&quot;&gt;reading our FCW article&lt;/a&gt;.&lt;/p&gt;</content><author><name>mike-gifford</name></author><summary type="html">On July 22 Mike Gifford and Luke Fretwell had this article published in FCW (Federal Computer Week) to highlight months of work scanning federal .gov web pages.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://accessibility-qa.civicactions.com/card-power.png" /><media:content medium="image" url="https://accessibility-qa.civicactions.com/card-power.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">HEART: Ensuring government digital services accessibility</title><link href="https://accessibility-qa.civicactions.com/posts/heart-accessibility" rel="alternate" type="text/html" title="HEART: Ensuring government digital services accessibility" /><published>2021-06-01T14:00:00+00:00</published><updated>2022-05-10T16:06:59+00:00</updated><id>https://accessibility-qa.civicactions.com/posts/heart-accessibility</id><content type="html" xml:base="https://accessibility-qa.civicactions.com/posts/heart-accessibility">&lt;p&gt;To help government agencies holistically address digital accessibility, we've developed a phased organizational framework we call &lt;a href=&quot;/heart&quot;&gt;HEART&lt;/a&gt;.&lt;/p&gt;
+<p><a href="https://github.com/CivicActions/accessibility/blob/main/lint/config/remarkrc.problem">remarkrc.problem file</a>:</p>
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
+  </span><span class="nl">"settings"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="nl">"listItemIndent"</span><span class="p">:</span><span class="w"> </span><span class="s2">"1"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"bullet"</span><span class="p">:</span><span class="w"> </span><span class="s2">"*"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"strong"</span><span class="p">:</span><span class="w"> </span><span class="s2">"*"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"emphasis"</span><span class="p">:</span><span class="w"> </span><span class="s2">"_"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"fences"</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="w">
+  </span><span class="p">},</span><span class="w">
+  </span><span class="nl">"plugins"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+      </span><span class="s2">"remark-frontmatter"</span><span class="p">,</span><span class="w">
+      </span><span class="s2">"remark-validate-links"</span><span class="p">,</span><span class="w">
+      </span><span class="s2">"remark-comment-config"</span><span class="p">,</span><span class="w">
+</span><span class="err">...</span><span class="w">
+      </span><span class="p">[</span><span class="s2">"remark-lint-table-cell-padding"</span><span class="p">,</span><span class="w"> </span><span class="s2">"consistent"</span><span class="p">],</span><span class="w">
+      </span><span class="p">[</span><span class="s2">"remark-lint-table-cell-padding"</span><span class="p">,</span><span class="w"> </span><span class="s2">"consistent"</span><span class="p">],</span><span class="w">
+      </span><span class="p">[</span><span class="s2">"remark-lint-unordered-list-marker-style"</span><span class="p">,</span><span class="w"> </span><span class="s2">"*"</span><span class="p">],</span><span class="w">
+      </span><span class="s2">"./retext.problem"</span><span class="w">
+    </span><span class="p">]</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<p><a href="https://github.com/CivicActions/accessibility/blob/main/lint/config/retext.problem.js">retext.problem.js file</a>:</p>
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="dl">"</span><span class="s2">use strict</span><span class="dl">"</span><span class="p">;</span>
+
+<span class="p">...</span>
 
-&lt;p&gt;Holistic Enterprise Accessibility Review Technique is a proactive, interactive process to ensure government digital services are accessible to everyone.&lt;/p&gt;
+<span class="nx">module</span><span class="p">.</span><span class="nx">exports</span> <span class="o">=</span> <span class="nx">attacher</span><span class="p">;</span>
 
-&lt;p&gt;HEART provides guidance for all stakeholders and aims to address every aspect of organizational operations, including policy, procurement, technical, resourcing and culture.&lt;/p&gt;
+<span class="kd">function</span> <span class="nx">attacher</span><span class="p">()</span> <span class="p">{</span>
+  <span class="k">this</span><span class="p">.</span><span class="nx">use</span><span class="p">(</span>
+    <span class="nx">remark2retext</span><span class="p">,</span>
+    <span class="nx">unified</span><span class="p">()</span>
+      <span class="p">.</span><span class="nx">use</span><span class="p">(</span><span class="nx">english</span><span class="p">)</span>
+      <span class="p">.</span><span class="nx">use</span><span class="p">(</span><span class="nx">sentenceSpacing</span><span class="p">,</span> <span class="p">{</span> <span class="na">preferred</span><span class="p">:</span> <span class="mi">1</span> <span class="p">})</span>
+      <span class="p">.</span><span class="nx">use</span><span class="p">(</span><span class="nx">quotes</span><span class="p">,</span> <span class="p">{</span> <span class="na">preferred</span><span class="p">:</span> <span class="dl">"</span><span class="s2">straight</span><span class="dl">"</span> <span class="p">})</span>
+      <span class="p">.</span><span class="nx">use</span><span class="p">(</span><span class="nx">repeated</span><span class="p">)</span>
+      <span class="p">.</span><span class="nx">use</span><span class="p">(</span><span class="nx">indefinite</span><span class="p">)</span>
+  <span class="p">);</span>
+<span class="p">}</span>
+</code></pre></div></div>
 
-&lt;p&gt;&lt;a href=&quot;/heart&quot;&gt;Learn more about HEART&lt;/a&gt; and &lt;a href=&quot;/contact&quot;&gt;contact us&lt;/a&gt; if you need accessibility support in your organization.&lt;/p&gt;</content><author><name>mike-gifford</name></author><summary type="html">To help government agencies holistically address digital accessibility, we've developed a phased organizational framework we call HEART.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://accessibility-qa.civicactions.com/card-power.png" /><media:content medium="image" url="https://accessibility-qa.civicactions.com/card-power.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Plain language page added to CivicActions Accessibility Guide</title><link href="https://accessibility-qa.civicactions.com/posts/plain-language-accessibility-guide" rel="alternate" type="text/html" title="Plain language page added to CivicActions Accessibility Guide" /><published>2021-05-28T14:00:00+00:00</published><updated>2022-05-10T16:06:59+00:00</updated><id>https://accessibility-qa.civicactions.com/posts/plain-language-accessibility-guide</id><content type="html" xml:base="https://accessibility-qa.civicactions.com/posts/plain-language-accessibility-guide">&lt;p&gt;We've added a &lt;a href=&quot;/guide/plain-language&quot;&gt;plain language page&lt;/a&gt; to the &lt;a href=&quot;/guide&quot;&gt;CivicActions Accessibility Guide&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;You can find:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;quick tips on how to keep simplify your content&lt;/li&gt;
-  &lt;li&gt;helpful automated tools that check for plain language&lt;/li&gt;
-  &lt;li&gt;plain language communities you can join to learn more.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;If you have feedback or would like to improve this page, we encourage you to &lt;a href=&quot;https://github.com/CivicActions/accessibility/issues/new/choose&quot;&gt;submit an issue&lt;/a&gt; or pull request.&lt;/p&gt;</content><author><name>nira-datta</name></author><category term="Social" /><category term="media" /><summary type="html">We've added a plain language page to the CivicActions Accessibility Guide.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://accessibility-qa.civicactions.com/card-power.png" /><media:content medium="image" url="https://accessibility-qa.civicactions.com/card-power.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Social media page added to CivicActions Accessibility Guide</title><link href="https://accessibility-qa.civicactions.com/posts/social-media-accessibility-guide" rel="alternate" type="text/html" title="Social media page added to CivicActions Accessibility Guide" /><published>2021-05-27T14:00:00+00:00</published><updated>2022-05-10T16:06:59+00:00</updated><id>https://accessibility-qa.civicactions.com/posts/social-media-accessibility-guide</id><content type="html" xml:base="https://accessibility-qa.civicactions.com/posts/social-media-accessibility-guide">&lt;p&gt;We've added a &lt;a href=&quot;/guide/social-media&quot;&gt;social media page&lt;/a&gt; to the &lt;a href=&quot;/guide&quot;&gt;CivicActions Accessibility Guide&lt;/a&gt;.&lt;/p&gt;
+<p><a href="https://github.com/CivicActions/accessibility/blob/main/lint/config/retext.suggestion.js">retext.suggestion.js file</a>:</p>
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="dl">"</span><span class="s2">use strict</span><span class="dl">"</span><span class="p">;</span>
 
-&lt;p&gt;This includes tips for:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Text&lt;/li&gt;
-  &lt;li&gt;Hashtags&lt;/li&gt;
-  &lt;li&gt;Images&lt;/li&gt;
-  &lt;li&gt;Video&lt;/li&gt;
-  &lt;li&gt;Emoji&lt;/li&gt;
-  &lt;li&gt;and related resources&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;If you have feedback or would like to improve this page, we encourage you to &lt;a href=&quot;https://github.com/CivicActions/accessibility/issues/new/choose&quot;&gt;submit an issue&lt;/a&gt; or pull request.&lt;/p&gt;</content><author><name>luke-fretwell</name></author><category term="Social" /><category term="media" /><summary type="html">We've added a social media page to the CivicActions Accessibility Guide.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://accessibility-qa.civicactions.com/card-power.png" /><media:content medium="image" url="https://accessibility-qa.civicactions.com/card-power.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">How we scale inclusive website content with automated testing and open source tools</title><link href="https://accessibility-qa.civicactions.com/posts/how-we-scale-inclusive-website-content-with-automated-testing-and-open-source-tools" rel="alternate" type="text/html" title="How we scale inclusive website content with automated testing and open source tools" /><published>2021-05-25T14:00:00+00:00</published><updated>2022-05-10T16:06:59+00:00</updated><id>https://accessibility-qa.civicactions.com/posts/how-we-scale-inclusive-website-content-with-automated-testing-and-open-source-tools</id><content type="html" xml:base="https://accessibility-qa.civicactions.com/posts/how-we-scale-inclusive-website-content-with-automated-testing-and-open-source-tools">&lt;p&gt;Since launching the &lt;a href=&quot;https://accessibility-qa.civicactions.com/&quot;&gt;CivicActions Accessibility&lt;/a&gt; website, we've had &lt;a href=&quot;https://github.com/CivicActions/accessibility&quot;&gt;9 contributors on GitHub&lt;/a&gt; and many more contributing to our &lt;a href=&quot;/guide&quot;&gt;guide&lt;/a&gt;, &lt;a href=&quot;/playbook&quot;&gt;playbooks&lt;/a&gt;, and &lt;a href=&quot;/news&quot;&gt;posts&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;We value openness, agility, inclusiveness and continuous improvement. Ensuring that our site is consistently built makes it easier to maintain in the long-run.&lt;/p&gt;
-
-&lt;p&gt;As our website grows, we want to ensure our content mirrors our values — and that it scales with ease. So, we have enabled automated testing (and some updating) of text when it's submitted in a pull request.&lt;/p&gt;
-
-&lt;h2 id=&quot;content-goals-that-match-our-values&quot;&gt;Content goals that match our values&lt;/h2&gt;
-
-&lt;p&gt;It is important that this site demonstrates our values by being accessible and professional. That's why we eliminate unclear, insensitive language that could alienate our audience.&lt;/p&gt;
-
-&lt;p&gt;Automation is not full-proof. It doesn't have context to understand why a sentence is structured a certain way or why particular words are used. It is a tool in our arsenal to help us continuously improve, like catching terms that might be offensive or simplifying complex sentences, and so on.&lt;/p&gt;
-
-&lt;h2 id=&quot;the-technology&quot;&gt;The technology&lt;/h2&gt;
-
-&lt;p&gt;Most content changes are done through plain text editors or directly on GitHub. So, many of the conveniences that are built into modern word processing applications aren't available. The following tools help us keep the quality of our site high.&lt;/p&gt;
-
-&lt;p&gt;To achieve the testing we use the following technologies:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/remarkjs/remark&quot;&gt;remark&lt;/a&gt;: A markdown processor (Markdown is how we write all our content that is then compiled into static HTML pages by Jekyll).&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/retextjs/retext&quot;&gt;retext&lt;/a&gt;: A natural language processor to check for issues in the text.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/reviewdog/reviewdog&quot;&gt;reviewdog&lt;/a&gt;: Takes the errors and warnings from remark and retext and comments on the markdown text in the code (pull request) indicating the issues and recommended corrections.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://pre-commit.com/&quot;&gt;pre-commit&lt;/a&gt;: Also test files for any issues and in some cases updates the text automatically.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.docker.com/&quot;&gt;docker&lt;/a&gt; and &lt;a href=&quot;https://github.com/features/actions&quot;&gt;GitHub Actions&lt;/a&gt;: Used to run the reviewdog scripts with remark and retext whenever a pull request is submitted.&lt;/li&gt;
-&lt;/ul&gt;
+<span class="p">...</span>
 
-&lt;h2 id=&quot;the-setup&quot;&gt;The setup&lt;/h2&gt;
+<span class="kd">function</span> <span class="nx">attacher</span><span class="p">()</span> <span class="p">{</span>
+  <span class="k">this</span><span class="p">.</span><span class="nx">use</span><span class="p">(</span>
+    <span class="nx">remark2retext</span><span class="p">,</span>
+    <span class="nx">unified</span><span class="p">()</span>
+      <span class="p">.</span><span class="nx">use</span><span class="p">(</span><span class="nx">english</span><span class="p">)</span>
+      <span class="p">.</span><span class="nx">use</span><span class="p">(</span><span class="nx">contractions</span><span class="p">,</span> <span class="p">{</span> <span class="na">straight</span><span class="p">:</span> <span class="kc">true</span> <span class="p">})</span>
+      <span class="p">.</span><span class="nx">use</span><span class="p">(</span><span class="nx">readability</span><span class="p">,</span> <span class="p">{</span>
+        <span class="na">age</span><span class="p">:</span> <span class="mi">18</span><span class="p">,</span>
+        <span class="na">minWords</span><span class="p">:</span> <span class="mi">15</span><span class="p">,</span>
+        <span class="na">severity</span><span class="p">:</span> <span class="dl">"</span><span class="s2">fatal</span><span class="dl">"</span><span class="p">,</span>
+        <span class="na">threshold</span><span class="p">:</span> <span class="mi">5</span> <span class="o">/</span> <span class="mi">7</span><span class="p">,</span>
+      <span class="p">})</span>
+      <span class="p">.</span><span class="nx">use</span><span class="p">(</span><span class="nx">equality</span><span class="p">,</span> <span class="p">{</span> <span class="na">ignore</span><span class="p">:</span> <span class="nx">ignoreWords</span> <span class="o">||</span> <span class="p">[]</span> <span class="p">})</span>
+      <span class="p">.</span><span class="nx">use</span><span class="p">(</span><span class="nx">spell</span><span class="p">,</span> <span class="nx">dictionary</span><span class="p">)</span>
+  <span class="p">);</span>
+<span class="p">}</span>
+</code></pre></div></div>
 
-&lt;p&gt;For remark/retext we create a Docker image that installs the dependencies and sets up reviewdog to execute our configuration on a pull request. The details are &lt;a href=&quot;https://github.com/CivicActions/accessibility/tree/main/lint&quot;&gt;visible in our repository&lt;/a&gt; but here are the important bits.&lt;/p&gt;
+<h2 id="the-execution">The execution</h2>
 
-&lt;p&gt;The following files (truncated for brevity) configure the plugins for testing markdown and text — and their individual settings.&lt;/p&gt;
+<p>Similar to our <a href="/posts/automated-accessibility-testing-leveraging-github-actions-and-pa11y-ci-with-axe">automated accessibility testing</a> post, we use <a href="https://github.com/CivicActions/accessibility/blob/main/.github/workflows/reviewdog.yml">GitHub actions</a> to run our set up on pull requests. The setup is also tuned to only check the changes for the text issues and not all files. This encourages authors to focus on the changes they are submitting.</p>
 
-&lt;p&gt;Here are some of our example settings:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Markdown bullets denoted with an asterisk '*'.&lt;/li&gt;
-  &lt;li&gt;Single space between sentences.&lt;/li&gt;
-  &lt;li&gt;Straight quotes (note this down, it will be important later in the post).&lt;/li&gt;
-  &lt;li&gt;Readability set to 18 years.&lt;/li&gt;
-  &lt;li&gt;Checking for spelling mistakes.&lt;/li&gt;
-  &lt;li&gt;Checking for insensitive or inconsiderate language.&lt;/li&gt;
-&lt;/ul&gt;
+<h3 id="examples">Examples</h3>
 
-&lt;p&gt;&lt;a href=&quot;https://github.com/CivicActions/accessibility/blob/main/lint/config/remarkrc.problem&quot;&gt;remarkrc.problem file&lt;/a&gt;:&lt;/p&gt;
-&lt;div class=&quot;language-json highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-  &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;settings&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-    &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;listItemIndent&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;1&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-    &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;bullet&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;*&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-    &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;strong&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;*&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-    &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;emphasis&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;_&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-    &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;fences&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-  &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-  &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;plugins&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-      &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;remark-frontmatter&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-      &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;remark-validate-links&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-      &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;remark-comment-config&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;...&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-      &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;remark-lint-table-cell-padding&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;consistent&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-      &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;remark-lint-table-cell-padding&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;consistent&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-      &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;remark-lint-unordered-list-marker-style&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;*&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-      &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;./retext.problem&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-    &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/CivicActions/accessibility/blob/main/lint/config/retext.problem.js&quot;&gt;retext.problem.js file&lt;/a&gt;:&lt;/p&gt;
-&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;use strict&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-
-&lt;span class=&quot;p&quot;&gt;...&lt;/span&gt;
-
-&lt;span class=&quot;nx&quot;&gt;module&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;exports&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;attacher&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-
-&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;attacher&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;use&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
-    &lt;span class=&quot;nx&quot;&gt;remark2retext&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-    &lt;span class=&quot;nx&quot;&gt;unified&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
-      &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;use&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;english&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-      &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;use&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;sentenceSpacing&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;preferred&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;})&lt;/span&gt;
-      &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;use&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;quotes&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;preferred&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;straight&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;})&lt;/span&gt;
-      &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;use&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;repeated&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-      &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;use&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;indefinite&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/CivicActions/accessibility/blob/main/lint/config/retext.suggestion.js&quot;&gt;retext.suggestion.js file&lt;/a&gt;:&lt;/p&gt;
-&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;use strict&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-
-&lt;span class=&quot;p&quot;&gt;...&lt;/span&gt;
+<p>In <a href="https://github.com/CivicActions/accessibility/pull/373/files">pull request 373</a> and the below screenshot you can see that the sentence, "Whole websites can now be easily crawled for bugs" that the word <strong>'easily'</strong> has been flagged as may be insensitive and we should try to avoid it.</p>
 
-&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;attacher&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;use&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
-    &lt;span class=&quot;nx&quot;&gt;remark2retext&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-    &lt;span class=&quot;nx&quot;&gt;unified&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
-      &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;use&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;english&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-      &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;use&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;contractions&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;straight&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;})&lt;/span&gt;
-      &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;use&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;readability&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-        &lt;span class=&quot;na&quot;&gt;age&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;18&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-        &lt;span class=&quot;na&quot;&gt;minWords&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;15&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-        &lt;span class=&quot;na&quot;&gt;severity&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;fatal&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-        &lt;span class=&quot;na&quot;&gt;threshold&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;/&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;7&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-      &lt;span class=&quot;p&quot;&gt;})&lt;/span&gt;
-      &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;use&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;equality&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;ignore&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;ignoreWords&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;||&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[]&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;})&lt;/span&gt;
-      &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;use&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;spell&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;dictionary&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+<p><img src="/assets/img/insensitive-text-warning.png" alt="Screenshot of the insensitive warning" /></p>
 
-&lt;h2 id=&quot;the-execution&quot;&gt;The execution&lt;/h2&gt;
+<p>In <a href="https://github.com/CivicActions/accessibility/pull/374/files">pull request 374</a> and the below screenshots you can see that I took an earlier version of this post and ran it through the process and got some good feedback.</p>
 
-&lt;p&gt;Similar to our &lt;a href=&quot;/posts/automated-accessibility-testing-leveraging-github-actions-and-pa11y-ci-with-axe&quot;&gt;automated accessibility testing&lt;/a&gt; post, we use &lt;a href=&quot;https://github.com/CivicActions/accessibility/blob/main/.github/workflows/reviewdog.yml&quot;&gt;GitHub actions&lt;/a&gt; to run our set up on pull requests. The setup is also tuned to only check the changes for the text issues and not all files. This encourages authors to focus on the changes they are submitting.&lt;/p&gt;
+<p>In this screenshot we see a warning about a hard to read sentence.</p>
 
-&lt;h3 id=&quot;examples&quot;&gt;Examples&lt;/h3&gt;
+<p><img src="/assets/img/hard-to-read-sentence-warning.png" alt="Screenshot of the hard to read sentence warning" /></p>
 
-&lt;p&gt;In &lt;a href=&quot;https://github.com/CivicActions/accessibility/pull/373/files&quot;&gt;pull request 373&lt;/a&gt; and the below screenshot you can see that the sentence, &quot;Whole websites can now be easily crawled for bugs&quot; that the word &lt;strong&gt;'easily'&lt;/strong&gt; has been flagged as may be insensitive and we should try to avoid it.&lt;/p&gt;
+<p>In this screenshot we see that a typo was misattributed as an insensitive word.</p>
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/insensitive-text-warning.png&quot; alt=&quot;Screenshot of the insensitive warning&quot; /&gt;&lt;/p&gt;
+<p><img src="/assets/img/typo-lead-to-insensitive-warning.png" alt="Screenshot of the typo that lead to insensitive warning" /></p>
 
-&lt;p&gt;In &lt;a href=&quot;https://github.com/CivicActions/accessibility/pull/374/files&quot;&gt;pull request 374&lt;/a&gt; and the below screenshots you can see that I took an earlier version of this post and ran it through the process and got some good feedback.&lt;/p&gt;
+<h3 id="automating-changes">Automating changes</h3>
 
-&lt;p&gt;In this screenshot we see a warning about a hard to read sentence.&lt;/p&gt;
+<p>Some of the recommendations that are provided could be automatically edited, like changing smart quotes to straight quotes (remember the note from earlier). We do this using the pre-commit tool and here is an example:</p>
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/hard-to-read-sentence-warning.png&quot; alt=&quot;Screenshot of the hard to read sentence warning&quot; /&gt;&lt;/p&gt;
+<p>In this screenshot we see a warning about a smart quote:
+<img src="/assets/img/smart-quote-warning.png" alt="Screenshot before" /></p>
 
-&lt;p&gt;In this screenshot we see that a typo was misattributed as an insensitive word.&lt;/p&gt;
+<p>In this screenshot the change is made for us and committed to the pull request:
+<img src="/assets/img/smark-quote-fix.png" alt="Screenshot after" /></p>
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/typo-lead-to-insensitive-warning.png&quot; alt=&quot;Screenshot of the typo that lead to insensitive warning&quot; /&gt;&lt;/p&gt;
+<p>You can see the details at this URL: <a href="https://github.com/CivicActions/accessibility/pull/342">pull request 342</a>.</p>
 
-&lt;h3 id=&quot;automating-changes&quot;&gt;Automating changes&lt;/h3&gt;
+<h3 id="future-considerations">Future considerations</h3>
 
-&lt;p&gt;Some of the recommendations that are provided could be automatically edited, like changing smart quotes to straight quotes (remember the note from earlier). We do this using the pre-commit tool and here is an example:&lt;/p&gt;
+<p>We are interested in adding the <a href="https://github.com/retextjs/retext-simplify">retext-simplify plugin</a> to check phrases for simpler alternatives and maybe reduce the age for readability. Check out the <a href="https://github.com/retextjs/retext/blob/main/doc/plugins.md">available plugins in the retext documentation</a>.</p>
 
-&lt;p&gt;In this screenshot we see a warning about a smart quote:
-&lt;img src=&quot;/assets/img/smart-quote-warning.png&quot; alt=&quot;Screenshot before&quot; /&gt;&lt;/p&gt;
+<h2 id="conclusion">Conclusion</h2>
 
-&lt;p&gt;In this screenshot the change is made for us and committed to the pull request:
-&lt;img src=&quot;/assets/img/smark-quote-fix.png&quot; alt=&quot;Screenshot after&quot; /&gt;&lt;/p&gt;
+<p>Following this set-up can help you inject tools to help you test your content. But remember, automation can be devoid of context and can still contain our biases.</p>
 
-&lt;p&gt;You can see the details at this URL: &lt;a href=&quot;https://github.com/CivicActions/accessibility/pull/342&quot;&gt;pull request 342&lt;/a&gt;.&lt;/p&gt;
+<p>You should keep tweaking the tools and double-check your content to make sure it meets your values.</p>
 
-&lt;h3 id=&quot;future-considerations&quot;&gt;Future considerations&lt;/h3&gt;
+<h2 id="further-reading-and-examples">Further reading and examples</h2>
+<ul>
+  <li>The same tools above are used in:
+    <ul>
+      <li><a href="https://github.com/sparkartgroup/quality-docs/">Quality docs</a>.</li>
+      <li><a href="https://github.com/CivicActions/handbook">CivicActions handbook</a>.</li>
+    </ul>
+  </li>
+  <li>Some similar tools for GitHub and other applications:
+    <ul>
+      <li><a href="https://github.com/ritterim/markdown-proofing">A markdown proofing platform for individuals, teams, and organizations</a>.</li>
+      <li><a href="https://marketplace.visualstudio.com/items?itemName=jemcclin.readabilitycheck">Readability Check</a>.</li>
+      <li><a href="https://atom.io/packages/status-stats-jbrains">status-stats-jbrains package</a>.</li>
+    </ul>
+  </li>
+</ul>
 
-&lt;p&gt;We are interested in adding the &lt;a href=&quot;https://github.com/retextjs/retext-simplify&quot;&gt;retext-simplify plugin&lt;/a&gt; to check phrases for simpler alternatives and maybe reduce the age for readability. Check out the &lt;a href=&quot;https://github.com/retextjs/retext/blob/main/doc/plugins.md&quot;&gt;available plugins in the retext documentation&lt;/a&gt;.&lt;/p&gt;
+<p>Thank you to <a href="/about/people/michelle-kang">Michelle Kang</a>, <a href="https://civicactions.com/team/marlena-medford">Marlena Medford</a>, <a href="/about/people/luke-fretwell">Luke Fretwell</a>, and <a href="/about/people/mike-gifford">Mike Gifford</a> for your support, thoughts, and feedback.</p>]]></content><author><name>daniel-mundra</name></author><category term="Testing" /><summary type="html"><![CDATA[Using GitHub and open source technology -- general and text-specific -- we created a continuous text feedback mechanism to help ensure our content mirrors our values.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://accessibility-qa.civicactions.com/card-power.png" /><media:content medium="image" url="https://accessibility-qa.civicactions.com/card-power.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Open analytics on the CivicActions Accessibility website</title><link href="https://accessibility-qa.civicactions.com/posts/website-analytics" rel="alternate" type="text/html" title="Open analytics on the CivicActions Accessibility website" /><published>2021-05-24T16:00:00+00:00</published><updated>2022-08-05T18:46:20+00:00</updated><id>https://accessibility-qa.civicactions.com/posts/website-analytics</id><content type="html" xml:base="https://accessibility-qa.civicactions.com/posts/website-analytics"><![CDATA[<p>We are now openly sharing <a href="/analytics">analytics information for the CivicActions Accessibility website</a>.</p>
 
-&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+<p>We believe in open analytics and data and, by publicly sharing our website analytics publicly, we hope that others might learn from our work. We also believe it is an opportunity for anyone to use this information to help us</p>
 
-&lt;p&gt;Following this set-up can help you inject tools to help you test your content. But remember, automation can be devoid of context and can still contain our biases.&lt;/p&gt;
+<p>Tools we're using to gather and display this information:</p>
 
-&lt;p&gt;You should keep tweaking the tools and double-check your content to make sure it meets your values.&lt;/p&gt;
+<ul>
+  <li>Google Analytics</li>
+  <li>Google Data Studio</li>
+</ul>
 
-&lt;h2 id=&quot;further-reading-and-examples&quot;&gt;Further reading and examples&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;The same tools above are used in:
-    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;https://github.com/sparkartgroup/quality-docs/&quot;&gt;Quality docs&lt;/a&gt;.&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://github.com/CivicActions/handbook&quot;&gt;CivicActions handbook&lt;/a&gt;.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Some similar tools for GitHub and other applications:
-    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;https://github.com/ritterim/markdown-proofing&quot;&gt;A markdown proofing platform for individuals, teams, and organizations&lt;/a&gt;.&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://marketplace.visualstudio.com/items?itemName=jemcclin.readabilitycheck&quot;&gt;Readability Check&lt;/a&gt;.&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://atom.io/packages/status-stats-jbrains&quot;&gt;status-stats-jbrains package&lt;/a&gt;.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Thank you to &lt;a href=&quot;/about/people/michelle-kang&quot;&gt;Michelle Kang&lt;/a&gt;, &lt;a href=&quot;https://civicactions.com/team/marlena-medford&quot;&gt;Marlena Medford&lt;/a&gt;, &lt;a href=&quot;/about/people/luke-fretwell&quot;&gt;Luke Fretwell&lt;/a&gt;, and &lt;a href=&quot;/about/people/mike-gifford&quot;&gt;Mike Gifford&lt;/a&gt; for your support, thoughts, and feedback.&lt;/p&gt;</content><author><name>daniel-mundra</name></author><category term="Testing" /><summary type="html">Since launching the CivicActions Accessibility website, we've had 9 contributors on GitHub and many more contributing to our guide, playbooks, and posts.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://accessibility-qa.civicactions.com/card-power.png" /><media:content medium="image" url="https://accessibility-qa.civicactions.com/card-power.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Open analytics on the CivicActions Accessibility website</title><link href="https://accessibility-qa.civicactions.com/posts/website-analytics" rel="alternate" type="text/html" title="Open analytics on the CivicActions Accessibility website" /><published>2021-05-24T16:00:00+00:00</published><updated>2022-05-10T16:06:59+00:00</updated><id>https://accessibility-qa.civicactions.com/posts/website-analytics</id><content type="html" xml:base="https://accessibility-qa.civicactions.com/posts/website-analytics">&lt;p&gt;We are now openly sharing &lt;a href=&quot;/analytics&quot;&gt;analytics information for the CivicActions Accessibility website&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;We believe in open analytics and data and, by publicly sharing our website analytics publicly, we hope that others might learn from our work. We also believe it is an opportunity for anyone to use this information to help us&lt;/p&gt;
-
-&lt;p&gt;Tools we're using to gather and display this information:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Google Analytics&lt;/li&gt;
-  &lt;li&gt;Google Data Studio&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;a href=&quot;/analytics&quot;&gt;CivicActions Accessibility website analytics&lt;/a&gt;&lt;/p&gt;</content><author><name>luke-fretwell</name></author><summary type="html">We are now openly sharing analytics information for the CivicActions Accessibility website.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://accessibility-qa.civicactions.com/card-power.png" /><media:content medium="image" url="https://accessibility-qa.civicactions.com/card-power.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Pre-GAAD event: Authoring tools with built-in accessibility</title><link href="https://accessibility-qa.civicactions.com/posts/pre-GAAD-Authoring-Tools-Built-in-Accessibility" rel="alternate" type="text/html" title="Pre-GAAD event: Authoring tools with built-in accessibility" /><published>2021-05-20T22:00:00+00:00</published><updated>2022-05-10T16:06:59+00:00</updated><id>https://accessibility-qa.civicactions.com/posts/pre-GAAD-Authoring-Tools-Built-in-Accessibility</id><content type="html" xml:base="https://accessibility-qa.civicactions.com/posts/pre-GAAD-Authoring-Tools-Built-in-Accessibility">&lt;p&gt;Today is the &lt;a href=&quot;https://globalaccessibilityawarenessday.org/&quot;&gt;Global Accessibility Awareness Day&lt;/a&gt; or GAAD, 
-and people around the world organize events to raise awareness about digital accessibility. Especially as everything is online these days, GAAD has become something that celebrate throughout the month of May.&lt;br /&gt;
-2020 was the 10th anniversary, and also the launch of the &lt;a href=&quot;https://gaad.foundation/&quot;&gt;GAAD Foundation&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;I represented Drupal in &lt;a href=&quot;https://accessibilitycluster.com/&quot;&gt;Funka's We4Authors Accessibility Cluster&lt;/a&gt;. Yesterday, &lt;a href=&quot;https://www.funka.com/&quot;&gt;Funka&lt;/a&gt; organized a pre-GAAD event to highlight the importance of authoring tools.
-&lt;a href=&quot;https://accessibilitycluster.com/main-results/pre-gaad-event-19-may-2021-at-13:00-16:00-cet---authoring-tools-with-built-in-accessibility!&quot;&gt;Authoring tools with built-in accessibility!&lt;/a&gt; was a wonderful success with over hundred participants from over 35 countries around the world.&lt;/p&gt;
-
-&lt;p&gt;The We4Authors Cluster is a multi-CMS (Content Management System) group that is working to better support authors. Authors need to be subject matter experts, not accessibility experts, and CMS tools can help make their job easier. It should be simple for everyone to produce accessible content. For folks familiar with the W3C's Web Accessibility Initiative, it is essentially
-looking at implementing &lt;a href=&quot;https://www.w3.org/TR/ATAG20/#part_b&quot;&gt;Authoring Tool Accessibility Guidelines (ATAG) 2.0 - Part B&lt;/a&gt;. By bringing together leaders in CMS solutions that are popular with governments in the 
-European Union, we are finding solutions which can help many of the authors that will need to implement the European Union's &lt;a href=&quot;https://en.wikipedia.org/wiki/Web_Accessibility_Directive&quot;&gt;Web Accessibility Directive&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;The challenge that governments face to see that their digital solutions are able to meet the needs of all citizens is significant. By working together and funding common solutions to widely used libraries the 
-European Commission is able to make a very cost-effective contribution to improving accessibility. Millions of citizens in member states will benefit from having better accessibility defaults.&lt;/p&gt;
-
-&lt;p&gt;Both proprietary &amp;amp; open source communities were involved in the We4Authors Cluster and both can help develop common best practices.&lt;/p&gt;
-
-&lt;p&gt;It was also terrific to see the efforts that the organizers placed on accessibility for this event. A live captionist was engaged for the event. That text was automatically translated into multiple languages so that representatives in non-English speaking countries could participate.
-Building in accessibility best practices can really help so many people engage with digital content. Everyone can benefit, whether they have a disability or not.&lt;/p&gt;</content><author><name>mike-gifford</name></author><summary type="html">Today is the Global Accessibility Awareness Day or GAAD, and people around the world organize events to raise awareness about digital accessibility. Especially as everything is online these days, GAAD has become something that celebrate throughout the month of May. 2020 was the 10th anniversary, and also the launch of the GAAD Foundation.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://accessibility-qa.civicactions.com/card-power.png" /><media:content medium="image" url="https://accessibility-qa.civicactions.com/card-power.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Smashing Magazine: 'How To Bake Layers Of Accessibility Testing Into Your Process'</title><link href="https://accessibility-qa.civicactions.com/posts/smashingmag-baking-in-accessibility-testing" rel="alternate" type="text/html" title="Smashing Magazine: 'How To Bake Layers Of Accessibility Testing Into Your Process'" /><published>2021-04-27T22:00:00+00:00</published><updated>2022-05-10T16:06:59+00:00</updated><id>https://accessibility-qa.civicactions.com/posts/smashingmag-baking-in-accessibility-testing</id><content type="html" xml:base="https://accessibility-qa.civicactions.com/posts/smashingmag-baking-in-accessibility-testing">&lt;p&gt;I co-authored an article with &lt;a href=&quot;https://twitter.com/katekalcevich&quot;&gt;Kate Kalcevich&lt;/a&gt; who is the Head of Services at &lt;a href=&quot;https://makeitfable.com/&quot;&gt;Fable&lt;/a&gt; about accessibility testing.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.smashingmagazine.com/2021/04/bake-layers-accessibility-testing-process/&quot;&gt;How To Bake Layers Of Accessibility Testing Into Your Process&lt;/a&gt; introduces &quot;layered accessibility testing&quot; to readers. This is a practice of using a variety of tools and approaches at different stages in the digital product lifecycle to catch accessibility issues early — when it's easier and cheaper to fix them.&lt;/p&gt;
-
-&lt;p&gt;Using the metaphor of a layered cake, Mike and Kate highlight how teams can gather the ingredients that they need to build accessible products and services.&lt;/p&gt;</content><author><name>mike-gifford</name></author><summary type="html">I co-authored an article with Kate Kalcevich who is the Head of Services at Fable about accessibility testing.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://accessibility-qa.civicactions.com/card-power.png" /><media:content medium="image" url="https://accessibility-qa.civicactions.com/card-power.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+<p><a href="/analytics">CivicActions Accessibility website analytics</a></p>]]></content><author><name>luke-fretwell</name></author><summary type="html"><![CDATA[Adding public website analytics to CivicActions Accessibility.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://accessibility-qa.civicactions.com/card-power.png" /><media:content medium="image" url="https://accessibility-qa.civicactions.com/card-power.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>

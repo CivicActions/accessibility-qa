@@ -1,0 +1,913 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<title>Champions program | CivicActions Accessibility</title>
+
+
+
+<meta name="description" content="Outlining the basics of CivicActions Champions Program">
+
+
+
+<link rel="shortcut icon" type="image/ico"
+  href="/assets/img/logos/civicaction-square.ico">
+
+
+
+<!-- Facebook OG and Twitter Card -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@civicactions" />
+<meta name="twitter:title" content="Champions program">
+<meta name="twitter:creator" content="@civicactions" />
+<meta name="twitter:image" content="https://accessibility-qa.civicactions.com/assets/img/thumbnail-images/general-a11y.png">
+<meta name="twitter:image:alt" content="CivicActions Accessibility">
+<meta name="twitter:image" content="https://accessibility-qa.civicactions.com/assets/img/thumbnail-images/playbook.png">
+<meta name="twitter:image:alt" content="CivicActions Accessibility Playbook">
+<meta name="twitter:image" content="https://accessibility-qa.civicactions.com/assets/img/thumbnail-images/tip-of-the-week.png">
+<meta name="twitter:image:alt" content="CivicActions Accessibility Tip of the Week">
+<meta property="og:url" content="https://accessibility-qa.civicactions.com/" />
+<meta property="og:title" content="CivicActions-Accessibility" />
+<meta property="og:description" content="CivicActions Accessibility site is an open project for our team members and those who work for digital inclusion." />
+<meta property="og:image" content="https://accessibility-qa.civicactions.com/assets/img/thumbnail-images/general-a11y.png" />
+<meta property="og:image" content="https://accessibility-qa.civicactions.com/assets/img/thumbnail-images/playbook.png" />
+<meta property="og:image" content="https://accessibility-qa.civicactions.com/assets/img/thumbnail-images/tip-of-the-week.png" />
+
+    <!-- Font Awesome -->
+
+    <!-- This is code the Font Awesome CDN generates for me that doesn't work -->
+    <script src="https://use.fontawesome.com/4fe5bba9d1.js"></script>
+	<link rel="stylesheet" href="https://use.fontawesome.com/7207a55a98.css">
+
+    <!-- This is code from DistributedGov that works -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+    <!-- Google Fonts -->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Nunito&family=Work+Sans&display=swap" rel="stylesheet"> 
+    
+
+
+
+<link rel="stylesheet"
+  href="/assets/css/uswds-theme.css"
+  media="screen">
+
+
+
+    
+  </head>
+  <body class="  ">
+
+    <a class="usa-skipnav" href="#main-content">Skip to main content</a>
+
+    
+
+<!---->
+
+<div class="usa-overlay"></div>
+<header class="usa-header usa-header--extended"><div class="usa-navbar">
+    <div class="usa-logo" id="extended-logo">
+        <em class="usa-logo__text"><a href="/" title="Home" aria-label="Home">
+            <img class="ca-logo" src="/assets/img/ca-logo.png" alt="civicactions logo">
+            <p class="site-name-logo">Accessibility</p> <sup>ALPHA</sup></a></em>
+    </div>
+    <button class="usa-menu-btn">Menu</button>
+</div>
+    <nav aria-label="Primary navigation" class="usa-nav">
+        <div class="usa-nav__inner"><button class="usa-nav__close"><img src="/assets/uswds/img/close.svg" role="img" alt="close"></button>
+
+
+
+            <ul class="usa-nav__primary usa-accordion"><li class="usa-nav__primary-item">
+                <button class="usa-accordion__button usa-nav__link " aria-expanded="false" aria-controls="extended-nav-section-one"><span>About</span></button>
+
+                
+                <ul id="extended-nav-section-one" class="usa-nav__submenu" hidden><li class="usa-nav__submenu-item">
+                    <a href="/about/" class="">Who we are</a>
+                </li><li class="usa-nav__submenu-item">
+                    <a href="/about/people/" class="">Meet us</a>
+                </li><li class="usa-nav__submenu-item">
+                    <a href="/about/contact" class="">Contact us</a>
+                </li><li class="usa-nav__submenu-item">
+                    <a href="/about/join" class="">Join us</a>
+                </li></ul></li>
+                <li class="usa-nav__primary-item">
+                    <a class="usa-nav__link " href="/calendar"><span>Calendar</span></a>
+                </li>
+                <li class="usa-nav__primary-item">
+                    <a class="usa-nav__link " href="/news/"><span>News</span></a>
+                </li>
+
+                <li class="usa-nav__primary-item">
+                    <a class="usa-nav__link " href="/playbook/"><span>Playbook</span></a>
+                </li>
+
+                <li class="usa-nav__primary-item">
+                    <a class="usa-nav__link " href="/guide/"><span>Guide</span></a>
+                </li>
+                <li class="usa-nav__primary-item">
+                    <a class="usa-nav__link " href="/search"><span>Search</span></a>
+                </li>
+            </ul>
+
+
+            <div class="usa-nav__secondary">
+                <ul class="usa-nav__secondary-links"><li class="usa-nav__secondary-item">
+                    <a href="https://civicactions.com/">CivicActions.com</a>
+                </li></ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+
+
+    <aside>
+      
+      
+
+
+      
+
+      
+
+      
+        
+        
+
+
+
+
+      
+      
+    </aside>
+
+    
+      <main id="main-content" ="">
+        <div id="breadcrumbs" class="grid-container">
+    
+    <nav class="usa-breadcrumb" aria-label="Breadcrumbs">
+        <ol class="usa-breadcrumb__list">
+            <li class="usa-breadcrumb__list-item">
+                <a href="/" class="usa-breadcrumb__link">Home</a>
+            </li>
+            
+            
+            <li class="usa-breadcrumb__list-item usa-current" aria-current="page">
+                <a class="usa-breadcrumb__link" href="/guide/">Guide</a>
+            </li>
+            
+            
+            
+            <li class="usa-breadcrumb__list-item usa-current" aria-current="page">
+                Champions program
+            </li>
+            
+            
+        </ol>
+    </nav>
+</div>
+</div>
+<div class="guide-main">
+    <div class="">
+        <div class="grid-container">
+            <div class="grid-row grid-gap">
+                
+                
+                <div class="usa-layout-docs__sidenav desktop:grid-col-3">
+                    <nav aria-label="Secondary navigation">
+  <ul class="usa-sidenav">
+    
+      
+      <li>
+        <a href="/guide/introduction" class="list-group-item list-group-item-action ">
+          Introduction
+        </a>
+      </li>
+    
+      
+      <li>
+        <a href="/guide/history" class="list-group-item list-group-item-action ">
+          History
+        </a>
+      </li>
+    
+      
+      <li>
+        <a href="/guide/identity-language" class="list-group-item list-group-item-action ">
+          Identity and language
+        </a>
+      </li>
+    
+      
+      <li>
+        <a href="/guide/plain-language" class="list-group-item list-group-item-action ">
+          Plain language
+        </a>
+      </li>
+    
+      
+      <li>
+        <a href="/guide/tools" class="list-group-item list-group-item-action ">
+          Tools
+        </a>
+      </li>
+    
+      
+      <li>
+        <a href="/guide/design" class="list-group-item list-group-item-action ">
+          Design systems
+        </a>
+      </li>
+    
+      
+      <li>
+        <a href="/guide/documents" class="list-group-item list-group-item-action ">
+          Accessible documents
+        </a>
+      </li>
+    
+      
+      <li>
+        <a href="/guide/social-media" class="list-group-item list-group-item-action ">
+          Social media
+        </a>
+      </li>
+    
+      
+      <li>
+        <a href="/guide/events" class="list-group-item list-group-item-action ">
+          Events
+        </a>
+      </li>
+    
+      
+      <li>
+        <a href="/guide/organizations" class="list-group-item list-group-item-action ">
+          Organizations
+        </a>
+      </li>
+    
+      
+      <li>
+        <a href="/guide/training" class="list-group-item list-group-item-action ">
+          Training/certifications
+        </a>
+      </li>
+    
+      
+      <li>
+        <a href="/guide/resources" class="list-group-item list-group-item-action ">
+          Resources
+        </a>
+      </li>
+    
+      
+      <li>
+        <a href="/guide/semantic-html" class="list-group-item list-group-item-action ">
+          Semantic HTML
+        </a>
+      </li>
+    
+      
+      <li>
+        <a href="/guide/glossary" class="list-group-item list-group-item-action ">
+          Glossary
+        </a>
+      </li>
+    
+      
+      <li>
+        <a href="/guide/onboarding-staff" class="list-group-item list-group-item-action ">
+          Onboarding
+        </a>
+      </li>
+    
+      
+      <li>
+        <a href="/guide/champions-program" class="list-group-item list-group-item-action usa-current">
+          Champions program
+        </a>
+      </li>
+    
+  </ul>
+</nav>
+
+                </div>
+                
+                <div class="usa-layout-docs anchor-links usa-layout-docs__main usa-prose desktop:grid-col-9">
+                    
+                    <h1>Champions program</h1>
+                    
+                    <!-- content -->
+                    <h2 id="building-an-accessible-culture-through-our-champions-program">
+        
+        
+          Building an accessible culture through our Champions Program <a href="#building-an-accessible-culture-through-our-champions-program" class="anchor-link" aria-labelledby=building-an-accessible-culture-through-our-champions-program><span aria-hidden='true'>
+                    <svg class='usa-icon' aria-hidden='true' focusable='false' role='img'><use xlink:href='/assets/uswds-icons/sprite.svg#link'></use></svg>
+                </span><span class='sr-only'>Anchor link</span></a>
+        
+        
+      </h2>
+    
+
+<p>Accessibility Champions at CivicActions are known as "Champions" (ACs). Champions are responsible for fostering awareness and action on digital accessibility. We have ACs on both client teams (VA, WeCMS, etc.) and in functional teams (other practice areas). Larger projects may choose to have multiple ACs to support different sites/applications. ACs are a conduit of information from the Accessibility Practice Area to their functional and/or client teams. They also support bringing concerns and findings from their functional and/or client teams to the Accessibility Practice Area. Our Champions support their team(s) in building accessibility confidence. The AC is a support role, and it is assumed that anyone can bring their concerns to the attention of the Accessibility Practice Area. Project managers are responsible for ensuring that each of their teams has an accessibility champion. Ideally teams would find folks willing to volunteer for this role.</p>
+      <h3 id="objectives-of-the-accessibility-practice-area">
+        
+        
+          Objectives of the Accessibility Practice Area <a href="#objectives-of-the-accessibility-practice-area" class="anchor-link" aria-labelledby=objectives-of-the-accessibility-practice-area><span aria-hidden='true'>
+                    <svg class='usa-icon' aria-hidden='true' focusable='false' role='img'><use xlink:href='/assets/uswds-icons/sprite.svg#link'></use></svg>
+                </span><span class='sr-only'>Anchor link</span></a>
+        
+        
+      </h3>
+    
+
+<p>We are building a program in which:</p>
+<ul>
+  <li>Everyone gets oriented to basic accessibility with their orientation so that it is a part of the culture. This is already part of our onboarding.</li>
+  <li>Key teams build on this basic orientation to ensure that new staff understand accessibility for their functional role. This may also be useful for some client teams.</li>
+  <li>Regular engagement or reminders about the opportunities for accessibility certification and study groups to help support learning.</li>
+  <li>Each functional team selects a Champion who is also an active part of the accessibility practice area. The person selected should:
+    <ul>
+      <li>Be engaged in helping their functional role have a clear understanding of accessibility expectations for that role.</li>
+      <li>Update the related content on the CivicActions accessibility site.</li>
+      <li>Support onboarding new members of that functional team.</li>
+    </ul>
+  </li>
+  <li>Each client team has selected at least one Champion who is also an active part of the accessibility practice area.</li>
+</ul>
+      <h2 id="champion-levels">
+        
+        
+          Champion levels <a href="#champion-levels" class="anchor-link" aria-labelledby=champion-levels><span aria-hidden='true'>
+                    <svg class='usa-icon' aria-hidden='true' focusable='false' role='img'><use xlink:href='/assets/uswds-icons/sprite.svg#link'></use></svg>
+                </span><span class='sr-only'>Anchor link</span></a>
+        
+        
+      </h2>
+    
+
+<p>As champions gain skills, experience, and responsibility they can advance through three levels:</p>
+      <h3 id="level-1--basic-knowledge">
+        
+        
+          Level 1 — Basic knowledge <a href="#level-1--basic-knowledge" class="anchor-link" aria-labelledby=level-1--basic-knowledge><span aria-hidden='true'>
+                    <svg class='usa-icon' aria-hidden='true' focusable='false' role='img'><use xlink:href='/assets/uswds-icons/sprite.svg#link'></use></svg>
+                </span><span class='sr-only'>Anchor link</span></a>
+        
+        
+      </h3>
+    
+
+<p>Attend the practice area calls and engage in the Slack channel / keep up with best practices discussed there. Members active for 3 months get a CA11y T-Shirt. New employees are encouraged to sign up after their first 90 days.</p>
+
+<ul>
+  <li>Page level</li>
+  <li>Identify common problems</li>
+  <li>Professional Development (Prodev)</li>
+  <li><a href="https://www.edx.org/course/web-accessibility-introduction">Take EdX course (with certificate)</a> - eventually this may be part of onboarding (16-20 hours total over 1 to 4 weeks)</li>
+</ul>
+      <h3 id="level-2--experienced">
+        
+        
+          Level 2 — Experienced <a href="#level-2--experienced" class="anchor-link" aria-labelledby=level-2--experienced><span aria-hidden='true'>
+                    <svg class='usa-icon' aria-hidden='true' focusable='false' role='img'><use xlink:href='/assets/uswds-icons/sprite.svg#link'></use></svg>
+                </span><span class='sr-only'>Anchor link</span></a>
+        
+        
+      </h3>
+    
+
+<p>Either Certified or presently working to become certified through the IAAP a <a href="https://www.accessibilityassociation.org/s/certified-professional">Certified Professional in Accessibility Core Competencies(CPACC)</a> or <a href="https://www.accessibilityassociation.org/s/wascertification">Web Accessibility Specialist(WAS)</a> or a DHS <a href="https://www.dhs.gov/trusted-tester">Trusted Tester Certified</a>. Contribute to the website, contribute to articles or lead Onboarding Workshops. Bio added to the accessibility site.</p>
+
+<ul>
+  <li>Task level</li>
+  <li>Recommend solutions with confidence</li>
+  <li>Professional Development (Prodev)</li>
+  <li>IAAP (CPACC or WAS)</li>
+  <li>DHS 508 Trusted Tester program</li>
+</ul>
+      <h3 id="level-3--taking-leadership">
+        
+        
+          Level 3 — Taking leadership <a href="#level-3--taking-leadership" class="anchor-link" aria-labelledby=level-3--taking-leadership><span aria-hidden='true'>
+                    <svg class='usa-icon' aria-hidden='true' focusable='false' role='img'><use xlink:href='/assets/uswds-icons/sprite.svg#link'></use></svg>
+                </span><span class='sr-only'>Anchor link</span></a>
+        
+        
+      </h3>
+    
+
+<p>Develops and innovates our Accessibility Practice Area. Has 10% of time reserved for accessibility initiatives in CivicActions. Expected to track down &amp; advance issues. Get financial support to buy commercial software like axe DevTools Pro or ARC Tool. Having both WAS &amp; CPACC certified and becoming a <a href="https://www.accessibilityassociation.org/s/certified-professional-web-accessibility">Certified Professional in Web Accessibility (CPWA)</a>.</p>
+<ul>
+  <li>Systems level</li>
+  <li>Prioritize approaches which will have the biggest impact</li>
+  <li>Professional Development (Prodev)</li>
+  <li>Attending accessibility conferences</li>
+  <li>Example initiatives</li>
+  <li>Maintaining modules or themes</li>
+  <li>Contributing back to the USWDS, CMS Design System or VA Design System</li>
+  <li>Engagement with the W3C Working Groups</li>
+  <li>Coaching clients or partners</li>
+</ul>
+      <h2 id="areas-of-focus">
+        
+        
+          Areas of focus <a href="#areas-of-focus" class="anchor-link" aria-labelledby=areas-of-focus><span aria-hidden='true'>
+                    <svg class='usa-icon' aria-hidden='true' focusable='false' role='img'><use xlink:href='/assets/uswds-icons/sprite.svg#link'></use></svg>
+                </span><span class='sr-only'>Anchor link</span></a>
+        
+        
+      </h2>
+    
+
+<p>Champions will come in all sizes and shapes, and it is expected that there will be differences in the needs that functional and client teams have. Teams may decide that they need to have people with more or less experience to lead. Most teams will probably just have one, but some may have more, particularly if there is mentoring or a distribution of labor involved.</p>
+
+<p>The levels are primarily set up to encourage people to push themselves to learn more. There is an infinite amount that can be done on accessibility. It is beneficial for CivicActions to have people who have certifications which we can include in proposals. It takes time and effort to maintain some certificates. It is good to do this, but you should be able to be a champion without certifications.</p>
+      <h2 id="expectations">
+        
+        
+          Expectations <a href="#expectations" class="anchor-link" aria-labelledby=expectations><span aria-hidden='true'>
+                    <svg class='usa-icon' aria-hidden='true' focusable='false' role='img'><use xlink:href='/assets/uswds-icons/sprite.svg#link'></use></svg>
+                </span><span class='sr-only'>Anchor link</span></a>
+        
+        
+      </h2>
+    
+
+<p>A champion will…</p>
+<ul>
+  <li>Take responsibility for iteratively making their project more accessible</li>
+  <li>Recommend process, tooling or other changes to make accessibility a bigger part of the project growth</li>
+  <li>Work with the Accessibility Practice Area group to surface and codify best practices to share across the company</li>
+  <li>Raising accessibility issues in team meetings</li>
+  <li>Surfacing opportunities for learning and process improvement during project sprint retrospectives</li>
+</ul>
+      <h3 id="specific-examples-include">
+        
+        
+          Specific examples include: <a href="#specific-examples-include" class="anchor-link" aria-labelledby=specific-examples-include><span aria-hidden='true'>
+                    <svg class='usa-icon' aria-hidden='true' focusable='false' role='img'><use xlink:href='/assets/uswds-icons/sprite.svg#link'></use></svg>
+                </span><span class='sr-only'>Anchor link</span></a>
+        
+        
+      </h3>
+    
+<ul>
+  <li>Audit their project for areas for improvement</li>
+  <li>Ensuring there is axe-core testing in our CI/CD process (pa11y with axe, Cypress-axe).</li>
+  <li>Ensure developers are using an accessibility linter (<a href="https://marketplace.visualstudio.com/items?itemName=deque-systems.vscode-axe-linter">VSCode</a>, phpStorm, atom)</li>
+  <li>Ensuring designers include <a href="https://medium.com/designing-atlassian/create-accessible-designs-using-the-figma-a11y-annotation-kit-35371f00dac5">Figma accessibility annotation</a> (wireframes)</li>
+  <li>Working with the project team/PMs to better integrate accessibility into ticketing process</li>
+  <li>Building <a href="https://accessibility-qa.civicactions.com/playbook/checklists">checklists</a> or default acceptance criteria</li>
+  <li>Do accessibility code reviews and help coach others on the team</li>
+  <li>Leading <a href="https://www.w3.org/WAI/EO/wiki/ARRM_Project_-_Accessibility_Roles_and_Responsibilities_Mapping">ARRM</a> workshops if useful for new project or addressing backlogs</li>
+</ul>
+      <h3 id="interest-in">
+        
+        
+          Interest in <a href="#interest-in" class="anchor-link" aria-labelledby=interest-in><span aria-hidden='true'>
+                    <svg class='usa-icon' aria-hidden='true' focusable='false' role='img'><use xlink:href='/assets/uswds-icons/sprite.svg#link'></use></svg>
+                </span><span class='sr-only'>Anchor link</span></a>
+        
+        
+      </h3>
+    
+<ul>
+  <li>Learning more about digital accessibility</li>
+  <li>Research and investigation</li>
+  <li>Ability to describe barriers in a way that allows them to be reproduced</li>
+  <li>Coaching and mentoring</li>
+  <li>Complex problem solving</li>
+  <li>Presenting to audiences</li>
+  <li>Relationship building</li>
+  <li>Conflict resolution</li>
+  <li>Understanding the systems that create barriers to participation</li>
+  <li>Learning to use automated tools like WAVE &amp; Accessibility Insights</li>
+  <li>Understanding how to interpret the results of automated tools</li>
+</ul>
+
+<p>Qualities: Motivating, self-directed, bias towards action, self and team awareness,</p>
+
+<p>Values: Collaboration, listening, empathy, perseverance, resilience, adaptability, transparency, attention to detail, ownership, accountability.</p>
+      <h3 id="possible-perk">
+        
+        
+          Possible perk <a href="#possible-perk" class="anchor-link" aria-labelledby=possible-perk><span aria-hidden='true'>
+                    <svg class='usa-icon' aria-hidden='true' focusable='false' role='img'><use xlink:href='/assets/uswds-icons/sprite.svg#link'></use></svg>
+                </span><span class='sr-only'>Anchor link</span></a>
+        
+        
+      </h3>
+    
+<ul>
+  <li>T-Shirts or other swag</li>
+  <li><a href="https://www.edx.org/course/web-accessibility-introduction">EdX Intro to Accessibility</a> course with certificate</li>
+  <li>Axe DevTools Pro - Free if working on VA or US</li>
+  <li>Additional ProDev for accessibility-related training or IAAP Certifications</li>
+  <li>1st attempt at IAAP certification for WAS and CPACC</li>
+  <li>IAAP Membership</li>
+  <li>Recognized official project role</li>
+  <li>Designated time for experimentation and development</li>
+  <li>Support in writing blog posts</li>
+  <li>Speaking opportunities at conferences and webinars</li>
+</ul>
+      <h2 id="budgetary-considerations">
+        
+        
+          Budgetary considerations <a href="#budgetary-considerations" class="anchor-link" aria-labelledby=budgetary-considerations><span aria-hidden='true'>
+                    <svg class='usa-icon' aria-hidden='true' focusable='false' role='img'><use xlink:href='/assets/uswds-icons/sprite.svg#link'></use></svg>
+                </span><span class='sr-only'>Anchor link</span></a>
+        
+        
+      </h2>
+    
+      <h3 id="level-1">
+        
+        
+          Level 1 <a href="#level-1" class="anchor-link" aria-labelledby=level-1><span aria-hidden='true'>
+                    <svg class='usa-icon' aria-hidden='true' focusable='false' role='img'><use xlink:href='/assets/uswds-icons/sprite.svg#link'></use></svg>
+                </span><span class='sr-only'>Anchor link</span></a>
+        
+        
+      </h3>
+    
+<ul>
+  <li>T-Shirt &amp; EdX Certificate</li>
+</ul>
+      <h3 id="level-2">
+        
+        
+          Level 2 <a href="#level-2" class="anchor-link" aria-labelledby=level-2><span aria-hidden='true'>
+                    <svg class='usa-icon' aria-hidden='true' focusable='false' role='img'><use xlink:href='/assets/uswds-icons/sprite.svg#link'></use></svg>
+                </span><span class='sr-only'>Anchor link</span></a>
+        
+        
+      </h3>
+    
+<ul>
+  <li>IAAP prep course and certification exam</li>
+  <li>Recertification every 3 years</li>
+</ul>
+      <h3 id="level-3">
+        
+        
+          Level 3 <a href="#level-3" class="anchor-link" aria-labelledby=level-3><span aria-hidden='true'>
+                    <svg class='usa-icon' aria-hidden='true' focusable='false' role='img'><use xlink:href='/assets/uswds-icons/sprite.svg#link'></use></svg>
+                </span><span class='sr-only'>Anchor link</span></a>
+        
+        
+      </h3>
+    
+<ul>
+  <li>IAAP Certified Professional in Web Accessibility (CPWA)</li>
+  <li>Recertification every 3 years</li>
+  <li>IAAP membership</li>
+  <li>Axe DevTools Pro</li>
+</ul>
+      <h2 id="responsibilities">
+        
+        
+          Responsibilities <a href="#responsibilities" class="anchor-link" aria-labelledby=responsibilities><span aria-hidden='true'>
+                    <svg class='usa-icon' aria-hidden='true' focusable='false' role='img'><use xlink:href='/assets/uswds-icons/sprite.svg#link'></use></svg>
+                </span><span class='sr-only'>Anchor link</span></a>
+        
+        
+      </h2>
+    
+<ul>
+  <li>You are not expected to be an accessibility expert.</li>
+</ul>
+      <h2 id="faqs">
+        
+        
+          FAQs <a href="#faqs" class="anchor-link" aria-labelledby=faqs><span aria-hidden='true'>
+                    <svg class='usa-icon' aria-hidden='true' focusable='false' role='img'><use xlink:href='/assets/uswds-icons/sprite.svg#link'></use></svg>
+                </span><span class='sr-only'>Anchor link</span></a>
+        
+        
+      </h2>
+    
+      <h3 id="how-do-you-advance-between-ac-levels">
+        
+        
+          How do you advance between AC levels? <a href="#how-do-you-advance-between-ac-levels" class="anchor-link" aria-labelledby=how-do-you-advance-between-ac-levels><span aria-hidden='true'>
+                    <svg class='usa-icon' aria-hidden='true' focusable='false' role='img'><use xlink:href='/assets/uswds-icons/sprite.svg#link'></use></svg>
+                </span><span class='sr-only'>Anchor link</span></a>
+        
+        
+      </h3>
+    
+
+<p>Everyone is encouraged to become a Level 1 Champion. To participate in our meetings, engage in Slack and come to our events. People who are interested in advancing their knowledge should talk with Level 2 or 3 Champions about next steps. Anyone can use their ProDev to participate in certifications, but we would like to support those who are interested in starting the process. Level 3 Champions will require negotiations with their manager as there are time and budget implications. The Accessibility Lead will support negotiations as it is important to support those who have demonstrated leadership in this area.</p>
+      <h3 id="should-there-be-checklists-for-each-team">
+        
+        
+          Should there be checklists for each team? <a href="#should-there-be-checklists-for-each-team" class="anchor-link" aria-labelledby=should-there-be-checklists-for-each-team><span aria-hidden='true'>
+                    <svg class='usa-icon' aria-hidden='true' focusable='false' role='img'><use xlink:href='/assets/uswds-icons/sprite.svg#link'></use></svg>
+                </span><span class='sr-only'>Anchor link</span></a>
+        
+        
+      </h3>
+    
+
+<p>We have defined some <a href="https://accessibility-qa.civicactions.com/playbook/roles">role-based checklists</a> in the CivicActions Accessibility Site. Checklists can be a powerful tool if used right, we have tried to <a href="https://accessibility-qa.civicactions.com/playbook/checklists">provide some guidance on this</a>. As part of building a best practice for a functional or client team, it can be useful to help at least guide expectations and support onboarding new staff.</p>
+      <h3 id="why-should-i-invest-in-becoming-a-champion">
+        
+        
+          Why should I invest in becoming a Champion? <a href="#why-should-i-invest-in-becoming-a-champion" class="anchor-link" aria-labelledby=why-should-i-invest-in-becoming-a-champion><span aria-hidden='true'>
+                    <svg class='usa-icon' aria-hidden='true' focusable='false' role='img'><use xlink:href='/assets/uswds-icons/sprite.svg#link'></use></svg>
+                </span><span class='sr-only'>Anchor link</span></a>
+        
+        
+      </h3>
+    
+
+<p>Many joined CivicActions because they wanted to work for an impact-driven organization. Helping make websites more accessible can have a huge impact on millions of people. We also want to support people in their growth within the company. Being able to be a IAAP Certified Level 3 Champion looks good on your resume. It will help CivicActions win work, and help us all to understand how understanding people better will help us become better innovators.</p>
+      <h2 id="metrics-for-champions">
+        
+        
+          Metrics for Champions <a href="#metrics-for-champions" class="anchor-link" aria-labelledby=metrics-for-champions><span aria-hidden='true'>
+                    <svg class='usa-icon' aria-hidden='true' focusable='false' role='img'><use xlink:href='/assets/uswds-icons/sprite.svg#link'></use></svg>
+                </span><span class='sr-only'>Anchor link</span></a>
+        
+        
+      </h2>
+    
+<ul>
+  <li>Variety of best practices or frameworks to evaluate a project on beyond the WCAG guidelines</li>
+  <li>Customizable checklists for how to evaluate an existing project, individual pages, and critical user paths.</li>
+  <li>Customizable checklists to ensure a new project is thinking about accessibility throughout the project and where and how often progress should be reported to the client, the Accessibility working group, CA</li>
+  <li>User pathways for critical tasks and impacts on personas with barriers (permanent, temporary or situational).<br />
+Note: if pathways haven't been defined in a project, the accessibility champion should advocate for them to be defined.</li>
+  <li>Some additional ideas for metrics:
+    <ul>
+      <li>Content design - Reading level improvements and increased use of plain language.</li>
+      <li>UX design - These should be comparable between someone with a disability as someone without a disability: time to complete key tasks, completion rate, digital uptake or adoption rate, error rate, user satisfaction; running a certain percentage of user tests with users with a disability.</li>
+      <li>Engineering - number of axe-errors in client sites - Purple Hats grade: A.</li>
+      <li>Project Management - introduction in official ceremonies as appropriate.</li>
+      <li>DevOps - Pa11y tests for sample content types, views, web forms and landing pages. Cypress-axe tests for interactive elements.</li>
+    </ul>
+  </li>
+</ul>
+      <h2 id="resources">
+        
+        
+          Resources <a href="#resources" class="anchor-link" aria-labelledby=resources><span aria-hidden='true'>
+                    <svg class='usa-icon' aria-hidden='true' focusable='false' role='img'><use xlink:href='/assets/uswds-icons/sprite.svg#link'></use></svg>
+                </span><span class='sr-only'>Anchor link</span></a>
+        
+        
+      </h2>
+    
+
+<ul>
+  <li>Minnesota State Government: Accessibility Challenge - Nurture More Champions <a href="https://mn.gov/mnit/media/blog/?id=38-516010">Part 1</a> &amp; <a href="https://mn.gov/mnit/media/blog/?id=38-518320">Part 2</a></li>
+  <li><a href="https://engineering.linkedin.com/blog/2019/05/scaling-accessibility-through-a11y-champions-program">LinkedIN's Program</a></li>
+  <li>Intuit (Quickbooks)
+    <ul>
+      <li><a href="https://www.youtube.com/watch?v=np6sIWUTPlE">The A11y Global Collective: Scaling Accessibility — Intuit's Accessibility Champions Program (YouTube)</a></li>
+      <li><a href="http://www.last-child.com/wp-content/uploads/2021/09/Accessibility-Champions.pdf">The A11y Global Collective: Scaling Accessibility — Intuit's Accessibility Champions Program Slides (PDF)</a></li>
+      <li><a href="https://www.last-child.com/intuits-accessibility-champion-program/">Intuit's Accessibility Champion Program</a></li>
+      <li><a href="https://www.intuit.com/blog/innovation/lessons-learned-from-an-intuit-accessibility-champion/">Lessons Learned from an Intuit Accessibility Champion (Blog)</a></li>
+    </ul>
+  </li>
+  <li>AbilityNet
+    <ul>
+      <li><a href="https://www.abilitynet.org.uk/news-blogs/how-build-accessibility-your-organisation-bbc-accessibility-champions">How to build accessibility into your organisation - BBC Accessibility Champions</a></li>
+      <li><a href="https://abilitynet.org.uk/news-blogs/14-tips-build-accessibility-champions-network">14 tips to build an accessibility champions' network</a></li>
+      <li><a href="https://www.youtube.com/watch?v=tWY_YBz5mSI">Creating an accessibility champions network (YouTube)</a></li>
+    </ul>
+  </li>
+  <li>Aimée Danger
+    <ul>
+      <li><a href="https://www.aimeedanger.com/portfolio/accessibility-champions-program/">Accessibility Champions Program</a></li>
+      <li><a href="https://www.aimeedanger.com/wp-content/uploads/2021/06/ACEL-0330-1.pdf">Accessibility Champions Program + Empathy Lab (PDF)</a></li>
+    </ul>
+  </li>
+  <li><a href="https://accessibility.pearson.com/training/champion_program/index.php">Pearson: Accessibility Champion Program</a></li>
+  <li>More Videos</li>
+  <li><a href="https://www.youtube.com/watch?v=BktMJzjf7xs&amp;t=1s&amp;ab_channel=UKGovDesign">GDS/BBC Webinar: Accessibility Culture eats WCAG compliance for breakfast</a></li>
+  <li>Sagar Barbhaya - <a href="https://www.youtube.com/watch?v=8hIVafzpFkw&amp;ab_channel=A11yBytes">Expand Your Outreach with an Accessibility Champions Program</a></li>
+  <li>axe-con 2022 - <a href="https://www.deque.com/axe-con/sessions/we-are-the-champions/">Axe-con 2022: We are the Champions</a></li>
+</ul>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+      </main>
+    
+
+    
+
+    
+
+
+  
+<footer class="usa-footer usa-footer--big">
+
+  
+    <div class="grid-container">
+      <p>
+      
+        
+
+<a href="https://github.com/civicactions/accessibility/edit/main/_guide/champions-program.md" class="usa-sidenav-edit" target="_blank">Help improve this page</a>
+       
+
+<!--  // Date not working
+     &nbsp; &middot; &nbsp; Last updated: August 05, 2022 at 06:46 PM 
+-->
+        
+      </p>
+    </div>
+  
+
+  
+    <div class="grid-container usa-footer__return-to-top">
+      <a href="#">Return to top</a>
+    </div>
+  
+
+  
+    
+    
+    
+  <div class="usa-footer__primary-section">
+    <div class="grid-container">
+      <div class="grid-row grid-gap">
+        <div class="">
+          <nav class="usa-footer__nav" aria-label="Footer navigation">
+            <div class="grid-row grid-gap-4">
+              
+              <div class="mobile-lg:grid-col-6 desktop:grid-col-4">
+                <section class="usa-footer__primary-content usa-footer__primary-content--collapsible">
+                  
+                    <a class="usa-footer__primary-link" href="/contact">
+                      Contact
+                    </a>
+                  
+                </section>
+              </div>
+              
+              <div class="mobile-lg:grid-col-6 desktop:grid-col-4">
+                <section class="usa-footer__primary-content usa-footer__primary-content--collapsible">
+                  
+                    <a class="usa-footer__primary-link" href="/conduct">
+                      Conduct
+                    </a>
+                  
+                </section>
+              </div>
+              
+              <div class="mobile-lg:grid-col-6 desktop:grid-col-4">
+                <section class="usa-footer__primary-content usa-footer__primary-content--collapsible">
+                  
+                    <a class="usa-footer__primary-link" href="/license">
+                      License
+                    </a>
+                  
+                </section>
+              </div>
+              
+              <div class="mobile-lg:grid-col-6 desktop:grid-col-4">
+                <section class="usa-footer__primary-content usa-footer__primary-content--collapsible">
+                  
+                    <a class="usa-footer__primary-link" href="/colophon">
+                      Colophon
+                    </a>
+                  
+                </section>
+              </div>
+              
+              <div class="mobile-lg:grid-col-6 desktop:grid-col-4">
+                <section class="usa-footer__primary-content usa-footer__primary-content--collapsible">
+                  
+                    <a class="usa-footer__primary-link" href="/analytics">
+                      Analytics
+                    </a>
+                  
+                </section>
+              </div>
+              
+              <div class="mobile-lg:grid-col-6 desktop:grid-col-4">
+                <section class="usa-footer__primary-content usa-footer__primary-content--collapsible">
+                  
+                    <a class="usa-footer__primary-link" href="/accessibility">
+                      Accessibility
+                    </a>
+                  
+                </section>
+              </div>
+              
+            </div>
+          </nav>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  
+
+  
+  <div class="usa-footer__secondary-section">
+    <div class="grid-container">
+      <div class="grid-row grid-gap">
+        <div class="usa-footer__logo grid-row mobile-lg:grid-col-6 mobile-lg:grid-gap-2">
+          
+
+          
+          <div class="mobile-lg:grid-col-auto">
+            <h2 class="usa-footer__logo-heading">CivicActions Accessibility</h2>
+          </div>
+          
+        </div>
+
+        
+        <div class="usa-footer__contact-links mobile-lg:grid-col-6">
+          
+          
+            <div class="usa-footer__social-links grid-row grid-gap-1">
+              <div class="grid-col-auto">
+                
+                  <a class="usa-social-link usa-social-link--github" href="https://github.com/civicactions/accessibility">
+                    <span>GitHub</span>
+                  </a>
+                
+                  <a class="usa-social-link usa-social-link--facebook" href="https://facebook.com/civicactions">
+                    <span>Facebook</span>
+                  </a>
+                
+                  <a class="usa-social-link usa-social-link--twitter" href="https://twitter.com/civicactions">
+                    <span>Twitter</span>
+                  </a>
+                
+                  <a class="usa-social-link usa-social-link--linkedin" href="https://www.linkedin.com/company/civicactions/">
+                    <span>LinkedIn</span>
+                  </a>
+                
+                  <a class="usa-social-link usa-social-link--rss" href="https://accessibility-qa.civicactions.com/feed.xml">
+                    <span>RSS</span>
+                  </a>
+                
+              </div>
+            </div>
+          
+          
+            
+              <address class="usa-footer__address">
+                
+                <div class="usa-footer__contact-info grid-row grid-gap">
+                
+                    <div class="grid-col-auto">
+                      <a href="mailto:accessibility-qa.civicactions.com">
+                        accessibility-qa.civicactions.com
+                      </a>
+                    </div>
+                
+                </div>
+              </address>
+          
+        
+      </div>
+      </div>
+    </div>
+  </div>
+  
+
+</footer>
+
+
+
+
+
+    
+
+
+
+
+
+  
+    
+      <script src="/assets/uswds/js/uswds.min.js" async></script>
+    
+
+  
+    
+
+
+
+
+
+
+  </body>
+</html>

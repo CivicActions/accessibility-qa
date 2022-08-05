@@ -203,7 +203,7 @@
         <div class="grid-container">
             <div class="grid-row grid-gap flex-align-start">
                 <div class="usa-layout-docs usa-layout-docs__main usa-prose">
-                    <div class="expand-all-accordion"><button class="expand usa-button" onClick='expandingAccordions()' aria-expanded="false" data-toggle="1">Expand/Collapse All</button></div>
+                    <div class="expand-all-accordion"><button class="expand usa-button" onClick='expandingAccordions(this)' aria-expanded="false" data-open="false">Expand All</button></div>
 
                     <div id="accordionGroup" class="Accordion" data-allow-toggle>
 
@@ -213,10 +213,10 @@
 
                     
                         <div class="accordion">
-                            <div tabIndex='0' class="accordion-heading" data-toggle="1">
-                                <h2>Playbook</h2>
-                            </div>
-                            <div class="accordion-body" data-body="1" hidden>
+                            <h2>
+                                <button class="accordion-heading">Playbook</button>
+                            </h2>
+                            <div class="accordion-body" hidden>
                                 <ul>
                                     
                                     <li><a href="/playbook/pdf">Avoid PDF documents</a></li>
@@ -246,10 +246,10 @@
 
                     
                         <div class="accordion">
-                            <div tabIndex='0' class="accordion-heading" data-toggle="1">
-                                <h2>Guide</h2>
-                            </div>
-                            <div class="accordion-body" data-body="1" hidden>
+                            <h2>
+                                <button class="accordion-heading">Guide</button>
+                            </h2>
+                            <div class="accordion-body" hidden>
                                 <ul>
                                     
                                     <li><a href="/guide/events">Events</a></li>
@@ -273,10 +273,10 @@
 
                     
                         <div class="accordion">
-                            <div tabIndex='0' class="accordion-heading" data-toggle="1">
-                                <h2>Projects</h2>
-                            </div>
-                            <div class="accordion-body" data-body="1" hidden>
+                            <h2>
+                                <button class="accordion-heading">Projects</button>
+                            </h2>
+                            <div class="accordion-body" hidden>
                                 <ul>
                                     
                                     <li><a href="/projects/uswds">U.S. Web Design System</a></li>
@@ -290,15 +290,17 @@
 
                     
                         <div class="accordion">
-                            <div tabIndex='0' class="accordion-heading" data-toggle="1">
-                                <h2>News</h2>
-                            </div>
-                            <div class="accordion-body" data-body="1" hidden>
+                            <h2>
+                                <button class="accordion-heading">News</button>
+                            </h2>
+                            <div class="accordion-body" hidden>
                                 <ul>
                                     
                                     <li><a href="/posts/mvp-guide">CivicActions Accessibility Guide now available</a></li>
                                     
                                     <li><a href="/posts/mvp-playbook">CivicActions Accessibility Playbook now available</a></li>
+                                    
+                                    <li><a href="/posts/CivicActions-Accessibility-Pledge">CivicActions Accessibility Pledge</a></li>
                                     
                                     <li><a href="/posts/CivicActions-Creates-Open-Product-Accessibility-Template">CivicActions creates Open Product Accessibility Template (OPAT) with the GSA</a></li>
                                     
@@ -354,7 +356,7 @@
        
 
 <!--  // Date not working
-     &nbsp; &middot; &nbsp; Last updated: May 10, 2022 at 04:06 PM 
+     &nbsp; &middot; &nbsp; Last updated: August 05, 2022 at 06:46 PM 
 -->
         
       </p>
