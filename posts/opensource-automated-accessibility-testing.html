@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<title>Opensource.cpm: How I do automated accessibility testing for my website | CivicActions Accessibility</title>
+
+
+
+<meta name="description" content="Opensource published a guest editorial we wrote on automated accessibility testing.">
+
+
+
+<link rel="shortcut icon" type="image/ico"
+  href="/assets/img/logos/civicaction-square.ico">
+
+
+
+<!-- Facebook OG and Twitter Card -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@civicactions" />
+<meta name="twitter:title" content="Opensource.cpm: How I do automated accessibility testing for my website">
+<meta name="twitter:creator" content="@civicactions" />
+<meta name="twitter:image" content="https://accessibility-qa.civicactions.com/assets/img/thumbnail-images/general-a11y.png">
+<meta name="twitter:image:alt" content="CivicActions Accessibility">
+<meta name="twitter:image" content="https://accessibility-qa.civicactions.com/assets/img/thumbnail-images/playbook.png">
+<meta name="twitter:image:alt" content="CivicActions Accessibility Playbook">
+<meta name="twitter:image" content="https://accessibility-qa.civicactions.com/assets/img/thumbnail-images/tip-of-the-week.png">
+<meta name="twitter:image:alt" content="CivicActions Accessibility Tip of the Week">
+<meta property="og:url" content="https://accessibility-qa.civicactions.com/" />
+<meta property="og:title" content="CivicActions-Accessibility" />
+<meta property="og:description" content="CivicActions Accessibility site is an open project for our team members and those who work for digital inclusion." />
+<meta property="og:image" content="https://accessibility-qa.civicactions.com/assets/img/thumbnail-images/general-a11y.png" />
+<meta property="og:image" content="https://accessibility-qa.civicactions.com/assets/img/thumbnail-images/playbook.png" />
+<meta property="og:image" content="https://accessibility-qa.civicactions.com/assets/img/thumbnail-images/tip-of-the-week.png" />
+
+    <!-- Font Awesome -->
+
+    <!-- This is code the Font Awesome CDN generates for me that doesn't work -->
+    <script src="https://use.fontawesome.com/4fe5bba9d1.js"></script>
+	<link rel="stylesheet" href="https://use.fontawesome.com/7207a55a98.css">
+
+    <!-- This is code from DistributedGov that works -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+    <!-- Google Fonts -->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Nunito&family=Work+Sans&display=swap" rel="stylesheet"> 
+    
+
+
+
+<link rel="stylesheet"
+  href="/assets/css/uswds-theme.css"
+  media="screen">
+
+
+
+    
+  </head>
+  <body class="  ">
+
+    <a class="usa-skipnav" href="#main-content">Skip to main content</a>
+
+    
+
+<!---->
+
+<div class="usa-overlay"></div>
+<header class="usa-header usa-header--extended"><div class="usa-navbar">
+    <div class="usa-logo" id="extended-logo">
+        <em class="usa-logo__text"><a href="/" title="Home" aria-label="Home">
+            <img class="ca-logo" src="/assets/img/ca-logo.png" alt="civicactions logo">
+            <p class="site-name-logo">Accessibility</p> <sup>ALPHA</sup></a></em>
+    </div>
+    <button class="usa-menu-btn">Menu</button>
+</div>
+    <nav aria-label="Primary navigation" class="usa-nav">
+        <div class="usa-nav__inner"><button class="usa-nav__close"><img src="/assets/uswds/img/close.svg" role="img" alt="close"></button>
+
+
+
+            <ul class="usa-nav__primary usa-accordion"><li class="usa-nav__primary-item">
+                <button class="usa-accordion__button usa-nav__link " aria-expanded="false" aria-controls="extended-nav-section-one"><span>About</span></button>
+
+                
+                <ul id="extended-nav-section-one" class="usa-nav__submenu" hidden><li class="usa-nav__submenu-item">
+                    <a href="/about/" class="">Who we are</a>
+                </li><li class="usa-nav__submenu-item">
+                    <a href="/about/people/" class="">Meet us</a>
+                </li><li class="usa-nav__submenu-item">
+                    <a href="/about/contact" class="">Contact us</a>
+                </li><li class="usa-nav__submenu-item">
+                    <a href="/about/join" class="">Join us</a>
+                </li></ul></li>
+                <li class="usa-nav__primary-item">
+                    <a class="usa-nav__link " href="/calendar"><span>Calendar</span></a>
+                </li>
+                <li class="usa-nav__primary-item">
+                    <a class="usa-nav__link " href="/news/"><span>News</span></a>
+                </li>
+
+                <li class="usa-nav__primary-item">
+                    <a class="usa-nav__link " href="/playbook/"><span>Playbook</span></a>
+                </li>
+
+                <li class="usa-nav__primary-item">
+                    <a class="usa-nav__link " href="/guide/"><span>Guide</span></a>
+                </li>
+                <li class="usa-nav__primary-item">
+                    <a class="usa-nav__link " href="/search"><span>Search</span></a>
+                </li>
+            </ul>
+
+
+            <div class="usa-nav__secondary">
+                <ul class="usa-nav__secondary-links"><li class="usa-nav__secondary-item">
+                    <a href="https://civicactions.com/">CivicActions.com</a>
+                </li></ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+
+
+    <aside>
+      
+      
+
+
+      
+
+      
+
+      
+        
+        
+
+
+
+
+      
+      
+    </aside>
+
+    
+      <div id="breadcrumbs" class="grid-container">
+    
+    <nav class="usa-breadcrumb" aria-label="Breadcrumbs">
+        <ol class="usa-breadcrumb__list">
+            <li class="usa-breadcrumb__list-item">
+                <a href="/" class="usa-breadcrumb__link">Home</a>
+            </li>
+            
+            
+            <li class="usa-breadcrumb__list-item usa-current" aria-current="page">
+                <a class="usa-breadcrumb__link" href="/posts/">Posts</a>
+            </li>
+            
+            
+            
+            <li class="usa-breadcrumb__list-item usa-current" aria-current="page">
+                Opensource.cpm: How I do automated accessibility testing for my website
+            </li>
+            
+            
+        </ol>
+    </nav>
+</div>
+<main class="" id="main-content">
+    <div class="">
+        <div class="grid-container">
+            <div class="grid-row">
+                <div class="grid-col-12">
+                    
+                    <h1 class="font-heading-3xl">Opensource.cpm: How I do automated accessibility testing for my website</h1>
+                    
+                </div>
+            </div>
+            <div class="grid-row">
+                <div class="grid-col-2">
+                    
+                    
+                    
+                    
+                    
+                    <div class="author">
+                        <p><a href="/about/people/daniel-mundra"><img src="/assets/img/people/daniel-mundra.jpg" alt="Daniel Mundra" title="Daniel Mundra"></a></p>
+                        <p>By <a href="/about/people/daniel-mundra"> Daniel Mundra</a></p>
+                        <p>March 2, 2023</p>
+                    </div>
+                    
+                    
+                </div>
+                <div class="grid-col-1">
+                </div>
+                <div class="grid-col-9">
+                    <div class="post-content">
+                        <p><em>Opensource.com</em> published a guest editorial we wrote automated accessibility testing and how it is done on GitLab using Pa11y CI and Cypress.</p>
+
+<p>Full post: <a href="https://opensource.com/article/23/2/automated-accessibility-testing">How I do automated accessibility testing for my website</a></p>
+
+                    </div>
+                    
+                    
+                    
+                    
+                    
+                    
+                    <div class="post-bio">
+                        <p>
+                            <p>Daniel Mundra is a team member of CivicActions Accessibility.</p>
+
+                        </p>
+                    </div>
+                    
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+    
+
+    
+
+    
+
+
+  
+<footer class="usa-footer usa-footer--big">
+
+  
+    <div class="grid-container">
+      <p>
+      
+        
+
+<a href="https://github.com/civicactions/accessibility/edit/main/_posts/2023-03-02-opensource-automated-accessibility-testing.md" class="usa-sidenav-edit" target="_blank">Help improve this page</a>
+       
+
+<!--  // Date not working
+     &nbsp; &middot; &nbsp; Last updated: May 12, 2023 at 08:13 PM 
+-->
+        
+      </p>
+    </div>
+  
+
+  
+    <div class="grid-container usa-footer__return-to-top">
+      <a href="#">Return to top</a>
+    </div>
+  
+
+  
+    
+    
+    
+  <div class="usa-footer__primary-section">
+    <div class="grid-container">
+      <div class="grid-row grid-gap">
+        <div class="">
+          <nav class="usa-footer__nav" aria-label="Footer navigation">
+            <div class="grid-row grid-gap-4">
+              
+              <div class="mobile-lg:grid-col-6 desktop:grid-col-4">
+                <section class="usa-footer__primary-content usa-footer__primary-content--collapsible">
+                  
+                    <a class="usa-footer__primary-link" href="/contact">
+                      Contact
+                    </a>
+                  
+                </section>
+              </div>
+              
+              <div class="mobile-lg:grid-col-6 desktop:grid-col-4">
+                <section class="usa-footer__primary-content usa-footer__primary-content--collapsible">
+                  
+                    <a class="usa-footer__primary-link" href="/conduct">
+                      Conduct
+                    </a>
+                  
+                </section>
+              </div>
+              
+              <div class="mobile-lg:grid-col-6 desktop:grid-col-4">
+                <section class="usa-footer__primary-content usa-footer__primary-content--collapsible">
+                  
+                    <a class="usa-footer__primary-link" href="/license">
+                      License
+                    </a>
+                  
+                </section>
+              </div>
+              
+              <div class="mobile-lg:grid-col-6 desktop:grid-col-4">
+                <section class="usa-footer__primary-content usa-footer__primary-content--collapsible">
+                  
+                    <a class="usa-footer__primary-link" href="/colophon">
+                      Colophon
+                    </a>
+                  
+                </section>
+              </div>
+              
+              <div class="mobile-lg:grid-col-6 desktop:grid-col-4">
+                <section class="usa-footer__primary-content usa-footer__primary-content--collapsible">
+                  
+                    <a class="usa-footer__primary-link" href="/analytics">
+                      Analytics
+                    </a>
+                  
+                </section>
+              </div>
+              
+              <div class="mobile-lg:grid-col-6 desktop:grid-col-4">
+                <section class="usa-footer__primary-content usa-footer__primary-content--collapsible">
+                  
+                    <a class="usa-footer__primary-link" href="/accessibility">
+                      Accessibility
+                    </a>
+                  
+                </section>
+              </div>
+              
+            </div>
+          </nav>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  
+
+  
+  <div class="usa-footer__secondary-section">
+    <div class="grid-container">
+      <div class="grid-row grid-gap">
+        <div class="usa-footer__logo grid-row mobile-lg:grid-col-6 mobile-lg:grid-gap-2">
+          
+
+          
+          <div class="mobile-lg:grid-col-auto">
+            <h2 class="usa-footer__logo-heading">CivicActions Accessibility</h2>
+          </div>
+          
+        </div>
+
+        
+        <div class="usa-footer__contact-links mobile-lg:grid-col-6">
+          
+          
+            <div class="usa-footer__social-links grid-row grid-gap-1">
+              <div class="grid-col-auto">
+                
+                  <a class="usa-social-link usa-social-link--github" href="https://github.com/civicactions/accessibility">
+                    <span>GitHub</span>
+                  </a>
+                
+                  <a class="usa-social-link usa-social-link--facebook" href="https://facebook.com/civicactions">
+                    <span>Facebook</span>
+                  </a>
+                
+                  <a class="usa-social-link usa-social-link--twitter" href="https://twitter.com/civicactions">
+                    <span>Twitter</span>
+                  </a>
+                
+                  <a class="usa-social-link usa-social-link--linkedin" href="https://www.linkedin.com/company/civicactions/">
+                    <span>LinkedIn</span>
+                  </a>
+                
+                  <a class="usa-social-link usa-social-link--rss" href="https://accessibility-qa.civicactions.com/feed.xml">
+                    <span>RSS</span>
+                  </a>
+                
+              </div>
+            </div>
+          
+          
+            
+              <address class="usa-footer__address">
+                
+                <div class="usa-footer__contact-info grid-row grid-gap">
+                
+                    <div class="grid-col-auto">
+                      <a href="mailto:accessibility-qa.civicactions.com">
+                        accessibility-qa.civicactions.com
+                      </a>
+                    </div>
+                
+                </div>
+              </address>
+          
+        
+      </div>
+      </div>
+    </div>
+  </div>
+  
+
+</footer>
+
+
+
+
+
+    
+
+
+
+
+
+  
+    
+      <script src="/assets/uswds/js/uswds.min.js" async></script>
+    
+
+  
+    
+
+
+
+
+
+
+  </body>
+</html>

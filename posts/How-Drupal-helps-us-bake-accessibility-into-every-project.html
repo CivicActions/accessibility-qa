@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<title>How Drupal helps us bake accessibility into every project | CivicActions Accessibility</title>
+
+
+
+
+
+<link rel="shortcut icon" type="image/ico"
+  href="/assets/img/logos/civicaction-square.ico">
+
+
+
+<!-- Facebook OG and Twitter Card -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@civicactions" />
+<meta name="twitter:title" content="How Drupal helps us bake accessibility into every project">
+<meta name="twitter:creator" content="@civicactions" />
+<meta name="twitter:image" content="https://accessibility-qa.civicactions.com/assets/img/thumbnail-images/general-a11y.png">
+<meta name="twitter:image:alt" content="CivicActions Accessibility">
+<meta name="twitter:image" content="https://accessibility-qa.civicactions.com/assets/img/thumbnail-images/playbook.png">
+<meta name="twitter:image:alt" content="CivicActions Accessibility Playbook">
+<meta name="twitter:image" content="https://accessibility-qa.civicactions.com/assets/img/thumbnail-images/tip-of-the-week.png">
+<meta name="twitter:image:alt" content="CivicActions Accessibility Tip of the Week">
+<meta property="og:url" content="https://accessibility-qa.civicactions.com/" />
+<meta property="og:title" content="CivicActions-Accessibility" />
+<meta property="og:description" content="CivicActions Accessibility site is an open project for our team members and those who work for digital inclusion." />
+<meta property="og:image" content="https://accessibility-qa.civicactions.com/assets/img/thumbnail-images/general-a11y.png" />
+<meta property="og:image" content="https://accessibility-qa.civicactions.com/assets/img/thumbnail-images/playbook.png" />
+<meta property="og:image" content="https://accessibility-qa.civicactions.com/assets/img/thumbnail-images/tip-of-the-week.png" />
+
+    <!-- Font Awesome -->
+
+    <!-- This is code the Font Awesome CDN generates for me that doesn't work -->
+    <script src="https://use.fontawesome.com/4fe5bba9d1.js"></script>
+	<link rel="stylesheet" href="https://use.fontawesome.com/7207a55a98.css">
+
+    <!-- This is code from DistributedGov that works -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+    <!-- Google Fonts -->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Nunito&family=Work+Sans&display=swap" rel="stylesheet"> 
+    
+
+
+
+<link rel="stylesheet"
+  href="/assets/css/uswds-theme.css"
+  media="screen">
+
+
+
+    
+  </head>
+  <body class="  ">
+
+    <a class="usa-skipnav" href="#main-content">Skip to main content</a>
+
+    
+
+<!---->
+
+<div class="usa-overlay"></div>
+<header class="usa-header usa-header--extended"><div class="usa-navbar">
+    <div class="usa-logo" id="extended-logo">
+        <em class="usa-logo__text"><a href="/" title="Home" aria-label="Home">
+            <img class="ca-logo" src="/assets/img/ca-logo.png" alt="civicactions logo">
+            <p class="site-name-logo">Accessibility</p> <sup>ALPHA</sup></a></em>
+    </div>
+    <button class="usa-menu-btn">Menu</button>
+</div>
+    <nav aria-label="Primary navigation" class="usa-nav">
+        <div class="usa-nav__inner"><button class="usa-nav__close"><img src="/assets/uswds/img/close.svg" role="img" alt="close"></button>
+
+
+
+            <ul class="usa-nav__primary usa-accordion"><li class="usa-nav__primary-item">
+                <button class="usa-accordion__button usa-nav__link " aria-expanded="false" aria-controls="extended-nav-section-one"><span>About</span></button>
+
+                
+                <ul id="extended-nav-section-one" class="usa-nav__submenu" hidden><li class="usa-nav__submenu-item">
+                    <a href="/about/" class="">Who we are</a>
+                </li><li class="usa-nav__submenu-item">
+                    <a href="/about/people/" class="">Meet us</a>
+                </li><li class="usa-nav__submenu-item">
+                    <a href="/about/contact" class="">Contact us</a>
+                </li><li class="usa-nav__submenu-item">
+                    <a href="/about/join" class="">Join us</a>
+                </li></ul></li>
+                <li class="usa-nav__primary-item">
+                    <a class="usa-nav__link " href="/calendar"><span>Calendar</span></a>
+                </li>
+                <li class="usa-nav__primary-item">
+                    <a class="usa-nav__link " href="/news/"><span>News</span></a>
+                </li>
+
+                <li class="usa-nav__primary-item">
+                    <a class="usa-nav__link " href="/playbook/"><span>Playbook</span></a>
+                </li>
+
+                <li class="usa-nav__primary-item">
+                    <a class="usa-nav__link " href="/guide/"><span>Guide</span></a>
+                </li>
+                <li class="usa-nav__primary-item">
+                    <a class="usa-nav__link " href="/search"><span>Search</span></a>
+                </li>
+            </ul>
+
+
+            <div class="usa-nav__secondary">
+                <ul class="usa-nav__secondary-links"><li class="usa-nav__secondary-item">
+                    <a href="https://civicactions.com/">CivicActions.com</a>
+                </li></ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+
+
+    <aside>
+      
+      
+
+
+      
+
+      
+
+      
+        
+        
+
+
+
+
+      
+      
+    </aside>
+
+    
+      <div id="breadcrumbs" class="grid-container">
+    
+    <nav class="usa-breadcrumb" aria-label="Breadcrumbs">
+        <ol class="usa-breadcrumb__list">
+            <li class="usa-breadcrumb__list-item">
+                <a href="/" class="usa-breadcrumb__link">Home</a>
+            </li>
+            
+            
+            <li class="usa-breadcrumb__list-item usa-current" aria-current="page">
+                <a class="usa-breadcrumb__link" href="/posts/">Posts</a>
+            </li>
+            
+            
+            
+            <li class="usa-breadcrumb__list-item usa-current" aria-current="page">
+                How Drupal helps us bake accessibility into every project
+            </li>
+            
+            
+        </ol>
+    </nav>
+</div>
+<main class="" id="main-content">
+    <div class="">
+        <div class="grid-container">
+            <div class="grid-row">
+                <div class="grid-col-12">
+                    
+                    <h1 class="font-heading-3xl">How Drupal helps us bake accessibility into every project</h1>
+                    
+                </div>
+            </div>
+            <div class="grid-row">
+                <div class="grid-col-2">
+                    
+                    
+                    
+                    
+                    
+                    <div class="author">
+                        <p><a href="/about/people/civicactions"><img src="/assets/img/people/civicactions.png" alt="CivicActions" title="CivicActions"></a></p>
+                        <p>By <a href="/about/people/civicactions"> CivicActions</a></p>
+                        <p>December 13, 2021</p>
+                    </div>
+                    
+                    
+                </div>
+                <div class="grid-col-1">
+                </div>
+                <div class="grid-col-9">
+                    <div class="post-content">
+                        <h4 id="learn-key-features-of-drupal-that-help-make-your-site-useful-to-people-of-all-abilities">Learn key features of Drupal that help make your site useful to people of all abilities</h4>
+
+<p><img src="https://cdn-images-1.medium.com/max/1024/1*GswpaA5TtwCBYjmph6SIMw.jpeg" alt="" />Photo by <a href="https://www.pexels.com/@cliff-booth?utm_content=attributionCopyText&amp;utm_medium=referral&amp;utm_source=pexels">Cliff Booth</a> from <a href="https://www.pexels.com/photo/girl-sitting-on-a-couch-using-a-laptop-4058219/?utm_content=attributionCopyText&amp;utm_medium=referral&amp;utm_source=pexels">Pexels</a>As developers and designers working to help government agencies modernize their IT systems and websites, we are constantly aware of the far-reaching impact of our work. Many people stand to benefit from better government experiences online — that is, if we do our job well. If not, people may struggle to navigate websites that don't properly address accessibility issues.</p>
+
+<p>We believe that accessibility is not just for meeting requirements — it's for the people (of varying abilities and circumstances) who are relying on government websites for critical information and services. So we built a <a href="https://accessibility-qa.civicactions.com/">community of practice</a> to share and learn with others who are doing this work, and we choose <a href="https://medium.com/civicactions/4-ways-to-improve-government-accessibility-through-open-source-8e20fabc7281">open source tools that support accessibility</a> in the long term.</p>
+
+<p>Drupal is one of those tools — a content management platform that is continually updated to help people meet evolving accessibility standards. At <a href="https://events.drupal.org/northamerica2021">DrupalCon North America 2021</a>, CivicActions engineer Jennifer Aube gave a lightning talk to explain some of the features of Drupal that come built-in to support accessibility. Have a look!</p>
+
+<p><a href="https://medium.com/media/1930322fa36c62488ab5a0487169f1d4/href">https://medium.com/media/1930322fa36c62488ab5a0487169f1d4/href</a></p>
+<blockquote>
+  <p>"Every person deserves an equal opportunity to engage in all sites." — Jennifer Aube</p>
+</blockquote>
+
+<p><strong>Highlights</strong></p>
+
+<ul>
+  <li>0:30 — Why should we care about accessibility?</li>
+  <li>1:27 — Disability simulator: See a live demo of how people experience disability</li>
+  <li>3:23 — Why you shouldn't turn off alternative text functionality</li>
+  <li>4:15 — How "skip navigation" helps disabled people get right to the important content</li>
+  <li>5:00 — What are "field sets" and how are they used?</li>
+  <li>5:47 — Tips for using form labels effectively</li>
+  <li>6:32 — Help users get around the site without a keyboard</li>
+  <li>8:07 — How to use Google Disability Simulator</li>
+  <li>9:00 — Q&amp;A</li>
+</ul>
+
+<p><strong>Resources</strong></p>
+
+<ul>
+  <li>Deck: <a href="https://docs.google.com/presentation/d/1tj2IgTL7yXDab_VA-8k_LLqYRb9KCLvBzfp7o2tbsZQ/edit?usp=sharing">5 Ways Drupal helps us bake accessibility into every project</a></li>
+  <li><a href="https://chrome.google.com/webstore/detail/web-disability-simulator/olioanlbgbpmdlgjnnampnnlohigkjla?hl=en">Web Disability Simulator</a> from Google</li>
+  <li><a href="https://accessibility-qa.civicactions.com/">Accessibility Community of Practice</a> powered by CivicActions</li>
+</ul>
+
+<p><strong>Connect with Jennifer</strong></p>
+
+<ul>
+  <li><a href="https://www.linkedin.com/in/jennifer-aube-81119a91/">LinkedIn</a></li>
+  <li><a href="https://github.com/jaube05">GitHub</a></li>
+  <li><a href="https://www.drupal.org/u/jenniferaube">Drupal</a></li>
+</ul>
+
+<p><img src="https://medium.com/_/stat?event=post.clientViewed&amp;referrerSource=full_rss&amp;postId=e10a0529960" alt="" /></p>
+
+<hr />
+
+<p><a href="https://medium.com/civicactions/how-drupal-helps-us-bake-accessibility-into-every-project-e10a0529960">How Drupal helps us bake accessibility into every project</a> was originally published in <a href="https://medium.com/civicactions">CivicActions</a> on Medium, where people are continuing the conversation by highlighting and responding to this story.</p>
+
+
+                    </div>
+                    
+                    
+                    
+                    
+                    
+                    
+                    <div class="post-bio">
+                        <p>
+                            <p>"We help government deliver better public services through modern technology and design."</p>
+
+                        </p>
+                    </div>
+                    
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+    
+
+    
+
+    
+
+
+  
+<footer class="usa-footer usa-footer--big">
+
+  
+    <div class="grid-container">
+      <p>
+      
+        
+
+<a href="https://github.com/civicactions/accessibility/edit/main/_posts/2021-12-13-How Drupal helps us bake accessibility into every project.md" class="usa-sidenav-edit" target="_blank">Help improve this page</a>
+       
+
+<!--  // Date not working
+     &nbsp; &middot; &nbsp; Last updated: May 12, 2023 at 08:13 PM 
+-->
+        
+      </p>
+    </div>
+  
+
+  
+    <div class="grid-container usa-footer__return-to-top">
+      <a href="#">Return to top</a>
+    </div>
+  
+
+  
+    
+    
+    
+  <div class="usa-footer__primary-section">
+    <div class="grid-container">
+      <div class="grid-row grid-gap">
+        <div class="">
+          <nav class="usa-footer__nav" aria-label="Footer navigation">
+            <div class="grid-row grid-gap-4">
+              
+              <div class="mobile-lg:grid-col-6 desktop:grid-col-4">
+                <section class="usa-footer__primary-content usa-footer__primary-content--collapsible">
+                  
+                    <a class="usa-footer__primary-link" href="/contact">
+                      Contact
+                    </a>
+                  
+                </section>
+              </div>
+              
+              <div class="mobile-lg:grid-col-6 desktop:grid-col-4">
+                <section class="usa-footer__primary-content usa-footer__primary-content--collapsible">
+                  
+                    <a class="usa-footer__primary-link" href="/conduct">
+                      Conduct
+                    </a>
+                  
+                </section>
+              </div>
+              
+              <div class="mobile-lg:grid-col-6 desktop:grid-col-4">
+                <section class="usa-footer__primary-content usa-footer__primary-content--collapsible">
+                  
+                    <a class="usa-footer__primary-link" href="/license">
+                      License
+                    </a>
+                  
+                </section>
+              </div>
+              
+              <div class="mobile-lg:grid-col-6 desktop:grid-col-4">
+                <section class="usa-footer__primary-content usa-footer__primary-content--collapsible">
+                  
+                    <a class="usa-footer__primary-link" href="/colophon">
+                      Colophon
+                    </a>
+                  
+                </section>
+              </div>
+              
+              <div class="mobile-lg:grid-col-6 desktop:grid-col-4">
+                <section class="usa-footer__primary-content usa-footer__primary-content--collapsible">
+                  
+                    <a class="usa-footer__primary-link" href="/analytics">
+                      Analytics
+                    </a>
+                  
+                </section>
+              </div>
+              
+              <div class="mobile-lg:grid-col-6 desktop:grid-col-4">
+                <section class="usa-footer__primary-content usa-footer__primary-content--collapsible">
+                  
+                    <a class="usa-footer__primary-link" href="/accessibility">
+                      Accessibility
+                    </a>
+                  
+                </section>
+              </div>
+              
+            </div>
+          </nav>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  
+
+  
+  <div class="usa-footer__secondary-section">
+    <div class="grid-container">
+      <div class="grid-row grid-gap">
+        <div class="usa-footer__logo grid-row mobile-lg:grid-col-6 mobile-lg:grid-gap-2">
+          
+
+          
+          <div class="mobile-lg:grid-col-auto">
+            <h2 class="usa-footer__logo-heading">CivicActions Accessibility</h2>
+          </div>
+          
+        </div>
+
+        
+        <div class="usa-footer__contact-links mobile-lg:grid-col-6">
+          
+          
+            <div class="usa-footer__social-links grid-row grid-gap-1">
+              <div class="grid-col-auto">
+                
+                  <a class="usa-social-link usa-social-link--github" href="https://github.com/civicactions/accessibility">
+                    <span>GitHub</span>
+                  </a>
+                
+                  <a class="usa-social-link usa-social-link--facebook" href="https://facebook.com/civicactions">
+                    <span>Facebook</span>
+                  </a>
+                
+                  <a class="usa-social-link usa-social-link--twitter" href="https://twitter.com/civicactions">
+                    <span>Twitter</span>
+                  </a>
+                
+                  <a class="usa-social-link usa-social-link--linkedin" href="https://www.linkedin.com/company/civicactions/">
+                    <span>LinkedIn</span>
+                  </a>
+                
+                  <a class="usa-social-link usa-social-link--rss" href="https://accessibility-qa.civicactions.com/feed.xml">
+                    <span>RSS</span>
+                  </a>
+                
+              </div>
+            </div>
+          
+          
+            
+              <address class="usa-footer__address">
+                
+                <div class="usa-footer__contact-info grid-row grid-gap">
+                
+                    <div class="grid-col-auto">
+                      <a href="mailto:accessibility-qa.civicactions.com">
+                        accessibility-qa.civicactions.com
+                      </a>
+                    </div>
+                
+                </div>
+              </address>
+          
+        
+      </div>
+      </div>
+    </div>
+  </div>
+  
+
+</footer>
+
+
+
+
+
+    
+
+
+
+
+
+  
+    
+      <script src="/assets/uswds/js/uswds.min.js" async></script>
+    
+
+  
+    
+
+
+
+
+
+
+  </body>
+</html>
