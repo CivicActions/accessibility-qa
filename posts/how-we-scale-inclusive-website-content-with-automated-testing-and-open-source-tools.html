@@ -270,15 +270,15 @@
 
 <span class="nx">module</span><span class="p">.</span><span class="nx">exports</span> <span class="o">=</span> <span class="nx">attacher</span><span class="p">;</span>
 
-<span class="kd">function</span> <span class="nx">attacher</span><span class="p">()</span> <span class="p">{</span>
-  <span class="k">this</span><span class="p">.</span><span class="nx">use</span><span class="p">(</span>
+<span class="kd">function</span> <span class="nf">attacher</span><span class="p">()</span> <span class="p">{</span>
+  <span class="k">this</span><span class="p">.</span><span class="nf">use</span><span class="p">(</span>
     <span class="nx">remark2retext</span><span class="p">,</span>
-    <span class="nx">unified</span><span class="p">()</span>
-      <span class="p">.</span><span class="nx">use</span><span class="p">(</span><span class="nx">english</span><span class="p">)</span>
-      <span class="p">.</span><span class="nx">use</span><span class="p">(</span><span class="nx">sentenceSpacing</span><span class="p">,</span> <span class="p">{</span> <span class="na">preferred</span><span class="p">:</span> <span class="mi">1</span> <span class="p">})</span>
-      <span class="p">.</span><span class="nx">use</span><span class="p">(</span><span class="nx">quotes</span><span class="p">,</span> <span class="p">{</span> <span class="na">preferred</span><span class="p">:</span> <span class="dl">"</span><span class="s2">straight</span><span class="dl">"</span> <span class="p">})</span>
-      <span class="p">.</span><span class="nx">use</span><span class="p">(</span><span class="nx">repeated</span><span class="p">)</span>
-      <span class="p">.</span><span class="nx">use</span><span class="p">(</span><span class="nx">indefinite</span><span class="p">)</span>
+    <span class="nf">unified</span><span class="p">()</span>
+      <span class="p">.</span><span class="nf">use</span><span class="p">(</span><span class="nx">english</span><span class="p">)</span>
+      <span class="p">.</span><span class="nf">use</span><span class="p">(</span><span class="nx">sentenceSpacing</span><span class="p">,</span> <span class="p">{</span> <span class="na">preferred</span><span class="p">:</span> <span class="mi">1</span> <span class="p">})</span>
+      <span class="p">.</span><span class="nf">use</span><span class="p">(</span><span class="nx">quotes</span><span class="p">,</span> <span class="p">{</span> <span class="na">preferred</span><span class="p">:</span> <span class="dl">"</span><span class="s2">straight</span><span class="dl">"</span> <span class="p">})</span>
+      <span class="p">.</span><span class="nf">use</span><span class="p">(</span><span class="nx">repeated</span><span class="p">)</span>
+      <span class="p">.</span><span class="nf">use</span><span class="p">(</span><span class="nx">indefinite</span><span class="p">)</span>
   <span class="p">);</span>
 <span class="p">}</span>
 </code></pre></div></div>
@@ -288,20 +288,20 @@
 
 <span class="p">...</span>
 
-<span class="kd">function</span> <span class="nx">attacher</span><span class="p">()</span> <span class="p">{</span>
-  <span class="k">this</span><span class="p">.</span><span class="nx">use</span><span class="p">(</span>
+<span class="kd">function</span> <span class="nf">attacher</span><span class="p">()</span> <span class="p">{</span>
+  <span class="k">this</span><span class="p">.</span><span class="nf">use</span><span class="p">(</span>
     <span class="nx">remark2retext</span><span class="p">,</span>
-    <span class="nx">unified</span><span class="p">()</span>
-      <span class="p">.</span><span class="nx">use</span><span class="p">(</span><span class="nx">english</span><span class="p">)</span>
-      <span class="p">.</span><span class="nx">use</span><span class="p">(</span><span class="nx">contractions</span><span class="p">,</span> <span class="p">{</span> <span class="na">straight</span><span class="p">:</span> <span class="kc">true</span> <span class="p">})</span>
-      <span class="p">.</span><span class="nx">use</span><span class="p">(</span><span class="nx">readability</span><span class="p">,</span> <span class="p">{</span>
+    <span class="nf">unified</span><span class="p">()</span>
+      <span class="p">.</span><span class="nf">use</span><span class="p">(</span><span class="nx">english</span><span class="p">)</span>
+      <span class="p">.</span><span class="nf">use</span><span class="p">(</span><span class="nx">contractions</span><span class="p">,</span> <span class="p">{</span> <span class="na">straight</span><span class="p">:</span> <span class="kc">true</span> <span class="p">})</span>
+      <span class="p">.</span><span class="nf">use</span><span class="p">(</span><span class="nx">readability</span><span class="p">,</span> <span class="p">{</span>
         <span class="na">age</span><span class="p">:</span> <span class="mi">18</span><span class="p">,</span>
         <span class="na">minWords</span><span class="p">:</span> <span class="mi">15</span><span class="p">,</span>
         <span class="na">severity</span><span class="p">:</span> <span class="dl">"</span><span class="s2">fatal</span><span class="dl">"</span><span class="p">,</span>
         <span class="na">threshold</span><span class="p">:</span> <span class="mi">5</span> <span class="o">/</span> <span class="mi">7</span><span class="p">,</span>
       <span class="p">})</span>
-      <span class="p">.</span><span class="nx">use</span><span class="p">(</span><span class="nx">equality</span><span class="p">,</span> <span class="p">{</span> <span class="na">ignore</span><span class="p">:</span> <span class="nx">ignoreWords</span> <span class="o">||</span> <span class="p">[]</span> <span class="p">})</span>
-      <span class="p">.</span><span class="nx">use</span><span class="p">(</span><span class="nx">spell</span><span class="p">,</span> <span class="nx">dictionary</span><span class="p">)</span>
+      <span class="p">.</span><span class="nf">use</span><span class="p">(</span><span class="nx">equality</span><span class="p">,</span> <span class="p">{</span> <span class="na">ignore</span><span class="p">:</span> <span class="nx">ignoreWords</span> <span class="o">||</span> <span class="p">[]</span> <span class="p">})</span>
+      <span class="p">.</span><span class="nf">use</span><span class="p">(</span><span class="nx">spell</span><span class="p">,</span> <span class="nx">dictionary</span><span class="p">)</span>
   <span class="p">);</span>
 <span class="p">}</span>
 </code></pre></div></div>
@@ -365,7 +365,7 @@
   </li>
 </ul>
 
-<p>Thank you to <a href="/about/people/michelle-kang">Michelle Kang</a>, <a href="https://civicactions.com/team/marlena-medford">Marlena Medford</a>, <a href="/about/people/luke-fretwell">Luke Fretwell</a>, and <a href="/about/people/mike-gifford">Mike Gifford</a> for your support, thoughts, and feedback.</p>
+<p>Thank you to Michelle Kang, Marlena Medford, Luke Fretwell, and Mike Gifford for your support, thoughts, and feedback.</p>
 
                     </div>
                     
@@ -409,7 +409,7 @@
        
 
 <!--  // Date not working
-     &nbsp; &middot; &nbsp; Last updated: May 21, 2023 at 03:35 PM 
+     &nbsp; &middot; &nbsp; Last updated: April 01, 2024 at 06:44 PM 
 -->
         
       </p>

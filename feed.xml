@@ -1,4 +1,17 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://accessibility-qa.civicactions.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://accessibility-qa.civicactions.com/" rel="alternate" type="text/html" /><updated>2023-05-21T15:54:51+00:00</updated><id>https://accessibility-qa.civicactions.com/feed.xml</id><title type="html">CivicActions Accessibility</title><entry><title type="html">Daniel Mundra: Diving into Drupal</title><link href="https://accessibility-qa.civicactions.com/posts/daniel-mundra-diving-into-drupal" rel="alternate" type="text/html" title="Daniel Mundra: Diving into Drupal" /><published>2023-04-10T16:00:00+00:00</published><updated>2023-05-21T15:35:27+00:00</updated><id>https://accessibility-qa.civicactions.com/posts/daniel-mundra-diving-into-drupal</id><content type="html" xml:base="https://accessibility-qa.civicactions.com/posts/daniel-mundra-diving-into-drupal"><![CDATA[<p><img src="https://cdn-
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://accessibility-qa.civicactions.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://accessibility-qa.civicactions.com/" rel="alternate" type="text/html" /><updated>2024-04-01T18:55:17+00:00</updated><id>https://accessibility-qa.civicactions.com/feed.xml</id><title type="html">CivicActions Accessibility</title><entry><title type="html">Five reasons to get excited about governmentwide Section 508 assessment criteria</title><link href="https://accessibility-qa.civicactions.com/posts/five-reasons-to-get-excited-about-governmentwide-section-508-assessment-criteria" rel="alternate" type="text/html" title="Five reasons to get excited about governmentwide Section 508 assessment criteria" /><published>2023-08-08T18:00:00+00:00</published><updated>2024-04-01T18:44:50+00:00</updated><id>https://accessibility-qa.civicactions.com/posts/five-reasons-to-get-excited-about-governmentwide-section-508-assessment-criteria</id><content type="html" xml:base="https://accessibility-qa.civicactions.com/posts/five-reasons-to-get-excited-about-governmentwide-section-508-assessment-criteria"><![CDATA[<h2 id="five-reasons-to-get-excited-about-governmentwide-section-508-assessment-criteria">Five reasons to get excited about governmentwide Section 508 assessment criteria</h2>
+
+<p>Mike had this <a href="https://federalnewsnetwork.com/commentary/2023/08/five-reasons-to-get-excited-about-governmentwide-section-508-assessment-criteria/">article published with the Federal News Network</a> celebrating the approach taken by 
+the <a href="https://www.whitehouse.gov/omb/">Office of Management and Budget</a>, <a href="https://www.justice.gov">U.S. Department of Justice</a> and the <a href="https://www.gsa.gov/">GSA</a> to collect accessibility information from government agencies.</p>
+
+<p>Seeing results every six months will also be so important to be able to track progress on meeting the Seciton 508 goals, but also achieving the government's Diversity, Equity, Inclusion and Accessibility (DEIA) goals.</p>]]></content><author><name>mike-gifford</name></author><summary type="html"><![CDATA[Five reasons to get excited about governmentwide Section 508 assessment criteria]]></summary></entry><entry><title type="html">Treat accessibility issues as bugs, not feature requests</title><link href="https://accessibility-qa.civicactions.com/posts/fix-accessibility-bugs" rel="alternate" type="text/html" title="Treat accessibility issues as bugs, not feature requests" /><published>2023-08-08T16:00:00+00:00</published><updated>2024-04-01T18:44:50+00:00</updated><id>https://accessibility-qa.civicactions.com/posts/fix-accessibility-bugs</id><content type="html" xml:base="https://accessibility-qa.civicactions.com/posts/fix-accessibility-bugs"><![CDATA[<h2 id="treat-accessibility-issues-as-bugs-not-feature-requests">Treat accessibility issues as bugs, not feature requests</h2>
+
+<p>Mike had this <a href="https://github.com/readme/guides/fix-accessibility-bugs">article published with GitHub's ReadME Project</a> looking back over what worked with Drupal, and how it could apply to more open source projects.</p>
+
+<p>Drupal is probably the most accessible content management system in the world. This didn't happen over night, and it has taken the input of hundreds of people. Still there are other software communities that can learn from this to make their code more accessible.</p>]]></content><author><name>mike-gifford</name></author><summary type="html"><![CDATA[Treat accessibility issues as bugs, not feature requests]]></summary></entry><entry><title type="html">How OMB can improve .gov accessibility</title><link href="https://accessibility-qa.civicactions.com/posts/how-omb-can-improve-gov-accessibility" rel="alternate" type="text/html" title="How OMB can improve .gov accessibility" /><published>2023-05-05T16:00:00+00:00</published><updated>2024-04-01T18:44:50+00:00</updated><id>https://accessibility-qa.civicactions.com/posts/how-omb-can-improve-gov-accessibility</id><content type="html" xml:base="https://accessibility-qa.civicactions.com/posts/how-omb-can-improve-gov-accessibility"><![CDATA[<h2 id="how-omb-can-improve-gov-accessibility">How OMB can improve .gov accessibility</h2>
+
+<p>Mike had this <a href="https://federalnewsnetwork.com/commentary/2023/05/how-omb-can-improve-gov-accessibility/">article published with the Federal News Network</a> on how the USA government can learn from best practices adopted in Europe with the Web Accessibility Directive.</p>
+
+<p>There is such a great opportunity to learn from and build on the work done by the European Commission. Right now they are leading the world in digital accessibility.</p>]]></content><author><name>mike-gifford</name></author><summary type="html"><![CDATA[How OMB can improve .gov accessibility]]></summary></entry><entry><title type="html">Daniel Mundra: Diving into Drupal</title><link href="https://accessibility-qa.civicactions.com/posts/daniel-mundra-diving-into-drupal" rel="alternate" type="text/html" title="Daniel Mundra: Diving into Drupal" /><published>2023-04-10T16:00:00+00:00</published><updated>2024-04-01T18:44:50+00:00</updated><id>https://accessibility-qa.civicactions.com/posts/daniel-mundra-diving-into-drupal</id><content type="html" xml:base="https://accessibility-qa.civicactions.com/posts/daniel-mundra-diving-into-drupal"><![CDATA[<p><img src="https://cdn-
 images-1.medium.com/max/1024/1*9vNRg9HsEJ03hxflXvPxJw.jpeg" alt="Daniel Mundra stands in nature" /></p>
 
 <p><em>We spoke to CivicActioner Daniel Mundra, Associate Director of Drupal, about
@@ -90,7 +103,7 @@ how local players and teams evolved.</p>
 <p><a href="https://medium.com/civicactions/daniel-
 mundra-diving-into-drupal-4a63bf99996b">Daniel Mundra: Diving into Drupal</a> was originally published in
 <a href="https://medium.com/civicactions">CivicActions</a> on Medium, where people are
-continuing the conversation by highlighting and responding to this story.</p>]]></content><author><name>civicactions</name></author><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Helping disabled Veterans Check-In: Designing an Accessibility Map</title><link href="https://accessibility-qa.civicactions.com/posts/helping-disabled-veterans-check-in-designing-an-accessibility-map" rel="alternate" type="text/html" title="Helping disabled Veterans Check-In: Designing an Accessibility Map" /><published>2023-04-06T16:00:00+00:00</published><updated>2023-05-21T15:35:27+00:00</updated><id>https://accessibility-qa.civicactions.com/posts/helping-disabled-veterans-check-in-designing-an-accessibility-map</id><content type="html" xml:base="https://accessibility-qa.civicactions.com/posts/helping-disabled-veterans-check-in-designing-an-accessibility-map"><![CDATA[<p><em>A note on language: We're using both people-first language ("a person with a
+continuing the conversation by highlighting and responding to this story.</p>]]></content><author><name>civicactions</name></author><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Helping disabled Veterans Check-In: Designing an Accessibility Map</title><link href="https://accessibility-qa.civicactions.com/posts/helping-disabled-veterans-check-in-designing-an-accessibility-map" rel="alternate" type="text/html" title="Helping disabled Veterans Check-In: Designing an Accessibility Map" /><published>2023-04-06T16:00:00+00:00</published><updated>2024-04-01T18:44:50+00:00</updated><id>https://accessibility-qa.civicactions.com/posts/helping-disabled-veterans-check-in-designing-an-accessibility-map</id><content type="html" xml:base="https://accessibility-qa.civicactions.com/posts/helping-disabled-veterans-check-in-designing-an-accessibility-map"><![CDATA[<p><em>A note on language: We're using both people-first language ("a person with a
 disability") and identity-first language ("disabled person"). We recognize
 both are valid and advocated for within the disability community.</em></p>
 
@@ -223,8 +236,7 @@ research sources to validate our assumptions on behaviors, needs and
 challenges. Details of the post-it notes are intentionally not-visible, and
 are shown for example purposes only.</em></p>
 
-<h3 id="step-2-created-user-journey-maps-to-identify-pain-points-and-possible">Step 2: Created user journey maps to identify pain points and possible</h3>
-<p>solutions</p>
+<h3 id="step-2-created-user-journey-maps-to-identify-pain-points-and-possible-solutions">Step 2: Created user journey maps to identify pain points and possible solutions</h3>
 
 <p>Based on the proto-personas, we created user journey maps across the medical
 appointment experience:</p>
@@ -251,8 +263,7 @@ caregiver support to prepare for the medical appointment. Details of the post-
 it notes are intentionally not-visible, and are shown for example purposes
 only.</em></p>
 
-<h3 id="step-3-mapped-each-solution-across-multiple-disability-types-creating">Step 3: Mapped each solution across multiple disability types, creating</h3>
-<p>our accessibility use case map</p>
+<h3 id="step-3-mapped-each-solution-across-multiple-disability-types-creating-our-accessibility-use-case-map">Step 3: Mapped each solution across multiple disability types, creating our accessibility use case map</h3>
 
 <p>But what might benefit someone with one type of disability, might be a barrier
 for others. For instance, text-to-speech software is helpful for a blind
@@ -316,8 +327,7 @@ improvements like "sending an SMS notification with a link to pre-check-in"
 was one of our highest impact solutions. This meant it was impactful for the
 greatest number of disabilities.</p>
 
-<h3 id="step-6-prioritized-recommendations-based-on-the-accessibility-impact">Step 6: Prioritized recommendations based on the Accessibility Impact</h3>
-<p>Score</p>
+<h3 id="step-6-prioritized-recommendations-based-on-the-accessibility-impact-score">Step 6: Prioritized recommendations based on the Accessibility Impact Score</h3>
 
 <p>Using a prioritization matrix, we prioritized each recommendation based on its
 total Accessibility Impact Score.</p>
@@ -337,12 +347,12 @@ we could eventually choose the recommendations we wanted on our roadmap.</p>
   <li>We didn't test it with users living with disabilities.</li>
 </ul>
 
-<h4 id="ideally-disabled-veterans-would-be-part-of-our-process">Ideally, disabled Veterans would be part of our process</h4>
-
 <blockquote>
   <p>This is our first attempt at designing for disabled Veterans when resources
 are limited, time-frames are tight, and priorities conflict.</p>
 </blockquote>
+
+<h4 id="ideally-disabled-veterans-would-be-part-of-our-process">Ideally, disabled Veterans would be part of our process</h4>
 
 <p>What would we have done differently without those constraints? We would have
 included disabled Veterans throughout all six steps of the process. This way
@@ -366,156 +376,12 @@ Product Designer at CivicActions</em></p>
 designing-an-accessibility-map-8a1dff130b37">Helping disabled Veterans Check-In: Designing an Accessibility
 Map</a> was originally published in
 <a href="https://medium.com/civicactions">CivicActions</a> on Medium, where people are
-continuing the conversation by highlighting and responding to this story.</p>]]></content><author><name>nira-datta</name></author><summary type="html"><![CDATA[A note on language: We're using both people-first language ("a person with a disability") and identity-first language ("disabled person"). We recognize both are valid and advocated for within the disability community.]]></summary></entry><entry><title type="html">Opensource.com: How I do automated accessibility testing for my website</title><link href="https://accessibility-qa.civicactions.com/posts/opensource-automated-accessibility-testing" rel="alternate" type="text/html" title="Opensource.com: How I do automated accessibility testing for my website" /><published>2023-03-02T16:00:00+00:00</published><updated>2023-05-21T15:35:27+00:00</updated><id>https://accessibility-qa.civicactions.com/posts/opensource-automated-accessibility-testing</id><content type="html" xml:base="https://accessibility-qa.civicactions.com/posts/opensource-automated-accessibility-testing"><![CDATA[<p><em>Opensource.com</em> published a guest editorial we wrote automated accessibility testing and how it is done on GitLab using Pa11y CI and Cypress.</p>
+continuing the conversation by highlighting and responding to this story.</p>]]></content><author><name>nira-datta</name></author><summary type="html"><![CDATA[A note on language: We're using both people-first language ("a person with a disability") and identity-first language ("disabled person"). We recognize both are valid and advocated for within the disability community.]]></summary></entry><entry><title type="html">Opensource.com: How I do automated accessibility testing for my website</title><link href="https://accessibility-qa.civicactions.com/posts/opensource-automated-accessibility-testing" rel="alternate" type="text/html" title="Opensource.com: How I do automated accessibility testing for my website" /><published>2023-03-02T16:00:00+00:00</published><updated>2024-04-01T18:44:50+00:00</updated><id>https://accessibility-qa.civicactions.com/posts/opensource-automated-accessibility-testing</id><content type="html" xml:base="https://accessibility-qa.civicactions.com/posts/opensource-automated-accessibility-testing"><![CDATA[<p><em>Opensource.com</em> published a guest editorial we wrote automated accessibility testing and how it is done on GitLab using Pa11y CI and Cypress.</p>
 
-<p>Full post: <a href="https://opensource.com/article/23/2/automated-accessibility-testing">How I do automated accessibility testing for my website</a></p>]]></content><author><name>daniel-mundra</name></author><category term="Testing" /><summary type="html"><![CDATA[Opensource published a guest editorial we wrote on automated accessibility testing.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://accessibility-qa.civicactions.com/card-power.png" /><media:content medium="image" url="https://accessibility-qa.civicactions.com/card-power.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Mike Gifford gave a presentation at FOSDEM on Accessibility &amp;amp; Open Source</title><link href="https://accessibility-qa.civicactions.com/posts/FOSDEM-ccessibility-OpenSource" rel="alternate" type="text/html" title="Mike Gifford gave a presentation at FOSDEM on Accessibility &amp;amp; Open Source" /><published>2023-02-05T16:00:00+00:00</published><updated>2023-05-21T15:35:27+00:00</updated><id>https://accessibility-qa.civicactions.com/posts/FOSDEM-ccessibility-OpenSource</id><content type="html" xml:base="https://accessibility-qa.civicactions.com/posts/FOSDEM-ccessibility-OpenSource"><![CDATA[<p>I presented on February 5th in the Design track of the conference. The <a href="https://docs.google.com/presentation/d/1lkUM9mkBSgH0-8pf-kDtPp-FxTCxKEaWd7ze8wA3NA0/edit#slide=id.gde6e9fa718_0_3">slides</a> and <a href="https://fosdem.org/2023/schedule/event/accessibility_and_open_source/">presentation</a> are available to those who missed it.</p>
+<p>Full post: <a href="https://opensource.com/article/23/2/automated-accessibility-testing">How I do automated accessibility testing for my website</a></p>]]></content><author><name>daniel-mundra</name></author><category term="Testing" /><summary type="html"><![CDATA[Opensource published a guest editorial we wrote on automated accessibility testing.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://accessibility-qa.civicactions.com/card-power.png" /><media:content medium="image" url="https://accessibility-qa.civicactions.com/card-power.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Mike Gifford gave a presentation at FOSDEM on Accessibility &amp;amp; Open Source</title><link href="https://accessibility-qa.civicactions.com/posts/FOSDEM-ccessibility-OpenSource" rel="alternate" type="text/html" title="Mike Gifford gave a presentation at FOSDEM on Accessibility &amp;amp; Open Source" /><published>2023-02-05T16:00:00+00:00</published><updated>2024-04-01T18:44:50+00:00</updated><id>https://accessibility-qa.civicactions.com/posts/FOSDEM-ccessibility-OpenSource</id><content type="html" xml:base="https://accessibility-qa.civicactions.com/posts/FOSDEM-ccessibility-OpenSource"><![CDATA[<p>I presented on February 5th in the Design track of the conference. The <a href="https://docs.google.com/presentation/d/1lkUM9mkBSgH0-8pf-kDtPp-FxTCxKEaWd7ze8wA3NA0/">slides</a> and <a href="https://fosdem.org/2023/schedule/event/accessibility_and_open_source/">presentation</a> are available to those who missed it.</p>
 
 <p>My presentation focused on my experience in Drupal. Drupal has been a leader in digital accessibility for over an decade. Working with an open community has allowed us to pioneer some new solutions to common design challenges. Working in the open has allowed us to tap expertise outside of our community and given space for people with disabilities to become involved in a variety of roles. Accessibility best practices make it clear that accessibility needs to be considered at all levels of a project.</p>
 
-<p>This talk draws on the experience of the Drupal community but isn't limited to it. I touched on the <a href="https://accessibilitycluster.com/">We4Authors Cluster</a> initiative of <a href="https://www.funka.com/en/projekt/we4authors">Funka</a> with the European Commission.</p>]]></content><author><name>mike-gifford</name></author><summary type="html"><![CDATA[Mike gave a talk in Brussels at the annual FOSDEM conference. He focused on how open source is key to building a more inclusive world.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://accessibility-qa.civicactions.com/card-power.png" /><media:content medium="image" url="https://accessibility-qa.civicactions.com/card-power.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Mike Gifford Presented in at Inclusive Design &amp;amp; Accessibility Meetup in the Netherlands</title><link href="https://accessibility-qa.civicactions.com/posts/governments-accessibility-opensource" rel="alternate" type="text/html" title="Mike Gifford Presented in at Inclusive Design &amp;amp; Accessibility Meetup in the Netherlands" /><published>2023-02-01T16:00:00+00:00</published><updated>2023-05-21T15:35:27+00:00</updated><id>https://accessibility-qa.civicactions.com/posts/governments-accessibility-opensource</id><content type="html" xml:base="https://accessibility-qa.civicactions.com/posts/governments-accessibility-opensource"><![CDATA[<p>I presented <a href="https://www.meetup.com/inclusive-design-accessibility/events/291069715/">Governments, accessibility and open source</a> in Utrecht. My <a href="https://docs.google.com/presentation/d/1Pm0bVAZwk_NBxeOMvjiTtTXTQBumZjwNgb6MDLDXwSE/edit#slide=id.gde6e9fa718_0_3">slides are available</a>, and we hope to make the audio available soon.</p>
+<p>This talk draws on the experience of the Drupal community but isn't limited to it. I touched on the <a href="https://accessibilitycluster.com/">We4Authors Cluster</a> initiative of <a href="https://www.funka.com/en/projekt/we4authors">Funka</a> with the European Commission.</p>]]></content><author><name>mike-gifford</name></author><summary type="html"><![CDATA[Mike gave a talk in Brussels at the annual FOSDEM conference. He focused on how open source is key to building a more inclusive world.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://accessibility-qa.civicactions.com/card-power.png" /><media:content medium="image" url="https://accessibility-qa.civicactions.com/card-power.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Mike Gifford Presented in at Inclusive Design &amp;amp; Accessibility Meetup in the Netherlands</title><link href="https://accessibility-qa.civicactions.com/posts/governments-accessibility-opensource" rel="alternate" type="text/html" title="Mike Gifford Presented in at Inclusive Design &amp;amp; Accessibility Meetup in the Netherlands" /><published>2023-02-01T16:00:00+00:00</published><updated>2024-04-01T18:44:50+00:00</updated><id>https://accessibility-qa.civicactions.com/posts/governments-accessibility-opensource</id><content type="html" xml:base="https://accessibility-qa.civicactions.com/posts/governments-accessibility-opensource"><![CDATA[<p>I presented <a href="https://www.meetup.com/inclusive-design-accessibility/events/291069715/">Governments, accessibility and open source</a> in Utrecht. My <a href="https://docs.google.com/presentation/d/1Pm0bVAZwk_NBxeOMvjiTtTXTQBumZjwNgb6MDLDXwSE">slides are available</a>, and we hope to make the audio available soon.</p>
 
-<p>My talk focused on some of the challenges that governments are facing as they work to modernize and adopt modern digital first practices. In my talk I address Open Government, open source software and Civic Tech. I highlight how digital accessibility is a huge challenge for governments. Often innovation clashes with inclusive design. There is new legislative pressure on governments, and governments are always struggling to do more with less.</p>]]></content><author><name>mike-gifford</name></author><summary type="html"><![CDATA[I presented Governments, accessibility and open source in Utrecht. My slides are available, and we hope to make the audio available soon.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://accessibility-qa.civicactions.com/card-power.png" /><media:content medium="image" url="https://accessibility-qa.civicactions.com/card-power.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Daniel Mundra interviewed on the Talking Drupal podcast</title><link href="https://accessibility-qa.civicactions.com/posts/Talking-Drupal-Podcast-382" rel="alternate" type="text/html" title="Daniel Mundra interviewed on the Talking Drupal podcast" /><published>2023-01-16T16:00:00+00:00</published><updated>2023-05-21T15:35:27+00:00</updated><id>https://accessibility-qa.civicactions.com/posts/Talking-Drupal-Podcast-382</id><content type="html" xml:base="https://accessibility-qa.civicactions.com/posts/Talking-Drupal-Podcast-382"><![CDATA[<p>I joined Ben Mullins on the <a href="https://talkingdrupal.com/382">Talking Drupal podcast #382</a> to discuss Automated A11y Testing with Nightwatch. We discussed the efforts of adding the accessibility tests to Drupal core, accessibility in general, Cypress vs Nightwatch, and so on.</p>]]></content><author><name>daniel-mundra</name></author><summary type="html"><![CDATA[A discussion about Automated A11y Testing with Nightwatch.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://accessibility-qa.civicactions.com/card-power.png" /><media:content medium="image" url="https://accessibility-qa.civicactions.com/card-power.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Mike Gifford &amp;amp; Daniel Mundra interviewed on the Talking Drupal podcast</title><link href="https://accessibility-qa.civicactions.com/posts/Talking-Drupal-Podcast" rel="alternate" type="text/html" title="Mike Gifford &amp;amp; Daniel Mundra interviewed on the Talking Drupal podcast" /><published>2022-05-31T16:00:00+00:00</published><updated>2023-05-21T15:35:27+00:00</updated><id>https://accessibility-qa.civicactions.com/posts/Talking-Drupal-Podcast</id><content type="html" xml:base="https://accessibility-qa.civicactions.com/posts/Talking-Drupal-Podcast"><![CDATA[<p>Mike and I were interviewed on the <a href="https://talkingdrupal.com/350">Talking Drupal podcast #350</a> on Accessibility Scanning &amp; Testing. We discussed various tools, strategies, OpenACR, and so on.</p>]]></content><author><name>daniel-mundra</name></author><summary type="html"><![CDATA[A discussion about Accessibility Scanning & Testing in Drupal.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://accessibility-qa.civicactions.com/card-power.png" /><media:content medium="image" url="https://accessibility-qa.civicactions.com/card-power.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">CivicActions Accessibility Pledge</title><link href="https://accessibility-qa.civicactions.com/posts/CivicActions-Accessibility-Pledge" rel="alternate" type="text/html" title="CivicActions Accessibility Pledge" /><published>2022-05-19T00:00:00+00:00</published><updated>2023-05-21T15:35:27+00:00</updated><id>https://accessibility-qa.civicactions.com/posts/CivicActions-Accessibility-Pledge</id><content type="html" xml:base="https://accessibility-qa.civicactions.com/posts/CivicActions-Accessibility-Pledge"><![CDATA[<p>The World Health Organization estimates the number of people with disabilities in the world is more than 1 billion—and everyone experiences 
-temporary or situational disabilities.  According to the <a href="https://webaim.org/projects/million/">WebAIM 2022 report</a> on the accessibility of the top million sites, 96.8% of home pages have 
-accessibility failures.</p>
-
-<p>CivicActions recognizes that the digital world is the operational hub for critical human services. By safeguarding and committing to an accessible digital future, we ensure more people can get the help they need, and service-providers can readily engage.</p>
-
-<p>To continue to advance our accessibility maturity,  CivicActions has established the following:</p>
-<ul>
-  <li>Introduction to Accessibility as part of employee onboarding</li>
-  <li>CivicActions Global Accessibility Community of Practice</li>
-  <li>Free and Open Source Software Products, such as site-wide accessibility monitoring tools and the <a href="https://gsa.github.io/openacr-editor/">OpenACR</a> project.</li>
-  <li>Inclusive agile development process</li>
-  <li>Accessibility Champions Program</li>
-  <li>Annual engagement in events like Global Accessibility Awareness Day (GAAD)</li>
-</ul>
-
-<p>Today, we reaffirm our commitment to digital accessibility with this pledge.</p>
-
-<p>CivicActions hereby pledges to build and maintain digital tools with the following guidelines.</p>
-
-<ol>
-  <li>Our work will be continuously monitored
-    <ul>
-      <li>Integrate best of breed accessibility testing into our continuous integration processes</li>
-      <li>Ensure all developers and designers start using accessibility tools in their editors</li>
-      <li>Automated site-wide testing and historical analysis will be used</li>
-      <li>Site-wide test scores and improvement targets will be incorporated into agile process</li>
-      <li>Manual testing will be done alongside automated testing to catch issues that automated testing cannot evaluate</li>
-      <li>Testing with users with disabilities where possible to see that people with lived experience evaluate critical tasks</li>
-      <li>Incorporate structured WCAG-EM evaluations into contractual annual reviews with our clients</li>
-    </ul>
-  </li>
-  <li>Upon onboarding, we will inform our teams, partners, and clients about why accessibility is important and set collective priorities
-    <ul>
-      <li>We will define and document success for accessibility in Human Centered Design, Customer Experiences and Section 508 compliance, among other priorities</li>
-      <li>These agreed-to accessibility priorities will be incorporated into our Project Charters and regularly reviewed by our team</li>
-      <li>We will have designated accessibility champions on all projects and work to have IAAP Certified and/or DHS 508 Certified staff</li>
-    </ul>
-  </li>
-  <li>As a company, CivicActions will set annual goals and report against them publicly on CivicActions.com/accessibility-reports (Future Location)
-    <ul>
-      <li>Strive for no accessibility errors as much as can be identified through our automated testing process</li>
-      <li>Document process for choosing representative sample of pages for reviews</li>
-      <li>Detail what testing processes have been set up for each projects and what common code has been shared</li>
-    </ul>
-  </li>
-</ol>
-
-<p>Authorized by Henry Poole, CEO
-May 19, 2022</p>]]></content><author><name>mike-gifford</name></author><summary type="html"><![CDATA[Our committment to accessibility is encapsulated in this pledge.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://accessibility-qa.civicactions.com/card-power.png" /><media:content medium="image" url="https://accessibility-qa.civicactions.com/card-power.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">How Drupal helps us bake accessibility into every project</title><link href="https://accessibility-qa.civicactions.com/posts/how-drupal-helps-us-bake-accessibility-into-every-project" rel="alternate" type="text/html" title="How Drupal helps us bake accessibility into every project" /><published>2021-12-13T16:00:00+00:00</published><updated>2023-05-21T15:35:27+00:00</updated><id>https://accessibility-qa.civicactions.com/posts/how-drupal-helps-us-bake-accessibility-into-every-project</id><content type="html" xml:base="https://accessibility-qa.civicactions.com/posts/how-drupal-helps-us-bake-accessibility-into-every-project"><![CDATA[<h4 id="learn-key-features-of-drupal-that-help-make-your-site-useful-to-people-of-all-abilities">Learn key features of Drupal that help make your site useful to people of all abilities</h4>
-
-<p><img src="https://cdn-
-images-1.medium.com/max/1024/1*GswpaA5TtwCBYjmph6SIMw.jpeg" alt="" />Photo by <a href="https://www.pexels.com/@cliff-
-booth?utm_content=attributionCopyText&amp;utm_medium=referral&amp;utm_source=pexels">Cliff
-Booth</a>
-from <a href="https://www.pexels.com/photo/girl-sitting-on-a-couch-using-a-
-laptop-4058219/?utm_content=attributionCopyText&amp;utm_medium=referral&amp;utm_source=pexels">Pexels</a></p>
-
-<p>As developers and designers working to help government agencies modernize
-their IT systems and websites, we are constantly aware of the far-reaching
-impact of our work. Many people stand to benefit from better government
-experiences online — that is, if we do our job well. If not, people may
-struggle to navigate websites that don't properly address accessibility
-issues.</p>
-
-<p>We believe that accessibility is not just for meeting requirements — it's for
-the people (of varying abilities and circumstances) who are relying on
-government websites for critical information and services. So we built a
-<a href="https://accessibility-qa.civicactions.com/">community of practice</a> to share and
-learn with others who are doing this work, and we choose <a href="https://medium.com/civicactions/4-ways-to-improve-
-government-accessibility-through-open-source-8e20fabc7281">open source tools
-that support accessibility</a> in the long term.</p>
-
-<p>Drupal is one of those tools — a content management platform that is
-continually updated to help people meet evolving accessibility standards. At
-<a href="https://events.drupal.org/northamerica2021">DrupalCon North America 2021</a>,
-CivicActions engineer Jennifer Aube gave a lightning talk to explain some of
-the features of Drupal that come built-in to support accessibility. Have a
-look!</p>
-
-<p><a href="https://medium.com/media/1930322fa36c62488ab5a0487169f1d4/href">https://medium.com/media/1930322fa36c62488ab5a0487169f1d4/href</a></p>
-
-<blockquote>
-  <p>"Every person deserves an equal opportunity to engage in all sites." —
-Jennifer Aube</p>
-</blockquote>
-
-<p><strong>Highlights</strong></p>
-
-<ul>
-  <li>0:30 — Why should we care about accessibility?</li>
-  <li>1:27 — Disability simulator: See a live demo of how people experience disability</li>
-  <li>3:23 — Why you shouldn't turn off alternative text functionality</li>
-  <li>4:15 — How "skip navigation" helps disabled people get right to the important content</li>
-  <li>5:00 — What are "field sets" and how are they used?</li>
-  <li>5:47 — Tips for using form labels effectively</li>
-  <li>6:32 — Help users get around the site without a keyboard</li>
-  <li>8:07 — How to use Google Disability Simulator</li>
-  <li>9:00 — Q&amp;A</li>
-</ul>
-
-<p><strong>Resources</strong></p>
-
-<ul>
-  <li>Deck: <a href="https://docs.google.com/presentation/d/1tj2IgTL7yXDab_VA-8k_LLqYRb9KCLvBzfp7o2tbsZQ/edit?usp=sharing">5 Ways Drupal helps us bake accessibility into every project</a></li>
-  <li><a href="https://chrome.google.com/webstore/detail/web-disability-simulator/olioanlbgbpmdlgjnnampnnlohigkjla?hl=en">Web Disability Simulator</a> from Google</li>
-  <li><a href="https://accessibility-qa.civicactions.com/">Accessibility Community of Practice</a> powered by CivicActions</li>
-</ul>
-
-<p><strong>Connect with Jennifer</strong></p>
-
-<ul>
-  <li><a href="https://www.linkedin.com/in/jennifer-aube-81119a91/">LinkedIn</a></li>
-  <li><a href="https://github.com/jaube05">GitHub</a></li>
-  <li><a href="https://www.drupal.org/u/jenniferaube">Drupal</a></li>
-</ul>
-
-<p><img src="https://medium.com/_/stat?event=post.clientViewed&amp;referrerSource=full_rss&amp;postId=e10a0529960" alt="" /></p>
-
-<hr />
-
-<p><a href="https://medium.com/civicactions/how-drupal-helps-us-bake-
-accessibility-into-every-project-e10a0529960">How Drupal helps us bake accessibility into every
-project</a> was originally published in
-<a href="https://medium.com/civicactions">CivicActions</a> on Medium, where people are
-continuing the conversation by highlighting and responding to this story.</p>]]></content><author><name>civicactions</name></author><summary type="html"><![CDATA[Learn key features of Drupal that help make your site useful to people of all abilities]]></summary></entry><entry><title type="html">CivicActions creates Open Product Accessibility Template (OPAT) with the GSA</title><link href="https://accessibility-qa.civicactions.com/posts/CivicActions-Creates-Open-Product-Accessibility-Template" rel="alternate" type="text/html" title="CivicActions creates Open Product Accessibility Template (OPAT) with the GSA" /><published>2021-08-13T00:00:00+00:00</published><updated>2023-05-21T15:35:27+00:00</updated><id>https://accessibility-qa.civicactions.com/posts/CivicActions-Creates-Open-Product-Accessibility-Template</id><content type="html" xml:base="https://accessibility-qa.civicactions.com/posts/CivicActions-Creates-Open-Product-Accessibility-Template"><![CDATA[<p>CivicActions is working with the GSA to modernize the VPAT process to ensure that it is machine-readable. The goal of this process is to help make accessibility conformance monitoring easier and more meaningful for everyone. You can more about this project on the <a href="https://github.com/GSA/open-product-accessibility-template">OPAT GitHub Project</a> and we are actively encouraging people to <a href="https://github.com/GSA/open-product-accessibility-template/issues">submit suggestions</a> on how it could be improved.</p>
-
-<p>This project has several goals. We are working to build an Accessibility Conformance Report(ACR) that is:</p>
-<ul>
-  <li><strong>Transparent</strong> - Easily comparable compliance reports.</li>
-  <li><strong>Validatable</strong> - Confidence that reports meet minimum standards.</li>
-  <li><strong>Aggregable</strong> - Enterprise-wide accessibility confidence.</li>
-  <li><strong>Versioned</strong> - ACRs should follow digital best practices.</li>
-</ul>
-
-<p>Modern ACRs need to be:</p>
-<ul>
-  <li>machine-readable</li>
-  <li>able to integrate with modern software development tools</li>
-  <li>aligned with modern software versioning</li>
-  <li>easily editable and comparable</li>
-  <li>centrally updated and publicly available</li>
-</ul>
-
-<p>Our work with the GSA is helping set the foundation for this work.</p>]]></content><author><name>mike-gifford</name></author><summary type="html"><![CDATA[CivicActions' contract with the GSA has allowed us to build a open Accessibility Conformance Report that is machine-readable Open Product Accessibility Template (OPAT).]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://accessibility-qa.civicactions.com/card-power.png" /><media:content medium="image" url="https://accessibility-qa.civicactions.com/card-power.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+<p>My talk focused on some of the challenges that governments are facing as they work to modernize and adopt modern digital first practices. In my talk I address Open Government, open source software and Civic Tech. I highlight how digital accessibility is a huge challenge for governments. Often innovation clashes with inclusive design. There is new legislative pressure on governments, and governments are always struggling to do more with less.</p>]]></content><author><name>mike-gifford</name></author><summary type="html"><![CDATA[I presented Governments, accessibility and open source in Utrecht. My slides are available, and we hope to make the audio available soon.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://accessibility-qa.civicactions.com/card-power.png" /><media:content medium="image" url="https://accessibility-qa.civicactions.com/card-power.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Daniel Mundra interviewed on the Talking Drupal podcast</title><link href="https://accessibility-qa.civicactions.com/posts/Talking-Drupal-Podcast-382" rel="alternate" type="text/html" title="Daniel Mundra interviewed on the Talking Drupal podcast" /><published>2023-01-16T16:00:00+00:00</published><updated>2024-04-01T18:44:50+00:00</updated><id>https://accessibility-qa.civicactions.com/posts/Talking-Drupal-Podcast-382</id><content type="html" xml:base="https://accessibility-qa.civicactions.com/posts/Talking-Drupal-Podcast-382"><![CDATA[<p>I joined Ben Mullins on the <a href="https://talkingdrupal.com/382">Talking Drupal podcast #382</a> to discuss Automated A11y Testing with Nightwatch. We discussed the efforts of adding the accessibility tests to Drupal core, accessibility in general, Cypress vs Nightwatch, and so on.</p>]]></content><author><name>daniel-mundra</name></author><summary type="html"><![CDATA[A discussion about Automated A11y Testing with Nightwatch.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://accessibility-qa.civicactions.com/card-power.png" /><media:content medium="image" url="https://accessibility-qa.civicactions.com/card-power.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Mike Gifford &amp;amp; Daniel Mundra interviewed on the Talking Drupal podcast</title><link href="https://accessibility-qa.civicactions.com/posts/Talking-Drupal-Podcast" rel="alternate" type="text/html" title="Mike Gifford &amp;amp; Daniel Mundra interviewed on the Talking Drupal podcast" /><published>2022-05-31T16:00:00+00:00</published><updated>2024-04-01T18:44:50+00:00</updated><id>https://accessibility-qa.civicactions.com/posts/Talking-Drupal-Podcast</id><content type="html" xml:base="https://accessibility-qa.civicactions.com/posts/Talking-Drupal-Podcast"><![CDATA[<p>Mike and I were interviewed on the <a href="https://talkingdrupal.com/350">Talking Drupal podcast #350</a> on Accessibility Scanning &amp; Testing. We discussed various tools, strategies, OpenACR, and so on.</p>]]></content><author><name>daniel-mundra</name></author><summary type="html"><![CDATA[A discussion about Accessibility Scanning & Testing in Drupal.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://accessibility-qa.civicactions.com/card-power.png" /><media:content medium="image" url="https://accessibility-qa.civicactions.com/card-power.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
