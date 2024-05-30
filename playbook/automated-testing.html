@@ -309,16 +309,80 @@
                     <h1>Implement automated testing</h1>
                     
                     <!-- content -->
-                    <p>Automated testing can occur at different layers of the process of creating digital content.</p>
+                    <h2 id="overview">
+        
+        
+          Overview <a href="#overview" class="anchor-link" aria-labelledby=overview><span aria-hidden='true'>
+                    <svg class='usa-icon' aria-hidden='true' focusable='false' role='img'><use xlink:href='/assets/uswds-icons/sprite.svg#link'></use></svg>
+                </span><span class='sr-only'>Anchor link</span></a>
+        
+        
+      </h2>
+    
+
+<p>Automated testing can occur at different layers of the process of creating digital content:</p>
 <ul>
   <li>Developers can run automated checks as part of their continuous integration (CI) process</li>
   <li>Everyone can look at the accessibility of a single page</li>
   <li>Editors can be given accessibility issues within a WYSIWYG editor</li>
-  <li>Whole websites can now be easily crawled for bugs</li>
+  <li>Whole websites can now be regularly crawled for bugs</li>
   <li>Designers can evaluate problems with contrast issues in their designs</li>
 </ul>
 
 <p>All of this is now possible with a range of proprietary and open source tools. With the rapid development of automated testing, there are now multiple options to gather information on a single website—or an entire government.</p>
+      <h2 id="a-guide-to-automated-testing">
+        
+        
+          A guide to automated testing <a href="#a-guide-to-automated-testing" class="anchor-link" aria-labelledby=a-guide-to-automated-testing><span aria-hidden='true'>
+                    <svg class='usa-icon' aria-hidden='true' focusable='false' role='img'><use xlink:href='/assets/uswds-icons/sprite.svg#link'></use></svg>
+                </span><span class='sr-only'>Anchor link</span></a>
+        
+        
+      </h2>
+    
+      <h3 id="checklist">
+        
+        
+          Checklist <a href="#checklist" class="anchor-link" aria-labelledby=checklist><span aria-hidden='true'>
+                    <svg class='usa-icon' aria-hidden='true' focusable='false' role='img'><use xlink:href='/assets/uswds-icons/sprite.svg#link'></use></svg>
+                </span><span class='sr-only'>Anchor link</span></a>
+        
+        
+      </h3>
+    
+
+<ul>
+  <li>Continuous Integration tests incorporate accessibility tools like axe and errors block commits.</li>
+  <li>Patterns and pages are regularly reviewed to see that they test patterns available to authors.</li>
+  <li>Site-wide scans are used to track errors over time and catch both common and weird issues.</li>
+  <li>Creators of digital content all have some browser extension to quickly evaluate page-level accessibility.</li>
+</ul>
+      <h3 id="key-questions">
+        
+        
+          Key questions <a href="#key-questions" class="anchor-link" aria-labelledby=key-questions><span aria-hidden='true'>
+                    <svg class='usa-icon' aria-hidden='true' focusable='false' role='img'><use xlink:href='/assets/uswds-icons/sprite.svg#link'></use></svg>
+                </span><span class='sr-only'>Anchor link</span></a>
+        
+        
+      </h3>
+    
+
+<ul>
+  <li>Are you using a variety of automated testing tools to help identify potential problems?</li>
+  <li>How are you ensuring that you aren't relying too heavily on automated tests?</li>
+  <li>Have automated processes been set up to optimize use of developer time?</li>
+</ul>
+      <h3 id="use-deques-axe-tool">
+        
+        
+          Use Deque's aXe tool <a href="#use-deques-axe-tool" class="anchor-link" aria-labelledby=use-deques-axe-tool><span aria-hidden='true'>
+                    <svg class='usa-icon' aria-hidden='true' focusable='false' role='img'><use xlink:href='/assets/uswds-icons/sprite.svg#link'></use></svg>
+                </span><span class='sr-only'>Anchor link</span></a>
+        
+        
+      </h3>
+    
 
 <p>Deque's <a href="https://www.deque.com/axe/">aXe</a> has changed the playing field for site reviews. Because of its flexible design, it can be executed from the command line, from within the browser, or even from a WYSIWYG editor. Being executed from the command line means that it is much easier to simply add accessibility checking to any scripts that are being run. It can be appended to a script crawling to ensure security best practices are maintained, or simply added to a continuous integration script.</p>
 
@@ -327,16 +391,18 @@
 <p>The Axe accessibility engine is now built into <a href="https://developers.google.com/web/tools/lighthouse/">Google's Lighthouse</a>, <a href="https://accessibilityinsights.io/">Microsoft's Accessibility Insights</a>, and a <a href="https://github.com/dequelabs/axe-core/blob/develop/doc/projects.md">host of other projects</a>. Axe can also be applied to the web, Android and Windows testing. This provides a huge amount of flexibility for most software development teams.</p>
 
 <p>Government Digital Services in both the <a href="https://github.com/alphagov/accessibility-monitoring">United Kingdom</a> and <a href="https://github.com/GovTechSG/purple-hats">Singapore</a> have leveraged Deque's open-source axe-core accessibility engine to create tools that crawl and gather accessibility barriers for both public-facing websites and internal web-based communications. Similar open-source accessibility engines have been built by IBM &amp; Deque, and there are proprietary tools available from firms like WebAim, Tenon &amp; Siteimprove.</p>
+      <h3 id="automated-testing-caveat">
+        
+        
+          Automated testing caveat <a href="#automated-testing-caveat" class="anchor-link" aria-labelledby=automated-testing-caveat><span aria-hidden='true'>
+                    <svg class='usa-icon' aria-hidden='true' focusable='false' role='img'><use xlink:href='/assets/uswds-icons/sprite.svg#link'></use></svg>
+                </span><span class='sr-only'>Anchor link</span></a>
+        
+        
+      </h3>
+    
 
 <p>However, it is important to note that, no matter the tool, <a href="https://alphagov.github.io/accessibility-tool-audit/">automated testing only catches about one third of accessibility issues</a>, so it cannot be relied upon to determine if a site complies. To better ensure that their digital tools are accessible to keyboard-only and assistive technology users, automated tests need to be done along with a robust manual testing plan.</p>
-
-<p>List of popular automated testing tools</p>
-<ul>
-  <li><a href="https://wave.webaim.org/extension/">Wave</a></li>
-  <li><a href="https://tenon.io/">Tenon</a></li>
-  <li><a href="https://chrome.google.com/webstore/detail/siteimprove-browser-exten/amoojkmllfodlpgmdnclkgdnejgpeada">SiteImprove</a></li>
-  <li><a href="/guide/tools">See more tools in our guide</a></li>
-</ul>
       <h2 id="civicactions-approach">
         
         
@@ -348,11 +414,11 @@
       </h2>
     
 
-<p>Currently CivicActions uses the following approaches.</p>
+<p>Currently CivicActions uses the following approaches that are open source.</p>
       <h3 id="pa11y-ci">
         
         
-          Pa11y-ci <a href="#pa11y-ci" class="anchor-link" aria-labelledby=pa11y-ci><span aria-hidden='true'>
+          Pa11y CI <a href="#pa11y-ci" class="anchor-link" aria-labelledby=pa11y-ci><span aria-hidden='true'>
                     <svg class='usa-icon' aria-hidden='true' focusable='false' role='img'><use xlink:href='/assets/uswds-icons/sprite.svg#link'></use></svg>
                 </span><span class='sr-only'>Anchor link</span></a>
         
@@ -360,9 +426,9 @@
       </h3>
     
 
-<p><a href="https://github.com/pa11y/pa11y-ci">Pa11y-ci</a> is a continuous integration (CI) runner that can test a few pages or an entire site for accessibility issues. Our projects include pa11y-ci in their CI pipelines and generate reports as artifacts or comments with the results of the testing.</p>
+<p><a href="https://github.com/pa11y/pa11y-ci">Pa11y CI</a> is a continuous integration (CI) runner that can test a few pages or an entire site for accessibility issues. Our projects include Pa11y CI in their CI pipelines and generate reports as artifacts or comments with the results of the testing.</p>
 
-<p>We are currently testing this <a href="https://github.com/CivicActions/accessibility/tree/main/.github/workflows#pa11yyml">accessibility site using pa11y-ci</a> and <a href="/posts/automated-accessibility-testing-leveraging-github-actions-and-pa11y-ci-with-axe">we blogged about it</a>.</p>
+<p>We are currently testing this <a href="https://github.com/CivicActions/accessibility/tree/main/.github/workflows#pa11yyml">accessibility site using Pa11y CI</a> and <a href="/posts/automated-accessibility-testing-leveraging-github-actions-and-pa11y-ci-with-axe">we blogged about it here</a> and <a href="https://opensource.com/article/23/2/automated-accessibility-testing">on opensource.com</a>.</p>
 
 <p>Pa11y by default uses the <a href="https://squizlabs.github.io/HTML_CodeSniffer/">HTML_CodeSniffer</a> accessibility engine, but it is recommended to switch to Pa11y with axe, which is <a href="https://accessibility-manual.dwp.gov.uk/best-practice/automated-testing-using-axe-core-and-pa11y">described in this UK Government Accessibility Manual</a>.</p>
       <h3 id="cypress-testing-with-the-axe-core">
@@ -379,10 +445,10 @@
 <p><a href="https://www.cypress.io/">Cypress</a> is a JavaScript testing framework that is used for automated testing. <a href="https://github.com/dequelabs/axe-core">Axe core</a> is a popular accessibility testing engine. Our projects use <a href="https://github.com/component-driven/cypress-axe">cypress with the axe core</a> to test components for accessibility issues.</p>
 
 <p>Take a look at <a href="https://timdeschryver.dev/blog/setting-up-cypress-with-axe-for-accessibility">Setting up Cypress with axe for accessibility</a> article that illustrates the setup. We have that set up and <a href="https://github.com/CivicActions/accessibility/tree/main/.github/workflows#cypressyml">running against the accessibility site</a>.</p>
-      <h2 id="checklist">
+      <h2 id="list-of-popular-automated-testing-tools">
         
         
-          Checklist <a href="#checklist" class="anchor-link" aria-labelledby=checklist><span aria-hidden='true'>
+          List of popular automated testing tools <a href="#list-of-popular-automated-testing-tools" class="anchor-link" aria-labelledby=list-of-popular-automated-testing-tools><span aria-hidden='true'>
                     <svg class='usa-icon' aria-hidden='true' focusable='false' role='img'><use xlink:href='/assets/uswds-icons/sprite.svg#link'></use></svg>
                 </span><span class='sr-only'>Anchor link</span></a>
         
@@ -391,39 +457,10 @@
     
 
 <ul>
-  <li>Continuous Integration tests incorporate accessibility tools like axe and errors block commits.</li>
-  <li>Patterns and pages are regularly reviewed to see that they test patterns available to authors.</li>
-  <li>Site-wide scans are used to track errors over time and catch both common and weird issues.</li>
-  <li>Creators of digital content all have some browser extension that allows them to quickly evaluate page-level accessibility.</li>
-</ul>
-      <h2 id="key-questions">
-        
-        
-          Key questions <a href="#key-questions" class="anchor-link" aria-labelledby=key-questions><span aria-hidden='true'>
-                    <svg class='usa-icon' aria-hidden='true' focusable='false' role='img'><use xlink:href='/assets/uswds-icons/sprite.svg#link'></use></svg>
-                </span><span class='sr-only'>Anchor link</span></a>
-        
-        
-      </h2>
-    
-
-<ul>
-  <li>Are you using a variety of automated testing tools to help identify potential problems?</li>
-  <li>How are you ensuring that you aren't relying too heavily on automated tests?</li>
-  <li>Have automated processes been set up to optimize use of developer time?</li>
-</ul>
-      <h2 id="see-also">
-        
-        
-          See also <a href="#see-also" class="anchor-link" aria-labelledby=see-also><span aria-hidden='true'>
-                    <svg class='usa-icon' aria-hidden='true' focusable='false' role='img'><use xlink:href='/assets/uswds-icons/sprite.svg#link'></use></svg>
-                </span><span class='sr-only'>Anchor link</span></a>
-        
-        
-      </h2>
-    
-<ul>
-  <li><a href="https://opensource.com/article/23/2/automated-accessibility-testing">How I do automated accessibility testing for my website</a> by Daniel Mundra</li>
+  <li><a href="https://wave.webaim.org/extension/">Wave</a></li>
+  <li><a href="https://tenon.io/">Tenon</a></li>
+  <li><a href="https://chrome.google.com/webstore/detail/siteimprove-browser-exten/amoojkmllfodlpgmdnclkgdnejgpeada">SiteImprove</a></li>
+  <li><a href="/guide/tools">See more tools on our dedicated tools page</a></li>
 </ul>
 
                 </div>
@@ -453,7 +490,7 @@
        
 
 <!--  // Date not working
-     &nbsp; &middot; &nbsp; Last updated: April 23, 2024 at 09:44 PM 
+     &nbsp; &middot; &nbsp; Last updated: May 30, 2024 at 10:45 PM 
 -->
         
       </p>
