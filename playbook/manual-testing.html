@@ -5,7 +5,7 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<title>Do manual testing | CivicActions Accessibility</title>
+<title>How to do manual testing | CivicActions Accessibility</title>
 
 
 
@@ -19,7 +19,7 @@
 <!-- Facebook OG and Twitter Card -->
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:site" content="@civicactions" />
-<meta name="twitter:title" content="Do manual testing">
+<meta name="twitter:title" content="How to do manual testing">
 <meta name="twitter:creator" content="@civicactions" />
 <meta name="twitter:image" content="https://accessibility-qa.civicactions.com/assets/img/thumbnail-images/general-a11y.png">
 <meta name="twitter:image:alt" content="CivicActions Accessibility">
@@ -163,7 +163,7 @@
             
             
             <li class="usa-breadcrumb__list-item usa-current" aria-current="page">
-                Do manual testing
+                How to do manual testing
             </li>
             
             
@@ -306,27 +306,16 @@
                 
                 <div class="usa-layout-docs anchor-links usa-layout-docs__main usa-prose desktop:grid-col-9">
                     
-                    <h1>Do manual testing</h1>
+                    <h1>How to do manual testing</h1>
                     
                     <!-- content -->
-                    <p>Manual testing is key to any comprehensive accessibility testing plan. We have designed websites in a very mouse-centric way, but there are many people who cannot use a mouse to navigate a site. Although it doesn't catch everything, basic keyboard only testing can catch many problems that automatic testing will miss.</p>
+                    <p>A comprehensive accessibility testing plan must include manual testing. As automated testing generally only catches about <a href="https://www.levelaccess.com/blog/automated-accessibility-testing-tools-how-much-do-scans-catch/">20-30% of accessibility errors</a>, without manual testing the majority of issues are going to be missed.</p>
 
-<p>If you need easy steps to get started here are some great resources:</p>
-<ul>
-  <li><a href="https://knowbility.org/blog/2018/keyboard-testing-basics/">Knowability Keyboard Testing Basics</a></li>
-  <li><a href="https://webaim.org/techniques/keyboard/#testing">WebAIM's Keyboard Testing Guide</a></li>
-  <li><a href="https://webaccess.berkeley.edu/resources/tips-and-how-tos/how-do-keyboard-testing">Berkeley's How to do keyboard testing</a></li>
-</ul>
-
-<p>Testing should also zoom in so that the page is at least 200% and ideally at 300% with just your browser and not suffer any loss of content or functionality. Just determining if the page still reads well and that navigational elements don't overlap is useful.</p>
-
-<p>Many browsers are now coming out with dark mode and reader mode options. These can be useful for a range of people with disabilities, but also for people looking to optimize their time online. Pages need to be set up properly to access this.</p>
-
-<p>It is also useful to test sites with Custom CSS stylesheets &amp; Windows High Contrast Mode to determine if there are any elements which are obscured.</p>
-      <h2 id="checklist">
+<p>There are various types of manual testing that can be incorporated into your testing plan, some are easier than others to work in based on resources, expertise, available tools, etc. You can create your testing plan based on what works for you and your team; the most important thing is that some amount of manual testing is consistently part of the process.</p>
+      <h2 id="keyboard-testing">
         
         
-          Checklist <a href="#checklist" class="anchor-link" aria-labelledby=checklist><span aria-hidden='true'>
+          Keyboard testing <a href="#keyboard-testing" class="anchor-link" aria-labelledby=keyboard-testing><span aria-hidden='true'>
                     <svg class='usa-icon' aria-hidden='true' focusable='false' role='img'><use xlink:href='/assets/uswds-icons/sprite.svg#link'></use></svg>
                 </span><span class='sr-only'>Anchor link</span></a>
         
@@ -334,32 +323,123 @@
       </h2>
     
 
-<ul>
-  <li>Keyboard testing is done on the website, and with new patterns as they are added to the site.</li>
-  <li>Testing the tab order to make sure that users can tab through the page in a logical way.</li>
-  <li>Dark mode works effectively, even when forced by a browser extension.</li>
-  <li>Reader mode works.</li>
-  <li>Screen can be magnified 200%.</li>
-  <li>Interactions work with touch interaction (smartphone/tablet).</li>
-  <li>Site works in Windows High Contrast Mode.</li>
-  <li>Confirming that focused elements are visibly different from a default state.</li>
-  <li>Confirming that color is not used to convey meaning and if it does an alternate visual cue is provided.</li>
-</ul>
-      <h2 id="key-questions">
+<p>Keyboard testing can catch a high volume of potential accessibility issues. Keyboard testing can identify if semantic elements were not used—which typically lead to larger issues with other devices. It can also identify if the reading order is incorrect and if there are keyboard traps on the page, among other issues.</p>
+
+<p>Keyboard testing is easy to do and requires no specific expertise or hardware—other than a keyboard—so this type of  testing can be shared among various project team members. It is one of the most important manual tests that should be included in any testing plan.</p>
+
+<p><strong>To do keyboard testing:</strong></p>
+<ol>
+  <li>Confirm that all interactive elements are available and actionable using the keyboard only.
+    <ul>
+      <li>Use TAB to move forward through the page and SHIFT + TAB to go backwards.</li>
+      <li>SPACE and ENTER are the most common keys to activate elements but for more custom elements <a href="https://webaim.org/techniques/keyboard/#testing">WebAIM provides a good resource</a>.</li>
+    </ul>
+  </li>
+  <li>Confirm that while tabbing, all interactive elements have a visible focus indicator when receiving focus.
+    <ul>
+      <li>Typically, this is a colored border around the element.</li>
+    </ul>
+  </li>
+  <li>Confirm that while tabbing, the order of tabbing moves logically through the page. It should follow a typical reading order - top to bottom, left to right.</li>
+</ol>
+      <h2 id="zoom-and-resizing">
         
         
-          Key questions <a href="#key-questions" class="anchor-link" aria-labelledby=key-questions><span aria-hidden='true'>
+          Zoom and resizing <a href="#zoom-and-resizing" class="anchor-link" aria-labelledby=zoom-and-resizing><span aria-hidden='true'>
                     <svg class='usa-icon' aria-hidden='true' focusable='false' role='img'><use xlink:href='/assets/uswds-icons/sprite.svg#link'></use></svg>
                 </span><span class='sr-only'>Anchor link</span></a>
         
         
       </h2>
     
+<p>The purpose of zoom testing is to confirm that at 200% there are no visual or functional issues from the page resizing. It is also important to specifically test text resizing, that it is working as expected.</p>
+
+<p>Zoom testing is another testing type that can be completed without any specialized hardware, software or expertise, making it relatively easy to add to a basic testing plan.</p>
+
+<p><strong>To test content zoom:</strong></p>
+<ol>
+  <li>Set your browser width to 1280 pixels.</li>
+  <li>Use CTRL + or CMD + to zoom in to 200%.</li>
+  <li>Confirm that:
+    <ul>
+      <li>You can see each element and all the text that you could previously</li>
+      <li>You can use and interact with each element (both with keyboard and mouse)</li>
+      <li>Confirm that horizontal scrolling is not present except for a few exceptions (i.e. data tables, images, charts, etc.)</li>
+    </ul>
+  </li>
+</ol>
+
+<p><strong>To test text resizing:</strong></p>
+<ol>
+  <li>Within your browser, update your settings to increase text size.
+    <ul>
+      <li>Chrome: Settings &gt; Appearance &gt; Font size</li>
+      <li>Firefox: Settings &gt; Language &amp; Appearance &gt; Fonts</li>
+      <li>Edge: Settings &gt; Appearance &gt; Fonts</li>
+    </ul>
+  </li>
+  <li>Confirm that all text on the page resizes appropriately based on the indicated browser size.</li>
+</ol>
+      <h2 id="contrast-and-use-of-color">
+        
+        
+          Contrast and use of color <a href="#contrast-and-use-of-color" class="anchor-link" aria-labelledby=contrast-and-use-of-color><span aria-hidden='true'>
+                    <svg class='usa-icon' aria-hidden='true' focusable='false' role='img'><use xlink:href='/assets/uswds-icons/sprite.svg#link'></use></svg>
+                </span><span class='sr-only'>Anchor link</span></a>
+        
+        
+      </h2>
+    
+<p>The most basic rule in color contrast testing is to confirm that all elements have a contrast ratio of at least 4.5:1 against their background. There are some nuances with this requirement where a lower ratio can pass if necessary, however it is always best to aim higher whenever possible.</p>
+
+<p>Color use within a page or product should also be evaluated to ensure that it is not the only means of conveying information. This is especially helpful for folks using your product who may be colorblind or have low vision.</p>
+
+<p>While testing color does not require any specific testing tools, there are some available that are helpful and may make testing easier:</p>
+<ul>
+  <li><a href="https://app.contrast-finder.org/">Contrast finder</a></li>
+  <li><a href="https://webaim.org/resources/contrastchecker/">WebAIM Contrast Checker</a></li>
+  <li><a href="https://chromewebstore.google.com/detail/colorblindly/floniaahmccleoclneebhhmnjgdfijgg?pli=1">Colorblindly plugin for Chrome</a></li>
+  <li>Built-in browser rendering for color blindness</li>
+</ul>
+
+<p><strong>To test color contrast:</strong></p>
+<ol>
+  <li>Small text (20px or smaller) has at least a 4.5:1 contrast ratio</li>
+  <li>Large text (greater than 20px) has at least a 3:1 contrast ratio</li>
+  <li>Non-text elements have at least a 3:1 contrast ratio to their background and to neighboring elements. For example:
+    <ul>
+      <li>Graphics - sections in a pie chart must meet requirements</li>
+      <li>UI elements - colors indicating if a checkbox or radio button is selected must meet requirements</li>
+    </ul>
+  </li>
+</ol>
+
+<p><strong>To test use of color:</strong></p>
+<ol>
+  <li>Identify all links and confirm that each has an underline.</li>
+  <li>Identify any data elements (i.e. charts, tables, maps, etc.) and confirm that the information within each is presented with more than just color.
+    <ul>
+      <li>For example, in a table if yes is indicated by coloring a cell green, does it also use another indicator? A checkmark, a pattern, etc.?</li>
+    </ul>
+  </li>
+  <li>Confirm that any instructions given do not refer to color. (e.g. Click the blue button)</li>
+</ol>
+      <h2 id="next-steps">
+        
+        
+          Next steps <a href="#next-steps" class="anchor-link" aria-labelledby=next-steps><span aria-hidden='true'>
+                    <svg class='usa-icon' aria-hidden='true' focusable='false' role='img'><use xlink:href='/assets/uswds-icons/sprite.svg#link'></use></svg>
+                </span><span class='sr-only'>Anchor link</span></a>
+        
+        
+      </h2>
+    
+<p>When you are ready to learn more, here are some further guides and resources for accessibility testing:</p>
 
 <ul>
-  <li>What are teams doing to see that accessibility is maintained as the site evolves?</li>
-  <li>Do your personas include multiple forms of navigation to ensure that developers are reminded about the variety of ways that users consume content?</li>
-  <li>Does your team have access to an <a href="https://accessibility.blog.gov.uk/2020/11/12/how-we-made-our-accessibility-empathy-lab-virtual/">empathy lab</a> or a range of devices that they can use for testing?</li>
+  <li><a href="https://accessibility-qa.civicactions.com/playbook/AT">Screen reader testing</a></li>
+  <li><a href="https://accessibility-qa.civicactions.com/playbook/automated-testing">Implement automated testing</a></li>
+  <li><a href="https://accessibility-qa.civicactions.com/guide/tools">Additional Tools</a></li>
 </ul>
 
                 </div>
@@ -389,7 +469,7 @@
        
 
 <!--  // Date not working
-     &nbsp; &middot; &nbsp; Last updated: May 30, 2024 at 10:45 PM 
+     &nbsp; &middot; &nbsp; Last updated: July 11, 2024 at 07:23 PM 
 -->
         
       </p>

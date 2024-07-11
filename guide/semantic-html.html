@@ -5,7 +5,7 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<title>Semantic HTML | CivicActions Accessibility</title>
+<title>Semantic HTML and accessibility | CivicActions Accessibility</title>
 
 
 
@@ -21,7 +21,7 @@
 <!-- Facebook OG and Twitter Card -->
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:site" content="@civicactions" />
-<meta name="twitter:title" content="Semantic HTML">
+<meta name="twitter:title" content="Semantic HTML and accessibility">
 <meta name="twitter:creator" content="@civicactions" />
 <meta name="twitter:image" content="https://accessibility-qa.civicactions.com/assets/img/thumbnail-images/general-a11y.png">
 <meta name="twitter:image:alt" content="CivicActions Accessibility">
@@ -165,7 +165,7 @@
             
             
             <li class="usa-breadcrumb__list-item usa-current" aria-current="page">
-                Semantic HTML
+                Semantic HTML and accessibility
             </li>
             
             
@@ -302,52 +302,145 @@
                 
                 <div class="usa-layout-docs anchor-links usa-layout-docs__main usa-prose desktop:grid-col-9">
                     
-                    <h1>Semantic HTML</h1>
+                    <h1>Semantic HTML and accessibility</h1>
                     
                     <!-- content -->
-                    <p>Writing semantic HTML can make your site more accessible. When you switch your browser to "read mode", only the main content will be visible. Read mode hides:</p>
-<ul>
-  <li>the header</li>
-  <li>footer</li>
-  <li>background images,</li>
-  <li>colours</li>
-  <li>animations</li>
-  <li>or functionality like tabs and accordions.</li>
-</ul>
+                    <p>When a contractor builds a house, they tend to use standard and expected materials that are appropriate for their purpose—i.e. concrete, wood, shingles, etc. Using standard materials helps to ensure the house is built well. If other materials are used instead, the house might require additional work to achieve the same end result. If the Three Little Pigs have taught us anything, unless it's reinforced, a house made of straw can't be expected to withstand strong winds.</p>
 
-<p>Many people switch to read mode to improve their readability. It can also make for more personalization, allowing the user to control how they see the web page.</p>
-
-<p>The <code class="language-plaintext highlighter-rouge">&lt;div&gt;</code> element main purpose is for styling your page. Read mode will ignore &lt;div&gt; tags, so any text inside not a heading or <code class="language-plaintext highlighter-rouge">&lt;p&gt;</code> will be ignored. Users using the read mode will not get all the information that they should, and can be confusing.</p>
-
-<p>HTML elements to structure every page:</p>
-<ul>
-  <li>header</li>
-  <li>nav</li>
-  <li>main</li>
-  <li>article</li>
-  <li>aside</li>
-  <li>footer</li>
-</ul>
-
-<p>Headings
-Use only one H1 per page, which should match the page title.
-Do not skip heading levels.</p>
-      <h2 id="using-reader-mode-in-browsers">
+<p>This same principle is true when building a website—there are standard building blocks for each section, typically referred to as semantic HTML tags. Using these tags gives the resulting website more structure and context than building with other, generic tags. Semantic HTML tags also provide some default accessibility to the page elements that would otherwise need to be reinforced using additional, custom code.</p>
+      <h2 id="what-is-semantic-html">
         
         
-          Using reader mode in browsers <a href="#using-reader-mode-in-browsers" class="anchor-link" aria-labelledby=using-reader-mode-in-browsers><span aria-hidden='true'>
+          What is semantic HTML? <a href="#what-is-semantic-html" class="anchor-link" aria-labelledby=what-is-semantic-html><span aria-hidden='true'>
                     <svg class='usa-icon' aria-hidden='true' focusable='false' role='img'><use xlink:href='/assets/uswds-icons/sprite.svg#link'></use></svg>
                 </span><span class='sr-only'>Anchor link</span></a>
         
         
       </h2>
     
+<p>When someone says that you should be building using semantic HTML, what does this actually mean?</p>
 
+<p>Semantic markup refers to the HTML tags that define the meaning and structure of the content they contain. There are <a href="https://developer.mozilla.org/en-US/docs/Glossary/Semantics#semantic_elements">many semantic tags</a> but a few common examples are:</p>
 <ul>
-  <li>Edge - by adding <code class="language-plaintext highlighter-rouge">read://</code> to before your url (example <code class="language-plaintext highlighter-rouge">read://https://www.civicactions.com</code>)</li>
-  <li>Chrome - <a href="https://chrome.google.com/webstore/detail/reader-mode/llimhhconnjiflfimocjggfjdlmlhblm?hl=en">download the app</a> or <a href="https://www.howtogeek.com/423643/how-to-use-google-chromes-hidden-reader-mode/">enable the read mode setting</a></li>
-  <li>Safari - <code class="language-plaintext highlighter-rouge">Ctrl+Shift+R</code> turns on reading mode on a macbook</li>
-  <li>Firefox - <code class="language-plaintext highlighter-rouge">View-&gt;Enter reader view</code> from top toolbar or to the right of the url is a reader view button</li>
+  <li><code class="language-plaintext highlighter-rouge">&lt;header&gt;</code>: This represents the header or introduction of the website. This is typically the area that contains the site logo and global navigation.</li>
+  <li><code class="language-plaintext highlighter-rouge">&lt;main&gt;</code>: This is for the main body content of the webpage. There should always be only one main section on each page.</li>
+  <li><code class="language-plaintext highlighter-rouge">&lt;a&gt;</code>: This tag is sometimes referred to as the anchor element and is used for a link. A link element has an <code class="language-plaintext highlighter-rouge">href</code> attribute and goes somewhere, to a new page on the website or an external page on another website.</li>
+  <li><code class="language-plaintext highlighter-rouge">&lt;button&gt;</code>: This represents a button element. A button element is for an action that does something, such as opening a modal or submitting a form.</li>
+  <li><code class="language-plaintext highlighter-rouge">&lt;li&gt;</code>: This tag represents an item in a list. This tag must be contained within a <code class="language-plaintext highlighter-rouge">&lt;ul&gt;</code> tag (unordered list) or an <code class="language-plaintext highlighter-rouge">&lt;ol&gt;</code> tag (ordered list) or <code class="language-plaintext highlighter-rouge">&lt;menu&gt;</code> tag.</li>
+</ul>
+
+<p>There are also other, generic tags such as <code class="language-plaintext highlighter-rouge">&lt;div&gt;</code> and <code class="language-plaintext highlighter-rouge">&lt;span&gt;</code> that do not define any meaning and therefore are not considered semantic tags.</p>
+
+<p>Here's an example of the same element written with and without semantic tags:</p>
+
+<p><strong>Example 1 - Generic tags:</strong></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;div&gt;
+  &lt;div&gt;
+    &lt;span&gt;&lt;a href="/"&gt;Home&lt;/a&gt;&lt;/span&gt;
+    &lt;span&gt;&lt;a href="/about"&gt;About Us&lt;/a&gt;&lt;/span&gt;
+    &lt;span&gt;&lt;a href="/contact"&gt;Contact&lt;/a&gt;&lt;/span&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</code></pre></div></div>
+
+<p><strong>Example 2 - Semantic tags:</strong></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;nav&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href="/"&gt;Home&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="/about"&gt;About Us&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="/contact"&gt;Contact&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+</code></pre></div></div>
+
+<p>In the first example, using generic tags, without the visual of the website itself, it's hard to clearly understand what the purpose of this code is for. There are 3 links, grouped together but why exactly it's not clear.</p>
+
+<p>In the second example we clearly see semantic tags for a navigation menu (<code class="language-plaintext highlighter-rouge">&lt;nav&gt;</code>), containing an unordered list (<code class="language-plaintext highlighter-rouge">&lt;ul&gt;</code>) with 3 links. There still is no visual but from just the implicit meaning of the tags, it's understood that the purpose of this code is to provide a navigational list element for the website.</p>
+      <h2 id="why-use-semantic-html">
+        
+        
+          Why use semantic HTML? <a href="#why-use-semantic-html" class="anchor-link" aria-labelledby=why-use-semantic-html><span aria-hidden='true'>
+                    <svg class='usa-icon' aria-hidden='true' focusable='false' role='img'><use xlink:href='/assets/uswds-icons/sprite.svg#link'></use></svg>
+                </span><span class='sr-only'>Anchor link</span></a>
+        
+        
+      </h2>
+    
+<p>Besides providing clear structure and contextual information to your HTML document, semantic tags will also inherit default styles from the user-agent stylesheets. Each browser, or user-agent, provides a basic set of CSS rules that define how semantic HTML elements will visually render. These rules can include underlining links, a larger font-weight for bold text, backgrounds on buttons, etc. By already having basic styles on certain elements, specifying additional CSS is not always needed which can make your work more efficient.</p>
+
+<p>A further benefit of using semantic HTML tags is that along with the default CSS styles, they also provide some basic accessibility functionality, no additional custom code is required,</p>
+      <h2 id="keyboard-functionality">
+        
+        
+          Keyboard functionality <a href="#keyboard-functionality" class="anchor-link" aria-labelledby=keyboard-functionality><span aria-hidden='true'>
+                    <svg class='usa-icon' aria-hidden='true' focusable='false' role='img'><use xlink:href='/assets/uswds-icons/sprite.svg#link'></use></svg>
+                </span><span class='sr-only'>Anchor link</span></a>
+        
+        
+      </h2>
+    
+<p>One of the main benefits of using semantic HTML tags is that by default, they provide the required keyboard functionality needed for accessibility. At a minimum, all interactive elements on a webpage must be available and focusable using the TAB key. They must also respond appropriately to expected keyboard keys. Typically, these keys are ENTER and SPACE, however for certain elements the ARROW keys or ESC key, among others, are expected. Each element has different default behavior and by using the standard semantic tag, you will be getting this default functionality and behavior for free.</p>
+
+<p>For example, if an element is created using the <code class="language-plaintext highlighter-rouge">&lt;button&gt;</code> tag, a user will be able to tab to the button and will be able to activate it using both the SPACE and ENTER keys. However, another element styled to visually look like a button but created using a generic <code class="language-plaintext highlighter-rouge">&lt;div&gt;</code> tag will not have this default keyboard functionality and this interaction will need to be added using additional code, typically JavaScript.</p>
+
+<p><strong>Example</strong>
+Using the keyboard, try to tab to the two buttons. Notice that only the first, semantic button receives proper keyboard focus.</p>
+
+<p><button>A semantic button</button></p>
+
+<div style="background:black; padding: 10px; color:white; display:inline;">Generic button</div>
+      <h2 id="landmarks">
+        
+        
+          Landmarks <a href="#landmarks" class="anchor-link" aria-labelledby=landmarks><span aria-hidden='true'>
+                    <svg class='usa-icon' aria-hidden='true' focusable='false' role='img'><use xlink:href='/assets/uswds-icons/sprite.svg#link'></use></svg>
+                </span><span class='sr-only'>Anchor link</span></a>
+        
+        
+      </h2>
+    
+<p>People using assistive technology often navigate a webpage by using the landmarks on a page. However, these sections need to first be identified as such in order for this to be possible. The 7 sections that should be identified on each page are:</p>
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">role="banner"</code>:  Semantic equivalent is <code class="language-plaintext highlighter-rouge">&lt;header&gt;</code></li>
+  <li><code class="language-plaintext highlighter-rouge">role="navigation"</code>: Semantic equivalent is <code class="language-plaintext highlighter-rouge">&lt;nav&gt;</code></li>
+  <li><code class="language-plaintext highlighter-rouge">role="search"</code>: Semantic equivalent is <code class="language-plaintext highlighter-rouge">&lt;search&gt;</code></li>
+  <li><code class="language-plaintext highlighter-rouge">role="main"</code>: Semantic equivalent is <code class="language-plaintext highlighter-rouge">&lt;main&gt;</code></li>
+  <li><code class="language-plaintext highlighter-rouge">role="complementary"</code>: Semantic equivalent is <code class="language-plaintext highlighter-rouge">&lt;aside&gt;</code></li>
+  <li><code class="language-plaintext highlighter-rouge">role="form"</code>: Semantic equivalent is <code class="language-plaintext highlighter-rouge">&lt;form&gt;</code></li>
+  <li><code class="language-plaintext highlighter-rouge">role="contentinfo"</code>: Semantic equivalent is <code class="language-plaintext highlighter-rouge">&lt;footer&gt;</code></li>
+</ul>
+
+<p>Structuring web pages using the equivalent semantic tag rather than the role attribute, means these sections will be identified by default, no landmark role will be forgotten, and the user will be able to clearly understand the structure and layout of the page as well as navigate directly to a particular landmark if they choose.</p>
+      <h2 id="assistive-technology">
+        
+        
+          Assistive technology <a href="#assistive-technology" class="anchor-link" aria-labelledby=assistive-technology><span aria-hidden='true'>
+                    <svg class='usa-icon' aria-hidden='true' focusable='false' role='img'><use xlink:href='/assets/uswds-icons/sprite.svg#link'></use></svg>
+                </span><span class='sr-only'>Anchor link</span></a>
+        
+        
+      </h2>
+    
+<p>As with landmarks, assistive technology users, especially those using screen readers, also often use the menus within their software to view a full list of other elements on a page, such as headings, links, buttons or forms. Using that list they can get a sense of the content on the page and can also  jump directly to a particular element if they want.</p>
+
+<p><img src="/assets/img/NVDA_links_menu.png" alt="Elements link menu in NVDA with the links list selected and showing all links on a web page. There are buttons at the bottom for the user to choose to Activate a link, Move to a link, or Cancel and close out the menu." /></p>
+
+<p>However, only the elements built using semantic HTML tags will be available to these assistive technologies and displayed in these menus. Generic elements, even if they are styled to look like headings, links or buttons, will not be shown in these menus which could cause users to miss important content.</p>
+      <h2 id="resources">
+        
+        
+          Resources <a href="#resources" class="anchor-link" aria-labelledby=resources><span aria-hidden='true'>
+                    <svg class='usa-icon' aria-hidden='true' focusable='false' role='img'><use xlink:href='/assets/uswds-icons/sprite.svg#link'></use></svg>
+                </span><span class='sr-only'>Anchor link</span></a>
+        
+        
+      </h2>
+    
+<ul>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Glossary/Semantics#semantic_elements">List of semantic elements</a></li>
+  <li><a href="https://webaim.org/techniques/semanticstructure/">Semantic Structure</a></li>
+  <li><a href="https://www.scottohara.me/blog/2022/01/20/divisive.html">More information about the div tag</a></li>
+  <li><a href="https://developer.mozilla.org/en-US/blog/aria-accessibility-html-landmark-roles/">HTML and landmark roles</a></li>
 </ul>
 
                 </div>
@@ -377,7 +470,7 @@ Do not skip heading levels.</p>
        
 
 <!--  // Date not working
-     &nbsp; &middot; &nbsp; Last updated: May 30, 2024 at 10:45 PM 
+     &nbsp; &middot; &nbsp; Last updated: July 11, 2024 at 07:23 PM 
 -->
         
       </p>
