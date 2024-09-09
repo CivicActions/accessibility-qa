@@ -5,9 +5,11 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<title>USWDS Color Tool | CivicActions Accessibility</title>
+<title>Accessibility bug classification | CivicActions Accessibility</title>
 
 
+
+<meta name="description" content="Guidance for prioritizing accessibility bugs based on degree of user impact on top tasks">
 
 
 
@@ -19,7 +21,7 @@
 <!-- Facebook OG and Twitter Card -->
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:site" content="@civicactions" />
-<meta name="twitter:title" content="USWDS Color Tool">
+<meta name="twitter:title" content="Accessibility bug classification">
 <meta name="twitter:creator" content="@civicactions" />
 <meta name="twitter:image" content="https://accessibility-qa.civicactions.com/assets/img/thumbnail-images/general-a11y.png">
 <meta name="twitter:image:alt" content="CivicActions Accessibility">
@@ -157,62 +159,292 @@
             
             
             <li class="usa-breadcrumb__list-item usa-current" aria-current="page">
-                <a class="usa-breadcrumb__link" href="/projects/">Projects</a>
+                <a class="usa-breadcrumb__link" href="/guide/">Guide</a>
             </li>
             
             
             
             <li class="usa-breadcrumb__list-item usa-current" aria-current="page">
-                USWDS Color Tool
+                Accessibility bug classification
             </li>
             
             
         </ol>
     </nav>
 </div>
+</div>
 <div class="guide-main">
     <div class="">
         <div class="grid-container">
-            <div class="grid-row grid-gap flex-align-start">
+            <div class="grid-row grid-gap">
                 
                 
                 <div class="usa-layout-docs__sidenav desktop:grid-col-3">
                     <nav aria-label="Secondary navigation">
-    <ul class="usa-sidenav">
-        
-        
-        <li>
-            <a href="/projects/uswds-color" class="list-group-item list-group-item-action usa-current">
-                USWDS Color Tool
-            </a>
-        </li>
-        
-        
-        <li>
-            <a href="/projects/uswds" class="list-group-item list-group-item-action ">
-                U.S. Web Design System
-            </a>
-        </li>
-        
-        
-        <li>
-            <a href="/projects/drupal" class="list-group-item list-group-item-action ">
-                Drupal
-            </a>
-        </li>
-        
-    </ul>
+  <ul class="usa-sidenav">
+    
+      
+      <li>
+        <a href="/guide/introduction" class="list-group-item list-group-item-action ">
+          Introduction
+        </a>
+      </li>
+    
+      
+      <li>
+        <a href="/guide/history" class="list-group-item list-group-item-action ">
+          History
+        </a>
+      </li>
+    
+      
+      <li>
+        <a href="/guide/identity-language" class="list-group-item list-group-item-action ">
+          Identity and language
+        </a>
+      </li>
+    
+      
+      <li>
+        <a href="/guide/plain-language" class="list-group-item list-group-item-action ">
+          Plain language
+        </a>
+      </li>
+    
+      
+      <li>
+        <a href="/guide/tools" class="list-group-item list-group-item-action ">
+          Tools
+        </a>
+      </li>
+    
+      
+      <li>
+        <a href="/guide/design" class="list-group-item list-group-item-action ">
+          Design systems
+        </a>
+      </li>
+    
+      
+      <li>
+        <a href="/guide/documents" class="list-group-item list-group-item-action ">
+          Accessible documents
+        </a>
+      </li>
+    
+      
+      <li>
+        <a href="/guide/social-media" class="list-group-item list-group-item-action ">
+          Social media
+        </a>
+      </li>
+    
+      
+      <li>
+        <a href="/guide/events" class="list-group-item list-group-item-action ">
+          Events
+        </a>
+      </li>
+    
+      
+      <li>
+        <a href="/guide/organizations" class="list-group-item list-group-item-action ">
+          Organizations
+        </a>
+      </li>
+    
+      
+      <li>
+        <a href="/guide/training" class="list-group-item list-group-item-action ">
+          Training/certifications
+        </a>
+      </li>
+    
+      
+      <li>
+        <a href="/guide/resources" class="list-group-item list-group-item-action ">
+          Resources
+        </a>
+      </li>
+    
+      
+      <li>
+        <a href="/guide/semantic-html" class="list-group-item list-group-item-action ">
+          Semantic HTML
+        </a>
+      </li>
+    
+      
+      <li>
+        <a href="/guide/glossary" class="list-group-item list-group-item-action ">
+          Glossary
+        </a>
+      </li>
+    
+      
+      <li>
+        <a href="/guide/onboarding-staff" class="list-group-item list-group-item-action ">
+          Onboarding
+        </a>
+      </li>
+    
+      
+      <li>
+        <a href="/guide/champions-program" class="list-group-item list-group-item-action ">
+          Champions program
+        </a>
+      </li>
+    
+      
+      <li>
+        <a href="/guide/defect-priority" class="list-group-item list-group-item-action usa-current">
+          Accessibility bug classification
+        </a>
+      </li>
+    
+  </ul>
 </nav>
 
                 </div>
                 
-                <div class="usa-layout-docs usa-layout-docs__main usa-prose desktop:grid-col-9">
+                <div class="usa-layout-docs anchor-links usa-layout-docs__main usa-prose desktop:grid-col-9">
                     
-                    <h1>USWDS Color Tool</h1>
+                    <h1>Accessibility bug classification</h1>
                     
-                    
+                    <!-- content -->
+                    <p>CivicActions teams use this guidance to prioritize accessibility issues based on the degree of content interference caused by a WCAG success criterion failure. We <a href="https://github.com/readme/guides/fix-accessibility-bugs">treat accessibility issues as bugs</a>, and have adapted priority definitions from <a href="https://github.com/dequelabs/axe-core/blob/develop/doc/issue_impact.md">Deque's issue impact classification</a>.</p>
 
-                    <p>Visit <a href="https://github.com/CivicActions/uswds-color-tool">USWDS Color Tool</a></p>
+<p>Note that:</p>
+<ul>
+  <li>The list is illustrative, not exhaustive, and</li>
+  <li>A failure can belong to more than one level depending on how severely it impacts content access.</li>
+</ul>
+
+<p>Teams may evaluate an issue further with respect to its impact on specific content, functionality, or usability. Reasons for adjustment should be included in the ticket description, and when new patterns or examples are identified they should be considered for inclusion in the table.</p>
+
+<table class="usa-table">
+  <thead>
+    <tr>
+      <th>Access failure</th>
+      <th>Issue priority</th>
+      <th>Action</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong><a href="https://www.w3.org/TR/WCAG22/#cc5">Page-level interference (Single A criteria)</a></strong>
+        <ul>
+          <li><a href="https://www.w3.org/WAI/WCAG21/quickref/#audio-control">no audio control (1.4.2)</a></li>
+          <li><a href="https://www.w3.org/WAI/WCAG21/quickref/#no-keyboard-trap">keyboard trap (2.1.2)</a></li>
+          <li><a href="https://www.w3.org/WAI/WCAG21/quickref/#pause-stop-hide">no pause, stop, hide (2.2.2)</a></li>
+          <li><a href="https://www.w3.org/WAI/WCAG22/quickref/#three-flashes-or-below-threshold">four flashes or above threshold (2.3.1)</a></li>
+        </ul>
+      </td>
+      <td><strong>Highest user impact</strong>
+        <ul>
+          <li>Dire, resolve immediately</li>
+          <li>Forces user to abandon essential workflow</li>
+          <li>Users with disabilities fundamentally blocked</li>
+          <li>Creates immediate organizational risk</li>
+          <li>Everything else can wait for this</li>
+        </ul>
+      </td>
+      <td><strong>Do now</strong><br />
+        Bypass release cycle
+      </td>
+    </tr>
+    <tr>
+      <td><strong>Primary component failure</strong>
+        <ul>
+          <li><a href="https://www.w3.org/WAI/WCAG21/quickref/#non-text-content">images missing alt attributes (1.1.1)</a></li>
+          <li><a href="https://www.w3.org/WAI/WCAG21/quickref/#captions-prerecorded">audio lacks captions (1.2.2)</a></li>
+          <li><a href="https://www.w3.org/WAI/WCAG21/quickref/#audio-description-prerecorded">video lacks audio descriptions (1.2.5)</a></li>
+          <li><a href="https://www.w3.org/WAI/WCAG21/quickref/#meaningful-sequence">content meaning wrong without CSS (1.3.2 F1)</a></li>
+          <li><a href="https://www.w3.org/WAI/WCAG21/quickref/#contrast-minimum">text less than 4.5:1 contrast ratio (1.4.3)</a></li>
+          <li><a href="https://www.w3.org/WAI/WCAG21/quickref/#keyboard">an interaction is not keyboard navigable (2.1.1)</a></li>
+          <li><a href="https://www.w3.org/WAI/WCAG21/quickref/#no-keyboard-trap">keyboard trap in one direction only (2.1.2)</a></li>
+          <li><a href="https://www.w3.org/WAI/WCAG21/quickref/#timeouts">user not warned of timeout (2.2.6)</a></li>
+          <li><a href="https://www.w3.org/WAI/WCAG21/quickref/#labels-or-instructions">form inputs missing a label (3.3.2)</a></li>
+        </ul>
+      </td>
+      <td><strong>High user impact</strong>
+        <ul>
+          <li>Significantly degrades essential workflow</li>
+          <li>Users with disabilities substantially blocked</li>
+          <li>Significant frustration for AT users</li>
+          <li>The issue has been around a long time</li>
+          <li>Other work can wait for this</li>
+        </ul>
+      </td>
+      <td><strong>Do next</strong><br />
+        Address in next release
+      </td>
+    </tr>
+    <tr>
+      <td><strong>Component interference</strong>
+        <ul>
+          <li><a href="https://www.w3.org/WAI/WCAG21/quickref/#info-and-relationships">headings missing/out of order (1.3.1)</a></li>
+          <li><a href="https://www.w3.org/WAI/WCAG21/quickref/#identify-purpose">content/component not in a landmark (1.3.6)</a></li>
+          <li><a href="https://www.w3.org/WAI/WCAG21/quickref/#meaningful-sequence">table is not well-formed (1.3.2)</a></li>
+          <li><a href="https://www.w3.org/WAI/WCAG21/quickref/#meaningful-sequence">content sequence wrong without CSS (1.3.2 F1)</a></li>
+          <li><a href="https://www.w3.org/WAI/WCAG21/quickref/#bypass-blocks">skip to content link missing or broken (2.4.1)</a></li>
+          <li><a href="https://www.w3.org/WAI/WCAG21/quickref/#focus-order">tab order is non-sequential (2.4.3)</a></li>
+          <li><a href="https://www.w3.org/WAI/WCAG21/quickref/#headings-and-labels">table is missing headings (2.4.6)</a></li>
+          <li><a href="https://www.w3.org/WAI/WCAG21/quickref/#focus-visible">keyboard focus disappears/not visible (2.4.7)</a></li>
+          <li><a href="https://www.w3.org/WAI/WCAG21/quickref/#labels-or-instructions">instructions not with inputs (3.3.2 ARIA17)</a></li>
+          <li><a href="https://www.w3.org/WAI/WCAG21/quickref/#labels-or-instructions">form label missing but inferrable (3.3.2 G167)</a></li>
+          <li><a href="https://www.w3.org/WAI/WCAG21/quickref/#name-role-value">custom control lacks full API support (4.1.2)</a></li>
+        </ul>
+      </td>
+      <td><strong>Medium user impact</strong>
+        <ul>
+          <li>Degrades non-critical workflows for AT users</li>
+          <li>Users with disabilities are slowed down</li>
+          <li>Some frustration for AT users is likely</li>
+          <li>Acceptable short-term workaround exists</li>
+          <li>Low priority issue that has been around a while</li>
+        </ul>
+      </td>
+      <td><strong>Do soon</strong><br />
+        Address this quarter
+      </td>
+    </tr>
+    <tr>
+      <td><strong>Page or component degradation</strong>
+        <ul>
+          <li><a href="https://www.w3.org/WAI/WCAG21/quickref/#bypass-blocks">iframe is missing title attribute (2.4.1 H64)</a></li>
+          <li><a href="https://www.w3.org/WAI/WCAG21/quickref/#page-titled">page titles duped/lack adequate detail (2.4.2)</a></li>
+          <li><a href="https://www.w3.org/WAI/WCAG21/quickref/#link-purpose-link-only">link text lacks adequate context (2.4.9)</a></li>
+          <li><a href="https://www.w3.org/WAI/WCAG21/quickref/#language-of-page">language not set at page level (3.1.1)</a></li>
+          <li><a href="https://www.w3.org/WAI/WCAG21/quickref/#consistent-identification">inconsistent labeling of same function (3.2.4)</a></li>
+        </ul>
+      </td>
+      <td><strong>Low user impact</strong>
+        <ul>
+          <li>Does not substantially degrade a workflow</li>
+          <li>Has a simple workaround</li>
+          <li>Hinders compliance</li>
+          <li>Annoyance bug</li>
+          <li>If the affected component is not actively used</li>
+        </ul>
+      </td>
+      <td><strong>Do later</strong><br />
+        Address when doing related work
+      </td>
+    </tr>
+    <tr>
+      <td><strong>Missing best practices</strong></td>
+      <td><strong>Lowest user impact</strong>
+        <ul>
+          <li>No significant user value to fix</li>
+          <li>Only in unsupported browser or component</li>
+        </ul>
+      </td>
+      <td><strong>Do as time allows</strong></td>
+    </tr>
+  </tbody>
+</table>
+
                 </div>
             </div>
         </div>
@@ -236,7 +468,7 @@
       
         
 
-<a href="https://github.com/civicactions/accessibility/edit/main/_projects/uswds-color.md" class="usa-sidenav-edit" target="_blank">Help improve this page</a>
+<a href="https://github.com/civicactions/accessibility/edit/main/_guide/defect-priority.md" class="usa-sidenav-edit" target="_blank">Help improve this page</a>
        
 
 <!--  // Date not working
