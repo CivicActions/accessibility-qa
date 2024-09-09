@@ -312,9 +312,9 @@
   
     {
       
-        "title"    : "Contact form",
+        "title"    : "Contact Us",
         "url"      : "/about/contact",
-        "content"  : "Fill out the form below with your email address and reason for contacting us.            Email Address*                        Subject*                SubmitOther ways to contact us  Email: accessibility-qa.civicactions.com  GitHub: Submit an issue  Twitter: @civicactions  LinkedIN: @civicactions"
+        "content"  : "We love helping people improve accessibility in their products and services. Tell us about your accessibility challenge or reason for contacting us, and we&#39;ll get in touch.            Email address*                        How can we help you?*                SubmitMore ways to reach us  Email: accessibility-qa.civicactions.com  LinkedIN: @civicactions  X: @civicactions  Visit our main website: CivicActions.comFeedbackBugs? Comments? Suggestions? We welcome your feedback and ideas for our site.Submit a Github issue"
       
     },
   
@@ -426,7 +426,7 @@
       
         "title"    : "Roles",
         "url"      : "/roles/",
-        "content"  : "                                                                                                                                                                                    Executive                                                                                                                                                                                                                Procurement                                                                                                                                                                                                                Developer                                                                                                                                                                                                                Product manager                                                                                                                                                                                                                Project manager                                                                                                                                                                                                                Operations                                                                                                                                                                                                                UX designer                                                                                                                                                                                                                Content designer                                                                                                                                    "
+        "content"  : "                                                                                                                                                                                    Executive                                                                                                                                                                                                                Procurement                                                                                                                                                                                                                Developer                                                                                                                                                                                                                Product manager                                                                                                                                                                                                                Project manager                                                                                                                                                                                                                Operations                                                                                                                                                                                                                Designer                                                                                                                                                                                                                Content designer                                                                                                                                    "
       
     },
   
@@ -451,6 +451,10 @@
         "title"    : "Topics",
         "url"      : "/topics/",
         "content"  : "                                                            {% include topic.html %}                                        "
+      
+    },
+  
+    {
       
     },
   
