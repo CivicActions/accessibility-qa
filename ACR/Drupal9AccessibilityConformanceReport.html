@@ -1,0 +1,993 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<title>CivicActions Accessibility</title>
+
+
+
+
+
+<link rel="shortcut icon" type="image/ico"
+  href="/assets/img/logos/civicaction-square.ico">
+
+
+
+<!-- Facebook OG and Twitter Card -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@civicactions" />
+<meta name="twitter:title" content="">
+<meta name="twitter:creator" content="@civicactions" />
+<meta name="twitter:image" content="https://accessibility-qa.civicactions.com/assets/img/thumbnail-images/general-a11y.png">
+<meta name="twitter:image:alt" content="CivicActions Accessibility">
+<meta name="twitter:image" content="https://accessibility-qa.civicactions.com/assets/img/thumbnail-images/playbook.png">
+<meta name="twitter:image:alt" content="CivicActions Accessibility Playbook">
+<meta name="twitter:image" content="https://accessibility-qa.civicactions.com/assets/img/thumbnail-images/tip-of-the-week.png">
+<meta name="twitter:image:alt" content="CivicActions Accessibility Tip of the Week">
+<meta property="og:url" content="https://accessibility-qa.civicactions.com/" />
+<meta property="og:title" content="CivicActions-Accessibility" />
+<meta property="og:description" content="CivicActions Accessibility site is an open project for our team members and those who work for digital inclusion." />
+<meta property="og:image" content="https://accessibility-qa.civicactions.com/assets/img/thumbnail-images/general-a11y.png" />
+<meta property="og:image" content="https://accessibility-qa.civicactions.com/assets/img/thumbnail-images/playbook.png" />
+<meta property="og:image" content="https://accessibility-qa.civicactions.com/assets/img/thumbnail-images/tip-of-the-week.png" />
+
+    <!-- Font Awesome -->
+
+    <!-- This is code the Font Awesome CDN generates for me that doesn't work -->
+    <script src="https://use.fontawesome.com/4fe5bba9d1.js"></script>
+	<link rel="stylesheet" href="https://use.fontawesome.com/7207a55a98.css">
+
+    <!-- This is code from DistributedGov that works -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+    <!-- Google Fonts -->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Nunito&family=Work+Sans&display=swap" rel="stylesheet"> 
+    
+
+
+
+<link rel="stylesheet"
+  href="/assets/css/uswds-theme.css"
+  media="screen">
+
+
+
+    
+  </head>
+  <body class="  ">
+
+    <a class="usa-skipnav" href="#main-content">Skip to main content</a>
+
+    
+
+<!---->
+
+<div class="usa-overlay"></div>
+<header class="usa-header usa-header--extended"><div class="usa-navbar">
+    <div class="usa-logo" id="extended-logo">
+        <em class="usa-logo__text"><a href="/" title="Home" aria-label="Home">
+            <img class="ca-logo" src="/assets/img/ca-logo.png" alt="civicactions logo">
+            <p class="site-name-logo">Accessibility</p> <sup>ALPHA</sup></a></em>
+    </div>
+    <button class="usa-menu-btn">Menu</button>
+</div>
+    <nav aria-label="Primary navigation" class="usa-nav">
+        <div class="usa-nav__inner"><button class="usa-nav__close"><img src="/assets/uswds/img/close.svg" role="img" alt="close"></button>
+
+
+
+            <ul class="usa-nav__primary usa-accordion"><li class="usa-nav__primary-item">
+                <button class="usa-accordion__button usa-nav__link " aria-expanded="false" aria-controls="extended-nav-section-one"><span>About</span></button>
+
+                
+                <ul id="extended-nav-section-one" class="usa-nav__submenu" hidden><li class="usa-nav__submenu-item">
+                    <a href="/about/" class="">Who we are</a>
+                </li><li class="usa-nav__submenu-item">
+                    <a href="/about/people/" class="">Meet us</a>
+                </li><li class="usa-nav__submenu-item">
+                    <a href="/about/contact" class="">Contact us</a>
+                </li><li class="usa-nav__submenu-item">
+                    <a href="/about/join" class="">Join us</a>
+                </li></ul></li>
+                <li class="usa-nav__primary-item">
+                    <a class="usa-nav__link " href="/calendar"><span>Calendar</span></a>
+                </li>
+                <li class="usa-nav__primary-item">
+                    <a class="usa-nav__link " href="/news/"><span>News</span></a>
+                </li>
+
+                <li class="usa-nav__primary-item">
+                    <a class="usa-nav__link " href="/playbook/"><span>Playbook</span></a>
+                </li>
+
+                <li class="usa-nav__primary-item">
+                    <a class="usa-nav__link " href="/guide/"><span>Guide</span></a>
+                </li>
+                <li class="usa-nav__primary-item">
+                    <a class="usa-nav__link " href="/search"><span>Search</span></a>
+                </li>
+            </ul>
+
+
+            <div class="usa-nav__secondary">
+                <ul class="usa-nav__secondary-links"><li class="usa-nav__secondary-item">
+                    <a href="https://civicactions.com/">CivicActions.com</a>
+                </li></ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+
+
+    <aside>
+      
+      
+
+
+      
+
+      
+
+      
+        
+        
+
+
+
+
+      
+      
+    </aside>
+
+    
+      <main id="main-content" class="usa-layout-docs usa-layout-docs__main desktop:grid-col-9 usa-prose">
+        <div id="breadcrumbs" class="grid-container">
+    
+    <nav class="usa-breadcrumb" aria-label="Breadcrumbs">
+        <ol class="usa-breadcrumb__list">
+            <li class="usa-breadcrumb__list-item">
+                <a href="/" class="usa-breadcrumb__link">Home</a>
+            </li>
+            
+            
+            <li class="usa-breadcrumb__list-item usa-current" aria-current="page">
+                <a class="usa-breadcrumb__link" href="/ACR/">Acr</a>
+            </li>
+            
+            
+            
+            <li class="usa-breadcrumb__list-item usa-current" aria-current="page">
+                
+            </li>
+            
+            
+        </ol>
+    </nav>
+</div>
+<div class="usa-section">
+  <div class="grid-container">
+    <div class="grid-row grid-gap flex-align-start">
+      
+      
+
+      <div class="usa-layout-docs  usa-layout-docs__main usa-prose">
+        
+        
+          <!-- content -->
+
+          
+            <h1 id="drupal-accessibility-conformance-report">Drupal Accessibility Conformance Report</h1>
+
+<h1 id="revised-section-508-edition">Revised Section 508 Edition</h1>
+
+<p>(Based on VPAT® Version 2.4)</p>
+
+<h2 id="name-of-productversion-drupal-91">Name of Product/Version: Drupal 9.1</h2>
+
+<h2 id="report-date-28-april-2021">Report Date: 28 April, 2021</h2>
+
+<h2 id="report-version-123">Report Version: 1.2.3</h2>
+
+<h2 id="product-description-content-management-system">Product Description: Content Management System</h2>
+
+<h2 id="contact-information">Contact Information:</h2>
+
+<p>Mike Gifford<br />
+CivicActions<br />
+3527 Mt Diablo Blvd, Unit 269<br />
+Lafayette, CA 94549<br />
+<a href="mailto:mike.gifford@civicactions.com">mike.gifford@civicactions.com</a><br />
+(510) 408-7510</p>
+
+<h2 id="notes">Notes:</h2>
+
+<p>Links to the issues identified are included where possible to ensure that this is a living document where outstanding issues are regularly reviewed for compliance. The Authoring tool is evaluated against ATAG 2.0, Part A and B. Incorporating feedback from the Drupal community.</p>
+
+<h2 id="evaluation-methods-used">Evaluation Methods Used:</h2>
+
+<p>Use of automated tools like WAVE and Accessibility Insights. Manual keyboard only testing. Some testing with JAWS, NVDA and VoiceOver. The evaluation process also includes a review of the Drupal Core accessibility issue queue.</p>
+
+<h2 id="applicable-standardsguidelines">Applicable Standards/Guidelines</h2>
+
+<p>This report covers the degree of conformance for the following accessibility standard/guidelines:</p>
+
+<hr />
+
+<hr />
+
+<table>
+  <thead>
+    <tr>
+      <th>Standard/Guideline</th>
+      <th>Included In Report</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="http://www.w3.org/TR/2008/REC-WCAG20-20081211">Web Content Accessibility Guidelines 2.0</a></td>
+      <td>Level A (Yes) <br />Level AA (Yes) <br />Level AAA (No)</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-ict-refresh/final-rule/text-of-the-standards-and-guidelines">Revised Section 508 standards published January 18, 2017 and corrected January 22, 2018</a></td>
+      <td>(Yes)</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="terms">Terms</h2>
+
+<p>The terms used in the Conformance Level information are defined as follows:</p>
+
+<ul>
+  <li><strong>Supports:</strong> The functionality of the product has at least one method that meets the criterion without known defects or meets with equivalent facilitation.</li>
+  <li><strong>Partially Supports:</strong> Some functionality of the product does not meet the criterion.</li>
+  <li><strong>Does Not Support:</strong> The majority of product functionality does not meet the criterion.</li>
+  <li><strong>Not Applicable:</strong> The criterion is not relevant to the product.</li>
+  <li><strong>Not Evaluated:</strong> The product has not been evaluated against the criterion. This can be used only in WCAG 2.0 Level AAA.</li>
+</ul>
+
+<h2 id="wcag-20-report">WCAG 2.0 Report</h2>
+
+<p>Tables 1 and 2 also document conformance with Revised Section 508:</p>
+
+<ul>
+  <li>Chapter 5 – 501.1 Scope, 504.2 Content Creation or Editing</li>
+  <li>Chapter 6 – 602.3 Electronic Support Documentation</li>
+</ul>
+
+<p>Note: When reporting on conformance with the WCAG 2.0 Success Criteria, they are scoped for full pages, complete processes, and accessibility-supported ways of using technology as documented in the <a href="https://www.w3.org/TR/WCAG20/#conformance-reqs">WCAG 2.0 Conformance Requirements</a>.</p>
+
+<hr />
+
+<h3 id="table-1-success-criteria-level-a">Table 1: Success Criteria, Level A</h3>
+
+<p><strong>Notes:</strong> 
+Drupal doesn't make a strong distinction between the front-end &amp; back-end accessibility. Many administration interfaces can be exposed to users in a more interactive site. Generally this report focuses the Conformance Level / Remarks and Explainations so that <strong>Web</strong> comments are about elements that are typically public, while <strong>Authoring Tool</strong> is typically for authors and administrators. The goal of the authoring interface is to support ATAG 2.0 AA (Part A and B).</p>
+
+<p>The Drupal community strives to beek up with the latest WCAG recommendation.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th> </th>
+      <th> </th>
+      <th> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Criteria</td>
+      <td>Conformance Level</td>
+      <td>Remarks and Explanations</td>
+    </tr>
+    <tr>
+      <td><a href="http://www.w3.org/TR/WCAG20/#text-equiv-all">1.1.1 Non-text Content</a> (Level A) <br />  Also applies to: <br />  Revised Section 508 &lt;ul&gt;&lt;li&gt;501 (Web)(Software)&lt;/li&gt;&lt;li&gt;504.2 (Authoring Tool)&lt;/li&gt;&lt;li&gt;602.3 (Support Docs)&lt;/li&gt;&lt;/ul&gt;</td>
+      <td><strong>Web:</strong> Supports <br /><strong>Electronic Docs:</strong> Supports <br /><strong>Software:</strong> Not Applicable<br /><strong>Authoring Tool:</strong>  Supports</td>
+      <td><strong>Web:</strong> Drupal 8 requires alt text for images by default. <br /><strong>Electronic Docs:</strong> Some non-textual content in the documentation does not provide a textual alternative. <br /><strong>Software:</strong> Not Applicable<br /><strong>Authoring Tool:</strong> The back end of Drupal Core was built to be  WCAG 2.0 AA compliant and non-text content in the administration interface has a textual equivalent. Audio and video can be added to the media library, but Core does not provide tools to manage transcripts and captions/subtitles for local video and audio - Drupal issue <a href="https://www.drupal.org/project/drupal/issues/3002770">#3002770</a>.</td>
+    </tr>
+    <tr>
+      <td><a href="http://www.w3.org/TR/WCAG20/#media-equiv-av-only-alt">1.2.1 Audio-only and Video-only</a> (Prerecorded) (Level A)<br />  Also applies to: <br />  Revised Section 508&lt;ul&gt;&lt;li&gt;501 (Web)(Software)&lt;/li&gt;&lt;li&gt;504.2 (Authoring Tool)&lt;/li&gt;&lt;li&gt;602.3 (Support Docs)&lt;/li&gt;&lt;/ul&gt;</td>
+      <td><strong>Web:</strong> Partially Supports <br /><strong>Electronic Docs:</strong> Partially Supports <br /><strong>Software:</strong> Not Applicable<br /><strong>Authoring Tool:</strong> Does Not Support</td>
+      <td><strong>Web:</strong> Authors can satisfy 1.2.1 Audio-only and Video-only (Prerecorded) by using text on the same page. <br /><strong>Electronic Docs:</strong> This is not explicitly defined in the documentation. <br /><strong>Software:</strong> Not Applicable <br /><strong>Authoring Tool:</strong> There is no additional support for authors within the authoring interface to explain how this can be done.</td>
+    </tr>
+    <tr>
+      <td><a href="http://www.w3.org/TR/WCAG20/#media-equiv-captions">1.2.2 Captions (Prerecorded)</a> (Level A)<br />  Also applies to: <br />  Revised Section 508&lt;ul&gt;&lt;li&gt;501 (Web)(Software)&lt;/li&gt;&lt;li&gt;504.2 (Authoring Tool)&lt;/li&gt;&lt;li&gt;602.3 (Support Docs)&lt;/li&gt;&lt;/ul&gt;</td>
+      <td><strong>Web:</strong> Does Not Support <br /><strong>Electronic Docs:</strong> Supports <br /><strong>Software:</strong> Not Applicable<br /><strong>Authoring Tool:</strong> Does Not Support</td>
+      <td><strong>Web:</strong> The file module in Core lets authors upload audio and video content, and output <code class="language-plaintext highlighter-rouge">&lt;audio&gt;</code> and <code class="language-plaintext highlighter-rouge">&lt;video&gt;</code> elements and does not support captions.  <br /><strong>Electronic Docs:</strong>  <br /><strong>Software:</strong> Not Applicable <br /><strong>Authoring Tool:</strong> Drupal does not suppor, let alone require users to include captions. Hard coding open captions is presently the only way to satisfy this in Core.</td>
+    </tr>
+    <tr>
+      <td><a href="http://www.w3.org/TR/WCAG20/#media-equiv-audio-desc">1.2.3 Audio Description or Media Alternative (Prerecorded)</a> (Level A)<br />  Also applies to: <br />  Revised Section 508&lt;ul&gt;&lt;li&gt;501 (Web)(Software)&lt;/li&gt;&lt;li&gt;504.2 (Authoring Tool)&lt;/li&gt;&lt;li&gt;602.3 (Support Docs)&lt;/li&gt;&lt;/ul&gt;</td>
+      <td><strong>Web:</strong> Does Not Support <br /><strong>Electronic Docs:</strong> Does Not Support <br /><strong>Software:</strong> Not Applicable<br /><strong>Authoring Tool:</strong> Does Not Support</td>
+      <td><strong>Web:</strong> Audio files can be uploaded, but there is no way to associate captions in Core. <br /><strong>Electronic Docs:</strong> There is no documentation on how to properly convey pre-recorded audio descriptions. <br /><strong>Software:</strong> Not Applicable<br /><strong>Authoring Tool:</strong> There is no audio in the authoring interface of Drupal Core, but there is no support for authors to upload accessible audio files.</td>
+    </tr>
+    <tr>
+      <td><a href="http://www.w3.org/TR/WCAG20/#content-structure-separation-programmatic">1.3.1 Info and Relationships</a> (Level A)<br />  Also applies to: <br />  Revised Section 508&lt;ul&gt;&lt;li&gt;501 (Web)(Software)&lt;/li&gt;&lt;li&gt;504.2 (Authoring Tool)&lt;/li&gt;&lt;li&gt;602.3 (Support Docs)&lt;/li&gt;&lt;/ul&gt;</td>
+      <td><strong>Web:</strong> Supports <br /><strong>Electronic Docs:</strong> Supports <br /><strong>Software:</strong> Not Applicable<br /><strong>Authoring Tool:</strong>  Supports</td>
+      <td><strong>Web:</strong> Information is structured into logical relationships. Navigational lists are well used to group information. Forms have a visual and semantic representation for required fields. <br /><strong>Electronic Docs:</strong> Information is structured into logical relationships. Navigational lists are well used to group information. <br /><strong>Software:</strong> Not Applicable <br /><strong>Authoring Tool:</strong> The authoring environment was constructed to support ATAG 2.0 AA (Part A and B)</td>
+    </tr>
+    <tr>
+      <td><a href="http://www.w3.org/TR/WCAG20/#content-structure-separation-sequence">1.3.2 Meaningful Sequence</a> (Level A)<br />  Also applies to: <br />  Revised Section 508&lt;ul&gt;&lt;li&gt;501 (Web)(Software)&lt;/li&gt;&lt;li&gt;504.2 (Authoring Tool)&lt;/li&gt;&lt;li&gt;602.3 (Support Docs)&lt;/li&gt;&lt;/ul&gt;</td>
+      <td><strong>Web:</strong> Supports <br /><strong>Electronic Docs:</strong> Supports <br /><strong>Software:</strong> Not Applicable<br /><strong>Authoring Tool:</strong> Supports</td>
+      <td><strong>Web:</strong> Drupal Core has been extensively tested with keyboard only users. As a proudly multilingual CMS, Drupal provides support for bidirectional navigation. <br /><strong>Electronic Docs:</strong>  Supports <br /><strong>Software:</strong> Not Applicable<br /><strong>Authoring Tool:</strong> The authoring environment was constructed to support ATAG 2.0 AA (Part A and B)</td>
+    </tr>
+    <tr>
+      <td><a href="http://www.w3.org/TR/WCAG20/#content-structure-separation-understanding">1.3.3 Sensory Characteristics</a> (Level A)<br />  Also applies to: <br />  Revised Section 508&lt;ul&gt;&lt;li&gt;501 (Web)(Software)&lt;/li&gt;&lt;li&gt;504.2 (Authoring Tool)&lt;/li&gt;&lt;li&gt;602.3 (Support Docs)&lt;/li&gt;&lt;/ul&gt;</td>
+      <td><strong>Web:</strong> Supports <br /><strong>Electronic Docs:</strong> Supports <br /><strong>Software:</strong> Not Applicable<br /><strong>Authoring Tool:</strong> Supports</td>
+      <td><strong>Web:</strong> Where possible Drupal Core uses combinations of text and symbols for the user interface. <br /><strong>Electronic Docs:</strong>  Supports <br /><strong>Software:</strong> Not Applicable<br /><strong>Authoring Tool:</strong> The authoring interface has been developed to not rely on symbols alone to convey information to the user.</td>
+    </tr>
+    <tr>
+      <td><a href="http://www.w3.org/TR/WCAG20/#visual-audio-contrast-without-color">1.4.1 Use of Color</a> (Level A)<br />  Also applies to: <br />  Revised Section 508&lt;ul&gt;&lt;li&gt;501 (Web)(Software)&lt;/li&gt;&lt;li&gt;504.2 (Authoring Tool)&lt;/li&gt;&lt;li&gt;602.3 (Support Docs)&lt;/li&gt;&lt;/ul&gt;</td>
+      <td><strong>Web:</strong> Supports <br /><strong>Electronic Docs:</strong> Supports <br /><strong>Software:</strong> Not Applicable<br /><strong>Authoring Tool:</strong> Supports</td>
+      <td><strong>Web:</strong> Color is not used without text and often symbols to convey meaning. <br /><strong>Electronic Docs:</strong>  Supports <br /><strong>Software:</strong> Not Applicable<br /><strong>Authoring Tool:</strong> In general, the admin theme is very accessible. The Claro Administration Theme shortcut start needs improvement - Drupal issue <a href="https://www.drupal.org/project/drupal/issues/3171726">#3171726</a>.</td>
+    </tr>
+    <tr>
+      <td><a href="http://www.w3.org/TR/WCAG20/#visual-audio-contrast-dis-audio">1.4.2 Audio Control</a> (Level A)<br />  Also applies to: <br />  Revised Section 508&lt;ul&gt;&lt;li&gt;501 (Web)(Software)&lt;/li&gt;&lt;li&gt;504.2 (Authoring Tool)&lt;/li&gt;&lt;li&gt;602.3 (Support Docs)&lt;/li&gt;&lt;/ul&gt;</td>
+      <td><strong>Web:</strong> Not Applicable <br /><strong>Electronic Docs:</strong> Not Applicable <br /><strong>Software:</strong> Not Applicable<br /><strong>Authoring Tool:</strong> Not Applicable</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="http://www.w3.org/TR/WCAG20/#keyboard-operation-keyboard-operable">2.1.1 Keyboard</a> (Level A)<br />  Also applies to: <br />  Revised Section 508&lt;ul&gt;&lt;li&gt;501 (Web)(Software)&lt;/li&gt;&lt;li&gt;504.2 (Authoring Tool)&lt;/li&gt;&lt;li&gt;602.3 (Support Docs)&lt;/li&gt;&lt;/ul&gt;</td>
+      <td><strong>Web:</strong> Supports <br /><strong>Electronic Docs:</strong> Supports <br /><strong>Software:</strong> Not Applicable<br /><strong>Authoring Tool:</strong> Partial Support</td>
+      <td><strong>Web:</strong> Users can interact with Drupal Core with the keyboard and without specific timings for individual keystrokes. <br /><strong>Electronic Docs:</strong>  Supports <br /><strong>Software:</strong> Not Applicable<br /><strong>Authoring Tool:</strong> Authors are largely able to engage with Drupal Core with the keyboard and without specific timings for individual keystrokes.Tooltips not displayed for keyboard navigation - Drupal issue <a href="https://www.drupal.org/project/drupal/issues/2933984">#2933984</a>.There are reported issues with IE11 and JAWS - Drupal issue <a href="https://www.drupal.org/project/drupal/issues/2852702">#2852702</a>.It is worth noting that Drupal's admin is powerful and complex, and there are other accessibility reports in the <a href="https://www.drupal.org/project/issues/search/drupal?text=keyboard&amp;assigned=&amp;submitted=&amp;project_issue_followers=&amp;status%5B%5D=Open&amp;version%5B%5D=any_10.&amp;version%5B%5D=any_9.&amp;version%5B%5D=any_8.&amp;issue_tags_op=%3D&amp;issue_tags=accessibility">issue queue</a>.</td>
+    </tr>
+    <tr>
+      <td><a href="http://www.w3.org/TR/WCAG20/#keyboard-operation-trapping">2.1.2 No Keyboard Trap</a> (Level A)<br />  Also applies to: <br />  Revised Section 508&lt;ul&gt;&lt;li&gt;501 (Web)(Software)&lt;/li&gt;&lt;li&gt;504.2 (Authoring Tool)&lt;/li&gt;&lt;li&gt;602.3 (Support Docs)&lt;/li&gt;&lt;/ul&gt;</td>
+      <td><strong>Web:</strong> Supports <br /><strong>Electronic Docs:</strong> Supports <br /><strong>Software:</strong> Not Applicable<br /><strong>Authoring Tool:</strong> Supports</td>
+      <td><strong>Web:</strong> Focus can be moved away from that component using only a keyboard interface. <br /><strong>Electronic Docs:</strong> See <strong>Web</strong> comment above. <br /><strong>Software:</strong> Not Applicable<br /><strong>Authoring Tool:</strong> See <strong>Web</strong> comment above.</td>
+    </tr>
+    <tr>
+      <td><a href="http://www.w3.org/TR/WCAG20/#time-limits-required-behaviors">2.2.1 Timing Adjustable</a> (Level A)<br />  Also applies to: <br />  Revised Section 508&lt;ul&gt;&lt;li&gt;501 (Web)(Software)&lt;/li&gt;&lt;li&gt;504.2 (Authoring Tool)&lt;/li&gt;&lt;li&gt;602.3 (Support Docs)&lt;/li&gt;&lt;/ul&gt;</td>
+      <td><strong>Web:</strong> Supports <br /><strong>Electronic Docs:</strong> Supports <br /><strong>Software:</strong> Not Applicable<br /><strong>Authoring Tool:</strong> Supports</td>
+      <td><strong>Web:</strong> The time limit is longer than 20 hours. <br /><strong>Electronic Docs:</strong> Supports <br /><strong>Software:</strong> Not Applicable<br /><strong>Authoring Tool:</strong> See <strong>Web</strong> comment above.</td>
+    </tr>
+    <tr>
+      <td><a href="http://www.w3.org/TR/WCAG20/#time-limits-pause">2.2.2 Pause, Stop, Hide</a> (Level A)<br />  Also applies to: <br />  Revised Section 508&lt;ul&gt;&lt;li&gt;501 (Web)(Software)&lt;/li&gt;&lt;li&gt;504.2 (Authoring Tool)&lt;/li&gt;&lt;li&gt;602.3 (Support Docs)&lt;/li&gt;&lt;/ul&gt;</td>
+      <td><strong>Web:</strong> Not Applicable <br /><strong>Electronic Docs:</strong> Supports <br /><strong>Software:</strong> Not Applicable<br /><strong>Authoring Tool:</strong> Supports</td>
+      <td><strong>Web:</strong> Not Applicable <br /><strong>Electronic Docs:</strong> Supports <br /> <strong>Software:</strong> Not Applicable<br /><strong>Authoring Tool:</strong> There is no moving, blinking, scrolling, or auto-updating information in Drupal Core. There is also no built-in mechanism to support authors in controlling this type of motion.</td>
+    </tr>
+    <tr>
+      <td><a href="http://www.w3.org/TR/WCAG20/#seizure-does-not-violate">2.3.1 Three Flashes or Below Threshold</a> (Level A)<br />  Also applies to: <br />  Revised Section 508&lt;ul&gt;&lt;li&gt;501 (Web)(Software)&lt;/li&gt;&lt;li&gt;504.2 (Authoring Tool)&lt;/li&gt;&lt;li&gt;602.3 (Support Docs)&lt;/li&gt;&lt;/ul&gt;</td>
+      <td><strong>Web:</strong> Supports <br /><strong>Electronic Docs:</strong> Supports <br /><strong>Software:</strong> Not Applicable<br /><strong>Authoring Tool:</strong> Supports</td>
+      <td><strong>Web:</strong> There are no flashing elements in Drupal Core. <br /><strong>Electronic Docs:</strong> See <strong>Web</strong> comment above. <br /><strong>Software:</strong> Not Applicable<br /><strong>Authoring Tool:</strong> See <strong>Web</strong> comment above.</td>
+    </tr>
+    <tr>
+      <td><a href="http://www.w3.org/TR/WCAG20/#navigation-mechanisms-skip">2.4.1 Bypass Blocks</a> (Level A)<br />  Also applies to: <br />  Revised Section 508 &lt;ul&gt;&lt;li&gt;501 (Web)(Software) – Does not apply to non-web software&lt;/li&gt;&lt;li&gt;504.2 (Authoring Tool)&lt;/li&gt;&lt;li&gt;602.3 (Support Docs) – Does not apply to non-web docs&lt;/li&gt;&lt;/ul&gt;</td>
+      <td><strong>Web:</strong> Supports <br /><strong>Electronic Docs:</strong> Supports <br /><strong>Authoring Tool:</strong> Supports</td>
+      <td><strong>Web:</strong> Skip links are provided. <br /><strong>Electronic Docs:</strong> See above comment. <br /><strong>Authoring Tool:</strong> See <strong>Web</strong> comment above.</td>
+    </tr>
+    <tr>
+      <td><a href="http://www.w3.org/TR/WCAG20/#navigation-mechanisms-title">2.4.2 Page Titled</a> (Level A)<br />  Also applies to: <br />  Revised Section 508&lt;ul&gt;&lt;li&gt;501 (Web)(Software)&lt;/li&gt;&lt;li&gt;504.2 (Authoring Tool)&lt;/li&gt;&lt;li&gt;602.3 (Support Docs)&lt;/li&gt;&lt;/ul&gt;</td>
+      <td><strong>Web:</strong> Partial Supports<strong>Electronic Docs:</strong> Supports <br /><strong>Software:</strong> Not Applicable<br /><strong>Authoring Tool:</strong> Supports</td>
+      <td><strong>Web:</strong> Pages have titles, but in the case of multi-page events, the page number is not included - Drupal issue <a href="https://www.drupal.org/project/drupal/issues/2509716">#2509716</a>. <br /><strong>Electronic Docs:</strong> See above comment. <br /><strong>Software:</strong> Not Applicable<br /><strong>Authoring Tool:</strong> See <strong>Web</strong> comment above.</td>
+    </tr>
+    <tr>
+      <td><a href="http://www.w3.org/TR/WCAG20/#navigation-mechanisms-focus-order">2.4.3 Focus Order</a> (Level A)<br />  Also applies to: <br />  Revised Section 508&lt;ul&gt;&lt;li&gt;501 (Web)(Software)&lt;/li&gt;&lt;li&gt;504.2 (Authoring Tool)&lt;/li&gt;&lt;li&gt;602.3 (Support Docs)&lt;/li&gt;&lt;/ul&gt;</td>
+      <td><strong>Web:</strong> Supports <br /><strong>Electronic Docs:</strong> Supports <br /><strong>Software:</strong> Not Applicable<br /><strong>Authoring Tool:</strong> Supports</td>
+      <td><strong>Web:</strong> Focusable components receive focus in an order that preserves meaning and operability. <br /><strong>Electronic Docs:</strong> See above comment. <br /><strong>Software:</strong> Not Applicable<br /><strong>Authoring Tool:</strong> See <strong>Web</strong> comment above.</td>
+    </tr>
+    <tr>
+      <td><a href="http://www.w3.org/TR/WCAG20/#navigation-mechanisms-refs">2.4.4 Link Purpose (In Context)</a> (Level A)<br />  Also applies to: <br />  Revised Section 508&lt;ul&gt;&lt;li&gt;501 (Web)(Software)&lt;/li&gt;&lt;li&gt;504.2 (Authoring Tool)&lt;/li&gt;&lt;li&gt;602.3 (Support Docs)&lt;/li&gt;&lt;/ul&gt;</td>
+      <td><strong>Web:</strong> Supports <br /><strong>Electronic Docs:</strong> Supports <br /><strong>Software:</strong> Not Applicable<br /><strong>Authoring Tool:</strong> Supports</td>
+      <td><strong>Web:</strong> Careful attention has been paid to ensure that automated "Read More" links are available in a way that is available with contextual information for screen readers. <br /><strong>Electronic Docs:</strong> Not Applicable<strong>Software:</strong> Not Applicable<br /><strong>Authoring Tool:</strong> See <strong>Web</strong> comment above.</td>
+    </tr>
+    <tr>
+      <td><a href="http://www.w3.org/TR/WCAG20/#meaning-doc-lang-id">3.1.1 Language of Page</a> (Level A)<br />  Also applies to: <br />  Revised Section 508&lt;ul&gt;&lt;li&gt;501 (Web)(Software)&lt;/li&gt;&lt;li&gt;504.2 (Authoring Tool)&lt;/li&gt;&lt;li&gt;602.3 (Support Docs)&lt;/li&gt;&lt;/ul&gt;</td>
+      <td><strong>Web:</strong> Supports <br /><strong>Electronic Docs:</strong> Supports <br /><strong>Software:</strong> Not Applicable<br /><strong>Authoring Tool:</strong> Supports</td>
+      <td><strong>Web:</strong> Page language is defined semantically on every page. <br />Electronic Docs: See <strong>Web</strong> comment above. <br /><strong>Software:</strong> Not Applicable<br /><strong>Authoring Tool:</strong> See <strong>Web</strong> comment above.</td>
+    </tr>
+    <tr>
+      <td><a href="http://www.w3.org/TR/WCAG20/#consistent-behavior-receive-focus">3.2.1 On Focus</a> (Level A)<br />  Also applies to: <br />  Revised Section 508&lt;ul&gt;&lt;li&gt;501 (Web)(Software)&lt;/li&gt;&lt;li&gt;504.2 (Authoring Tool)&lt;/li&gt;&lt;li&gt;602.3 (Support Docs)&lt;/li&gt;&lt;/ul&gt;</td>
+      <td><strong>Web:</strong> Supports <br /><strong>Electronic Docs:</strong> Supports <br /><strong>Software:</strong> Not Applicable<br /><strong>Authoring Tool:</strong> Supports</td>
+      <td><strong>Web:</strong> Change in the focus state does not initiate a change of context for the user. <br /><strong>Electronic Docs:</strong> See <strong>Web</strong> comment above. <br /><strong>Software:</strong> Not Applicable<br /><strong>Authoring Tool:</strong> See <strong>Web</strong> comment above.</td>
+    </tr>
+    <tr>
+      <td><a href="http://www.w3.org/TR/WCAG20/#consistent-behavior-unpredictable-change">3.2.2 On Input</a> (Level A)<br />  Also applies to: <br />  Revised Section 508&lt;ul&gt;&lt;li&gt;501 (Web)(Software)&lt;/li&gt;&lt;li&gt;504.2 (Authoring Tool)&lt;/li&gt;&lt;li&gt;602.3 (Support Docs)&lt;/li&gt;&lt;/ul&gt;</td>
+      <td><strong>Web:</strong> Supports <br /><strong>Electronic Docs:</strong> Supports <br /><strong>Software:</strong> Not Applicable<br /><strong>Authoring Tool:</strong> Supports</td>
+      <td><strong>Web:</strong> Engaging with the interactive sites does not unexpectedly take control from the users. <br /><strong>Electronic Docs:</strong> See <strong>Web</strong> comment above. <br /><strong>Software:</strong> Not Applicable<br /><strong>Authoring Tool:</strong> See <strong>Web</strong> comment above.</td>
+    </tr>
+    <tr>
+      <td><a href="http://www.w3.org/TR/WCAG20/#minimize-error-identified">3.3.1 Error Identification</a> (Level A)<br />  Also applies to: <br />  Revised Section 508&lt;ul&gt;&lt;li&gt;501 (Web)(Software)&lt;/li&gt;&lt;li&gt;504.2 (Authoring Tool)&lt;/li&gt;&lt;li&gt;602.3 (Support Docs)&lt;/li&gt;&lt;/ul&gt;</td>
+      <td><strong>Web:</strong> Supports <br /><strong>Electronic Docs:</strong> Not Applicable <br /><strong>Software:</strong> Not Applicable<br /><strong>Authoring Tool:</strong> Supports</td>
+      <td><strong>Web:</strong> The Inline Form Error module was added in Drupal 8. This needs to be enabled site-wide on installation. <br /><strong>Electronic Docs:</strong> Not Applicable<strong>Software:</strong> Not Applicable<br /><strong>Authoring Tool:</strong> See <strong>Web</strong> comment above.</td>
+    </tr>
+    <tr>
+      <td><a href="http://www.w3.org/TR/WCAG20/#minimize-error-cues">3.3.2 Labels or Instructions</a> (Level A)<br />  Also applies to: <br />  Revised Section 508&lt;ul&gt;&lt;li&gt;501 (Web)(Software)&lt;/li&gt;&lt;li&gt;504.2 (Authoring Tool)&lt;/li&gt;&lt;li&gt;602.3 (Support Docs)&lt;/li&gt;&lt;/ul&gt;</td>
+      <td><strong>Web:</strong> Supports <br /><strong>Electronic Docs:</strong> Supports <br /><strong>Software:</strong> Not Applicable<br /><strong>Authoring Tool:</strong> Partially Supports</td>
+      <td><strong>Web:</strong> Default forms all include labels. <br /><strong>Electronic Docs:</strong> See <strong>Web</strong> comment above. <br /><strong>Software:</strong> Not Applicable<br /><strong>Authoring Tool:</strong> There are a few places where there are problems with labels, but these are odd exceptions - Drupal issue <a href="https://www.drupal.org/project/drupal/issues/3015494">#3015494</a>.</td>
+    </tr>
+    <tr>
+      <td><a href="http://www.w3.org/TR/WCAG20/#ensure-compat-parses">4.1.1 Parsing</a> (Level A)<br />  Also applies to: <br />  Revised Section 508&lt;ul&gt;&lt;li&gt;501 (Web)(Software)&lt;/li&gt;&lt;li&gt;504.2 (Authoring Tool)&lt;/li&gt;&lt;li&gt;602.3 (Support Docs)&lt;/li&gt;&lt;/ul&gt;</td>
+      <td><strong>Web:</strong> Supports <br /><strong>Electronic Docs:</strong> Supports <br /><strong>Software:</strong> Not Applicable<br /><strong>Authoring Tool:</strong> Partially Supports</td>
+      <td><strong>Web:</strong> There are no HTML5 errors or warnings that are known to impact assistive technology users.. <br /><strong>Electronic Docs:</strong> See <strong>Web</strong> comment above. <br /><strong>Software:</strong> Not Applicable<br /><strong>Authoring Tool:</strong> Generally parsing is very well supported, but there are a few places where this needs to be improved - Drupal issue <a href="https://www.drupal.org/project/drupal/issues/1852090">#1852090</a> and <a href="https://www.drupal.org/project/drupal/issues/3144948">#3144948</a>.</td>
+    </tr>
+    <tr>
+      <td><a href="http://www.w3.org/TR/WCAG20/#ensure-compat-parses">4.1.2 Name, Role, Value</a> (Level A)<br />  Also applies to: <br />  Revised Section 508&lt;ul&gt;&lt;li&gt;501 (Web)(Software)&lt;/li&gt;&lt;li&gt;504.2 (Authoring Tool)&lt;/li&gt;&lt;li&gt;602.3 (Support Docs)&lt;/li&gt;&lt;/ul&gt;</td>
+      <td><strong>Web:</strong> Supports <br /><strong>Electronic Docs:</strong> Supports <br /><strong>Software:</strong> Not Applicable<br /><strong>Authoring Tool:</strong> Partially Supports</td>
+      <td><strong>Web:</strong> Public pages support this criterion. <br /><strong>Electronic Docs:</strong> See <strong>Web</strong> comment above. <br /><strong>Software:</strong> Not Applicable<br /><strong>Authoring Tool:</strong> This is generally well supported, but there are places where it has been overlooked.  Drupal issue <a href="https://www.drupal.org/project/drupal/issues/3144948">#3144948</a>, <a href="https://www.drupal.org/project/drupal/issues/3019487">#3019487</a>, and <a href="https://www.drupal.org/project/drupal/issues/3085545">#3085545</a>.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="table-2-success-criteria-level-aa">Table 2: Success Criteria, Level AA</h3>
+
+<p><strong>Notes:</strong></p>
+
+<p>See notes in <strong>Table 1</strong>.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th> </th>
+      <th> </th>
+      <th> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Criteria</td>
+      <td>Conformance Level</td>
+      <td>Remarks and Explanations</td>
+    </tr>
+    <tr>
+      <td><a href="http://www.w3.org/TR/WCAG20/#media-equiv-real-time-captions">1.2.4 Captions (Live)</a> (Level AA)<br />  Also applies to: <br />  Revised Section 508&lt;ul&gt;&lt;li&gt;501 (Web)(Software)&lt;/li&gt;&lt;li&gt;504.2 (Authoring Tool)&lt;/li&gt;&lt;li&gt;602.3 (Support Docs)&lt;/li&gt;&lt;/ul&gt;</td>
+      <td><strong>Web:</strong> Not Applicable <br /><strong>Electronic Docs:</strong> Not Applicable <br /><strong>Software:</strong> Not Applicable<br /><strong>Authoring Tool:</strong> Not Applicable</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="http://www.w3.org/TR/WCAG20/#media-equiv-audio-desc-only">1.2.5 Audio Description (Prerecorded)</a> (Level AA)<br />  Also applies to: <br />  Revised Section 508&lt;ul&gt;&lt;li&gt;501 (Web)(Software)&lt;/li&gt;&lt;li&gt;504.2 (Authoring Tool)&lt;/li&gt;&lt;li&gt;602.3 (Support Docs)&lt;/li&gt;&lt;/ul&gt;</td>
+      <td><strong>Web:</strong> Does Not Support <br /><strong>Electronic Docs:</strong> Does Not Support <br /><strong>Software:</strong> Not Applicable<br /><strong>Authoring Tool:</strong> Does Not Support</td>
+      <td><strong>Web:</strong> Audio files can be uploaded, but there is no way to associate captions in Core. <br /><strong>Electronic Docs:</strong> There is no documentation on how to properly convey pre-recorded audio descriptions. <br /><strong>Software:</strong> Not Applicable<br /><strong>Authoring Tool:</strong> There is no audio in the authoring interface of Drupal Core, but there is no support for authors to upload accessible audio files.</td>
+    </tr>
+    <tr>
+      <td><a href="http://www.w3.org/TR/WCAG20/#visual-audio-contrast-contrast">1.4.3 Contrast (Minimum)</a> (Level AA)<br />  Also applies to: <br />  Revised Section 508&lt;ul&gt;&lt;li&gt;501 (Web)(Software)&lt;/li&gt;&lt;li&gt;504.2 (Authoring Tool)&lt;/li&gt;&lt;li&gt;602.3 (Support Docs)&lt;/li&gt;&lt;/ul&gt;</td>
+      <td><strong>Web:</strong> Partially Supports <br /><strong>Electronic Docs:</strong> Supports <br /><strong>Software:</strong> Not Applicable<br /><strong>Authoring Tool:</strong> Partially Supports</td>
+      <td><strong>Web:</strong> Generally meets. Some contrast failures around grey backgrounds - Drupal  issue <a href="https://www.drupal.org/project/drupal/issues/3040673">#3040673</a>. <br /><strong>Electronic Docs:</strong> The docs have sufficient contrast. <br /><strong>Software:</strong> Not Applicable<br /><strong>Authoring Tool:</strong> Generally meets requirements. Some challenges with Core admin themes - Drupal issue <a href="https://www.drupal.org/project/drupal/issues/2930508">#930508</a> and <a href="https://www.drupal.org/project/drupal/issues/3080100">#3080100</a>.</td>
+    </tr>
+    <tr>
+      <td><a href="http://www.w3.org/TR/WCAG20/#visual-audio-contrast-scale">1.4.4 Resize text</a> (Level AA)<br />  Also applies to: <br />  Revised Section 508&lt;ul&gt;&lt;li&gt;501 (Web)(Software)&lt;/li&gt;&lt;li&gt;504.2 (Authoring Tool)&lt;/li&gt;&lt;li&gt;602.3 (Support Docs)&lt;/li&gt;&lt;/ul&gt;</td>
+      <td><strong>Web:</strong> Partially Supports<strong>Electronic Docs:</strong> Supports <br /><strong>Software:</strong> Not Applicable<br /><strong>Authoring Tool:</strong> Partially Supports</td>
+      <td><strong>Web:</strong> Generally support with some minor exceptions - Drupal issue <a href="https://www.drupal.org/project/drupal/issues/3129257">#3129257</a>. <br /><strong>Electronic Docs:</strong> The docs are accessible up to 200% <br /><strong>Software:</strong> Not Applicable<br /><strong>Authoring Tool:</strong> Generally good with some exceptions - Drupal issue <a href="https://www.drupal.org/project/drupal/issues/3164587">#3164587</a>.</td>
+    </tr>
+    <tr>
+      <td><a href="http://www.w3.org/TR/WCAG20/#visual-audio-contrast-text-presentation">1.4.5 Images of Text</a> (Level AA)<br />  Also applies to: <br />  Revised Section 508&lt;ul&gt;&lt;li&gt;501 (Web)(Software)&lt;/li&gt;&lt;li&gt;504.2 (Authoring Tool)&lt;/li&gt;&lt;li&gt;602.3 (Support Docs)&lt;/li&gt;&lt;/ul&gt;</td>
+      <td><strong>Web:</strong> Not Applicable <br /><strong>Electronic Docs:</strong> Not Applicable <br /><strong>Software:</strong> Not Applicable<br /><strong>Authoring Tool:</strong> Supports</td>
+      <td><strong>Web:</strong> Not Applicable <br /><strong>Electronic Docs:</strong> Not Applicable <br /><strong>Software:</strong> Not Applicable<br /><strong>Authoring Tool:</strong> Text is generally styled with CSS in the authoring tool. Should images of text be uploaded by the user, they will be required to add alternative text.</td>
+    </tr>
+    <tr>
+      <td><a href="http://www.w3.org/TR/WCAG20/#navigation-mechanisms-mult-loc">2.4.5 Multiple Ways</a> (Level AA)<br />  Also applies to: <br />  Revised Section 508 &lt;ul&gt;&lt;li&gt;501 (Web)(Software) – Does not apply to non-web software&lt;/li&gt;&lt;li&gt;504.2 (Authoring Tool)&lt;/li&gt;&lt;li&gt;602.3 (Support Docs) – Does not apply to non-web docs&lt;/li&gt;&lt;/ul&gt;</td>
+      <td><strong>Web:</strong> Supports <br /><strong>Electronic Docs:</strong> Supports <br /><strong>Authoring Tool:</strong> Supports</td>
+      <td><strong>Web:</strong> There is more than one way to locate a Web page within the CMS. <br /><strong>Electronic Docs:</strong> See <strong>Web</strong> comment above. <br /><strong>Authoring Tool:</strong> See <strong>Web</strong> comment above.</td>
+    </tr>
+    <tr>
+      <td><a href="http://www.w3.org/TR/WCAG20/#navigation-mechanisms-descriptive">2.4.6 Headings and Labels</a> (Level AA)<br />  Also applies to: <br />  Revised Section 508&lt;ul&gt;&lt;li&gt;501 (Web)(Software)&lt;/li&gt;&lt;li&gt;504.2 (Authoring Tool)&lt;/li&gt;&lt;li&gt;602.3 (Support Docs)&lt;/li&gt;&lt;/ul&gt;</td>
+      <td><strong>Web:</strong> Partially Supports <br /><strong>Electronic Docs:</strong> Supports <br /><strong>Software:</strong> Not Applicable<br /><strong>Authoring Tool:</strong> Partially Supports</td>
+      <td><strong>Web:</strong> Generally there is very good support. Some heading levels may be missed in some unique contexts - Drupal issue #1768732. Better support could be provided for threaded comments - Drupal issue #2290043. <br /><strong>Electronic Docs:</strong> <strong>Software:</strong> Not Applicable<br /><strong>Authoring Tool:</strong> Generally good, but for dynamic elements like the Layout Builder need a plan for a dynamic heading structure - Drupal issue <a href="https://www.drupal.org/project/drupal/issues/3007978">#3007978</a>.</td>
+    </tr>
+    <tr>
+      <td><a href="http://www.w3.org/TR/WCAG20/#navigation-mechanisms-focus-visible">2.4.7 Focus Visible</a> (Level AA)<br />  Also applies to: <br />  Revised Section 508&lt;ul&gt;&lt;li&gt;501 (Web)(Software)&lt;/li&gt;&lt;li&gt;504.2 (Authoring Tool)&lt;/li&gt;&lt;li&gt;602.3 (Support Docs)&lt;/li&gt;&lt;/ul&gt;</td>
+      <td><strong>Web:</strong> Supports <br /><strong>Electronic Docs:</strong> Supports <br /><strong>Software:</strong> Not Applicable<br /><strong>Authoring Tool:</strong> Partially Supports</td>
+      <td><strong>Web:</strong> Focus elements are well established for the front-end. Further enhancements are being developed to make it more obvious for keyboard only users. <br /><strong>Electronic Docs:</strong> <strong>Software:</strong> Not Applicable<br /><strong>Authoring Tool:</strong> An IE specific bug where there are focus issues for authors and administrators in the Claro theme - Drupal issue <a href="https://www.drupal.org/project/drupal/issues/3048785">#3048785</a>.</td>
+    </tr>
+    <tr>
+      <td><a href="http://www.w3.org/TR/WCAG20/#meaning-other-lang-id">3.1.2 Language of Parts</a> (Level AA)<br />  Also applies to: <br />  Revised Section 508&lt;ul&gt;&lt;li&gt;501 (Web)(Software)&lt;/li&gt;&lt;li&gt;504.2 (Authoring Tool)&lt;/li&gt;&lt;li&gt;602.3 (Support Docs)&lt;/li&gt;&lt;/ul&gt;</td>
+      <td><strong>Web:</strong> Partially Supports <br /><strong>Electronic Docs:</strong> Not Applicable <br /><strong>Software:</strong> Not Applicable <br /><strong>Authoring Tool:</strong> Supports</td>
+      <td><strong>Web:</strong> Multilingual sites have language switchers with proper semantics.  Unfotunately support is lacking for multi-lingual search <a href="https://www.drupal.org/project/drupal/issues/2992894">#2992894</a> as well as both the Filesystem <a href="https://www.drupal.org/project/drupal/issues/3163915">#3163915</a> &amp; Views components <a href="https://www.drupal.org/project/drupal/issues/2496223">#2496223</a>. <strong>Electronic Docs</strong>: Not Applicable <br /><strong>Software:</strong> Not Applicable<br /><strong>Authoring Tool:</strong> Drupal has good support for multilingual content and accessibility. To support the Language of Parts for authors, a button can be added to simplify the process of adding language specific phrases.</td>
+    </tr>
+    <tr>
+      <td><a href="http://www.w3.org/TR/WCAG20/#consistent-behavior-consistent-locations">3.2.3 Consistent Navigation</a> (Level AA)<br />  Also applies to: <br />  Revised Section 508 &lt;ul&gt;&lt;li&gt;501 (Web)(Software) – Does not apply to non-web software&lt;/li&gt;&lt;li&gt;504.2 (Authoring Tool)602.3 (Support Docs) – Does not apply to non-web docs&lt;/li&gt;&lt;/ul&gt;</td>
+      <td><strong>Web:</strong> Supports <br /><strong>Electronic Docs:</strong> Supports <br /><strong>Authoring Tool:</strong> Supports</td>
+      <td><strong>Web:</strong> Drupal's menu structure allows for consistent navigation across the site. <br /><strong>Electronic Docs:</strong> See <strong>Web</strong> comment above. <br /><strong>Authoring Tool:</strong> See <strong>Web</strong> comment above.</td>
+    </tr>
+    <tr>
+      <td><a href="http://www.w3.org/TR/WCAG20/#consistent-behavior-consistent-functionality">3.2.4 Consistent Identification</a> (Level AA)<br />  Also applies to: <br />  Revised Section 508 &lt;ul&gt;&lt;li&gt;501 (Web)(Software) – Does not apply to non-web software&lt;/li&gt;&lt;li&gt;504.2 (Authoring Tool)&lt;/li&gt;&lt;li&gt;602.3 (Support Docs) – Does not apply to non-web docs&lt;/li&gt;&lt;/ul&gt;</td>
+      <td><strong>Web:</strong> Supports <br /><strong>Electronic Docs:</strong> Supports <br /><strong>Authoring Tool:</strong> Supports</td>
+      <td><strong>Web:</strong> Components in Drupal that have the same functionality are identified consistently. <br /><strong>Electronic Docs:</strong> See <strong>Web</strong> comment above. <br /><strong>Authoring Tool:</strong> See <strong>Web</strong> comment above.</td>
+    </tr>
+    <tr>
+      <td><a href="http://www.w3.org/TR/WCAG20/#minimize-error-suggestions">3.3.3 Error Suggestion</a> (Level AA)<br />  Also applies to: <br />  Revised Section 508&lt;ul&gt;&lt;li&gt;501 (Web)(Software)&lt;/li&gt;&lt;li&gt;504.2 (Authoring Tool)&lt;/li&gt;&lt;li&gt;602.3 (Support Docs)&lt;/li&gt;&lt;/ul&gt;</td>
+      <td><strong>Web:</strong> Supports <br /><strong>Electronic Docs:</strong> Not Applicable<strong>Software:</strong> Not Applicable<br /><strong>Authoring Tool:</strong> Supports</td>
+      <td><strong>Web:</strong> The Inline Form Error Module is provided in Core and needs to be enabled to allow for this functionality. <br /><strong>Electronic Docs:</strong> Not Applicable<strong>Software:</strong> Not Applicable<br /><strong>Authoring Tool:</strong> See <strong>Web</strong> comment above.</td>
+    </tr>
+    <tr>
+      <td><a href="http://www.w3.org/TR/WCAG20/#minimize-error-reversible">3.3.4 Error Prevention (Legal, Financial, Data)</a> (Level AA)<br />  Also applies to: <br />  Revised Section 508&lt;ul&gt;&lt;li&gt;501 (Web)(Software)&lt;/li&gt;&lt;li&gt;504.2 (Authoring Tool)&lt;/li&gt;&lt;li&gt;602.3 (Support Docs)&lt;/li&gt;&lt;/ul&gt;</td>
+      <td><strong>Web:</strong> Supports <br /><strong>Electronic Docs:</strong> Supports <br /><strong>Software:</strong> Not Applicable<br /><strong>Authoring Tool:</strong> Partially Supports</td>
+      <td><strong>Web:</strong> By default users can editing content which they own. <br /><strong>Electronic Docs:</strong> Documentation could be improved. <br /><strong>Software:</strong> Not Applicable<br /><strong>Authoring Tool:</strong> There is nothing to differentiate editing financial or legal data from any other data managed by Drupal.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="table-3-success-criteria-level-aaa">Table 3: Success Criteria, Level AAA</h3>
+
+<p><strong>Notes:</strong></p>
+
+<p>Where possible the Drupal community strives to exceed AA compliance.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th> </th>
+      <th> </th>
+      <th> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Criteria</td>
+      <td>Conformance Level</td>
+      <td>Remarks and Explanations</td>
+    </tr>
+    <tr>
+      <td><a href="http://www.w3.org/TR/WCAG20/#media-equiv-sign">1.2.6 Sign Language (Prerecorded)</a> (Level AAA) <br />  Revised Section 508 – Does not apply</td>
+      <td><strong>Web:</strong> Not Applicable</td>
+      <td><strong>Web:</strong> Not Applicable</td>
+    </tr>
+    <tr>
+      <td><a href="http://www.w3.org/TR/WCAG20/#media-equiv-extended-ad">1.2.7 Extended Audio Description (Prerecorded)</a> (Level AAA) <br />  Revised Section 508 – Does not apply</td>
+      <td><strong>Web:</strong> Not Applicable</td>
+      <td><strong>Web:</strong> Not Applicable</td>
+    </tr>
+    <tr>
+      <td><a href="http://www.w3.org/TR/WCAG20/#media-equiv-text-doc">1.2.8 Media Alternative (Prerecorded)</a> (Level AAA) <br />  Revised Section 508 – Does not apply</td>
+      <td><strong>Web:</strong> Not Applicable</td>
+      <td><strong>Web:</strong> Not Applicable</td>
+    </tr>
+    <tr>
+      <td><a href="http://www.w3.org/TR/WCAG20/#media-equiv-live-audio-only">1.2.9 Audio-only (Live)</a> (Level AAA) <br />  Revised Section 508 – Does not apply</td>
+      <td><strong>Web:</strong> Not Applicable</td>
+      <td><strong>Web:</strong> Not Applicable</td>
+    </tr>
+    <tr>
+      <td><a href="http://www.w3.org/TR/WCAG20/#visual-audio-contrast7">1.4.6 Contrast (Enhanced)</a> (Level AAA) <br />  Revised Section 508 – Does not apply</td>
+      <td><strong>Web:</strong> Supports <br />s</td>
+      <td><strong>Web:</strong> A front-end and back-end theme could be configured to allow this to comply.</td>
+    </tr>
+    <tr>
+      <td><a href="http://www.w3.org/TR/WCAG20/#visual-audio-contrast-noaudio">1.4.7 Low or No Background Audio</a> (Level AAA) <br />  Revised Section 508 – Does not apply</td>
+      <td><strong>Web:</strong> Not Applicable</td>
+      <td><strong>Web:</strong> Not Applicable</td>
+    </tr>
+    <tr>
+      <td><a href="http://www.w3.org/TR/WCAG20/#visual-audio-contrast-visual-presentation">1.4.8 Visual Presentation</a> (Level AAA) <br />  Revised Section 508 – Does not apply</td>
+      <td><strong>Web:</strong> Not Evaluated</td>
+      <td><strong>Web:</strong> Stable Core themes leave much of the presentation of text to user agents, so aside from line spacing this generally works.</td>
+    </tr>
+    <tr>
+      <td><a href="http://www.w3.org/TR/WCAG20/#http://www.w3.org/TR/WCAG20/">1.4.9 Images of Text (No Exception)</a> (Level AAA) <br />  Revised Section 508 – Does not apply</td>
+      <td><strong>Web:</strong> Supports <br />s</td>
+      <td><strong>Web:</strong> Text images are all supplied by the author.</td>
+    </tr>
+    <tr>
+      <td><a href="http://www.w3.org/TR/WCAG20/#keyboard-operation-all-funcs">2.1.3 Keyboard (No Exception)</a> (Level AAA) <br />  Revised Section 508 – Does not apply</td>
+      <td>Web: Supports</td>
+      <td><strong>Web:</strong> The web front-end is not a barrier to keyboard only users.</td>
+    </tr>
+    <tr>
+      <td><a href="http://www.w3.org/TR/WCAG20/#time-limits-no-exceptions">2.2.3 No Timing</a> (Level AAA) <br />  Revised Section 508 – Does not apply</td>
+      <td><strong>Web:</strong> Supports <br />s</td>
+      <td><strong>Web:</strong> There are no timeouts in Drupal Core that would affect people with disabilities.</td>
+    </tr>
+    <tr>
+      <td><a href="http://www.w3.org/TR/WCAG20/#time-limits-postponed">2.2.4 Interruptions</a> (Level AAA) <br />  Revised Section 508 – Does not apply</td>
+      <td><strong>Web:</strong> Not Applicable</td>
+      <td><strong>Web:</strong> Not Applicable</td>
+    </tr>
+    <tr>
+      <td><a href="http://www.w3.org/TR/WCAG20/#time-limits-server-timeout">2.2.5 Re-authenticating</a> (Level AAA) <br />  Revised Section 508 – Does not apply</td>
+      <td><strong>Web:</strong> Not Applicable</td>
+      <td><strong>Web:</strong> Not Applicable</td>
+    </tr>
+    <tr>
+      <td><a href="http://www.w3.org/TR/WCAG20/#seizure-three-times">2.3.2 Three Flashes</a> (Level AAA) <br />  Revised Section 508 – Does not apply</td>
+      <td><strong>Web:</strong> Supports <br />s</td>
+      <td><strong>Web:</strong> There is no flashing content.</td>
+    </tr>
+    <tr>
+      <td><a href="http://www.w3.org/TR/WCAG20/#navigation-mechanisms-location">2.4.8 Location</a> (Level AAA) <br />  Revised Section 508 – Does not apply</td>
+      <td><strong>Web:</strong> Supports <br />s</td>
+      <td><strong>Web:</strong> Breadcrumbs are available and sitemap modules can be added to provide additional means for navigation.</td>
+    </tr>
+    <tr>
+      <td><a href="http://www.w3.org/TR/WCAG20/#navigation-mechanisms-headings">2.4.10 Section Headings</a> (Level AAA) <br />  Revised Section 508 – Does not apply</td>
+      <td>Web: Supports</td>
+      <td><strong>Web:</strong> Drupal provides heading elements at the beginning of each section of content.</td>
+    </tr>
+    <tr>
+      <td><a href="http://www.w3.org/TR/WCAG20/#meaning-idioms">3.1.3 Unusual Words</a> (Level AAA) <br />  Revised Section 508 – Does not apply</td>
+      <td><strong>Web:</strong> Not Applicable</td>
+      <td><strong>Web:</strong> Not Applicable</td>
+    </tr>
+    <tr>
+      <td><a href="http://www.w3.org/TR/WCAG20/#meaning-located">3.1.4 Abbreviations</a> (Level AAA) <br />  Revised Section 508 – Does not apply</td>
+      <td><strong>Web:</strong> Not Applicable</td>
+      <td><strong>Web:</strong> Not Applicable</td>
+    </tr>
+    <tr>
+      <td><a href="http://www.w3.org/TR/WCAG20/#meaning-supplements">3.1.5 Reading Level</a> (Level AAA) <br />  Revised Section 508 – Does not apply</td>
+      <td><strong>Web:</strong> Not Applicable</td>
+      <td><strong>Web:</strong> Not Applicable</td>
+    </tr>
+    <tr>
+      <td><a href="http://www.w3.org/TR/WCAG20/#meaning-pronunciation">3.1.6 Pronunciation</a> (Level AAA) <br />  Revised Section 508 – Does not apply</td>
+      <td><strong>Web:</strong> Not Applicable</td>
+      <td><strong>Web:</strong> Not Applicable</td>
+    </tr>
+    <tr>
+      <td><a href="http://www.w3.org/TR/WCAG20/#consistent-behavior-no-extreme-changes-context">3.2.5 Change on Request</a> (Level AAA) <br />  Revised Section 508 – Does not apply</td>
+      <td><strong>Web:</strong> Not Applicable</td>
+      <td><strong>Web:</strong> Not Applicable</td>
+    </tr>
+    <tr>
+      <td><a href="http://www.w3.org/TR/WCAG20/#minimize-error-context-help">3.3.5 Help</a> (Level AAA) <br />  Revised Section 508 – Does not apply</td>
+      <td><strong>Web:</strong> Not Applicable</td>
+      <td><strong>Web:</strong> Not Applicable</td>
+    </tr>
+    <tr>
+      <td><a href="http://www.w3.org/TR/WCAG20/#minimize-error-reversible-all">3.3.6 Error Prevention (All)</a> (Level AAA) <br />  Revised Section 508 – Does not apply</td>
+      <td><strong>Web:</strong> Not Applicable</td>
+      <td><strong>Web:</strong> Not Applicable</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="revised-section-508-report">Revised Section 508 Report</h2>
+
+<p><strong>Notes:</strong></p>
+
+<h3 id="chapter-3-functional-performance-criteria-fpc">Chapter 3: <a href="https://www.google.com/url?q=https://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-ict-refresh/final-rule/text-of-the-standards-and-guidelines%23302-functional-performance-criteria&amp;sa=D&amp;ust=1607973994456000&amp;usg=AOvVaw2KEQJ3FoiGBoF6akb_cG9O">Functional Performance Criteria</a> (FPC)</h3>
+
+<p><strong>Notes:</strong></p>
+
+<table>
+  <thead>
+    <tr>
+      <th> </th>
+      <th> </th>
+      <th> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Criteria</td>
+      <td>Conformance Level</td>
+      <td>Remarks and Explanations</td>
+    </tr>
+    <tr>
+      <td>302.1 Without Vision</td>
+      <td>Supports</td>
+      <td>Testing has been done with JAWS, NVDA and VoiceOver</td>
+    </tr>
+    <tr>
+      <td>302.2 With Limited Vision</td>
+      <td>Supports</td>
+      <td>Testing has been done with browser zoom and ZoomText.</td>
+    </tr>
+    <tr>
+      <td>302.3 Without Perception of Color</td>
+      <td>Supports</td>
+      <td>The interface has been reviewed for use of color.</td>
+    </tr>
+    <tr>
+      <td>302.4 Without Hearing</td>
+      <td>Not Applicable</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>302.5 With Limited Hearing</td>
+      <td>Not Applicable</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>302.6 Without Speech</td>
+      <td>Not Applicable</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>302.7 With Limited Manipulation</td>
+      <td>Supports</td>
+      <td>Drupal's interface does not restrict users with limited manipulation.</td>
+    </tr>
+    <tr>
+      <td>302.8 With Limited Reach and Strength</td>
+      <td>Supports</td>
+      <td>Drupal's interface does not restrict users with limited reach or strength.</td>
+    </tr>
+    <tr>
+      <td>302.9 With Limited Language, Cognitive, and Learning Abilities</td>
+      <td>Not Applicable</td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="chapter-4-hardware">Chapter 4: <a href="https://www.google.com/url?q=https://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-ict-refresh/final-rule/text-of-the-standards-and-guidelines%23401-general&amp;sa=D&amp;ust=1607973994470000&amp;usg=AOvVaw3gWN-mMYK_IwO62YbZ-Uwi">Hardware</a></h3>
+
+<p><strong>Notes:</strong> Drupal is a web application. Hardware accessibility criteria is not applicable.</p>
+
+<h3 id="chapter-5-software">Chapter 5: <a href="https://www.google.com/url?q=https://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-ict-refresh/final-rule/text-of-the-standards-and-guidelines%23501-general&amp;sa=D&amp;ust=1607973994471000&amp;usg=AOvVaw1jeoXrXLFsjD0wbpSeTSNE">Software</a></h3>
+
+<p><strong>Notes:</strong> Drupal is a web application.</p>
+
+<h3 id="chapter-6-support-documentation-and-services">Chapter 6: <a href="https://www.google.com/url?q=https://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-ict-refresh/final-rule/text-of-the-standards-and-guidelines%23601-general&amp;sa=D&amp;ust=1607973994472000&amp;usg=AOvVaw2_S_DhLqpLaJuCht7o_Jfn">Support Documentation and Services</a></h3>
+
+<p><strong>Notes:</strong></p>
+
+<table>
+  <thead>
+    <tr>
+      <th> </th>
+      <th> </th>
+      <th> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Criteria</td>
+      <td>Conformance Level</td>
+      <td>Remarks and Explanations</td>
+    </tr>
+    <tr>
+      <td>601.1 Scope</td>
+      <td>Heading cell – no response required</td>
+      <td>Heading cell – no response required</td>
+    </tr>
+    <tr>
+      <td>602 Support Documentation</td>
+      <td>Heading cell – no response required</td>
+      <td>Heading cell – no response required</td>
+    </tr>
+    <tr>
+      <td>602.2 Accessibility and Compatibility Features</td>
+      <td>Supports</td>
+      <td>Documentation is hosted on Drupal.org which works to support WCAG 2.1 AA compliance.</td>
+    </tr>
+    <tr>
+      <td>602.3 Electronic Support Documentation</td>
+      <td>See WCAG 2.0 section</td>
+      <td>See information in WCAG 2.0 section</td>
+    </tr>
+    <tr>
+      <td>602.4 Alternate Formats for Non-Electronic Support Documentation</td>
+      <td>Not Applicable</td>
+      <td>Not Applicable</td>
+    </tr>
+    <tr>
+      <td>603 Support Services</td>
+      <td>Heading cell – no response required</td>
+      <td>Heading cell – no response required</td>
+    </tr>
+    <tr>
+      <td>603.2 Information on Accessibility and Compatibility Features</td>
+      <td>Supports</td>
+      <td>Drupal.org's accessibility features are documented.</td>
+    </tr>
+    <tr>
+      <td>603.3 Accommodation of Communication Needs</td>
+      <td>Not Applicable</td>
+      <td>Not Applicable</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="legal-disclaimer-civicactions">Legal Disclaimer (CivicActions)</h2>
+
+<p>The information herein is provided in good faith based on the analysis of the web application at the time of the review and does not represent a legally-binding claim. Please contact us to report any accessibility errors or conformance claim errors for re-evaluation and correction, if necessary.</p>
+
+          
+      </div>
+    </div>
+  </div>
+</div>
+
+      </main>
+    
+
+    
+
+    
+
+
+  
+<footer class="usa-footer usa-footer--big">
+
+  
+    <div class="grid-container">
+      <p>
+      
+        
+
+<a href="https://github.com/civicactions/accessibility/edit/main/ACR/Drupal9AccessibilityConformanceReport.md" class="usa-sidenav-edit" target="_blank">Help improve this page</a>
+       
+
+<!--  // Date not working
+     &nbsp; &middot; &nbsp; Last updated: September 10, 2024 at 08:51 PM 
+-->
+        
+      </p>
+    </div>
+  
+
+  
+    <div class="grid-container usa-footer__return-to-top">
+      <a href="#">Return to top</a>
+    </div>
+  
+
+  
+    
+    
+    
+  <div class="usa-footer__primary-section">
+    <div class="grid-container">
+      <div class="grid-row grid-gap">
+        <div class="">
+          <nav class="usa-footer__nav" aria-label="Footer navigation">
+            <div class="grid-row grid-gap-4">
+              
+              <div class="mobile-lg:grid-col-6 desktop:grid-col-4">
+                <section class="usa-footer__primary-content usa-footer__primary-content--collapsible">
+                  
+                    <a class="usa-footer__primary-link" href="/contact">
+                      Contact
+                    </a>
+                  
+                </section>
+              </div>
+              
+              <div class="mobile-lg:grid-col-6 desktop:grid-col-4">
+                <section class="usa-footer__primary-content usa-footer__primary-content--collapsible">
+                  
+                    <a class="usa-footer__primary-link" href="/conduct">
+                      Conduct
+                    </a>
+                  
+                </section>
+              </div>
+              
+              <div class="mobile-lg:grid-col-6 desktop:grid-col-4">
+                <section class="usa-footer__primary-content usa-footer__primary-content--collapsible">
+                  
+                    <a class="usa-footer__primary-link" href="/license">
+                      License
+                    </a>
+                  
+                </section>
+              </div>
+              
+              <div class="mobile-lg:grid-col-6 desktop:grid-col-4">
+                <section class="usa-footer__primary-content usa-footer__primary-content--collapsible">
+                  
+                    <a class="usa-footer__primary-link" href="/colophon">
+                      Colophon
+                    </a>
+                  
+                </section>
+              </div>
+              
+              <div class="mobile-lg:grid-col-6 desktop:grid-col-4">
+                <section class="usa-footer__primary-content usa-footer__primary-content--collapsible">
+                  
+                    <a class="usa-footer__primary-link" href="/analytics">
+                      Analytics
+                    </a>
+                  
+                </section>
+              </div>
+              
+              <div class="mobile-lg:grid-col-6 desktop:grid-col-4">
+                <section class="usa-footer__primary-content usa-footer__primary-content--collapsible">
+                  
+                    <a class="usa-footer__primary-link" href="/accessibility">
+                      Accessibility
+                    </a>
+                  
+                </section>
+              </div>
+              
+            </div>
+          </nav>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  
+
+  
+  <div class="usa-footer__secondary-section">
+    <div class="grid-container">
+      <div class="grid-row grid-gap">
+        <div class="usa-footer__logo grid-row mobile-lg:grid-col-6 mobile-lg:grid-gap-2">
+          
+
+          
+          <div class="mobile-lg:grid-col-auto">
+            <h2 class="usa-footer__logo-heading">CivicActions Accessibility</h2>
+          </div>
+          
+        </div>
+
+        
+        <div class="usa-footer__contact-links mobile-lg:grid-col-6">
+          
+          
+            <div class="usa-footer__social-links grid-row grid-gap-1">
+              <div class="grid-col-auto">
+                
+                  <a class="usa-social-link usa-social-link--github" href="https://github.com/civicactions/accessibility">
+                    <span>GitHub</span>
+                  </a>
+                
+                  <a class="usa-social-link usa-social-link--facebook" href="https://facebook.com/civicactions">
+                    <span>Facebook</span>
+                  </a>
+                
+                  <a class="usa-social-link usa-social-link--twitter" href="https://twitter.com/civicactions">
+                    <span>Twitter</span>
+                  </a>
+                
+                  <a class="usa-social-link usa-social-link--linkedin" href="https://www.linkedin.com/company/civicactions/">
+                    <span>LinkedIn</span>
+                  </a>
+                
+                  <a class="usa-social-link usa-social-link--rss" href="https://accessibility-qa.civicactions.com/feed.xml">
+                    <span>RSS</span>
+                  </a>
+                
+              </div>
+            </div>
+          
+          
+            
+              <address class="usa-footer__address">
+                
+                <div class="usa-footer__contact-info grid-row grid-gap">
+                
+                    <div class="grid-col-auto">
+                      <a href="mailto:accessibility-qa.civicactions.com">
+                        accessibility-qa.civicactions.com
+                      </a>
+                    </div>
+                
+                </div>
+              </address>
+          
+        
+      </div>
+      </div>
+    </div>
+  </div>
+  
+
+</footer>
+
+
+
+
+
+    
+
+
+
+
+
+  
+    
+      <script src="/assets/uswds/js/uswds.min.js" async></script>
+    
+
+  
+    
+
+
+
+
+
+
+  </body>
+</html>
