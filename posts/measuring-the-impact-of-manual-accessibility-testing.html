@@ -5,11 +5,9 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<title>Code of conduct | CivicActions Accessibility</title>
+<title>Measuring the Impact of Manual Accessibility Testing | CivicActions Accessibility</title>
 
 
-
-<meta name="description" content="CivicActions Accessibility code of conduct.">
 
 
 
@@ -21,7 +19,7 @@
 <!-- Facebook OG and Twitter Card -->
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:site" content="@civicactions" />
-<meta name="twitter:title" content="Code of conduct">
+<meta name="twitter:title" content="Measuring the Impact of Manual Accessibility Testing">
 <meta name="twitter:creator" content="@civicactions" />
 <meta name="twitter:image" content="https://accessibility-qa.civicactions.com/assets/img/thumbnail-images/general-a11y.png">
 <meta name="twitter:image:alt" content="CivicActions Accessibility">
@@ -148,8 +146,7 @@
     </aside>
 
     
-      <main id="main-content" class="usa-layout-docs usa-layout-docs__main desktop:grid-col-9 usa-prose">
-        <div id="breadcrumbs" class="grid-container">
+      <div id="breadcrumbs" class="grid-container">
     
     <nav class="usa-breadcrumb" aria-label="Breadcrumbs">
         <ol class="usa-breadcrumb__list">
@@ -159,89 +156,181 @@
             
             
             <li class="usa-breadcrumb__list-item usa-current" aria-current="page">
-                Code of conduct
+                <a class="usa-breadcrumb__link" href="/posts/">Posts</a>
+            </li>
+            
+            
+            
+            <li class="usa-breadcrumb__list-item usa-current" aria-current="page">
+                Measuring the Impact of Manual Accessibility Testing
             </li>
             
             
         </ol>
     </nav>
 </div>
-<div class="usa-section">
-  <div class="grid-container">
-    <div class="grid-row grid-gap flex-align-start">
-      
-      
+<main class="" id="main-content">
+    <div class="">
+        <div class="grid-container">
+            <div class="grid-row">
+                <div class="grid-col-12">
+                    
+                    <h1 class="font-heading-3xl">Measuring the Impact of Manual Accessibility Testing</h1>
+                    
+                </div>
+            </div>
+            <div class="grid-row">
+                <div class="grid-col-2">
+                    
+                    
+                    
+                    
+                    
+                    <div class="author">
+                        <p><a href="/about/people/civicactions"><img src="/assets/img/people/civicactions.png" alt="CivicActions" title="CivicActions"></a></p>
+                        <p>By <a href="/about/people/civicactions"> CivicActions</a></p>
+                        <p>January 19, 2024</p>
+                    </div>
+                    
+                    
+                </div>
+                <div class="grid-col-1">
+                </div>
+                <div class="grid-col-9">
+                    <div class="post-content">
+                        <p>By Maggie Wachs</p>
 
-      <div class="usa-layout-docs  usa-layout-docs__main usa-prose">
-        
-          <h1>Code of conduct</h1>
-        
-        
-          <p class="lead">CivicActions Accessibility code of conduct.</p>
-        
-          <!-- content -->
+<p><img src="https://cdn-images-1.medium.com/max/1024/1*-OsVJ4EdFbrGjd9fM344OQ.jpeg" alt="a person types on a laptop" /></p>
 
-          
-            <p>The CivicActions Accessibility community is dedicated to providing a harassment-free experience for everyone, regardless of gender, gender identity and expression, sexual orientation, disability, physical appearance, body size, race, or religion. We do not tolerate harassment of participants in any form.</p>
+<p>When we talk about testing websites for accessibility, one of the most
+frequently cited statistics is that automated testing discovers
+<a href="https://www.levelaccess.com/blog/automated-accessibility-testing-tools-how-much-do-scans-catch/">30%</a> to 60% of the errors we need to address. (Aside:
+that discrepancy seems to be due to how you define the number of errors, <a href="https://www.deque.com/automated-accessibility-testing-coverage/">by
+type or frequency</a>.) No matter which number is cited, this means a significant number
+of accessibility violations, around 40–70%, still require an actual human user
+to verify.</p>
 
-<p>This code of conduct applies to all CivicActions Accessibility sponsored spaces, including our blog, mailing lists, and wiki, as well as any other spaces that CivicActions Accessibility hosts, both online and off. Anyone who violates this code of conduct may be sanctioned or expelled from these spaces at the discretion of the CivicActions Accessibility Anti-Abuse Team.</p>
+<p>This past year, from November 2022 to now, the accessibility practice for the
+Web Experience and Content Management Services (WECMS) team, which supports
+the Centers for Medicare and Medicaid (CMS), has increased our manual testing
+efforts. With all of this in mind, I thought it would be interesting to
+quantify how much effort we spent verifying accessibility issues via automated
+testing, manual testing, or a combination of both — especially as this relates
+to concerns raised in the recently published <a href="https://www.section508.gov/manage/section-508-assessment/">Government-wide Section 508 Assessment</a>. A
+few of the
+<a href="https://www.section508.gov/manage/section-508-assessment/criteria-01/">criteria</a>
+directly address manual testing efforts:</p>
 
-<p>Some CivicActions Accessibility-sponsored spaces may have additional rules in place, which will be made clearly available to participants. Participants are responsible for knowing and abiding by these rules.
-Definitions</p>
+<p>13/ If your agency uses a manual and/or hybrid ICT accessibility test
+methodology for web content, which manual test methodology or methodologies
+does your agency use?</p>
 
-<p>Harassment includes:</p>
+<p>47/ Indicate how often your agency conducts comprehensive manual conformance
+validation testing for web content (internet and intranet) prior to deployment
+to address all applicable Section 508 standards.</p>
+
+<p>68/ How many public internet web pages were evaluated by a combination of both
+automated and manual testing in the reporting period?</p>
+
+<h3 id="assessment-methods">Assessment methods</h3>
+
+<p>We can determine which form of testing — automated, manual, or both — was
+required for our project's tickets by looking at the <a href="https://www.w3.org/TR/WCAG22/">Web Content
+Accessibility Guidelines (WCAG) success
+criteria</a> that apply to each issue/ticket. A
+very small number of WCAG criteria can be verified by automated testing alone;
+the vast majority require some degree of manual review. For example, an ARIA
+label that satisfies <a href="https://www.w3.org/TR/WCAG22/#info-and-relationships">1.3.1 Info and
+Relationships</a> can be
+detected by an automated test, but the value must be reviewed manually by a
+person to confirm that it makes sense.</p>
+
+<p>First, I added labels to all accessibility issues in Jira resolved between
+November 2022 and 2023 that reference the relevant WCAG criteria (i.e.,
+"WCAG-2.5.3"). While this exercise was somewhat time-consuming —we logged
+around 300 accessibility issues total across 7 websites — it was well worth
+the time as it will greatly simplify updates to our upcoming annual reporting
+process. So, win-win.</p>
+
+<p>Then I mapped the testing method to each criterion in this matrix (see
+Appendix A: Required testing methods by WCAG criteria), based on a <a href="https://blog.usablenet.com/automated-wcag-testing-is-not-enough-for-web-accessibility-ada-compliance">similar
+matrix published by Usablenet</a> and the <a href="https://github.com/dequelabs/axe-core/blob/develop/doc/rule-descriptions.md">axe-core
+rule definitions</a>. Each axe-core rule is assigned an Issue Type, which notes
+whether a rule can result in failure (a clear accessibility violation), or if
+it needs review, which <a href="https://docs.deque.com/devtools-html/4.0.0/en/needs-review-incomplete">Deque defines as</a>, "there may or not be an accessibility
+issue and more investigation is required." If an axe-core rule's issue type
+includes "needs review," that rule, and by extension the WCAG criteria tested,
+may require manual testing.</p>
+
+<h3 id="results">Results</h3>
+
+<p>We logged around 300 accessibility issues total, however only <strong>230 tickets</strong>
+represented WCAG violations (the rest related to best practices or discovery).
+Of those:</p>
 
 <ul>
-  <li>Offensive comments related to gender, gender identity and expression, sexual orientation, disability, mental illness, neuro(a)typicality, physical appearance, body size, race, or religion</li>
-  <li>Unwelcome comments regarding a person's lifestyle choices and practices, including those related to food, health, parenting, drugs, and employment.</li>
-  <li>Deliberate misgendering or use of 'dead' or rejected names</li>
-  <li>Gratuitous or off-topic sexual images or behaviour  in spaces where they're not appropriate</li>
-  <li>Physical contact and simulated physical contact (eg, textual descriptions like "<em>hug</em>" or "<em>backrub</em>") without consent or after a request to stop.</li>
-  <li>Threats of violence</li>
-  <li>Incitement of violence towards any individual, including encouraging a person to commit suicide or to engage in self-harm</li>
-  <li>Deliberate intimidation</li>
-  <li>Stalking or following</li>
-  <li>Harassing photography or recording, including logging online activity for harassment purposes</li>
-  <li>Sustained disruption of discussion</li>
-  <li>Unwelcome sexual attention</li>
-  <li>Pattern of inappropriate social contact, such as requesting/assuming inappropriate levels of intimacy with others</li>
-  <li>Continued one-on-one communication after requests to cease</li>
-  <li>Deliberate "outing" of any aspect of a person's identity without their consent except as necessary to protect other CivicActions Accessibility members or other vulnerable people from intentional abuse</li>
-  <li>Publication of non-harassing private communication</li>
+  <li><strong>146</strong> required both automated and manual testing</li>
+  <li><strong>72</strong> could be verified with manual tests only</li>
+  <li><strong>12</strong> could be verified with automated tests only</li>
 </ul>
 
-<p>The CivicActions Accessibility community prioritizes marginalized people's safety over privileged people's comfort. The CivicActions Accessibility Anti-Abuse Team will not act on complaints regarding:</p>
+<p><img src="https://cdn-images-1.medium.com/max/1024/1*UbQcDJBrMWtb4wgBqxv2gA.jpeg" alt="Pie chart with accessibility issues by testing method, Manual tests
+(31.3%), Automated tests (5.2%) and manual + automated tests
+(63.5%)" /></p>
+
+<h3 id="summary">Summary</h3>
+
+<p>The WECMS team made great strides with manual testing in 2023, and testing in
+general:</p>
 
 <ul>
-  <li>'Reverse' -isms, including 'reverse racism,' 'reverse sexism,' and 'cisphobia' (because these things don't exist)</li>
-  <li>Reasonable communication of boundaries, such as "leave me alone," "go away," or "I'm not discussing this with you."</li>
-  <li>Refusal to explain or debate social justice concepts</li>
-  <li>Communicating in a 'tone' you don't find congenial</li>
-  <li>Criticizing racist, sexist, cissexist, or otherwise oppressive behavior or assumptions</li>
+  <li>Most of the WCAG violations we fixed were verified by a person using a keyboard or screen reader, and/or by considering context, meaning, purpose, logical placement, and allowed exceptions.</li>
+  <li>Code written by our engineers consistently has few objective errors that can be discovered with automated testing. I can vouch for our design and development teams using semantic markup, including text labels, checking color values, and overall creating templates and experiences that will pass automated checks.</li>
 </ul>
 
-<p>Reporting</p>
+<p>This exercise showed that manual testing is not only necessary, it accounts
+for most of the time we spend verifying accessibility conformance for the
+WECMS websites. We can now use these results to inform how much effort we put
+toward, for example, team training on screen reader use, and it can fine-tune
+how we prioritize time and resources for remediating issues.</p>
 
-<p>If you are being harassed by a member of the CivicActions Accessibility community, notice that someone else is being harassed, or have any other concerns, please contact the CivicActions Accessibility Anti-Abuse Team. If the person who is harassing you is on the team, they will recuse themselves from handling your incident. We will respond as promptly as we can.</p>
+<p>It's important to remember that while we're growing more proficient with
+manual testing tools and methods, usability testing with disabled people — the
+true experts when it comes to assessing a website's accessibility — should
+continue to be a top goal for our accessibility practice.</p>
 
-<p>This code of conduct applies to CivicActions Accessibility sponsored spaces, but if you are being harassed by a member of the CivicActions Accessibility community outside our spaces, we still want to know about it. We will take all good-faith reports of harassment by CivicActions Accessibility community members, especially bloggers, seriously. This includes harassment outside our spaces and harassment that took place at any point in time.The abuse team reserves the right to exclude people from the CivicActions Accessibility community based on their past behavior, including behavior outside CivicActions Accessibility spaces and behavior towards people who are not in the CivicActions Accessibility community.</p>
+<p><img src="https://medium.com/_/stat?event=post.clientViewed&amp;referrerSource=full_rss&amp;postId=e052a58d9d16" alt="" /></p>
 
-<p>In order to protect volunteers from abuse and burnout, we reserve the right to reject any report we believe to have been made in bad faith. The CivicActions Accessibility Anti-Abuse Team is not here to explain power differentials or other basic social justice concepts to you. Reports intended to silence legitimate criticism may be deleted without response.</p>
+<hr />
 
-<p>We will respect confidentiality requests for the purpose of protecting victims of abuse. At our discretion, we may publicly name a person about whom we've received harassment complaints, or privately warn third parties about them, if we believe that doing so will increase the safety of CivicActions Accessibility members or the general public. We will not name harassment victims without their affirmative consent.
-Consequences</p>
+<p><a href="https://medium.com/civicactions/measuring-the-impact-of-manual-accessibility-testing-e052a58d9d16">Measuring the Impact of Manual Accessibility
+Testing</a> was originally published in
+<a href="https://medium.com/civicactions">CivicActions</a> on Medium, where people are
+continuing the conversation by highlighting and responding to this story.</p>
 
-<p>Participants asked to stop any harassing behavior are expected to comply immediately.</p>
 
-<p>If a participant engages in harassing behavior, the CivicActions Accessibility Anti-Abuse Team may take any action they deem appropriate, up to and including expulsion from all CivicActions Accessibility spaces and identification of the participant as a harasser to other CivicActions Accessibility members or the general public.</p>
+                    </div>
+                    
+                    
+                    
+                    
+                    
+                    
+                    <div class="post-bio">
+                        <p>
+                            <p>"We help government deliver better public services through modern technology and design."</p>
 
-          
-      </div>
+                        </p>
+                    </div>
+                    
+                    
+                    
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
-</div>
+</main>
 
-      </main>
     
 
     
@@ -258,11 +347,11 @@ Consequences</p>
       
         
 
-<a href="https://github.com/civicactions/accessibility/edit/main/pages/conduct.md" class="usa-sidenav-edit" target="_blank">Help improve this page</a>
+<a href="https://github.com/civicactions/accessibility/edit/main/_posts/2024-1-19-measuring-the-impact-of-manual-accessibility-testing.md" class="usa-sidenav-edit" target="_blank">Help improve this page</a>
        
 
 <!--  // Date not working
-     &nbsp; &middot; &nbsp; Last updated: March 18, 2025 at 05:33 PM 
+     &nbsp; &middot; &nbsp; Last updated: November 23, 2025 at 03:00 AM 
 -->
         
       </p>
@@ -291,16 +380,6 @@ Consequences</p>
                   
                     <a class="usa-footer__primary-link" href="/contact">
                       Contact
-                    </a>
-                  
-                </section>
-              </div>
-              
-              <div class="mobile-lg:grid-col-6 desktop:grid-col-4">
-                <section class="usa-footer__primary-content usa-footer__primary-content--collapsible">
-                  
-                    <a class="usa-footer__primary-link" href="/conduct">
-                      Conduct
                     </a>
                   
                 </section>

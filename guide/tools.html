@@ -312,27 +312,7 @@
                     <h1>Build up your accessibility toolbox</h1>
                     
                     <!-- content -->
-                    <p>Digital accessibility tools can help ensure that the content you create is meeting accessibility guidelines. This page lists a variety of tools that designers, developers, and others can use to make web content more accessible.</p>
-      <h2 id="screen-readers">
-        
-        
-          Screen readers <a href="#screen-readers" class="anchor-link" aria-labelledby=screen-readers><span aria-hidden='true'>
-                    <svg class='usa-icon' aria-hidden='true' focusable='false' role='img'><use xlink:href='/assets/uswds-icons/sprite.svg#link'></use></svg>
-                </span><span class='sr-only'>Anchor link</span></a>
-        
-        
-      </h2>
-    
-<p>Screen readers help people who are blind or visually impaired read text on a screen. We recommend using these common screen readers and testing your content with multiple screen readers and devices.</p>
-
-<ul>
-  <li><a href="https://www.freedomscientific.com/products/software/jaws/">JAWS</a> (Job Access With Speech): This screen reader provides speech and Braille output for Windows. It requires a paid license to run.</li>
-  <li><a href="https://www.nvaccess.org/about-nvda/">NVDA</a>: (Non-Visual Desktop Access): This is another common screen reader for Windows that's free and doesn't require a license.</li>
-  <li><a href="https://support.google.com/accessibility/android/answer/6283677?hl=en">Talkback</a>: A Google screen reader included on Android devices. All Android devices come with this screen reader by default</li>
-  <li><a href="https://www.apple.com/accessibility/vision/">VoiceOver</a>: While not open source, VoiceOver is a screen reader that's a default on all Apple devices (desktop and mobile) and gives descriptions in braille.</li>
-</ul>
-
-<p>Learn more about <a href="https://accessibility-qa.civicactions.com/playbook/AT">screen reader testing</a>.</p>
+                    <p>Digital accessibility tools can help ensure that the content you create is meeting accessibility guidelines. This page lists a variety of tools that designers, developers, and others can use to make web content more accessible. We have focused on open source tools, as they are the easiest to adopt and scale for most organizations.</p>
       <h2 id="authoring">
         
         
@@ -381,8 +361,25 @@
 <ul>
   <li><a href="https://ada.is/blog/2016/02/12/contrast-bookmarklet/">Accessibility and Contrast Bookmarklet</a>: Analyze the contrast of the text on a page and highlight elements which may have readability issues.</li>
   <li><a href="https://www.ssa.gov/accessibility/andi/">ANDI by SSA.gov</a>: A free accessibility testing tool that offers detection of problems, checks for 508 compliance and shows what a screen reader will typically say for interactive elements. It also gives realistic recommendations to improve accessibility.</li>
+  <li><a href="https://sa11y.netlify.app/">Sa11y</a>: Is also available as a bookmarklet.</li>
   <li><a href="https://adrianroselli.com/2019/04/reading-order-bookmarklet.html">Reading Order Bookmarklet</a>: Running this bookmarklet will visually number the reading order in which screen-reading software will announce different parts of the page to check to see that it matches the visual order.</li>
   <li><a href="https://validator.w3.org/favelets.html">W3C markup validator</a>: Checking your HTML for errors catches a lot of accessibility issues, especially with forms and images.</li>
+</ul>
+      <h3 id="page-level-evaluation-tools">
+        
+        
+          Page level evaluation tools <a href="#page-level-evaluation-tools" class="anchor-link" aria-labelledby=page-level-evaluation-tools><span aria-hidden='true'>
+                    <svg class='usa-icon' aria-hidden='true' focusable='false' role='img'><use xlink:href='/assets/uswds-icons/sprite.svg#link'></use></svg>
+                </span><span class='sr-only'>Anchor link</span></a>
+        
+        
+      </h3>
+    
+<p>Browser extensions can provide powerful tools for analyzing page accessibility.</p>
+
+<ul>
+  <li><a href="https://accessibilityinsights.io/">Microsoft's Accessibility Insights</a>: Provides quick checks with WCAG success criteria codes, as well as guided evaluation reports.</li>
+  <li><a href="https://www.deque.com/axe/browser-extensions/">Deque's axe Browser extension</a>: Test web applications and identify accessibility issues.</li>
 </ul>
       <h2 id="color-contrast-checker">
         
@@ -394,12 +391,23 @@
         
       </h2>
     
-<p>Color contrast is an important part of accessibility. Text and background colors must have enough contrast so that the content on the page can be easily seen. Web Content Accessibility Guidelines (WCAG) 2 suggest a minimum contrast of 4:5:1. W3C has an <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html">Understanding SC 1.4.3 page</a> that explains this in greater detail. These tools can help quickly check if the colors on a page meet these guidelines.</p>
+<p>Color contrast is an important part of accessibility. Text and background colors must have enough contrast so that the content on the page can be easily seen. Web Content Accessibility Guidelines (WCAG) 2 suggest a minimum contrast of 4:5:1. W3C has an <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html">Understanding SC 1.4.3 page</a> that explains this in greater detail, if you are new to accessibility <a href="https://webaim.org/articles/contrast/">WebAim has great resources</a>. These tools can help quickly check if the colors on a page meet these guidelines.</p>
 
 <ul>
-  <li><a href="https://webaim.org/resources/contrastchecker/">WebAIM contrast checker</a>: Colors can be checked on this webpage, using a bookmarklet, or using their API.</li>
-  <li><a href="https://chrome.google.com/webstore/detail/colorzilla/bhlhnicpbhignbdhedgjhgdocnmhomnp">ColorZilla for Chrome</a> or <a href="https://addons.mozilla.org/en-US/firefox/addon/colorzilla/">ColorZilla for Firefox</a>: A color picker that can be used in Chrome or Firefox browsers.</li>
-  <li><a href="https://coolors.co/contrast-checker/112a46-acc8e5">Coolors Color Contrast Checker</a>: Check colors on the webpage.</li>
+  <li><a href="https://www.tpgi.com/color-contrast-checker/">Colour Contrast Analyser (CCA)</a> - Best open source desktop application for color contrast (Windows/Mac).</li>
+  <li><a href="https://chrome.google.com/webstore/detail/colorzilla/bhlhnicpbhignbdhedgjhgdocnmhomnp">ColorZilla for Chrome</a> or <a href="https://addons.mozilla.org/en-US/firefox/addon/colorzilla/">ColorZilla for Firefox</a>: Best open source browser extension/plugin for Chrome or Firefox browsers.</li>
+  <li><a href="https://contrast.report/">Contrast Report</a> - Innovative site which has a pop-out function that allows for building collections of different color combinations.</li>
+  <li><a href="https://contrast-finder.tanaguru.com/">tanaguru contrast finder</a> - Best tool for proposing alternative colors when a combination fails WCAG.</li>
+  <li><a href="https://color-contrast.incluud.dev/?fg=521b92&amp;bg=fefc78">Color Contrast Checker</a> - Great for designers who want to see the implications for charts, a sample color palette and design tokens.</li>
+</ul>
+
+<p>Other options include:</p>
+<ul>
+  <li><a href="https://coolors.co/contrast-checker">Coolors Color Contrast Checker</a></li>
+  <li><a href="https://colourcontrast.cc/">Colour contrast checker</a></li>
+  <li><a href="https://colorcontrast.dev/">ColorContrast.dev</a></li>
+  <li><a href="https://www.oddcontrast.com/">OddContrast</a></li>
+  <li><a href="https://thisisfranciswu.com/enterprise-ui-palette-generator/">Accessible Color Palette Generator</a></li>
 </ul>
       <h2 id="design-tool-integrations">
         
@@ -496,21 +504,6 @@
   <li><a href="https://github.com/MSU-NatSci/DomainAccessibilityAudit">Domain Accessibility Audit</a>: This web application by MSU College of Natural Science automatically crawls websites and checks for accessibility violations. It's based on axe by Deque Systems, Inc.</li>
   <li><a href="https://pa11y.org/">Pa11y</a>: A popular command-line interface which loads web pages and highlights any accessibility issues it finds.</li>
 </ul>
-      <h3 id="page-level-evaluation-tools">
-        
-        
-          Page level evaluation tools <a href="#page-level-evaluation-tools" class="anchor-link" aria-labelledby=page-level-evaluation-tools><span aria-hidden='true'>
-                    <svg class='usa-icon' aria-hidden='true' focusable='false' role='img'><use xlink:href='/assets/uswds-icons/sprite.svg#link'></use></svg>
-                </span><span class='sr-only'>Anchor link</span></a>
-        
-        
-      </h3>
-    
-<ul>
-  <li><a href="https://www.deque.com/axe/browser-extensions/">Deque's axe Browser extension</a>: Test web applications and identify accessibility issues.</li>
-  <li><a href="https://wave.webaim.org/">WebAim's WAVE</a>: A suite of web evaluation tools that helps authors make their web content more accessible.</li>
-  <li><a href="https://accessibilityinsights.io/">Microsoft's Accessibility Insights</a>: Provides quick checks with WCAG success criteria codes, as well as guided evaluation reports.</li>
-</ul>
       <h2 id="pdf">
         
         
@@ -545,6 +538,27 @@
   <li><a href="https://www.funkify.org/">Funkify Chrome Extension</a>: Not open source, but a free version is available which simulates dyslexia, different cognitive conditions, and vision impairments.</li>
   <li><a href="https://chrome.google.com/webstore/detail/web-disability-simulator/olioanlbgbpmdlgjnnampnnlohigkjla">Metamatrix Web Disability Simulator Chrome Extension</a>: Simulates color blindness, low vision, dyslexia and more.</li>
 </ul>
+      <h2 id="screen-readers">
+        
+        
+          Screen readers <a href="#screen-readers" class="anchor-link" aria-labelledby=screen-readers><span aria-hidden='true'>
+                    <svg class='usa-icon' aria-hidden='true' focusable='false' role='img'><use xlink:href='/assets/uswds-icons/sprite.svg#link'></use></svg>
+                </span><span class='sr-only'>Anchor link</span></a>
+        
+        
+      </h2>
+    
+<p>Screen readers help people who are blind or visually impaired read text on a screen. We recommend using these common screen readers and testing your content with multiple screen readers and devices. We are including both free and proprietary options, as it is important for compliance testing.</p>
+
+<ul>
+  <li><a href="https://www.freedomscientific.com/products/software/jaws/">JAWS</a> (Job Access With Speech): This is a popular, <em>proprietary screen reader</em> provides speech and Braille output for Windows. It requires a paid license to run.</li>
+  <li><a href="https://www.nvaccess.org/about-nvda/">NVDA</a>: (Non-Visual Desktop Access): This is another common screen reader for Windows that's <strong>open source</strong> and available for free.</li>
+  <li><a href="https://support.microsoft.com/en-us/windows/complete-guide-to-narrator-e4397a0d-ef4f-b386-d8ae-c172f109bdb1">Microsoft Narrator</a> Is a <em>proprietary screen reader</em> that is included with Windows.</li>
+  <li><a href="https://www.apple.com/accessibility/vision/">VoiceOver</a>: While <em>not open source</em>, VoiceOver is a screen reader that's a default on all Apple devices (desktop and mobile) and gives descriptions in braille.</li>
+  <li><a href="https://support.google.com/accessibility/android/answer/6283677?hl=en">Google Talkback</a>: A Google screen reader included on Android devices. All Android devices come with this screen reader by default. It is also released with an <strong>open source</strong> license.</li>
+</ul>
+
+<p>Learn more about <a href="https://accessibility-qa.civicactions.com/playbook/AT">screen reader testing</a>.</p>
       <h2 id="resources">
         
         
@@ -606,7 +620,7 @@
        
 
 <!--  // Date not working
-     &nbsp; &middot; &nbsp; Last updated: March 18, 2025 at 05:33 PM 
+     &nbsp; &middot; &nbsp; Last updated: November 23, 2025 at 03:00 AM 
 -->
         
       </p>
@@ -635,16 +649,6 @@
                   
                     <a class="usa-footer__primary-link" href="/contact">
                       Contact
-                    </a>
-                  
-                </section>
-              </div>
-              
-              <div class="mobile-lg:grid-col-6 desktop:grid-col-4">
-                <section class="usa-footer__primary-content usa-footer__primary-content--collapsible">
-                  
-                    <a class="usa-footer__primary-link" href="/conduct">
-                      Conduct
                     </a>
                   
                 </section>

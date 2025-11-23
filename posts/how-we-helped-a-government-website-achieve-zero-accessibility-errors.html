@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<title>How We Helped a Government Website Achieve Zero Accessibility Errors* | CivicActions Accessibility</title>
+
+
+
+
+
+<link rel="shortcut icon" type="image/ico"
+  href="/assets/img/logos/civicaction-square.ico">
+
+
+
+<!-- Facebook OG and Twitter Card -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@civicactions" />
+<meta name="twitter:title" content="How We Helped a Government Website Achieve Zero Accessibility Errors*">
+<meta name="twitter:creator" content="@civicactions" />
+<meta name="twitter:image" content="https://accessibility-qa.civicactions.com/assets/img/thumbnail-images/general-a11y.png">
+<meta name="twitter:image:alt" content="CivicActions Accessibility">
+<meta name="twitter:image" content="https://accessibility-qa.civicactions.com/assets/img/thumbnail-images/playbook.png">
+<meta name="twitter:image:alt" content="CivicActions Accessibility Playbook">
+<meta name="twitter:image" content="https://accessibility-qa.civicactions.com/assets/img/thumbnail-images/tip-of-the-week.png">
+<meta name="twitter:image:alt" content="CivicActions Accessibility Tip of the Week">
+<meta property="og:url" content="https://accessibility-qa.civicactions.com/" />
+<meta property="og:title" content="CivicActions-Accessibility" />
+<meta property="og:description" content="CivicActions Accessibility site is an open project for our team members and those who work for digital inclusion." />
+<meta property="og:image" content="https://accessibility-qa.civicactions.com/assets/img/thumbnail-images/general-a11y.png" />
+<meta property="og:image" content="https://accessibility-qa.civicactions.com/assets/img/thumbnail-images/playbook.png" />
+<meta property="og:image" content="https://accessibility-qa.civicactions.com/assets/img/thumbnail-images/tip-of-the-week.png" />
+
+    <!-- Font Awesome -->
+
+    <!-- This is code the Font Awesome CDN generates for me that doesn't work -->
+    <script src="https://use.fontawesome.com/4fe5bba9d1.js"></script>
+	<link rel="stylesheet" href="https://use.fontawesome.com/7207a55a98.css">
+
+    <!-- This is code from DistributedGov that works -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+    <!-- Google Fonts -->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Nunito&family=Work+Sans&display=swap" rel="stylesheet"> 
+    
+
+
+
+<link rel="stylesheet"
+  href="/assets/css/uswds-theme.css"
+  media="screen">
+
+
+
+    
+  </head>
+  <body class="  ">
+
+    <a class="usa-skipnav" href="#main-content">Skip to main content</a>
+
+    
+
+<!---->
+
+<div class="usa-overlay"></div>
+<header class="usa-header usa-header--extended"><div class="usa-navbar">
+    <div class="usa-logo" id="extended-logo">
+        <em class="usa-logo__text"><a href="/" title="Home" aria-label="Home">
+            <img class="ca-logo" src="/assets/img/ca-logo.png" alt="civicactions logo">
+            <p class="site-name-logo">Accessibility</p> <sup>ALPHA</sup></a></em>
+    </div>
+    <button class="usa-menu-btn">Menu</button>
+</div>
+    <nav aria-label="Primary navigation" class="usa-nav">
+        <div class="usa-nav__inner"><button class="usa-nav__close"><img src="/assets/uswds/img/close.svg" role="img" alt="close"></button>
+
+
+
+            <ul class="usa-nav__primary usa-accordion"><li class="usa-nav__primary-item">
+                <button class="usa-accordion__button usa-nav__link " aria-expanded="false" aria-controls="extended-nav-section-one"><span>About</span></button>
+
+                
+                <ul id="extended-nav-section-one" class="usa-nav__submenu" hidden><li class="usa-nav__submenu-item">
+                    <a href="/about/" class="">Who we are</a>
+                </li><li class="usa-nav__submenu-item">
+                    <a href="/about/people/" class="">Meet us</a>
+                </li><li class="usa-nav__submenu-item">
+                    <a href="/about/contact" class="">Contact us</a>
+                </li><li class="usa-nav__submenu-item">
+                    <a href="/about/join" class="">Join us</a>
+                </li></ul></li>
+                <li class="usa-nav__primary-item">
+                    <a class="usa-nav__link " href="/calendar"><span>Calendar</span></a>
+                </li>
+                <li class="usa-nav__primary-item">
+                    <a class="usa-nav__link " href="/news/"><span>News</span></a>
+                </li>
+
+                <li class="usa-nav__primary-item">
+                    <a class="usa-nav__link " href="/playbook/"><span>Playbook</span></a>
+                </li>
+
+                <li class="usa-nav__primary-item">
+                    <a class="usa-nav__link " href="/guide/"><span>Guide</span></a>
+                </li>
+                <li class="usa-nav__primary-item">
+                    <a class="usa-nav__link " href="/search"><span>Search</span></a>
+                </li>
+            </ul>
+
+
+            <div class="usa-nav__secondary">
+                <ul class="usa-nav__secondary-links"><li class="usa-nav__secondary-item">
+                    <a href="https://civicactions.com/">CivicActions.com</a>
+                </li></ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+
+
+    <aside>
+      
+      
+
+
+      
+
+      
+
+      
+        
+        
+
+
+
+
+      
+      
+    </aside>
+
+    
+      <div id="breadcrumbs" class="grid-container">
+    
+    <nav class="usa-breadcrumb" aria-label="Breadcrumbs">
+        <ol class="usa-breadcrumb__list">
+            <li class="usa-breadcrumb__list-item">
+                <a href="/" class="usa-breadcrumb__link">Home</a>
+            </li>
+            
+            
+            <li class="usa-breadcrumb__list-item usa-current" aria-current="page">
+                <a class="usa-breadcrumb__link" href="/posts/">Posts</a>
+            </li>
+            
+            
+            
+            <li class="usa-breadcrumb__list-item usa-current" aria-current="page">
+                How We Helped a Government Website Achieve Zero Accessibility Errors*
+            </li>
+            
+            
+        </ol>
+    </nav>
+</div>
+<main class="" id="main-content">
+    <div class="">
+        <div class="grid-container">
+            <div class="grid-row">
+                <div class="grid-col-12">
+                    
+                    <h1 class="font-heading-3xl">How We Helped a Government Website Achieve Zero Accessibility Errors*</h1>
+                    
+                </div>
+            </div>
+            <div class="grid-row">
+                <div class="grid-col-2">
+                    
+                    
+                    
+                    
+                    
+                    <div class="author">
+                        <p><a href="/about/people/civicactions"><img src="/assets/img/people/civicactions.png" alt="CivicActions" title="CivicActions"></a></p>
+                        <p>By <a href="/about/people/civicactions"> CivicActions</a></p>
+                        <p>December 8, 2023</p>
+                    </div>
+                    
+                    
+                </div>
+                <div class="grid-col-1">
+                </div>
+                <div class="grid-col-9">
+                    <div class="post-content">
+                        <p><img src="https://cdn-images-1.medium.com/max/1024/1*qqsBbdQRCiCDw8Kr5GKu9w.jpeg" alt="Blue abstract fiberoptics" /></p>
+
+<p>At CivicActions we have
+<a href="https://accessibility-qa.civicactions.com/posts/CivicActions-Accessibility-Pledge">pledged</a> to advance our accessibility maturity to provide
+critical human services to as many people as possible so that they can get the
+help they need, as well allowing service providers to readily engage with
+their users. The commitment here is twofold (at least). Firstly, allow users
+of the site to not only access information the site provides, but to make that
+process as easy as possible regardless of their accessibility challenges.
+Secondly, allowing service providers to reach as many users as possible while
+keeping those users engaged, and keeping the site first and foremost in the
+users' minds for subsequent times they need information.</p>
+
+<p>Reaching this higher level of maturity includes, but is not limited to:</p>
+
+<ul>
+  <li>Integrating the highest standards of testing into our continuous integration processes</li>
+  <li>Automating site-wide testing and historical analysis</li>
+  <li>Implementing site-wide rankings and improvement targets into the agile process</li>
+  <li>Include manual testing to catch issues that automated testing cannot evaluate</li>
+</ul>
+
+<p>To that, the team that works for the Defense Security Cooperation Agency
+(DSCA) supporting the Department of Defense (DoD) Regional Centers has spent
+the last year (2022 Q4 to 2023 Q3) monitoring accessibility issues on the
+platform and working to improve them. We use browser extensions, WAVE and axe
+DevTools to check for issues on individual features we work on. To capture
+issues across many pages, we have set up Pa11y CI running axe-core and HTMLCS
+and Cypress with cypress-axe plugin. Axe-core is an industry standard
+automated accessibility testing engine. The tools are all run automatically
+using GitLab CI/CD pipelines.</p>
+
+<p>Our efforts to improve accessibility have not produced any reported site
+disturbances, slow-downs, or errors; the feedback from our users has been
+overwhelmingly positive:</p>
+
+<p><em>"As far as accessibility goes, this system is way ahead of other DoD systems
+that I've used." —</em> Dwayne Wood Ed.D., Curriculum &amp; Training Developer, Ted
+Stevens Center for Arctic Security Studies</p>
+
+<p>While it is always nice to receive kudos, praise like this makes us aware that
+accessibility is also important to our stakeholders, and that our efforts have
+not gone unnoticed.</p>
+
+<h3 id="issues-explored-and-urls-scanned">Issues explored and URLs Scanned</h3>
+
+<p>The team's goal was to, at the minimum, attain Section 508 and WCAG 2.0 AA
+standards and our plan is to work on reported issues in quarterly epics (an
+epic is a large chunk of work that is segmented into smaller tasks, used to
+organize tasks and create hierarchy in the development process). While
+automation only catches about 33% — 50% issues, those are still important to
+fix. Following the <a href="https://github.com/dequelabs/axe-core/blob/develop/doc/issue_impact.md">axe issue impact</a>, the team focused first on critical and
+serious issues. The team also focused on moderate/minor issues that are common
+to many pages where possible.</p>
+
+<p>We configured each tool to assess a set of URLs with our Pa11y scans. We
+focused on the URLs that are the main pages and also represent common
+features. With Cypress-axe the focus also includes URLs for organization
+manager and member roles. The URLs cover:</p>
+
+<ul>
+  <li>Home Page</li>
+  <li>Login</li>
+  <li>Organization Management</li>
+  <li>Support Form</li>
+  <li>Policies</li>
+  <li>Organization/Groups/Courses</li>
+  <li>Account Management</li>
+  <li>Search</li>
+  <li>Guide</li>
+  <li>404 Page</li>
+</ul>
+
+<p>The common features are:</p>
+
+<ul>
+  <li>Headers</li>
+  <li>Links</li>
+  <li>Tabs</li>
+  <li>Buttons</li>
+  <li>Breadcrumbs</li>
+  <li>Images</li>
+  <li>Text/Link Colors</li>
+  <li>Form Fields</li>
+  <li>Various Text Displays</li>
+  <li>Tables</li>
+</ul>
+
+<h3 id="reduction-of-issues-over-each-quarter">Reduction of issues over each quarter</h3>
+
+<p>Here is our progression as we started fixing the system's accessibility issues
+as reported by the two different tools.</p>
+
+<h3 id="pa11y-ci">Pa11y-CI</h3>
+
+<p>Run against 15 production URLs:</p>
+
+<ul>
+  <li>Start of Q1, number of issues: 118</li>
+  <li>Start of Q2, number of issues: 66</li>
+  <li>Start of Q3, number of issues: 12</li>
+  <li>As of August 15th: 0*</li>
+</ul>
+
+<h3 id="cypress">Cypress</h3>
+
+<p>Run against 33 URLs (the additional URLs are tested with authenticated users
+who have different roles):</p>
+
+<ul>
+  <li>Start of Q1, number of issues: 156</li>
+  <li>Start of Q2, number of issues: 68</li>
+  <li>Start of Q3, number of issues: 33</li>
+  <li>Start of Q4, number of issues: 5</li>
+  <li>As of Oct 5th: 0*</li>
+</ul>
+
+<h3 id="additional-criteria">Additional Criteria</h3>
+
+<p>In our analysis of accessibility issues reported by the tools and our efforts
+to fix them, we identified the following issues that went unaddressed:</p>
+
+<ul>
+  <li><a href="https://dequeuniversity.com/rules/axe/4.6/color-contrast">Color-contrast</a>: we skipped this because the system theme uses background images in CSS. So we get a lot of reports of color contrast reports requiring manual review from both tools.</li>
+  <li><a href="https://dequeuniversity.com/rules/axe/4.6/nested-interactive">Nested-interactive</a>: we skipped this because of the use of jQuery UI tabs that rely on nested implementation to work. We did confirm manually that the tabs are accessible with a keyboard.</li>
+  <li><a href="https://dequeuniversity.com/rules/axe/4.7/aria-required-children?application=AxeChrome">Aria-required-children</a>: similar to the previous one, jQuery UI accordions creates HTML elements with non-standard aria roles, throwing this error. We did confirm manually that the tabs are accessible with a keyboard.</li>
+  <li><a href="https://dequeuniversity.com/rules/axe/4.7/duplicate-id?application=AxeChrome">Duplicate-ID</a>, <a href="https://dequeuniversity.com/rules/axe/4.7/duplicate-id-aria?application=AxeChrome">duplicate-id-aria</a>: we skipped these on a few pages because in some cases making the ids unique caused existing features to not work as expected.</li>
+  <li><a href="https://dequeuniversity.com/rules/axe/4.7/heading-order?application=AxeChrome">Heading-order</a>: in a future ticket, we will tackle adjusting header order for multiple pages (see challenges for details).</li>
+  <li>We also skipped checking accessibility of third-party widgets such as Google Translate as we cannot control the HTML they render.</li>
+</ul>
+
+<h3 id="challenges">Challenges</h3>
+
+<p><strong>Challenge</strong> : CSS used across multiple element types: changing the element
+to be accessibility compliant sometimes means updating the CSS, which in turns
+breaks another element sharing that CSS styling.</p>
+
+<p><strong>Possible solution(s)</strong> : Create smaller CSS "classes" so that elements
+which need modification can have their CSS attributes updated with minimal
+effects on other elements. Elements that need a number of CSS attributes can
+implement groups of these smaller CSS classes. If, while fixing an
+accessibility issue, a conflict arises because two or more elements are
+sharing a class, we can create another small CSS class to swap out for the
+pre-existing class to resolve the conflict.</p>
+
+<p><strong>Challenge</strong> : When attempting to have our header hierarchy meet
+accessibility standards, we found out header elements were tightly coupled
+with CSS and JavaScript functionality. For this reason, it is not as simple as
+swapping out h2 for h3, because the combination of styling and JavaScript
+leads to misalignment, or broken functionality i.e. a menu heading that does
+not open when clicked.</p>
+
+<p><strong>Possible solution(s)</strong> : This is similar to the CSS challenge. Break down
+the CSS/JavaScript so that the header elements share as few attributes as
+possible.</p>
+
+<p><strong>Challenge</strong> : Using an image and teaser text within a link to an article
+caused accessibility issues. In this case the image, which has its own
+descriptor text when a user hovers, causes a context error since it is in the
+scope of the link, but does not describe to what it is being linked.</p>
+
+<p><strong>Possible solution(s):</strong> To rectify this issue, we decided to create a
+teaser card element in which the image and teaser text would reside and the
+card containing those elements would provide context to the linked page.</p>
+
+<p><strong>Challenge</strong> : Color contrast adjustments to meet WCAG AA standards is not
+problematic, however getting to WCAG AAA standards will be a bit more
+challenging as the range of colors to achieve the correct contrast ratio is a
+bit more narrow, and one must also consider the link color contrasts in
+addition to the background color, and foreground color contrasts.</p>
+
+<p><strong>Possible solution(s)</strong> : If you already have a comprehensive style guide,
+then this should not be too much of an issue. However, if you don't, then the
+creation of a style guide would go a long way to helping to keep color
+contrasts meeting accessibility standards. Also, it's not enough for the guide
+to have one foreground color A contrasts well with one background color B, but
+maybe include a range of colors that are acceptable for the site.</p>
+
+<p><strong>Challenge</strong> : Dealing with third party issues. For example, when trying to
+clean up the AXE accessibility tool error <strong>attribute IDs must be unique</strong> ,
+we found that the methodology the <strong>Date</strong> module uses to construct the
+wrapper IDs was the cause of the issue.</p>
+
+<p><strong>Possible solution(s)</strong> : Making changes to third party software can be
+problematic in that a modification can solve your problem, but runs the risk
+of causing problems for someone else. The recommended course of action is to
+create a patch file which solves your problem, and share the patch with the
+overall community for review and testing.</p>
+
+<h3 id="manual-testing-and-fixes">Manual testing and fixes</h3>
+
+<p>In our progress to fix accessibility issues, we also did manual testing using
+a keyboard and found certain elements of the site didn't work. These are
+issues that automated tests will not catch. We fixed those as well to improve
+the keyboard navigability of the platform.</p>
+
+<h3 id="whats-next">What's next</h3>
+
+<p>Overall, we were able to improve the accessibility of our site through</p>
+
+<ul>
+  <li>Having guidelines to direct our efforts</li>
+  <li>Making a plan based on how effective our implementations would be</li>
+  <li>Making use of automated testing</li>
+  <li>Integrating manual testing/checking with the automated testing</li>
+  <li>Keeping an eye on which issues could put on the back burner</li>
+</ul>
+
+<p>However, accessibility is not a one and done aspect of any project. It
+requires constant vigilance. To that end, we are looking forward to continuing
+our work with these high-level to-do items:</p>
+
+<ul>
+  <li>Add more URLs to each list. Cover more areas of the site that might not be covered in the examples above.</li>
+  <li>Share results of the Pa11y CI with users who primarily provide content, like our organization managers. They can use the results to make sure they are not introducing accessibility issues with their content.</li>
+  <li>Cypress accessibility tests run whenever we push code changes; we are waiting to get down to a few remaining issues to switch it to running automatically instead of on demand. We will also switch the pipeline from allowing failure to requiring the pipeline to pass, this should prevent accessibility issues from being introduced whenever we push code changes.</li>
+  <li>Add more dynamic element testing like menus and interactive components. This is to make sure when a menu is open or some element is interacted with that the results are also accessible. This can be accomplished with both Pa11y-CI and Cypress testing.</li>
+</ul>
+
+<p>In conclusion, while our process might not be appropriate for every use case,
+however, it is important for everyone to put some effort into increasing the
+accessibility of their site. Our efforts have not only increased the
+accessibility of the government site we support, but has also made us more
+cognizant of accessibility challenges. This awareness contributes to the
+raising of the best practices bar for our developers and other members of our
+team. In addition to the success of incorporating accessibility into our
+coding and design process, success can also be measured by what we are not
+hearing; namely bug reports and complaints regarding usability. In that
+regard, to date, our efforts have proven to be successful.</p>
+
+<p>* <em>Zero accessibility automated issues doesn't mean the site is without barriers, but it does mean 30% to 50% of potential issues on the URLs we test are clear.</em></p>
+
+<p><img src="https://medium.com/_/stat?event=post.clientViewed&amp;referrerSource=full_rss&amp;postId=38e7cf3cc52a" alt="" /></p>
+
+<hr />
+
+<p><a href="https://medium.com/civicactions/how-we-helped-a-government-website-achieve-zero-accessibility-errors-38e7cf3cc52a">How We Helped a Government Website Achieve Zero Accessibility
+Errors*</a> was originally published in
+<a href="https://medium.com/civicactions">CivicActions</a> on Medium, where people are
+continuing the conversation by highlighting and responding to this story.</p>
+
+
+                    </div>
+                    
+                    
+                    
+                    
+                    
+                    
+                    <div class="post-bio">
+                        <p>
+                            <p>"We help government deliver better public services through modern technology and design."</p>
+
+                        </p>
+                    </div>
+                    
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+    
+
+    
+
+    
+
+
+  
+<footer class="usa-footer usa-footer--big">
+
+  
+    <div class="grid-container">
+      <p>
+      
+        
+
+<a href="https://github.com/civicactions/accessibility/edit/main/_posts/2023-12-8-how-we-helped-a-government-website-achieve-zero-accessibility-errors.md" class="usa-sidenav-edit" target="_blank">Help improve this page</a>
+       
+
+<!--  // Date not working
+     &nbsp; &middot; &nbsp; Last updated: November 23, 2025 at 03:00 AM 
+-->
+        
+      </p>
+    </div>
+  
+
+  
+    <div class="grid-container usa-footer__return-to-top">
+      <a href="#">Return to top</a>
+    </div>
+  
+
+  
+    
+    
+    
+  <div class="usa-footer__primary-section">
+    <div class="grid-container">
+      <div class="grid-row grid-gap">
+        <div class="">
+          <nav class="usa-footer__nav" aria-label="Footer navigation">
+            <div class="grid-row grid-gap-4">
+              
+              <div class="mobile-lg:grid-col-6 desktop:grid-col-4">
+                <section class="usa-footer__primary-content usa-footer__primary-content--collapsible">
+                  
+                    <a class="usa-footer__primary-link" href="/contact">
+                      Contact
+                    </a>
+                  
+                </section>
+              </div>
+              
+              <div class="mobile-lg:grid-col-6 desktop:grid-col-4">
+                <section class="usa-footer__primary-content usa-footer__primary-content--collapsible">
+                  
+                    <a class="usa-footer__primary-link" href="/license">
+                      License
+                    </a>
+                  
+                </section>
+              </div>
+              
+              <div class="mobile-lg:grid-col-6 desktop:grid-col-4">
+                <section class="usa-footer__primary-content usa-footer__primary-content--collapsible">
+                  
+                    <a class="usa-footer__primary-link" href="/colophon">
+                      Colophon
+                    </a>
+                  
+                </section>
+              </div>
+              
+              <div class="mobile-lg:grid-col-6 desktop:grid-col-4">
+                <section class="usa-footer__primary-content usa-footer__primary-content--collapsible">
+                  
+                    <a class="usa-footer__primary-link" href="/analytics">
+                      Analytics
+                    </a>
+                  
+                </section>
+              </div>
+              
+              <div class="mobile-lg:grid-col-6 desktop:grid-col-4">
+                <section class="usa-footer__primary-content usa-footer__primary-content--collapsible">
+                  
+                    <a class="usa-footer__primary-link" href="/accessibility">
+                      Accessibility
+                    </a>
+                  
+                </section>
+              </div>
+              
+            </div>
+          </nav>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  
+
+  
+  <div class="usa-footer__secondary-section">
+    <div class="grid-container">
+      <div class="grid-row grid-gap">
+        <div class="usa-footer__logo grid-row mobile-lg:grid-col-6 mobile-lg:grid-gap-2">
+          
+
+          
+          <div class="mobile-lg:grid-col-auto">
+            <h2 class="usa-footer__logo-heading">CivicActions Accessibility</h2>
+          </div>
+          
+        </div>
+
+        
+        <div class="usa-footer__contact-links mobile-lg:grid-col-6">
+          
+          
+            <div class="usa-footer__social-links grid-row grid-gap-1">
+              <div class="grid-col-auto">
+                
+                  <a class="usa-social-link usa-social-link--github" href="https://github.com/civicactions/accessibility">
+                    <span>GitHub</span>
+                  </a>
+                
+                  <a class="usa-social-link usa-social-link--facebook" href="https://facebook.com/civicactions">
+                    <span>Facebook</span>
+                  </a>
+                
+                  <a class="usa-social-link usa-social-link--twitter" href="https://twitter.com/civicactions">
+                    <span>Twitter</span>
+                  </a>
+                
+                  <a class="usa-social-link usa-social-link--linkedin" href="https://www.linkedin.com/company/civicactions/">
+                    <span>LinkedIn</span>
+                  </a>
+                
+                  <a class="usa-social-link usa-social-link--rss" href="https://accessibility-qa.civicactions.com/feed.xml">
+                    <span>RSS</span>
+                  </a>
+                
+              </div>
+            </div>
+          
+          
+            
+              <address class="usa-footer__address">
+                
+                <div class="usa-footer__contact-info grid-row grid-gap">
+                
+                    <div class="grid-col-auto">
+                      <a href="mailto:accessibility-qa.civicactions.com">
+                        accessibility-qa.civicactions.com
+                      </a>
+                    </div>
+                
+                </div>
+              </address>
+          
+        
+      </div>
+      </div>
+    </div>
+  </div>
+  
+
+</footer>
+
+
+
+
+
+    
+
+
+
+
+
+  
+    
+      <script src="/assets/uswds/js/uswds.min.js" async></script>
+    
+
+  
+    
+
+
+
+
+
+
+  </body>
+</html>
